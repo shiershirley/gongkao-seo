@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+/* 自定义变量 */
+:root {
+  --primary: #1e40af;
+  --primary-light: #3b82f6;
+  --primary-dark: #1e3a8a;
+  --accent: #dc2626;
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --bg-light: #f9fafb;
+  --border-color: #e5e7eb;
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-light);
+}
+
+/* Prose 样式（文章内容） */
+.prose h1,
+.prose h2,
+.prose h3,
+.prose h4 {
+  color: var(--text-primary);
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--primary-light);
+}
+
+.prose h3 {
+  font-size: 1.25rem;
+}
+
+.prose p {
+  line-height: 1.8;
+  margin-bottom: 1em;
+}
+
+.prose a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  color: var(--primary-dark);
+}
+
+.prose ul,
+.prose ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.prose li {
+  margin-bottom: 0.3em;
+  line-height: 1.8;
+}
+
+.prose blockquote {
+  border-left: 4px solid var(--primary-light);
+  padding-left: 1rem;
+  margin: 1.5em 0;
+  background: #eff6ff;
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+.prose th {
+  background: #f3f4f6;
+  font-weight: 600;
+}
+
+.prose code {
+  background: #f3f4f6;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.prose img {
+  border-radius: 8px;
+  margin: 1.5em 0;
+}
