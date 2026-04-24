@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -7,7 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gongkao.example.com"),
+  metadataBase: new URL("https://gk.edu-sjtu.cn"),
   title: {
     default: "公考资讯站 - 国考省考社区工作者招录公告与备考指南",
     template: "%s | 公考资讯站",
@@ -53,6 +54,22 @@ export default function RootLayout({
         <Header />
         <main className="min-h-screen bg-gray-50">{children}</main>
         <Footer />
+        {/* 百度统计 */}
+        <Script
+          id="baidu-tongji"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var _hmt = _hmt || [];
+              (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?f7b8a430bf2c9a09bea0acdcf780c5b0";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+              })();
+            `,
+          }}
+        />
       </body>
     </html>
   );
