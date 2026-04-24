@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { getAllArticles, categories } from "@/lib/content";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://gongkao.example.com";
+  const baseUrl = "https://gk.edu-sjtu.cn";
   const now = new Date();
 
   // 静态页面
