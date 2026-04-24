@@ -1,16 +1,12 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://gk.edu-sjtu.cn";
-
   return {
-    rules: [
-      {
-        userAgent: "*",
-        allow: "/",
-        disallow: ["/api/"],
-      },
-    ],
-    sitemap: `${baseUrl}/sitemap.xml`,
+    rules: {
+      userAgent: "*",
+      allow: "/",
+      disallow: ["/api/", "/admin/"],
+    },
+    sitemap: "https://gk.edu-sjtu.cn/sitemap.xml",
   };
 }

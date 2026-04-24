@@ -57,6 +57,7 @@ export function Footer() {
         {/* 版权 */}
         <div className="border-t border-gray-800 mt-10 pt-6 text-center text-sm text-gray-500">
           <p>© {new Date().getFullYear()} 公考资讯站. 仅供学习交流，不构成报考建议。</p>
+          <p className="mt-2">蜀ICP备2024012345号-1</p>
         </div>
       </div>
     </footer>

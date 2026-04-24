@@ -52,6 +52,7 @@ export default function RootLayout({
     <html lang="zh-CN">
       <head>
         <meta name="baidu-site-verification" content="codeva-Uerc481wpT" />
+        <meta name="google-site-verification" content="google_verification_code" />
       </head>
       <body className={`${inter.className} antialiased`}>
         <Header />
