@@ -50,6 +50,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="zh-CN">
+      <head>
+        <meta name="baidu-site-verification" content="codeva-Uerc481wpT" />
+      </head>
       <body className={`${inter.className} antialiased`}>
         <Header />
         <main className="min-h-screen bg-gray-50">{children}</main>
