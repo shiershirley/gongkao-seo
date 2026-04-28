@@ -6,10 +6,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://gk.edu-sjtu.cn",
   },
+  openGraph: {
+    title: "公考资讯站 - 国考省考社区工作者招录公告与备考指南",
+    description:
+      "专注国考、省考、上海社区工作者招录考试，提供最新招考公告、政策解读、备考指南、真题解析与上岸经验分享。",
+    url: "https://gk.edu-sjtu.cn",
+    siteName: "公考资讯站",
+    locale: "zh_CN",
+    type: "website",
+    images: [
+      {
+        url: "/og-cover.svg",
+        width: 1200,
+        height: 630,
+        alt: "公考资讯站",
+      },
+    ],
+  },
   twitter: {
     card: "summary_large_image",
     title: "公考资讯站 - 国考省考社区工作者招录公告与备考指南",
     description: "专注国考、省考、上海社区工作者招录考试，提供最新招考公告、政策解读、备考指南、真题解析与上岸经验分享。",
+    images: ["/og-cover.svg"],
   },
 };
 

@@ -35,11 +35,23 @@ export async function generateMetadata({
       title: `${cat.name} | 公考资讯站`,
       description: cat.description,
       url: canonicalUrl,
+      siteName: "公考资讯站",
+      locale: "zh_CN",
+      type: "website",
+      images: [
+        {
+          url: "/og-cover.svg",
+          width: 1200,
+          height: 630,
+          alt: `${cat.name} - 公考资讯站`,
+        },
+      ],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: `${cat.name} | 公考资讯站`,
       description: cat.description,
+      images: ["/og-cover.svg"],
     },
   };
 }

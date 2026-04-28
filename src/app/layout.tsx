@@ -53,6 +53,52 @@ export default function RootLayout({
       <head>
         <meta name="baidu-site-verification" content="codeva-Uerc481wpT" />
         <meta name="google-site-verification" content="fs28DCK1-wND6NvteCl8gZF6btlQgywLmE1CacUfeKU" />
+
+        {/* Organization JSON-LD：品牌信号，告诉谷歌这是谁的网站 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "公考资讯站",
+              url: "https://gk.edu-sjtu.cn",
+              logo: "https://gk.edu-sjtu.cn/og-cover.svg",
+              description:
+                "专注国考、省考、上海社区工作者招录考试，提供最新招考公告、政策解读、备考指南、真题解析与上岸经验分享。",
+              sameAs: [],
+              contactPoint: {
+                "@type": "ContactPage",
+                availableLanguage: "Chinese",
+              },
+            }),
+          }}
+        />
+
+        {/* WebSite JSON-LD：配合搜索框，触发谷歌即时答案框 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "公考资讯站",
+              url: "https://gk.edu-sjtu.cn",
+              description:
+                "专注国考、省考、上海社区工作者招录考试，提供最新招考公告、政策解读、备考指南、真题解析与上岸经验分享。",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate:
+                    "https://gk.edu-sjtu.cn/baokao-gonggao?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+              inLanguage: "zh-CN",
+            }),
+          }}
+        />
       </head>
       <body className={`${inter.className} antialiased`}>
         <Header />
