@@ -22,11 +22,22 @@ export async function generateMetadata({
   const cat = categories.find((c) => c.slug === category);
   if (!cat) return {};
 
+  const canonicalUrl = `https://gk.edu-sjtu.cn/${category}`;
+
   return {
     title: `${cat.name} - ${cat.description}`,
     description: cat.description,
     keywords: cat.keywords,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
+      title: `${cat.name} | 公考资讯站`,
+      description: cat.description,
+      url: canonicalUrl,
+    },
+    twitter: {
+      card: "summary",
       title: `${cat.name} | 公考资讯站`,
       description: cat.description,
     },

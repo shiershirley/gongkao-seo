@@ -1,11 +1,20 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { categories, getArticleBySlug, getRelatedArticles } from "@/lib/content";
+import { categories, getArticleBySlug, getRelatedArticles, getAllArticles } from "@/lib/content";
 import { Breadcrumbs } from "@/components/ui/Breadcrumbs";
 
 interface PageProps {
   params: Promise<{ category: string; slug: string }>;
+}
+
+// 预生成所有文章路径 → SSG
+export async function generateStaticParams() {
+  const articles = getAllArticles();
+  return articles.map((article) => ({
+    category: article.category,
+    slug: article.slug,
+  }));
 }
 
 // 动态生成 metadata
@@ -16,16 +25,29 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug, category);
   if (!article) return {};
 
+  const baseUrl = "https://gk.edu-sjtu.cn";
+  const canonicalUrl = `${baseUrl}/${category}/${slug}`;
+
   return {
     title: article.title,
     description: article.description,
     keywords: article.tags,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: article.title,
       description: article.description,
       type: "article",
+      url: canonicalUrl,
       publishedTime: article.date,
       authors: [article.author || "公考资讯站"],
+      siteName: "公考资讯站",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.description,
     },
   };
 }
@@ -39,8 +61,42 @@ export default async function ArticlePage({ params }: PageProps) {
   const cat = categories.find((c) => c.slug === article.category);
   const relatedArticles = getRelatedArticles(slug, article.category, 4);
 
+  const baseUrl = "https://gk.edu-sjtu.cn";
+  const canonicalUrl = `${baseUrl}/${category}/${slug}`;
+
+  // Article JSON-LD 结构化数据
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.description,
+    datePublished: article.date,
+    dateModified: article.date,
+    author: {
+      "@type": "Person",
+      name: article.author || "公考资讯站",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "公考资讯站",
+      url: baseUrl,
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": canonicalUrl,
+    },
+    keywords: article.tags.join(", "),
+    articleSection: cat?.name || article.category,
+    inLanguage: "zh-CN",
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      {/* Article JSON-LD 结构化数据 */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Breadcrumbs
         items={[
           { label: cat?.name || article.category, href: `/${article.category}` },
@@ -126,48 +182,84 @@ export default async function ArticlePage({ params }: PageProps) {
   );
 }
 
-// 简单的 Markdown → HTML 转换
+// 升级版 Markdown → HTML 转换（支持有序列表、表格）
 function renderMarkdownToHtml(markdown: string): string {
   const lines = markdown.split('\n');
   const result: string[] = [];
-  let inList = false;
+  let inUl = false;
+  let inOl = false;
+  let inTable = false;
+  let tableHeaderParsed = false;
+
+  const closeOpenBlocks = () => {
+    if (inUl) { result.push('</ul>'); inUl = false; }
+    if (inOl) { result.push('</ol>'); inOl = false; }
+    if (inTable) { result.push('</tbody></table>'); inTable = false; tableHeaderParsed = false; }
+  };
 
   for (const line of lines) {
     const trimmed = line.trim();
 
     // 标题
     if (/^### /.test(trimmed)) {
-      if (inList) { result.push('</ul>'); inList = false; }
+      closeOpenBlocks();
       result.push(`<h3>${processInline(trimmed.slice(4))}</h3>`);
     } else if (/^## /.test(trimmed)) {
-      if (inList) { result.push('</ul>'); inList = false; }
+      closeOpenBlocks();
       result.push(`<h2>${processInline(trimmed.slice(3))}</h2>`);
     } else if (/^# /.test(trimmed)) {
-      if (inList) { result.push('</ul>'); inList = false; }
+      closeOpenBlocks();
       result.push(`<h1>${processInline(trimmed.slice(2))}</h1>`);
     }
     // 引用
     else if (/^> /.test(trimmed)) {
-      if (inList) { result.push('</ul>'); inList = false; }
+      closeOpenBlocks();
       result.push(`<blockquote>${processInline(trimmed.slice(2))}</blockquote>`);
     }
+    // 表格
+    else if (/^\|/.test(trimmed)) {
+      if (!inTable) {
+        result.push('<table><thead>');
+        inTable = true;
+        tableHeaderParsed = false;
+      }
+      // 分隔行（|---|---|）跳过，标记表头结束
+      if (/^\|[\s\-|:]+\|$/.test(trimmed)) {
+        result.push('</thead><tbody>');
+        tableHeaderParsed = true;
+      } else {
+        const cells = trimmed.replace(/^\||\|$/g, '').split('|').map(c => c.trim());
+        const tag = tableHeaderParsed ? 'td' : 'th';
+        const row = cells.map(c => `<${tag}>${processInline(c)}</${tag}>`).join('');
+        result.push(`<tr>${row}</tr>`);
+      }
+    }
     // 无序列表
-    else if (/^- /.test(trimmed)) {
-      if (!inList) { result.push('<ul>'); inList = true; }
+    else if (/^[-*] /.test(trimmed)) {
+      if (inOl) { result.push('</ol>'); inOl = false; }
+      if (inTable) { result.push('</tbody></table>'); inTable = false; tableHeaderParsed = false; }
+      if (!inUl) { result.push('<ul>'); inUl = true; }
       result.push(`<li>${processInline(trimmed.slice(2))}</li>`);
+    }
+    // 有序列表
+    else if (/^\d+\. /.test(trimmed)) {
+      if (inUl) { result.push('</ul>'); inUl = false; }
+      if (inTable) { result.push('</tbody></table>'); inTable = false; tableHeaderParsed = false; }
+      if (!inOl) { result.push('<ol>'); inOl = true; }
+      result.push(`<li>${processInline(trimmed.replace(/^\d+\. /, ''))}</li>`);
     }
     // 空行
     else if (trimmed === '') {
-      if (inList) { result.push('</ul>'); inList = false; }
+      closeOpenBlocks();
     }
     // 普通段落
     else {
-      if (inList) { result.push('</ul>'); inList = false; }
+      closeOpenBlocks();
       result.push(`<p>${processInline(trimmed)}</p>`);
     }
   }
 
-  if (inList) result.push('</ul>');
+  closeOpenBlocks();
   return result.join('\n');
 }
 

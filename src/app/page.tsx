@@ -1,5 +1,33 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllArticles, categories, getCategoryCount } from "@/lib/content";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://gk.edu-sjtu.cn",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "公考资讯站 - 国考省考社区工作者招录公告与备考指南",
+    description: "专注国考、省考、上海社区工作者招录考试，提供最新招考公告、政策解读、备考指南、真题解析与上岸经验分享。",
+  },
+};
+
+// 热搜关键词 → 指向真实分类/内容页
+const hotKeywords = [
+  { label: "2026国考时间", href: "/guokao" },
+  { label: "国考职位表", href: "/gangwei-fenxi" },
+  { label: "省考报名条件", href: "/baokao-gonggao" },
+  { label: "上海社区工作者招聘", href: "/shanghai-shegong" },
+  { label: "行测备考攻略", href: "/beikao-zhinan" },
+  { label: "申论范文", href: "/zhenti-jiexi" },
+  { label: "面试技巧", href: "/shang-an-jingyan" },
+  { label: "公务员薪资待遇", href: "/gangwei-fenxi" },
+  { label: "社区工作者考试内容", href: "/shanghai-shegong" },
+  { label: "国考真题解析", href: "/zhenti-jiexi" },
+  { label: "应届生考公指南", href: "/zhengce-jiedu" },
+  { label: "公务员体检标准", href: "/zhengce-jiedu" },
+];
 
 export default function HomePage() {
   const allArticles = getAllArticles();
@@ -132,26 +160,13 @@ export default function HomePage() {
             🔍 公考热门搜索
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {[
-              "2026国考时间",
-              "国考职位表",
-              "省考报名条件",
-              "上海社区工作者招聘",
-              "行测备考攻略",
-              "申论范文",
-              "面试技巧",
-              "公务员薪资待遇",
-              "社区工作者考试内容",
-              "国考真题下载",
-              "应届生考公指南",
-              "公务员体检标准",
-            ].map((keyword) => (
+            {hotKeywords.map((kw) => (
               <Link
-                key={keyword}
-                href={`/baokao-gonggao?q=${encodeURIComponent(keyword)}`}
+                key={kw.label}
+                href={kw.href}
                 className="text-sm text-gray-600 bg-gray-50 hover:bg-blue-50 hover:text-blue-700 px-3 py-2 rounded-lg transition"
               >
-                🔎 {keyword}
+                🔎 {kw.label}
               </Link>
             ))}
           </div>
