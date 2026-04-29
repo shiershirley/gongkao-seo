@@ -7,6 +7,18 @@
 - **内容目录**：`content/`（按类别分子目录：shanghai-shegong/guokao/shengkao等）
 - **脚本目录**：`scripts/`
 
+## 关键词策略
+
+### 关键词池 `scripts/keywords_pool.md`
+- 分类管理：P0(核心)、P1(高价值)、P2(中价值)、P3(长尾)
+- 类型分类：question(问题型)、compare(对比型)、study(备考型)、info(资讯型)、guide(指南型)
+- 动态关键词池：招聘公告各阶段触发词（公告发布→报名→笔试→成绩→面试）
+
+### 关键词校验 `frontmatter_validator.py`
+- 新增关键词覆盖率检查（建议性，不阻断）
+- 检测title/description/tags是否包含P0/P1关键词
+- 提示格式：`[建议] 以下P0/P1词未出现在标题/描述/标签中: ...`
+
 ## 技术要点
 
 ### YAML Frontmatter 规范（Build失败预防）
@@ -19,14 +31,14 @@
 **预防工具**：`scripts/frontmatter_validator.py`
 - 每次文章生成后、git commit前必须运行
 - 支持自动修复模式 `--fix`
-- 校验项：必填字段、内嵌引号、日期格式、分类白名单、标签格式
+- 校验项：必填字段、内嵌引号、日期格式、分类白名单、标签格式、关键词覆盖率
 
 ### 本地Build验证
 ```bash
 cd C:\Users\HYY\WorkBuddy\gongkao-seo
 npm run build
 ```
-成功标志：163个页面生成完成，无错误
+成功标志：146个页面生成完成，无错误
 
 ## Git操作规范
 
@@ -52,3 +64,17 @@ npm run build
 - **执行时间**：每天06:00
 - **工作目录**：c:/Users/HYY/WorkBuddy/gongkao-seo
 - **关键步骤**：文章生成 → frontmatter校验 → git commit/push → Vercel部署
+
+## 关键词生成器
+
+### `scripts/keyword_driven_generator.py`
+- 扫描已发布文章，统计已覆盖关键词
+- 从关键词池选取未覆盖的高价值词
+- 生成文章生成指令（带SEO要求）
+
+**使用方式**：
+```bash
+python scripts/keyword_driven_generator.py --next      # 获取下一个建议词
+python scripts/keyword_driven_generator.py --list     # 列出未覆盖关键词
+python scripts/keyword_driven_generator.py --prompt    # 生成完整文章指令
+```
