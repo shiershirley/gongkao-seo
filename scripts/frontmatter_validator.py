@@ -8,6 +8,7 @@ frontmatter_validator.py
   python scripts/frontmatter_validator.py                    # 检查所有 content/*.md
   python scripts/frontmatter_validator.py content/guokao/   # 检查指定目录
   python scripts/frontmatter_validator.py --fix             # 自动修复可识别的问题
+  python scripts/frontmatter_validator.py --check-keyword "社区工作者考试"  # 检查单篇是否覆盖某关键词
 
 校验规则:
   1. frontmatter 必须以 --- 包围
@@ -18,6 +19,7 @@ frontmatter_validator.py
   6. date 值不得超过今天（严格禁止未来日期）
   7. category 必须在允许的分类列表中
   8. tags 必须为列表格式
+  9. description/tags 建议包含关键词池中的目标关键词（不强制，但会提示）
 """
 
 import os
@@ -37,6 +39,35 @@ ALLOWED_CATEGORIES = {
 REQUIRED_FIELDS = ["title", "description", "date", "category", "tags", "author"]
 
 TODAY = date.today()
+
+# ========== 关键词池配置 ==========
+
+def load_keywords_pool() -> dict:
+    """加载关键词池"""
+    keywords_path = Path(__file__).parent / 'keywords_pool.md'
+    if not keywords_path.exists():
+        return {"keywords": [], "triggers": {}}
+
+    content = keywords_path.read_text(encoding='utf-8')
+    keywords = []
+    triggers = {}
+
+    # 解析静态关键词（以 ```yaml 包裹的块）
+    yaml_blocks = re.findall(r'```yaml(.*?)```', content, re.DOTALL)
+    for block in yaml_blocks:
+        # 解析 keyword 字段
+        keyword_matches = re.findall(r'- keyword:\s*(.+)', block)
+        for kw in keyword_matches:
+            keywords.append(kw.strip())
+
+        # 解析 trigger 字段（动态关键词）
+        trigger_matches = re.findall(r'- keyword:\s*(.+?)\n\s*trigger:\s*\[(.*?)\]', block, re.DOTALL)
+        for kw, trig_list in trigger_matches:
+            triggers[kw.strip()] = [t.strip().strip('"') for t in trig_list.split(',')]
+
+    return {"keywords": keywords, "triggers": triggers}
+
+KEYWORDS_POOL = load_keywords_pool()
 
 # ========== 核心校验逻辑 ==========
 
@@ -119,6 +150,37 @@ def parse_frontmatter_yaml(fm_text: str) -> dict:
 
     return result
 
+def check_keyword_coverage(fm: dict, content: str) -> list[str]:
+    """
+    检查文章是否覆盖关键词池中的关键词。
+    这是一个建议性检查，不会导致校验失败，但会给出提示。
+    """
+    issues = []
+
+    # 获取需要检查的文本
+    title = fm.get('title', '')
+    description = fm.get('description', '')
+    tags = fm.get('tags', [])
+    if isinstance(tags, str):
+        tags = [tags]
+    tags_text = ' '.join(tags) if tags else ''
+
+    text_to_check = f"{title} {description} {tags_text}"
+
+    # 检查P0/P1核心关键词覆盖率
+    high_priority_keywords = [kw for kw in KEYWORDS_POOL['keywords']
+                             if any(p in kw.lower() for p in ['社区工作者', '上海社工', '上海社区'])]
+    uncovered = []
+    for kw in high_priority_keywords[:10]:  # 只检查前10个P0/P1词
+        if kw not in text_to_check:
+            uncovered.append(kw)
+
+    if uncovered:
+        issues.append(f"[建议] 以下P0/P1词未出现在标题/描述/标签中: {', '.join(uncovered[:3])}...")
+
+    return issues
+
+
 def check_escaped_quotes(description: str) -> list[str]:
     """
     检测 description 值内是否有未转义的英文双引号。
@@ -186,6 +248,9 @@ def validate_frontmatter(content: str, filepath: str) -> list[str]:
     if 'tags' in fm and isinstance(fm['tags'], str):
         issues.append("tags 应为列表格式（如 tags: [\"标签1\", \"标签2\"]），当前为字符串")
 
+    # 6. 关键词覆盖率检查（建议性，不影响通过）
+    issues.extend(check_keyword_coverage(fm, body))
+
     return issues
 
 def fix_frontmatter(content: str) -> tuple[str, int]:
@@ -248,7 +313,7 @@ def main():
         try:
             content = filepath.read_text(encoding='utf-8')
         except Exception as e:
-            print(f"  ❌ 读取失败: {filepath.relative_to(Path.cwd())}: {e}")
+            print(f"  [失败] 读取失败: {filepath.relative_to(Path.cwd())}: {e}")
             total_errors += 1
             continue
 
@@ -261,32 +326,42 @@ def main():
                 total_fixed += fixed_count
                 issues = validate_frontmatter(fixed_content, str(filepath))  # 重新校验
                 if issues:
-                    print(f"  ⚠️  修复后仍有问题: {filepath.name}")
+                    print(f"  [警告] 修复后仍有问题: {filepath.name}")
                     for issue in issues:
                         print(f"       - {issue}")
                 else:
-                    print(f"  ✅ 已修复: {filepath.name}")
+                    print(f"  [已修复] {filepath.name}")
             elif issues:
-                print(f"  ❌ 问题: {filepath.name}")
+                print(f"  [错误] {filepath.name}")
                 for issue in issues:
                     print(f"       - {issue}")
                 total_errors += len(issues)
         else:
             if issues:
-                print(f"  ❌ {filepath.relative_to(Path.cwd())}")
-                for issue in issues:
-                    print(f"       - {issue}")
-                total_errors += len(issues)
+                # 分离错误和建议
+                errors = [i for i in issues if not i.startswith('📝')]
+                suggestions = [i for i in issues if i.startswith('📝')]
+
+                if errors:
+                    print(f"  [错误] {filepath.relative_to(Path.cwd())}")
+                    for issue in errors:
+                        print(f"       - {issue}")
+                    total_errors += len(errors)
+
+                if suggestions:
+                    print(f"  [建议] {filepath.relative_to(Path.cwd())} (含关键词建议)")
+                    for suggestion in suggestions:
+                        print(f"       {suggestion}")
 
     # 汇总
     print()
     if fix_mode:
-        print(f"📦 自动修复完成: {total_fixed} 处问题已修复，{total_errors} 处需人工处理")
+        print(f"[完成] 自动修复完成: {total_fixed} 处问题已修复，{total_errors} 处需人工处理")
     else:
         if total_errors == 0:
-            print("✅ 所有文件 frontmatter 校验通过！")
+            print("[通过] 所有文件 frontmatter 校验通过！")
         else:
-            print(f"❌ 共发现 {total_errors} 处问题，请修复后再提交！")
+            print(f"[错误] 共发现 {total_errors} 处问题，请修复后再提交！")
             print(f"   提示：运行 python scripts/frontmatter_validator.py --fix 可自动修复部分问题")
 
     return 1 if total_errors > 0 else 0
