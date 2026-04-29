@@ -177,3 +177,77 @@
 - `git push origin main` ✅（成功推送，31fe8d0..e3b92dc）
 
 **备注**：19篇文章覆盖全部9个分类目录，所有frontmatter date字段已校验为"2026-04-28"，写作风格规范（口语化标题、无陈词滥调、无表格堆砌）。Vercel自动触发部署。
+
+---
+
+## 2026-04-29 执行记录
+
+**执行状态**：✅ 文章生成成功，git commit成功；⚠️ 首次push后Vercel build失败（4/28、4/29连续两天）；✅ 修复后重新push成功，Vercel部署自动触发。
+
+**Build失败原因**：4篇文章的frontmatter中description字段内嵌了未转义的英文双引号（如 `"网上填表"`），导致YAML解析错误。触发文件：
+- `content/baokao-gonggao/2026-04-28-shegong-baoming-quanliucheng.md`
+- `content/gangwei-fenxi/2026-04-29-guokao-zhiweibiao-xuanzhuanqubie.md`
+- `content/gangwei-fenxi/2026-04-29-guokao-tiaoji-bulou-jihui.md`
+- `content/zhenti-jiexi/2026-04-29-xingce-shuliao-suyong.md`
+
+**修复方法**：将description值内嵌的双引号替换为日文直角引号「」（U+300C/300D）。
+
+**Git操作**：
+- `git add -A` ✅（首次推送）
+- `git commit -m "content: auto publish articles 2026-04-29"` ✅（commit: 4b6733d）
+- `git push origin main` ❌（Vercel build失败）
+- 修复后重新push：`git push origin main` ✅（commit: 9e3498b，4 files changed）
+
+**备注**：修复后本地build成功，163个页面全部生成。Vercel已自动触发重新部署。
+- shanghai-shegong（上海社工）：5篇
+  - 浦东社工笔试5月10日开考：考前12天该怎么冲刺？
+  - 2026年上海16区社工笔试合格线预估：多少分能进面？
+  - 上海社工面试高频题型拆解：这些坑每年都有人踩
+  - 应届生报考上海社工：政策已全面开放，但选对岗位更重要
+  - 上海社工薪资待遇真实揭秘：到手多少钱，各区差距有多大？
+
+- guokao（国考）：2篇
+  - 审计署2026年国考拟录用68人公示：公示期最后一天，有哪些注意事项？
+  - 2026年国考调剂补录什么时候来？看看近三年的规律
+
+- shengkao（省考）：3篇
+  - 2026年省考进入下半场：面试体检考察动态一览（4月29日更新）
+  - 省考面试怎么翻盘？笔试分差不是唯一的胜负手
+  - 省考面试前的资格复审：需要准备什么材料？有哪些坑？
+
+- gangwei-fenxi（岗位分析）：2篇
+  - 国考职位表选岗的隐性门槛：哪些条件你可能没注意到？
+  - 社区工作者vs事业单位：同为体制内基层岗，哪个更适合你？
+
+- beikao-zhinan（备考指南）：2篇
+  - 行测言语理解：正确率卡在70%上不去？可能是方法出了问题
+  - 行测判断推理怎么快速提分？从图形推理到逻辑判断的全攻略
+
+- zhenti-jiexi（真题解析）：2篇
+  - 申论大作文怎么写出高分？三个角度拆解得分逻辑
+  - 行测数量关系高频考点速览：哪些题必须拿下，哪些可以放弃
+
+- baokao-gonggao（报考公告）：2篇
+  - 上海社工上岸后：入职手续怎么办？政审材料清单和常见问题
+  - 社工笔试报名阶段最容易忽略的五个细节
+
+- shang-an-jingyan（上岸经验）：2篇
+  - 二战省考上岸：第一次失败的经验教训比分数更有价值
+  - 国考海关和审计岗位面试：不同系统考察侧重点有何不同
+
+- zhengce-jiedu（政策解读）：1篇
+  - 2026国考扩招背景下，基层岗位的机会和挑战
+
+**搜索关键词覆盖**：
+- ✅ 上海社区工作者招聘2026（浦东5月10日笔试，笔试确认4月13-14日）
+- ✅ 公务员考试公告2026（省考面试体检考察黑龙江/湖南/甘肃等多省动态）
+- ✅ 省考面试2026（面试翻盘技巧+资格复审材料清单）
+- ✅ 国考拟录用公示2026年4月（审计署68人公示4月29日截止、国资委6人）
+- ✅ 国考调剂补录2026（历年规律分析，预计4月底5月初发布）
+
+**Git操作**：
+- `git add -A` ✅
+- `git commit -m "content: auto publish articles 2026-04-29"` ✅（commit: 4b6733d，23 files changed, 1433 insertions）
+- `git push origin main` ✅（成功推送，b208f04..4b6733d）
+
+**备注**：20篇文章覆盖全部9个分类目录，所有frontmatter date字段已校验为"2026-04-29"，写作风格规范（口语化标题、无陈词滥调、无表格堆砌）。Vercel自动触发部署。
