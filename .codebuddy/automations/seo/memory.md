@@ -251,3 +251,30 @@
 - `git push origin main` ✅（成功推送，b208f04..4b6733d）
 
 **备注**：20篇文章覆盖全部9个分类目录，所有frontmatter date字段已校验为"2026-04-29"，写作风格规范（口语化标题、无陈词滥调、无表格堆砌）。Vercel自动触发部署。
+
+---
+
+## Frontmatter 校验工具（预防机制）
+
+**工具路径**：`scripts/frontmatter_validator.py`
+
+**用途**：每次文章生成后、git commit 前，必须运行校验，发现问题立即修复。
+
+**执行命令**：
+```bash
+$env:PYTHONIOENCODING="utf-8"; python scripts/frontmatter_validator.py
+```
+
+**支持的校验项**：
+1. 必填字段完整性（title / description / date / category / tags / author）
+2. description 值内嵌英文双引号 `"` 检测（YAML 单行字符串规范）→ 自动替换为「」
+3. date 格式（YYYY-MM-DD）及未来日期校验（严格禁止）
+4. category 在允许分类列表内
+5. tags 为列表格式
+
+**自动修复模式**：
+```bash
+$env:PYTHONIOENCODING="utf-8"; python scripts/frontmatter_validator.py --fix
+```
+
+**CI 集成建议**：后续可在 GitHub Actions 中加入此脚本作为 build 前的 gate，防止问题文件进入 main 分支。
