@@ -339,8 +339,8 @@ def main():
         else:
             if issues:
                 # 分离错误和建议
-                errors = [i for i in issues if not i.startswith('📝')]
-                suggestions = [i for i in issues if i.startswith('📝')]
+                errors = [i for i in issues if not i.startswith('[建议]')]
+                suggestions = [i for i in issues if i.startswith('[建议]')]
 
                 if errors:
                     print(f"  [错误] {filepath.relative_to(Path.cwd())}")
