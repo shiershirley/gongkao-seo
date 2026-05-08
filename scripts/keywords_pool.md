@@ -101,7 +101,7 @@
 - keyword: 社区工作者考什么
   priority: P1
   type: question
-  covered: false
+  covered: true
   note: 问题型，高搜索量
 
 - keyword: 社区工作者笔试考什么
@@ -128,19 +128,19 @@
 - keyword: 社区工作者报考要求
   priority: P1
   type: info
-  covered: false
+  covered: true
   note: 同义词
 
 - keyword: 社区工作者学历要求
   priority: P1
   type: question
-  covered: false
+  covered: true
   note: 常见问题
 
 - keyword: 社区工作者年龄限制
   priority: P1
   type: question
-  covered: false
+  covered: true
   note: 常见问题
 ```
 
@@ -155,13 +155,13 @@
 - keyword: 社区工作者复习计划
   priority: P1
   type: guide
-  covered: false
+  covered: true
   note: 学习规划
 
 - keyword: 社工考试多久开始准备
   priority: P1
   type: question
-  covered: false
+  covered: true
   note: 备考时间问题
 ```
 
