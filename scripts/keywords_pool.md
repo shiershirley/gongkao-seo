@@ -43,25 +43,25 @@
 - keyword: 社区工作者招聘
   priority: P0
   type: info
-  covered: false
+  covered: true
   note: 核心流量词，泛指
 
 - keyword: 社区工作者考试
   priority: P0
   type: info
-  covered: false
+  covered: true
   note: 核心流量词
 
 - keyword: 社区工作者报名
   priority: P0
   type: info
-  covered: false
+  covered: true
   note: 报名阶段流量大
 
 - keyword: 社区工作者待遇
   priority: P0
   type: info
-  covered: false
+  covered: true
   note: 学员刚需问题
 ```
 
@@ -70,7 +70,7 @@
 - keyword: 上海社区工作者招聘
   priority: P0
   type: info
-  covered: false
+  covered: true
   note: 本项目核心词
 
 - keyword: 上海社工考试
@@ -107,13 +107,13 @@
 - keyword: 社区工作者笔试考什么
   priority: P1
   type: question
-  covered: false
+  covered: true
   note: 细化版本
 
 - keyword: 社区工作者面试内容
   priority: P1
   type: info
-  covered: false
+  covered: true
   note: 面试备考
 ```
 
@@ -122,7 +122,7 @@
 - keyword: 社区工作者报名条件
   priority: P1
   type: info
-  covered: false
+  covered: true
   note: 高频问题
 
 - keyword: 社区工作者报考要求
@@ -149,7 +149,7 @@
 - keyword: 社区工作者备考攻略
   priority: P1
   type: guide
-  covered: false
+  covered: true
   note: 备考综合指南
 
 - keyword: 社区工作者复习计划
