@@ -174,12 +174,14 @@
 - keyword: 社区工作者考试流程
   priority: P2
   type: guide
-  covered: false
+  covered: true
+  note: 2026-05-15已覆盖
 
 - keyword: 社工招聘报名流程
   priority: P2
   type: guide
-  covered: false
+  covered: true
+  note: 2026-05-15已覆盖
 
 - keyword: 社区工作者准考证打印
   priority: P2
@@ -199,8 +201,8 @@
 - keyword: 社区工作者真题
   priority: P2
   type: info
-  covered: false
-  note: 流量入口，注意版权
+  covered: true
+  note: 2026-05-15已覆盖，流量入口，注意版权
 
 - keyword: 社区工作者笔试题库
   priority: P2
@@ -224,7 +226,8 @@
 - keyword: 社区工作者面试题
   priority: P2
   type: info
-  covered: false
+  covered: true
+  note: 2026-05-15已覆盖
 
 - keyword: 社工面试一般问什么
   priority: P2
