@@ -2,7 +2,8 @@
 
 ## 项目基本信息
 
-- **项目路径**：`C:\Users\HYY\WorkBuddy\gongkao-seo`
+- **项目路径**：`d:\AI\task\gongkao-seo`（已从C:\Users\HYY\WorkBuddy\gongkao-seo迁移）
+- **旧路径**：C:\Users\HYY\WorkBuddy\gongkao-seo（已废弃，仅保留git远程）
 - **部署地址**：https://gk.edu-sjtu.cn（Vercel）
 - **内容目录**：`content/`（按类别分子目录：shanghai-shegong/guokao/shengkao等）
 - **脚本目录**：`scripts/`
@@ -60,9 +61,10 @@ npm run build
 
 ## 自动化配置
 
+- **自动化ID**：automation
 - **自动化名称**：公考SEO每日自动发文
 - **执行时间**：每天06:00
-- **工作目录**：c:/Users/HYY/WorkBuddy/gongkao-seo
+- **工作目录**：`d:\AI\task\gongkao-seo`（2026-05-07迁移自旧路径）
 - **关键步骤**：文章生成 → frontmatter校验 → git commit/push → Vercel部署
 
 ## 关键词生成器

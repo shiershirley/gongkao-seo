@@ -76,14 +76,14 @@
 - keyword: 上海社工考试
   priority: P0
   type: info
-  covered: false
-  note: 上海专属词
+  covered: true
+  note: 2026-05-14已覆盖
 
 - keyword: 上海社区工作者报名
   priority: P0
   type: info
-  covered: false
-  note: 上海报名节点
+  covered: true
+  note: 2026-05-14已覆盖
 ```
 
 ---
@@ -95,8 +95,8 @@
 - keyword: 社区工作者考试内容
   priority: P1
   type: info
-  covered: false
-  note: 备考基础问题
+  covered: true
+  note: 2026-05-14已覆盖
 
 - keyword: 社区工作者考什么
   priority: P1
@@ -218,7 +218,8 @@
 - keyword: 社区工作者面试技巧
   priority: P2
   type: guide
-  covered: false
+  covered: true
+  note: 2026-05-14已覆盖
 
 - keyword: 社区工作者面试题
   priority: P2
