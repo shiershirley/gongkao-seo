@@ -158,7 +158,7 @@
 - keyword: 社区工作者考试范围
   priority: P1
   type: info
-  covered: false
+  covered: true
   angles: [考试大纲, 知识点分布, 重点章节, 命题规律, 复习范围]
 ```
 
@@ -236,7 +236,7 @@
 - keyword: 社区工作者培训班
   priority: P1
   type: info
-  covered: false
+  covered: true
   angles: [线下班, 线上班, 培训费用, 培训效果, 如何选择]
 ```
 
@@ -261,31 +261,31 @@
 - keyword: 社区工作者准考证打印
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [打印时间, 打印入口, 注意事项, 准考证信息, 遗失补办]
 
 - keyword: 社区工作者成绩查询
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [查询入口, 查询时间, 成绩有效期, 分数线, 成绩复核]
 
 - keyword: 社区工作者面试流程
   priority: P2
   type: guide
-  covered: false
+  covered: true
   angles: [签到抽签, 答题环节, 计分方式, 面试时间, 注意事项]
 
 - keyword: 社区工作者体检标准
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [体检项目, 合格标准, 体检时间, 特殊情况, 常见问题]
 
 - keyword: 社区工作者政审要求
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [政审内容, 政审流程, 不合格情况, 家庭成员影响, 各地标准]
 ```
 
@@ -301,19 +301,19 @@
 - keyword: 社区工作者笔试题库
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [在线刷题, 题库推荐, 免费题库, 分模块练习, 错题整理]
 
 - keyword: 社工考试真题答案
   priority: P2
   type: question
-  covered: false
+  covered: true
   angles: [2025年答案, 参考答案, 评分标准, 答案解析, 争议题]
 
 - keyword: 社区工作者模拟题
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [模拟卷推荐, 在线模考, 预测卷, 模拟评分, 模考分析]
 
 - keyword: 社区工作者历年分数线
@@ -340,19 +340,19 @@
 - keyword: 社工面试一般问什么
   priority: P2
   type: question
-  covered: false
+  covered: true
   angles: [自我介绍, 岗位认知, 情景处理, 计划组织, 应急应变]
 
 - keyword: 社区工作者面试自我介绍
   priority: P2
   type: guide
-  covered: false
+  covered: true
   angles: [模板范文, 注意事项, 一分钟版, 三分钟版, 亮点打造]
 
 - keyword: 社区工作者面试着装
   priority: P2
   type: guide
-  covered: false
+  covered: true
   angles: [男生着装, 女生着装, 着装禁忌, 仪容仪表, 加分细节]
 
 - keyword: 社区工作者无领导小组讨论
@@ -397,31 +397,31 @@
 - keyword: 南京社区工作者招聘
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各区招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 武汉社区工作者招聘
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各区招聘, 报名条件, 薪资待遇, 考试内容]
 
 - keyword: 天津社区工作者招聘
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 招聘人数, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 重庆社区工作者招聘
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各区招聘, 报名条件, 薪资待遇, 考试内容]
 
 - keyword: 苏州社区工作者招聘
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各区招聘, 报名条件, 薪资待遇, 考试信息]
 ```
 
@@ -512,7 +512,7 @@
 - keyword: 社区工作者和公务员区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [编制区别, 待遇差距, 社会地位, 发展前景, 考试难度]
 
 - keyword: 社区工作者和村官区别
@@ -533,31 +533,31 @@
 - keyword: 零基础备考社区工作者
   priority: P3
   type: study
-  covered: false
+  covered: true
   angles: [备考计划, 学习方法, 重点科目, 时间安排, 上岸经验]
 
 - keyword: 非专业可以考社工吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [专业限制, 各地要求, 非专业备考方法, 成功率, 经验分享]
 
 - keyword: 社工考试难不难
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [难度分析, 各地难度对比, 通过率, 与公考难度对比, 如何应对]
 
 - keyword: 大专可以考社区工作者吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [各地学历要求, 大专岗位, 成人学历, 提升学历, 经验分享]
 
 - keyword: 社区工作者需要证书吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [社工证, 初级社工证, 中级社工证, 证书含金量, 如何考取]
 
 - keyword: 应届生可以考社区工作者吗

@@ -467,7 +467,135 @@
 - ✅ Git push
 
 ---
-*记录时间：2026-05-15 13:05*
+
+## 2026-05-15 14:07 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 14:07（定时触发）
+- **生成文章数**：8篇
+- **关键词覆盖**：社区工作者考试范围（P1）、社区工作者培训班（P1）、准考证打印（P2）、成绩查询（P2）、面试流程（P2）、南京社工招聘（P2）、武汉社工招聘（P2）、零基础备考（P3）
+
+### 生成文章列表
+
+1. `content/beikao-zhinan/2026-05-15-shegong-kaoshi-fanwei-dagang-quanjiexi.md` - 社区工作者考试范围全解析（P1）
+2. `content/beikao-zhinan/2026-05-15-shegong-peixunban-xuanze-zhinan.md` - 培训班选择指南（P1）
+3. `content/beikao-zhinan/2026-05-15-shegong-mianshi-liucheng-xiangjie.md` - 面试流程详解（P2）
+4. `content/baokao-gonggao/2026-05-15-shegong-zhunkaozheng-dayin-wanquan-zhinan.md` - 准考证打印攻略（P2）
+5. `content/baokao-gonggao/2026-05-15-nanjing-shegong-zhaopin-quanfangwei.md` - 南京招聘公告解读（P2）
+6. `content/baokao-gonggao/2026-05-15-wuhan-shegong-zhaopin-jiedu.md` - 武汉招聘公告解读（P2）
+7. `content/zhengce-jiedu/2026-05-15-shegong-chengji-chaxu-fenshuxian.md` - 成绩查询与分数线（P2）
+8. `content/shang-an-jingyan/2026-05-15-lingjichu-beikao-shegong-shangangan.md` - 零基础备考上岸攻略（P3）
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+
+### Git操作
+- **提交**：`content: auto publish 8 articles 2026-05-15 14:07`（commit: 75878c2）
+- **推送状态**：✅ 成功推送至 origin/main
+- **Vercel部署**：已触发自动部署
+
+---
+*记录时间：2026-05-15 14:10*
+
+---
+
+## 2026-05-15 15:19 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 15:19（定时触发）
+- **生成文章数**：8篇
+- **关键词覆盖**：社区工作者体检标准（P2）、社区工作者政审要求（P2）、社工面试一般问什么（P2）、社区工作者面试自我介绍（P2）、社区工作者面试着装（P2）、天津社区工作者招聘（P2）、重庆社区工作者招聘（P2）、社区工作者和公务员区别（P3）
+
+### 生成文章列表
+
+1. `content/zhengce-jiedu/2026-05-15-shegong-tijian-biaozhun-quanjiexi.md` - 体检标准全解析（P2）
+2. `content/zhengce-jiedu/2026-05-15-shegong-zhengshen-yaoqiu-xiangjie.md` - 政审要求详解（P2）
+3. `content/beikao-zhinan/2026-05-15-shegong-mianshi-ziwojieshao-muban.md` - 面试自我介绍模板（P2）
+4. `content/beikao-zhinan/2026-05-15-shegong-mianshi-gaopin-tixing-dafan.md` - 面试高频题型与答题框架（P2）
+5. `content/beikao-zhinan/2026-05-15-shegong-mianshi-zhuozhuang-yirong-yibiao.md` - 面试着装与仪容仪表（P2）
+6. `content/baokao-gonggao/2026-05-15-tianjin-shegong-zhaopin-quanjiexi.md` - 天津社工招聘公告解读（P2）
+7. `content/baokao-gonggao/2026-05-15-chongqing-shegong-zhaopin-jiedu.md` - 重庆社工招聘公告解读（P2）
+8. `content/zhengce-jiedu/2026-05-15-shegong-vs-gongwuyuan-quanmian-duibi.md` - 社工与公务员全面对比（P3）
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 0个错误，8个建议
+- **YAML格式**：✅ 无错误
+
+### Git操作
+- **提交**：`content: auto publish 8 articles 2026-05-15 15:19`（commit: ebc6799）
+- **推送状态**：✅ 成功推送至 origin/main
+- **Vercel部署**：已触发自动部署
+
+### 关键词池更新
+- 已将8个关键词标记为 `covered: true`：
+  - 社区工作者体检标准（P2）
+  - 社区工作者政审要求（P2）
+  - 社工面试一般问什么（P2）
+  - 社区工作者面试自我介绍（P2）
+  - 社区工作者面试着装（P2）
+  - 天津社区工作者招聘（P2）
+  - 重庆社区工作者招聘（P2）
+  - 社区工作者和公务员区别（P3）
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 关键词池更新
+- ✅ Git commit
+- ✅ Git push
+
+---
+*记录时间：2026-05-15 15:25*
+
+---
+
+## 2026-05-15 16:32 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 16:32（定时触发）
+- **生成文章数**：8篇
+- **关键词覆盖**：社区工作者笔试题库（P2）、社工考试真题答案（P2）、社区工作者模拟题（P2）、苏州社区工作者招聘（P2）、非专业可以考社工吗（P3）、社工考试难不难（P3）、大专可以考社区工作者吗（P3）、社区工作者需要证书吗（P3）
+
+### 生成文章列表
+
+1. `content/beikao-zhinan/2026-05-15-shegong-bishiti-ku-gonglue.md` - 社区工作者笔试题库哪个好
+2. `content/zhenti-jiexi/2026-05-15-shegong-zhenti-daanan-2025.md` - 社工考试真题答案解析
+3. `content/zhenti-jiexi/2026-05-15-shegong-moniti-yucejuan.md` - 社区工作者模拟题推荐
+4. `content/baokao-gonggao/2026-05-15-suzhou-shegong-zhaopin-2026.md` - 苏州社工招聘公告
+5. `content/zhengce-jiedu/2026-05-15-feizhuanye-kaoshegong-tiaojian.md` - 非专业可以考社工吗
+6. `content/zhengce-jiedu/2026-05-15-shegong-kaoshi-nanbunan-tongguolv.md` - 社工考试难度分析
+7. `content/zhengce-jiedu/2026-05-15-dazhuan-kaoshegong-xueli-yaoqiu.md` - 大专可以考社区工作者吗
+8. `content/zhengce-jiedu/2026-05-15-shegong-zheng-zhuanye-zhengshu.md` - 社工证与社区工作者关系
+
+### 校验结果
+- **Git commit**：✅ [main 0b625f3]
+- **YAML格式**：✅ frontmatter格式正确
+
+### Git操作
+- **提交**：content: auto publish 8 articles 2026-05-15 16:32
+- **推送状态**：⚠️ GitHub连接被重置，等待重试
+
+### 关键词池更新
+- 已将8个关键词标记为 `covered: true`：
+  - 社区工作者笔试题库（P2）
+  - 社工考试真题答案（P2）
+  - 社区工作者模拟题（P2）
+  - 苏州社区工作者招聘（P2）
+  - 非专业可以考社工吗（P3）
+  - 社工考试难不难（P3）
+  - 大专可以考社区工作者吗（P3）
+  - 社区工作者需要证书吗（P3）
+
+### 执行状态
+- ✅ 文章生成
+- ✅ Git commit
+- ⏳ Git push（待网络恢复）
+- ⏳ Vercel部署（待推送后触发）
+
+---
+
+*记录时间：2026-05-15 16:35*
 
 
 
