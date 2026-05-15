@@ -1,0 +1,18 @@
+{
+  "created": "2026-05-15",
+  "total": 547,
+  "categories": {
+    "study": {"name": "学习备考", "count": 110},
+    "office": {"name": "政务职场", "count": 98},
+    "books": {"name": "书籍资料", "count": 71},
+    "exam": {"name": "考试上岸", "count": 53},
+    "motivation": {"name": "励志奋斗", "count": 50},
+    "gov": {"name": "政府城市", "count": 37},
+    "tech": {"name": "科技数字", "count": 37},
+    "writing": {"name": "写作文档", "count": 27},
+    "nature": {"name": "自然风景", "count": 21},
+    "people": {"name": "职业人物", "count": 15},
+    "city": {"name": "城市景观", "count": 28}
+  },
+  "note": "所有图片为真实摄影作品，来自Unsplash和Pexels，可免费商用。尺寸1920px宽，横向高清。"
+}

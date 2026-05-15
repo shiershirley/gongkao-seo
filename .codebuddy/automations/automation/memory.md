@@ -213,5 +213,216 @@
 ---
 *记录时间：2026-05-13 06:10*
 
+---
+
+## 2026-05-14 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-14 15:54（定时触发）
+- **生成文章数**：4篇
+- **关键词覆盖**：上海社工考试（P0）、上海社区工作者报名（P0）、社区工作者考试内容（P1）、社区工作者面试技巧（P2）
+
+### 生成文章列表
+
+#### 上海社工考试类（1篇）
+1. `content/shanghai-shegong/2026-05-14-shanghai-shegong-kaoshi-quanjiexi.md` - 上海社工考试全解析（P0）
+
+#### 政策解读类（1篇）
+1. `content/zhengce-jiedu/2026-05-14-shanghai-shegong-baoming-zhinan.md` - 上海社区工作者报名指南（P0）
+
+#### 备考指南类（2篇）
+1. `content/beikao-zhinan/2026-05-14-shegong-kaoshi-neirong-quanjiexi.md` - 社区工作者考试内容全解析（P1）
+2. `content/beikao-zhinan/2026-05-14-shegong-mianshi-jiqiao-daquan.md` - 社区工作者面试技巧大全（P2）
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+- **关键词覆盖率**：⚠️ 部分建议（建议性，非阻断）
+
+### 关键词池更新
+- 已将4个关键词标记为 `covered: true`：
+  - 上海社工考试（P0）
+  - 上海社区工作者报名（P0）
+  - 社区工作者考试内容（P1）
+  - 社区工作者面试技巧（P2）
+
+### Git操作
+- **提交**：`content: auto publish articles 2026-05-14`（commit: d823582）
+- **推送状态**：✅ 成功推送至 origin/main
+- **Vercel部署**：已触发自动部署
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 关键词池更新
+- ✅ Git commit
+- ✅ Git push
+
+---
+*记录时间：2026-05-14 16:05*
+
+---
+
+## 2026-05-15 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 06:00（定时触发）
+- **生成文章数**：4篇
+- **关键词覆盖**：社区工作者考试流程（P2）、社工招聘报名流程（P2）、社区工作者真题（P2）、社区工作者面试题（P2）
+
+### 生成文章列表
+
+#### 备考指南类（2篇）
+1. `content/beikao-zhinan/2026-05-15-shegong-kaoshi-liucheng-zhinan.md` - 社区工作者考试流程全解析（P2）
+2. `content/beikao-zhinan/2026-05-15-shegong-mianshi-ti-yufa.md` - 社区工作者面试题汇总（P2）
+
+#### 政策解读类（1篇）
+1. `content/zhengce-jiedu/2026-05-15-shegong-zhaopin-baoming-liucheng.md` - 社工招聘报名流程详解（P2）
+
+#### 真题解析类（1篇）
+1. `content/zhenti-jiexi/2026-05-15-shegong-zhenti-yu-tiku.md` - 社区工作者真题与笔试题库（P2）
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+- **关键词覆盖率**：⚠️ 部分建议（建议性，非阻断）
+
+### 关键词池更新
+- 已将4个关键词标记为 `covered: true`：
+  - 社区工作者考试流程（P2）
+  - 社工招聘报名流程（P2）
+  - 社区工作者真题（P2）
+  - 社区工作者面试题（P2）
+
+### Git操作
+- **提交**：`content: auto publish articles 2026-05-15`（commit: 1adb866）
+- **推送状态**：✅ 成功推送至 origin/main
+- **Vercel部署**：已触发自动部署
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 关键词池更新
+- ✅ Git commit
+- ✅ Git push
+
+---
+*记录时间：2026-05-15 06:10*
+
+---
+
+## 2026-05-15 09:29 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 09:29（定时触发）
+- **生成文章数**：7篇
+- **关键词覆盖**：社区工作者笔试科目（P1）、社区工作者考试题型（P1）、社区工作者专业要求（P1）、社区工作者用什么书（P1）、北京社区工作者招聘（P2）、社区工作者工资多少（P2）、社区工作者发展前景（P2）
+
+### 生成文章列表
+
+#### 备考指南类（3篇）
+1. `content/beikao-zhinan/2026-05-15-shegong-bishi-kemu-xiangjie.md` - 社区工作者笔试科目详解
+2. `content/beikao-zhinan/2026-05-15-shegong-kaoshi-tixing-gaofenjiqiao.md` - 社区工作者考试题型全解析
+3. `content/beikao-zhinan/2026-05-15-shegong-beikao-yongshenme-shu.md` - 备考用什么书完整推荐清单
+
+#### 政策解读类（3篇）
+1. `content/zhengce-jiedu/2026-05-15-shegong-zhuanye-yaoqiu-quanjiexi.md` - 社区工作者专业要求详解
+2. `content/zhengce-jiedu/2026-05-15-shegong-gongzi-quanguo-duibi.md` - 全国各地薪资水平详细对比
+3. `content/zhengce-jiedu/2026-05-15-shegong-fazhan-qianjing-quanjiexi.md` - 发展前景与晋升路径全解析
+
+#### 招聘公告类（1篇）
+1. `content/baokao-gonggao/2026-05-15-beijing-shegong-zhaopin-quanjiexi.md` - 2026年北京社区工作者招聘公告解读
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+- **关键词覆盖率**：⚠️ 部分建议（建议性，非阻断）
+
+### 关键词池更新
+- 已将7个关键词标记为 `covered: true`
+
+### Git操作
+- **提交**：`content: auto publish 7 articles 2026-05-15 09:29`（commit: 3e3dcd2）
+- **推送状态**：✅ 成功推送至 origin/main
+- **Vercel部署**：已触发自动部署
+
+---
+*记录时间：2026-05-15 09:35*
+
+---
+
+## 2026-05-15 10:40 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 10:40
+- **生成文章数**：8篇
+- **关键词覆盖**：广州/深圳/杭州社工招聘、薪资待遇、面试技巧、准考证打印、职业发展、日常工作内容
+
+### 生成文章列表
+1. `content/baokao-gonggao/2026-05-15-guangzhou-shegong-zhaopin-jiedu.md` - 广州招聘公告解读
+2. `content/baokao-gonggao/2026-05-15-shegong-zhunkaozheng-dayin.md` - 准考证打印攻略
+3. `content/zhengce-jiedu/2026-05-15-shenzhen-shegong-xinzi-daiyu.md` - 深圳薪资待遇解析
+4. `content/zhengce-jiedu/2026-05-15-hangzhou-shegong-zhaopin-jiedu.md` - 杭州招聘公告解读
+5. `content/beikao-zhinan/2026-05-15-shegong-mianshi-liucheng-quanjiexi.md` - 面试流程全解析
+6. `content/zhenti-jiexi/2026-05-15-shegong-mianshi-changjian-wenti.md` - 面试高频真题50道
+7. `content/gangwei-fenxi/2026-05-15-shegong-fazhan-qianjing-jishengji.md` - 发展前景与晋升路径
+8. `content/shang-an-jingyan/2026-05-15-shegong-gongzuo-neirong-shilu.md` - 日常工作内容揭秘
+
+### Git操作
+- **提交**：content: auto publish 8 articles 2026-05-15 10:40（commit: 0a59b93）
+- **推送状态**：✅ 成功推送至 origin/main
+- **Vercel部署**：⏳ 等待自动触发
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ Git commit
+- ✅ Git push
+
+---
+*记录时间：2026-05-15 10:45*
+
+---
+
+## 2026-05-15 11:40 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 11:40
+- **生成文章数**：8篇
+- **关键词覆盖**：广州招聘、深圳招聘、笔试内容、历年分数线、五险一金、工作内容、岗位职责、试用期转正
+
+### 生成文章列表
+
+1. `content/baokao-gonggao/2026-05-15-guangzhou-shegong-zhaopin-gonggao-jiedu.md` - 广州招聘公告解读
+2. `content/beikao-zhinan/2026-05-15-shegong-bishi-neirong-shendu-jiexi.md` - 笔试内容深度解析
+3. `content/zhengce-jiedu/2026-05-15-shegong-wuxian-yijin-baoxian.md` - 五险一金与福利待遇
+4. `content/gangwei-fenxi/2026-05-15-shegong-gangwei-zhize-quanliucheng.md` - 岗位职责与日常工作
+5. `content/baokao-gonggao/2026-05-15-shenzhen-shegong-zhaopin-jiedu.md` - 深圳招聘公告解读
+6. `content/zhenti-jiexi/2026-05-15-shegong-lishi-fenshuxian-huizong.md` - 历年分数线汇总
+7. `content/zhengce-jiedu/2026-05-15-shegong-shiyongqi-zhengzhuan.md` - 试用期与转正解
+
+### Git操作
+- **提交**：✅ 已commit本地
+- **推送状态**：✅ GitHub连接恢复，成功推送至 origin/main（commit: 30b253c）
+- **Vercel部署**：已触发自动部署
+
+### 关键词池更新
+- 已将以下关键词标记为covered: 广州社工招聘、深圳社工招聘、笔试科目、考试题型、用什么书、五险一金、工作内容、每天做什么、岗位职责、历年分数线
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ Git commit
+- ✅ Git push
+- ✅ Vercel部署
+
+---
+*记录时间：2026-05-15 11:50*
+
+
+
+
+
+
 
 
