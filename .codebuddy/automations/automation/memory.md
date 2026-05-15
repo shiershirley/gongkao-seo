@@ -419,6 +419,56 @@
 ---
 *记录时间：2026-05-15 11:50*
 
+---
+
+## 2026-05-15 13:00 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-15 13:00（定时触发）
+- **生成文章数**：8篇
+- **关键词覆盖**：户籍要求/外地人报考、杭州招聘、成都招聘、南京招聘、网课推荐、稳定性分析、社工与网格员区别、宝妈备考、无领导小组讨论、准考证打印
+
+### 生成文章列表
+
+#### 政策解读类（5篇）
+1. `content/zhengce-jiedu/2026-05-15-shegong-hukou-yaoqiu-waidiren.md` - 外地人报考与户籍政策
+2. `content/zhengce-jiedu/2026-05-15-shegong-wendingxing-fenxi.md` - 稳定性与合同制分析
+3. `content/zhengce-jiedu/2026-05-15-shegong-he-wanggeyuan-qubie.md` - 社工与网格员区别
+4. `content/zhengce-jiedu/2026-05-15-baoma-kaoshegong-jianyi.md` - 宝妈备考建议
+5. `content/zhengce-jiedu/2026-05-15-shegong-zhunkaozheng-dayin.md` - 准考证打印指南
+
+#### 招聘公告类（3篇）
+1. `content/baokao-gonggao/2026-05-15-hangzhou-shegong-zhaopin-jiedu.md` - 杭州招聘公告
+2. `content/baokao-gonggao/2026-05-15-chengdu-shegong-zhaopin.md` - 成都招聘公告
+3. `content/baokao-gonggao/2026-05-15-nanjing-shegong-zhaopin.md` - 南京招聘公告
+
+#### 备考指南类（2篇）
+1. `content/beikao-zhinan/2026-05-15-shegong-wangke-tuijian.md` - 网课推荐
+2. `content/beikao-zhinan/2026-05-15-shegong-wulingzucheng-taolun-mianshi.md` - 无领导小组讨论
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+- **关键词覆盖率**：⚠️ 部分建议（建议性，非阻断）
+
+### 关键词池更新
+- 已将8个关键词标记为 `covered: true`
+
+### Git操作
+- **提交**：content: auto publish 8 articles 2026-05-15 13:00（commit: 4b49739）
+- **推送状态**：✅ 成功推送至 origin/main
+- **Vercel部署**：已触发自动部署
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 关键词池更新
+- ✅ Git commit
+- ✅ Git push
+
+---
+*记录时间：2026-05-15 13:05*
+
 
 
 

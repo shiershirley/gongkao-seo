@@ -197,7 +197,7 @@
 - keyword: 社区工作者户籍要求
   priority: P1
   type: question
-  covered: false
+  covered: true
   angles: [本地户籍, 外地人可以考吗, 户籍放宽政策, 各地规定, 居住证行吗]
 ```
 
@@ -230,7 +230,7 @@
 - keyword: 社区工作者网课推荐
   priority: P1
   type: info
-  covered: false
+  covered: true
   angles: [免费网课, 付费网课, 行测网课, 申论网课, 面试网课]
 
 - keyword: 社区工作者培训班
@@ -358,7 +358,7 @@
 - keyword: 社区工作者无领导小组讨论
   priority: P2
   type: guide
-  covered: false
+  covered: true
   angles: [讨论流程, 发言技巧, 角色定位, 常见题目, 加分策略]
 ```
 
@@ -385,13 +385,13 @@
 - keyword: 杭州社区工作者招聘
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各区招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 成都社区工作者招聘
   priority: P2
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 招聘人数, 报名条件, 薪资待遇, 考试内容]
 
 - keyword: 南京社区工作者招聘
@@ -448,7 +448,7 @@
 - keyword: 社区工作者稳定性
   priority: P2
   type: question
-  covered: false
+  covered: true
   angles: [合同制还是编制, 聘用期限, 辞退风险, 稳定性分析, 各地政策]
 ```
 
@@ -482,7 +482,7 @@
 - keyword: 社工和网格员区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [职责对比, 薪资对比, 发展前景, 考试难度, 如何选择]
 
 - keyword: 社区工作者和辅警哪个好
@@ -569,7 +569,7 @@
 - keyword: 宝妈可以考社区工作者吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [宝妈优势, 备考时间, 工作与家庭平衡, 岗位选择, 经验分享]
 ```
 
