@@ -488,8 +488,9 @@
 - keyword: 社区工作者和辅警哪个好
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [薪资对比, 稳定性对比, 工作内容对比, 发展前景, 如何选择]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 街道办和社区工作者区别
   priority: P3
@@ -500,8 +501,9 @@
 - keyword: 社工和社区志愿者区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [性质区别, 报酬区别, 权限区别, 工作内容, 如何选择]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者和事业单位区别
   priority: P3
@@ -563,8 +565,9 @@
 - keyword: 应届生可以考社区工作者吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [应届生优势, 报名条件, 岗位选择, 备考建议, 经验分享]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 宝妈可以考社区工作者吗
   priority: P3
@@ -584,26 +587,30 @@
 - keyword: 社区工作者年终奖
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [各地标准, 发放时间, 考核标准, 绩效奖金, 福利补贴]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者有编制吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [编制情况, 合同制, 转编政策, 各地政策, 未来趋势]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者能转编制吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [转编条件, 转编渠道, 各地政策, 成功案例, 如何准备]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者有寒暑假吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [休假制度, 法定假日, 年假制度, 加班情况, 各地差异]
+  note: "2026-05-18 已覆盖"
 ```
 
 ### 工作体验类
