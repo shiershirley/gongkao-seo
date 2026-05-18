@@ -1,0 +1,92 @@
+{
+  "total": 51,
+  "themes": {
+    "学习场景": {
+      "key": "study",
+      "count": 15,
+      "images": [
+        "gk_images\\study\\study_001.jpg",
+        "gk_images\\study\\study_002.jpg",
+        "gk_images\\study\\study_003.jpg",
+        "gk_images\\study\\study_005.jpg",
+        "gk_images\\study\\study_006.jpg",
+        "gk_images\\study\\study_007.jpg",
+        "gk_images\\study\\study_008.jpg",
+        "gk_images\\study\\study_009.jpg",
+        "gk_images\\study\\study_010.jpg",
+        "gk_images\\study\\study_011.jpg",
+        "gk_images\\study\\study_012.jpg",
+        "gk_images\\study\\study_013.jpg",
+        "gk_images\\study\\study_014.jpg",
+        "gk_images\\study\\study_016.jpg",
+        "gk_images\\study\\study_018.jpg"
+      ]
+    },
+    "考试相关": {
+      "key": "exam",
+      "count": 7,
+      "images": [
+        "gk_images\\exam\\exam_001.jpg",
+        "gk_images\\exam\\exam_002.jpg",
+        "gk_images\\exam\\exam_003.jpg",
+        "gk_images\\exam\\exam_004.jpg",
+        "gk_images\\exam\\exam_006.jpg",
+        "gk_images\\exam\\exam_007.jpg",
+        "gk_images\\exam\\exam_008.jpg"
+      ]
+    },
+    "成就上岸": {
+      "key": "achievement",
+      "count": 5,
+      "images": [
+        "gk_images\\achievement\\achievement_002.jpg",
+        "gk_images\\achievement\\achievement_003.jpg",
+        "gk_images\\achievement\\achievement_005.jpg",
+        "gk_images\\achievement\\achievement_007.jpg",
+        "gk_images\\achievement\\achievement_008.jpg"
+      ]
+    },
+    "政务职场": {
+      "key": "office",
+      "count": 9,
+      "images": [
+        "gk_images\\office\\office_001.jpg",
+        "gk_images\\office\\office_002.jpg",
+        "gk_images\\office\\office_003.jpg",
+        "gk_images\\office\\office_004.jpg",
+        "gk_images\\office\\office_006.jpg",
+        "gk_images\\office\\office_007.jpg",
+        "gk_images\\office\\office_008.jpg",
+        "gk_images\\office\\office_009.jpg",
+        "gk_images\\office\\office_012.jpg"
+      ]
+    },
+    "书籍资料": {
+      "key": "books",
+      "count": 9,
+      "images": [
+        "gk_images\\books\\books_001.jpg",
+        "gk_images\\books\\books_002.jpg",
+        "gk_images\\books\\books_003.jpg",
+        "gk_images\\books\\books_005.jpg",
+        "gk_images\\books\\books_006.jpg",
+        "gk_images\\books\\books_007.jpg",
+        "gk_images\\books\\books_008.jpg",
+        "gk_images\\books\\books_009.jpg",
+        "gk_images\\books\\books_010.jpg"
+      ]
+    },
+    "励志奋斗": {
+      "key": "motivation",
+      "count": 6,
+      "images": [
+        "gk_images\\motivation\\motivation_001.jpg",
+        "gk_images\\motivation\\motivation_002.jpg",
+        "gk_images\\motivation\\motivation_003.jpg",
+        "gk_images\\motivation\\motivation_004.jpg",
+        "gk_images\\motivation\\motivation_006.jpg",
+        "gk_images\\motivation\\motivation_008.jpg"
+      ]
+    }
+  }
+}

@@ -495,8 +495,9 @@
 - keyword: 街道办和社区工作者区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [编制区别, 待遇区别, 晋升区别, 工作内容, 如何区分]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社工和社区志愿者区别
   priority: P3
@@ -508,8 +509,9 @@
 - keyword: 社区工作者和事业单位区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [编制区别, 薪资区别, 稳定性, 考试难度, 如何选择]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者和公务员区别
   priority: P3
@@ -520,14 +522,16 @@
 - keyword: 社区工作者和村官区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [工作地点, 待遇区别, 发展路径, 转编政策, 各自优势]
+  note: "2026-05-18 10:14 已覆盖"
 
 - keyword: 社会工作者和社区工作者区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [概念区别, 证书区别, 待遇区别, 职业前景, 如何选择]
+  note: "2026-05-18 已覆盖"
 ```
 
 ### 零基础类
@@ -581,8 +585,9 @@
 - keyword: 上海社工薪资待遇
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [工资构成, 各区待遇, 年终奖, 五险一金, 涨薪机制]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者年终奖
   priority: P3
@@ -618,38 +623,44 @@
 - keyword: 社区工作者工作强度
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [加班情况, 工作压力, 网格员工作, 疫情期间, 各地差异]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者好考吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [通过率, 竞争比, 各地难度, 与公考对比, 备考建议]
+  note: "2026-05-18 10:14 已覆盖"
 
 - keyword: 社区工作者上岸经验
   priority: P3
   type: study
-  covered: false
+  covered: true
   angles: [零基础上岸, 一个月上岸, 高分经验, 面试逆袭, 各地经验]
+  note: "2026-05-18 10:14 已覆盖"
 
 - keyword: 社区工作者值得考吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [优缺点分析, 适合人群, 职业规划, 长期发展, 各地情况]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者辞职多吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [离职率, 辞职原因, 工作压力, 职业发展, 各地情况]
+  note: "2026-05-18 10:14 已覆盖"
 
 - keyword: 社区工作者可以兼职吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [相关规定, 兼职限制, 副业可能, 各地政策, 风险提示]
+  note: "2026-05-18 10:14 已覆盖"
 ```
 
 ### 地域类长尾词
@@ -657,14 +668,16 @@
 - keyword: 山东社区工作者考试
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年安排, 报名条件, 考试科目, 各市招聘, 备考经验]
+  note: "2026-05-18 10:14 已覆盖"
 
 - keyword: 河南社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
+  note: "2026-05-18 10:14 已覆盖"
 
 - keyword: 江苏社区工作者招聘
   priority: P3
@@ -1017,8 +1030,9 @@
 - keyword: 社区工作者上班时间
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [朝九晚五, 周末休息, 加班情况, 值班安排, 各地差异]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者考试报名费
   priority: P3
@@ -1047,8 +1061,9 @@
 - keyword: 社区工作者退休待遇
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [退休年龄, 养老保险, 退休金水平, 与编制差异, 各地标准]
+  note: "2026-05-18 已覆盖"
 
 - keyword: 社区工作者可以考公务员吗
   priority: P3

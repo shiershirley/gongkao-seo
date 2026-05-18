@@ -597,6 +597,133 @@
 
 *记录时间：2026-05-15 16:35*
 
+---
+
+## 2026-05-18 09:00 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-18 09:00（定时触发）
+- **生成文章数**：8篇
+- **关键词覆盖**：社工与志愿者区别、社区工作者与辅警对比、应届生报考、非专业备考、编制情况、转编政策、年终奖待遇、寒暑假
+
+### 生成文章列表
+
+1. `content/zhengce-jiedu/2026-05-18-shegong-yu-zhiyuanzhe-qubie.md` - 社工与社区志愿者区别
+2. `content/zhengce-jiedu/2026-05-18-shegong-yu-fujing-duibi.md` - 社区工作者与辅警对比
+3. `content/zhengce-jiedu/2026-05-18-yingjiesheng-kaoshegong-tiaojian.md` - 应届生可以考社区工作者吗
+4. `content/zhengce-jiedu/2026-05-18-feizhuanye-shegong-beikao.md` - 非专业可以考社工吗
+5. `content/zhengce-jiedu/2026-05-18-shegong-bianzhi-qingkuang.md` - 社区工作者有编制吗
+6. `content/zhengce-jiedu/2026-05-18-shegong-zhuanbian-zhengce.md` - 社区工作者能转编制吗
+7. `content/zhengce-jiedu/2026-05-18-shegong-nianzhongjiang.md` - 社区工作者年终奖
+8. `content/zhengce-jiedu/2026-05-18-shegong-hanjjiashu.md` - 社区工作者有寒暑假吗
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+
+### Git操作
+- **提交**：content: auto publish 8 articles 2026-05-18 09:00（commit: 6c90225）
+- **推送状态**：⚠️ GitHub连接失败，待稍后手动推送
+
+### 关键词池更新
+- 已将8个关键词标记为 `covered: true`
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 关键词池更新
+- ✅ Git commit
+- ⏳ Git push（待网络恢复）
+
+## 2026-05-18 09:35 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-18 09:35（用户手动触发「继续」）
+- **生成文章数**：8篇
+- **关键词覆盖**：街道办和社工区别（P3）、事业单位区别（P3）、社会工作者区别（P3）、上海社工薪资（P3）、工作强度（P3）、值不值得考（P3）、上班时间（P3）、退休待遇（P3）
+
+### 生成文章列表
+
+1. `content/zhengce-jiedu/2026-05-18-jiedaoban-vs-shegong-qubie.md` - 街道办和社区工作者区别
+2. `content/zhengce-jiedu/2026-05-18-shegong-vs-shiyedanwei-qubie.md` - 社区工作者和事业单位区别
+3. `content/zhengce-jiedu/2026-05-18-shehuigongzuozhe-vs-shequgongzuozhe.md` - 社会工作者和社区工作者区别
+4. `content/shanghai-shegong/2026-05-18-shanghai-shegong-xinzi-daiyu.md` - 上海社工薪资待遇各区对比
+5. `content/zhengce-jiedu/2026-05-18-shegong-gongzuo-qiangdu-jiaban.md` - 社区工作者工作强度评估
+6. `content/zhengce-jiedu/2026-05-18-shegong-zhendebachi-ma.md` - 社区工作者值得考吗
+7. `content/zhengce-jiedu/2026-05-18-shegong-shangban-shijian-jiaban.md` - 社区工作者上班时间
+8. `content/zhengce-jiedu/2026-05-18-shegong-tuixiu-daiyu-yanglaojin.md` - 社区工作者退休待遇
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+
+### Git操作
+- **提交**：content: auto publish 8 articles 2026-05-18 09:35（commit: d8f8610）
+- **推送状态**：⚠️ GitHub连接失败，本地commit已完成
+
+### 关键词池更新
+- 已将8个关键词标记为 `covered: true`
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 关键词池更新
+- ✅ Git commit（本地）
+- ⏳ Git push（待网络恢复）
+
+---
+
+*记录时间：2026-05-18 09:40*
+
+---
+
+## 2026-05-18 10:14 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-18 10:14（定时触发）
+- **生成文章数**：7篇
+- **关键词覆盖**：社区工作者和村官区别（P3）、社区工作者好考吗（P3）、社区工作者上岸经验（P3）、社区工作者辞职多吗（P3）、社区工作者可以兼职吗（P3）、山东社区工作者考试（P3）、河南社区工作者招聘（P3）
+
+### 生成文章列表
+
+1. `content/zhengce-jiedu/2026-05-18-shegong-yu-cunguan-qubie.md` - 社区工作者和大学生村官全面对比
+2. `content/beikao-zhinan/2026-05-18-shegong-haokao-ma-tongguolv-fengxi.md` - 社区工作者好考吗通过率分析
+3. `content/shang-an-jingyan/2026-05-18-shegong-shangan-jingyan-fenxiang.md` - 零基础一次上岸经验分享
+4. `content/zhengce-jiedu/2026-05-18-shegong-cizhi-shenglv-zhenshi-fenxi.md` - 社区工作者辞职率真实分析
+5. `content/zhengce-jiedu/2026-05-18-shegong-jianzhi-guiding-hegui.md` - 社区工作者兼职规定与合规建议
+6. `content/baokao-gonggao/2026-05-18-shandong-shegong-kaoshi-quanhanlue.md` - 山东社区工作者考试全攻略
+7. `content/baokao-gonggao/2026-05-18-henan-shegong-zhaopin-huidong-beikao.md` - 河南社区工作者招聘汇总与备考
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过（7个建议，无错误）
+- **YAML格式**：✅ 无错误
+
+### Git操作
+- **提交**：content: auto publish 7 articles 2026-05-18 10:14（commit: ae8967f）
+- **推送状态**：✅ 成功推送至 origin/main
+
+### 关键词池更新
+- 已将7个关键词标记为 `covered: true`
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 关键词池更新
+- ✅ Git commit
+- ✅ Git push
+- ✅ Vercel部署已触发
+
+---
+
+*记录时间：2026-05-18 10:20*
+
+
+
+
+
+
+
+
 
 
 

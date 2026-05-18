@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章配图效果预览 - 社区工作者备考时间规划</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .preview-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .preview-header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .preview-header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        
+        .article-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 50px 60px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+        }
+        
+        .article-title {
+            font-size: 28px;
+            color: #1a1a1a;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+        
+        .article-meta {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .article-content h2 {
+            font-size: 22px;
+            color: #333;
+            margin: 35px 0 15px;
+            padding-left: 15px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .article-content h3 {
+            font-size: 18px;
+            color: #444;
+            margin: 25px 0 12px;
+        }
+        
+        .article-content p {
+            margin-bottom: 16px;
+            text-align: justify;
+        }
+        
+        .article-content ul, .article-content ol {
+            margin: 15px 0 20px 25px;
+        }
+        
+        .article-content li {
+            margin-bottom: 8px;
+        }
+        
+        .article-content strong {
+            color: #555;
+        }
+        
+        .article-image {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .article-image img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .article-image img:hover {
+            transform: scale(1.02);
+        }
+        
+        .article-image .caption {
+            font-size: 13px;
+            color: #888;
+            margin-top: 10px;
+        }
+        
+        .image-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            font-size: 11px;
+            padding: 3px 8px;
+            border-radius: 4px;
+            margin-bottom: 8px;
+        }
+        
+        .article-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        
+        .article-table th {
+            background: #f8f9fa;
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #e9ecef;
+            font-weight: 600;
+        }
+        
+        .article-table td {
+            padding: 10px 15px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .article-table tr:hover {
+            background: #f8f9fa;
+        }
+        
+        blockquote {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        blockquote p {
+            margin-bottom: 0;
+        }
+        
+        hr {
+            border: none;
+            height: 1px;
+            background: #e9ecef;
+            margin: 30px 0;
+        }
+        
+        .info-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+        
+        .info-box h4 {
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .info-box p {
+            font-size: 14px;
+            opacity: 0.95;
+            margin-bottom: 0;
+        }
+        
+        /* 图片说明标签 */
+        .image-note {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            border-radius: 6px;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-size: 13px;
+        }
+        
+        .image-note strong {
+            color: #856404;
+        }
+        
+        .conclusion {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .conclusion h2 {
+            border: none;
+            padding: 0;
+            color: white;
+            margin-bottom: 15px;
+        }
+        
+        .conclusion p {
+            opacity: 0.95;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="preview-header">
+        <h1>📸 文章配图效果预览</h1>
+        <p>自动从图片库选取1-2张图片插入文章对应位置，10天内不重复</p>
+    </div>
+    
+    <div class="article-container">
+        <h1 class="article-title">社区工作者考试备考时间规划：3个月冲刺方案全解析</h1>
+        
+        <div class="article-meta">
+            📅 发布日期：2026-05-18 &nbsp;|&nbsp; 👤 作者：公考助手 &nbsp;|&nbsp; 📁 分类：备考指南
+        </div>
+        
+        <div class="article-content">
+            <p>很多备考社区工作者的考生都有同一个疑问：「从零开始，3个月时间够不够？」</p>
+            
+            <p>答案是：<strong>够的，但前提是你有科学的时间规划。</strong></p>
+            
+            <p>本文整理了一套完整的3个月备考时间规划，从第一天开始到考试前夕，每个阶段该做什么、怎么做，全部说清楚。无论你是应届生、在职党，还是家庭主妇，都可以参考这套方案，根据自身情况适当调整。</p>
+            
+            <!-- 第一张图片：开篇 -->
+            <div class="article-image">
+                <span class="image-badge">📷 配图位置 1/2</span><br>
+                <img src="file:///D:/AI/task/gongkao-seo/images/lib/study/laptop_study_px.jpg" 
+                     alt="备考学习场景"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%22200%22 y=%22150%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2214%22%3E图片加载失败%3C/text%3E%3C/svg%3E'">
+                <div class="caption">📌 插入位置：文章开篇，标题段落后</div>
+            </div>
+            
+            <div class="image-note">
+                <strong>💡 图片选取逻辑：</strong>根据文章分类"beikao-zhinan"（备考指南），自动匹配"study"主题图片库
+            </div>
+            
+            <h2>一、备考前的准备工作（第0周）</h2>
+            
+            <p>很多考生一拿到教材就开始埋头苦读，却跳过了备考前最重要的准备环节。正式开始之前，建议先花2-3天做好以下工作：</p>
+            
+            <h3>1. 确认考试范围</h3>
+            
+            <p>不同地区的社区工作者考试科目有所不同，常见组合包括：</p>
+            
+            <ul>
+                <li><strong>综合知识 + 社区工作实务</strong>（最常见）</li>
+                <li><strong>公共基础知识 + 行测</strong>（部分省市）</li>
+                <li><strong>单一综合能力测试</strong>（少数地区）</li>
+            </ul>
+            
+            <p>先查清楚你报考地区的考试大纲，确认科目和分值比例，再有针对性地制定计划。盲目备考是最大的时间浪费。</p>
+            
+            <h3>2. 收集历年真题</h3>
+            
+            <p>历年真题是备考最重要的参考资料。建议在备考第一天就把近3-5年的真题找好，一方面用来了解题型和难度，另一方面作为后期模拟演练的材料。</p>
+            
+            <h3>3. 建立备考档案</h3>
+            
+            <p>准备一个专属备考笔记本（或数字文档），用于：</p>
+            
+            <ul>
+                <li>记录每日学习进度</li>
+                <li>整理错题和知识盲点</li>
+                <li>写下每次模拟测试的分数和反思</li>
+            </ul>
+            
+            <p>这个档案会陪你走过整个备考周期，也是你信心的来源。</p>
+            
+            <hr>
+            
+            <h2>二、第一阶段：基础夯实（第1-4周）</h2>
+            
+            <p><strong>目标：</strong>系统掌握各科基础知识，建立知识框架。</p>
+            
+            <h3>每周目标</h3>
+            
+            <table class="article-table">
+                <thead>
+                    <tr>
+                        <th>周次</th>
+                        <th>重点科目</th>
+                        <th>具体任务</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>第1周</td><td>政治、法律基础</td><td>读完教材第一章，做思维导图</td></tr>
+                    <tr><td>第2周</td><td>经济、管理基础</td><td>重点章节精读，做章节练习</td></tr>
+                    <tr><td>第3周</td><td>社区工作专业知识</td><td>完整过一遍，标注重要考点</td></tr>
+                    <tr><td>第4周</td><td>第一轮复盘</td><td>全科回顾，查漏补缺</td></tr>
+                </tbody>
+            </table>
+            
+            <h3>学习方法建议</h3>
+            
+            <p><strong>教材不必逐字精读。</strong> 第一遍过教材，重点是建立知识结构，了解哪些模块考什么、占多少分。对于高频考点要重点标记，对于生僻知识点可以先跳过。</p>
+            
+            <p><strong>同步做章节练习题。</strong> 每学完一个章节，当天就做对应的练习题，检验理解程度。做错的题要在书上标记，留待复习时重点回顾。</p>
+            
+            <p><strong>每日坚持时政积累。</strong> 关注近半年的重大政策、重要会议、基层治理新举措。这部分内容占分不多，但胜在有规律，每天花15分钟刷一刷，积累量起来就是优势。</p>
+            
+            <h3>每日参考时间表</h3>
+            
+            <ul>
+                <li><strong>早上 7:00-8:30</strong>：时政积累 + 前一天知识复习</li>
+                <li><strong>上午 9:00-12:00</strong>：主科精读（政治/法律/经济循环）</li>
+                <li><strong>下午 14:00-17:00</strong>：社区工作专业知识</li>
+                <li><strong>晚上 19:00-21:00</strong>：章节练习题</li>
+                <li><strong>晚上 21:00-21:30</strong>：错题整理、当日复盘</li>
+            </ul>
+            
+            <div class="info-box">
+                <h4>💼 在职考生提示</h4>
+                <p>如果每天只有4小时学习时间，建议早起1小时+午休时间+晚上2小时，同样可以在4周内完成基础学习。</p>
+            </div>
+            
+            <hr>
+            
+            <h2>三、第二阶段：强化刷题（第5-9周）</h2>
+            
+            <p><strong>目标：</strong>通过大量刷题巩固知识点，提高解题速度和正确率。</p>
+            
+            <h3>刷题策略</h3>
+            
+            <p>这个阶段的核心是<strong>「题海战术+精细复盘」</strong>的结合。光刷题不复盘，效果减半；只复盘不刷量，速度跟不上。</p>
+            
+            <p><strong>第一轮刷题：专项突破（第5-7周）</strong></p>
+            
+            <p>按科目、章节进行专项训练。每个章节至少做100道题，重点章节可以到200道。对于错误率超过40%的模块，重新回归教材补充理解，不要只靠刷题来填补理解上的漏洞。</p>
+            
+            <p><strong>第二轮刷题：综合练习（第8-9周）</strong></p>
+            
+            <p>开始做混合题型的综合试卷，模拟真实考试的题目分布和时间节奏。每次练习严格计时，训练在规定时间内完成的能力。</p>
+            
+            <h3>刷题记录表建议</h3>
+            
+            <p>建议建立一张简单的刷题记录表：</p>
+            
+            <table class="article-table">
+                <thead>
+                    <tr>
+                        <th>日期</th>
+                        <th>题目数量</th>
+                        <th>正确率</th>
+                        <th>薄弱章节</th>
+                        <th>复盘时长</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>示例</td><td>150道</td><td>72%</td><td>社区治理政策</td><td>45分钟</td></tr>
+                </tbody>
+            </table>
+            
+            <p>持续记录可以直观看到进步轨迹，也能及时发现哪些模块需要加强。</p>
+            
+            <!-- 第二张图片：正文中部 -->
+            <div class="article-image">
+                <span class="image-badge">📷 配图位置 2/2</span><br>
+                <img src="file:///D:/AI/task/gongkao-seo/images/lib/books/books_v19_084.jpg" 
+                     alt="备考资料"
+                     onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22 viewBox=%220 0 400 300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%22200%22 y=%22150%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2214%22%3E图片加载失败%3C/text%3E%3C/svg%3E'">
+                <div class="caption">📌 插入位置：第二阶段「强化刷题」章节前</div>
+            </div>
+            
+            <div class="image-note">
+                <strong>💡 图片选取逻辑：</strong>该章节涉及备考资料和刷题，配图选择"books"主题图片
+            </div>
+            
+            <h3>重点突破：社区工作专业知识</h3>
+            
+            <p>这门科目是很多考生的「拦路虎」，也是区分度最大的科目。备考建议：</p>
+            
+            <ol>
+                <li><strong>画思维导图</strong>：把「社区治理体系」「网格化管理」「居民自治机制」「社会工作方法」等核心模块用思维导图整理，形成系统认知。</li>
+                <li><strong>联系实际</strong>：这门科目考的是实务能力，结合日常生活中的社区现象去理解知识点，比死记硬背效率高得多。</li>
+                <li><strong>关注政策热点</strong>：近年来基层治理改革持续推进，「全科社工」「一网统管」「党建引领社区治理」等方向是高频出题点。</li>
+            </ol>
+            
+            <hr>
+            
+            <h2>四、第三阶段：模拟冲刺（第10-12周）</h2>
+            
+            <p><strong>目标：</strong>全真模拟，查漏补缺，保持状态，进入考试节奏。</p>
+            
+            <h3>模拟考试安排</h3>
+            
+            <p>最后三周，建议每两天做一套完整模拟题（严格按考试时间和场景）。做完后认真分析每道错题，归纳错误规律：</p>
+            
+            <ul>
+                <li>是知识点没掌握（→ 返回教材复习）</li>
+                <li>还是题目没看清（→ 审题习惯问题）</li>
+                <li>还是时间分配不当（→ 调整做题顺序策略）</li>
+            </ul>
+            
+            <h3>考前一周的关键任务</h3>
+            
+            <p><strong>不要再学新知识。</strong> 最后一周要以稳定状态为主，重点回顾高频错题和重点笔记，不要再引入新材料，避免混淆已有知识体系。</p>
+            
+            <p><strong>调整作息时间。</strong> 把每天的作息和考试时间对齐，确保考试当天能在最佳精神状态下发挥。</p>
+            
+            <p><strong>提前踩点。</strong> 考前一天去考场周边看一遍，确认路线、停车位、入场方式，减少当天的突发状况。</p>
+            
+            <p><strong>准备证件和物品。</strong> 身份证、准考证、2B铅笔、中性笔、橡皮、手表，逐项确认，装入透明袋备用。</p>
+            
+            <hr>
+            
+            <h2>五、不同人群的时间方案调整</h2>
+            
+            <h3>方案A：全职备考（每天7-8小时）</h3>
+            
+            <p>按照上述标准方案执行，3个月时间充裕，可以适当拉长第一阶段，把基础打得更扎实。</p>
+            
+            <h3>方案B：在职备考（每天3-4小时）</h3>
+            
+            <p>在职考生时间有限，建议：</p>
+            
+            <ul>
+                <li>第一阶段压缩为2周（只读核心考点，不追求全面）</li>
+                <li>第二阶段延长到6周（用碎片时间刷题）</li>
+                <li>第三阶段2周（选择最近3年真题做模拟）</li>
+            </ul>
+            
+            <p>工作日利用午休30分钟、通勤时间20分钟，周末集中4小时，每天3-4小时完全可以做到。</p>
+            
+            <h3>方案C：应届生备考（时间灵活）</h3>
+            
+            <p>应届生的优势是时间相对充裕，但容易陷入「假勤奋」——坐在书桌前很长时间，但有效学习时间不足。建议使用番茄钟工作法（25分钟专注+5分钟休息），真正做到高效学习。</p>
+            
+            <hr>
+            
+            <h2>六、备考常见误区</h2>
+            
+            <p><strong>误区一：备考资料买得越多越好。</strong></p>
+            
+            <p>实际上，同类型资料买3-5套是最常见的浪费。先把一套教材吃透，再用一套历年真题强化，这两样材料就足以应对大多数社区工作者考试。</p>
+            
+            <p><strong>误区二：刷题数量越多越好。</strong></p>
+            
+            <p>数量是基础，质量更重要。做了1000道题却没有复盘，不如做500道题并且每道都弄清楚。低效刷题只是给自己制造「努力的假象」。</p>
+            
+            <p><strong>误区三：越接近考试越要加量。</strong></p>
+            
+            <p>考前一周加量备考，往往会导致精神疲惫、焦虑加剧，考试当天发挥失常。最后一周要「减量保状态」，调整为轻松的复盘模式。</p>
+            
+            <hr>
+            
+            <h2>七、三个月计划一览表</h2>
+            
+            <table class="article-table">
+                <thead>
+                    <tr>
+                        <th>阶段</th>
+                        <th>时间</th>
+                        <th>核心任务</th>
+                        <th>每日时长</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>准备期</td><td>第0周</td><td>收集资料、了解考纲</td><td>2-3小时</td></tr>
+                    <tr><td>基础期</td><td>第1-4周</td><td>系统学习各科基础知识</td><td>5-6小时</td></tr>
+                    <tr><td>强化期</td><td>第5-9周</td><td>大量刷题，专项突破</td><td>5-7小时</td></tr>
+                    <tr><td>冲刺期</td><td>第10-12周</td><td>全真模拟，保持状态</td><td>4-5小时</td></tr>
+                </tbody>
+            </table>
+            
+            <p>每个阶段都有其不可替代的价值，跳过哪个环节都会影响最终成绩。</p>
+            
+            <hr>
+            
+            <div class="conclusion">
+                <h2>结语</h2>
+                <p>3个月看起来很短，但如果每天都在高效推进，积累下来的学习量是非常可观的。</p>
+                <p>备考从来不是一场比谁更努力的竞赛，而是比谁的方法更科学、执行力更稳定。制定一份属于自己的备考计划，然后一天天地执行下去。</p>
+                <p style="margin-top: 20px; font-size: 18px;"><strong>岸上等你！</strong></p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 检查图片加载状态
+        document.querySelectorAll('.article-image img').forEach((img, index) => {
+            img.onload = function() {
+                console.log(`图片 ${index + 1} 加载成功`);
+            };
+            img.onerror = function() {
+                console.log(`图片 ${index + 1} 加载失败，已显示占位图`);
+                this.style.minHeight = '200px';
+                this.style.background = '#f0f0f0';
+            };
+        });
+    </script>
+</body>
+</html>

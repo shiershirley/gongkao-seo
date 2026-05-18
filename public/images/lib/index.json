@@ -1,0 +1,24 @@
+{
+  "total": 1018,
+  "updated": "2026-05-15",
+  "categories": {
+    "study": {"name": "学习备考", "count": 172, "tags": ["学生", "图书馆", "学习", "课堂"]},
+    "office": {"name": "政务职场", "count": 161, "tags": ["办公室", "会议", "团队", "职场"]},
+    "books": {"name": "书籍资料", "count": 118, "tags": ["书架", "书本", "资料"]},
+    "exam": {"name": "考试上岸", "count": 104, "tags": ["考场", "毕业", "证书", "成功"]},
+    "motivation": {"name": "励志奋斗", "count": 101, "tags": ["日出", "奔跑", "山峰", "坚持"]},
+    "gov": {"name": "政府城市", "count": 100, "tags": ["政府大楼", "政务大厅", "建筑"]},
+    "tech": {"name": "科技数字", "count": 85, "tags": ["电脑", "屏幕", "代码", "数据"]},
+    "city": {"name": "城市景观", "count": 52, "tags": ["上海", "北京", "城市", "夜景"]},
+    "people": {"name": "职业人物", "count": 48, "tags": ["职场人", "专业形象", "面试"]},
+    "nature": {"name": "自然风景", "count": 42, "tags": ["公园", "树木", "自然"]},
+    "writing": {"name": "写作文档", "count": 35, "tags": ["笔记", "文件", "签名", "规划"]}
+  },
+  "quality": {
+    "width": 1920,
+    "format": "JPEG",
+    "source": "Unsplash + Pexels",
+    "license": "免费商用",
+    "ai_generated": false
+  }
+}
