@@ -149,12 +149,6 @@
   covered: true
   angles: [教材推荐, 真题推荐, 题库推荐, 网课推荐, 备考资料清单]
 
-- keyword: 社区工作者考试题型
-  priority: P1
-  type: info
-  covered: true
-  angles: [选择题, 判断题, 简答题, 案例分析, 论述题]
-
 - keyword: 社区工作者考试范围
   priority: P1
   type: info
@@ -682,109 +676,109 @@
 - keyword: 江苏社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 浙江社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 广东社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 四川社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 湖北社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 湖南社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 福建社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 安徽社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 河北社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 辽宁社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 陕西社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 江西社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 云南社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 贵州社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 黑龙江社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 吉林社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 山西社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 
 - keyword: 广西社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 各市招聘, 报名条件, 薪资待遇, 考试信息]
 ```
 
@@ -793,49 +787,49 @@
 - keyword: 社区工作者行测怎么复习
   priority: P3
   type: guide
-  covered: false
+  covered: true
   angles: [零基础版, 高分技巧, 速成方法, 重点模块, 题型分析]
 
 - keyword: 社区工作者申论怎么写
   priority: P3
   type: guide
-  covered: false
+  covered: true
   angles: [写作模板, 高分范文, 常见话题, 答题技巧, 评分标准]
 
 - keyword: 社区工作者公共基础知识
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [考试范围, 重点知识, 考点梳理, 备考方法, 常考内容]
 
 - keyword: 社区工作者数量关系技巧
   priority: P3
   type: guide
-  covered: false
+  covered: true
   angles: [速算技巧, 常考题型, 解题方法, 高分策略, 易错点]
 
 - keyword: 社区工作者言语理解技巧
   priority: P3
   type: guide
-  covered: false
+  covered: true
   angles: [阅读理解, 逻辑填空, 语句排序, 高分策略, 常见陷阱]
 
 - keyword: 社区工作者判断推理技巧
   priority: P3
   type: guide
-  covered: false
+  covered: true
   angles: [图形推理, 逻辑判断, 定义判断, 类比推理, 解题技巧]
 
 - keyword: 社区工作者资料分析技巧
   priority: P3
   type: guide
-  covered: false
+  covered: true
   angles: [速算方法, 常考图表, 解题步骤, 高分策略, 时间分配]
 
 - keyword: 社区工作者常识判断
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [时政热点, 法律常识, 历史文化, 地理科技, 备考范围]
 ```
 
@@ -844,25 +838,25 @@
 - keyword: 社区工作者新政策2026
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [国家政策, 地方政策, 薪资调整, 编制改革, 发展趋势]
 
 - keyword: 社区工作者职业化改革
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [改革方向, 政策解读, 影响分析, 各地进展, 未来趋势]
 
 - keyword: 社区工作者薪酬改革
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [改革内容, 薪资变化, 各地标准, 实施进展, 影响分析]
 
 - keyword: 社区工作者持证上岗
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [政策要求, 证书类型, 考取方法, 各地进展, 过渡期安排]
 ```
 
@@ -871,25 +865,25 @@
 - keyword: 国考和社区工作者哪个好
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [待遇对比, 难度对比, 发展前景, 稳定性, 如何选择]
 
 - keyword: 省考和社区工作者哪个好
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [待遇对比, 难度对比, 备考成本, 发展前景, 如何选择]
 
 - keyword: 社区工作者和三支一扶区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [性质区别, 待遇区别, 服务期, 转编政策, 如何选择]
 
 - keyword: 社区工作者和特岗教师区别
   priority: P3
   type: compare
-  covered: false
+  covered: true
   angles: [工作内容, 待遇对比, 发展前景, 转编政策, 各自优势]
 ```
 
@@ -898,37 +892,37 @@
 - keyword: 初级社工证报考条件
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [学历要求, 工作年限, 专业要求, 报名时间, 考试科目]
 
 - keyword: 中级社工证报考条件
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [学历要求, 工作年限, 专业要求, 报名时间, 考试科目]
 
 - keyword: 社工证难考吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [通过率, 难度分析, 备考时间, 各科难度, 如何应对]
 
 - keyword: 社工证含金量
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [证书价值, 薪资补贴, 职业发展, 各地政策, 值得考吗]
 
 - keyword: 社工证考试时间2026
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [考试安排, 报名时间, 各科目时间, 成绩公布, 注意事项]
 
 - keyword: 社工证怎么复习
   priority: P3
   type: guide
-  covered: false
+  covered: true
   angles: [复习计划, 学习方法, 重点章节, 真题练习, 高分经验]
 ```
 
@@ -937,91 +931,91 @@
 - keyword: 青岛社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 大连社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 宁波社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 厦门社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 长沙社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 郑州社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 西安社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 合肥社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 济南社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 沈阳社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 哈尔滨社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 长春社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 昆明社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 南昌社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 
 - keyword: 福州社区工作者招聘
   priority: P3
   type: info
-  covered: false
+  covered: true
   angles: [2026年公告, 报名条件, 薪资待遇, 考试信息, 竞争比]
 ```
 
@@ -1037,25 +1031,25 @@
 - keyword: 社区工作者考试报名费
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [各地费用, 免费政策, 缴费方式, 退费政策, 注意事项]
 
 - keyword: 社区工作者政审严格吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [政审内容, 审查标准, 不合格案例, 各地差异, 如何自查]
 
 - keyword: 社区工作者要考几次
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [考试频次, 各地安排, 一年几次, 报名次数限制, 备考周期]
 
 - keyword: 社区工作者有效期几年
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [聘用期限, 合同续签, 考核标准, 期满政策, 各地规定]
 
 - keyword: 社区工作者退休待遇
@@ -1068,13 +1062,13 @@
 - keyword: 社区工作者可以考公务员吗
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [在岗期间, �基层工作经验, 岗位选择, 备考时间, 经验分享]
 
 - keyword: 社区工作者试用期多久
   priority: P3
   type: question
-  covered: false
+  covered: true
   angles: [试用期长度, 试用期待遇, 考核标准, 转正条件, 各地规定]
 ```
 
