@@ -16,6 +16,13 @@ SEO收录检查脚本 - 用于检查文章在各搜索引擎的收录情况
     - 报告保存在 reports/ 目录下，文件名带时间戳
 """
 
+# Windows终端编码修复
+import sys
+if sys.platform == 'win32':
+    import codecs
+    sys.stdout = codecs.getwriter('utf-8')(sys.stdout.buffer)
+    sys.stderr = codecs.getwriter('utf-8')(sys.stderr.buffer)
+
 import os
 import re
 import sys
