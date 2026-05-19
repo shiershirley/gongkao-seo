@@ -1129,6 +1129,64 @@
   covered: true
   note: "2026-05-19 已覆盖"
   angles: [职责分工, 协作模式, 信息共享, 联动机制, 效率提升]
+
+### 新增关键词（2026-05-19 12:10）
+```yaml
+- keyword: 社区工作者资料分析技巧
+  priority: P3
+  type: guide
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [速算方法, 常考图表, 解题步骤, 高分策略, 时间分配]
+
+- keyword: 社工考试难不难
+  priority: P3
+  type: question
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [难度分析, 各地难度对比, 通过率, 与公考难度对比, 如何应对]
+
+- keyword: 社区工作者户籍要求
+  priority: P1
+  type: question
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [本地户籍, 外地人可以考吗, 户籍放宽政策, 各地规定, 居住证行吗]
+
+- keyword: 社区工作者面试着装
+  priority: P2
+  type: guide
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [男生着装, 女生着装, 着装禁忌, 仪容仪表, 加分细节]
+
+- keyword: 上海社工考试
+  priority: P0
+  type: info
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [2026年考试大纲, 考试科目, 考试时间, 考试地点, 合格分数线]
+
+- keyword: 社区工作者工作内容
+  priority: P2
+  type: info
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [日常工作, 疫情防控, 矛盾调解, 便民服务, 网格化管理]
+
+- keyword: 社区工作者政审严格吗
+  priority: P3
+  type: question
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [政审内容, 审查标准, 不合格案例, 各地差异, 如何自查]
+
+- keyword: 社工招聘报名流程
+  priority: P2
+  type: guide
+  covered: true
+  note: "2026-05-19 12:10 已覆盖"
+  angles: [网上报名, 现场确认, 资格审查, 报名材料, 各地流程差异]
 ```
 
 ---

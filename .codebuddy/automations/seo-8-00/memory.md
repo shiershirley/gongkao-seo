@@ -2,6 +2,33 @@
 
 ## 最近执行记录
 
+### 2026-05-19 12:10 执行
+
+**执行状态**: ✅ 成功
+
+**生成文章（8篇）**:
+1. `content/beikao-zhinan/2026-shegong-zonghe-suyong-jineng.md` - 社区工作者考试速算技巧
+2. `content/beikao-zhinan/2026-shegong-gesheng-tongguolv-pingbi.md` - 各省市社工考试通过率对比
+3. `content/zhengce-jiedu/2026-shegong-zhengce-fangbian-yimin.md` - 多地放开户籍限制利好外地考生
+4. `content/beikao-zhinan/2026-shegong-mianshi-zhuozhuang-yili.md` - 面试着装与礼仪规范
+5. `content/zhenti-jiexi/2026-shegong-shanghai-zhenti-fenxi.md` - 上海社工考试真题分析
+6. `content/gangwei-fenxi/2026-shegong-gangwei-zhineng-jiedu.md` - 岗位职能全解析
+7. `content/beikao-zhinan/2026-shegong-zhengshen-tongguo-shenglv.md` - 政审通过率与影响因素
+8. `content/baokao-gonggao/2026-shegong-zaixian-baoming-jieda.md` - 在线报名常见问题解答
+
+**图片配图**: 每篇文章均已通过 `image_picker.py` 选取2张图片
+
+**Frontmatter 校验**: 通过（格式正确）
+
+**Git 提交推送**: ✅ 成功
+- Commit: `content: auto publish articles 2026-05-19 12:10`
+- Commit ID: `cc6c1ca`
+- 13 files changed, 707 insertions(+)
+
+**Vercel 部署**: ⏳ 自动触发中
+
+---
+
 ### 2026-05-19 08:00 执行
 
 **执行状态**: 部分成功
