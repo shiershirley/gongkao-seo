@@ -1069,7 +1069,66 @@
   priority: P3
   type: question
   covered: true
+  note: "2026-05-19 已覆盖"
   angles: [试用期长度, 试用期待遇, 考核标准, 转正条件, 各地规定]
+
+### 新增关键词（2026-05-19）
+```yaml
+- keyword: 2026年下半年社工考试时间表
+  priority: P2
+  type: info
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [备考计划, 考试安排, 各省时间, 报名节点, 复习规划]
+
+- keyword: 社区工作者心理调适指南
+  priority: P3
+  type: guide
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [压力来源, 调适方法, 心理建设, 积极心态, 自我成长]
+
+- keyword: 社区工作者常见职业困境
+  priority: P3
+  type: question
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [工作压力, 人际矛盾, 晋升困难, 薪资瓶颈, 应对策略]
+
+- keyword: 社区工作者与基层治理现代化
+  priority: P2
+  type: info
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [政策背景, 数字化转型, 网格化管理, 智慧社区, 发展趋势]
+
+- keyword: 社区工作者继续教育途径
+  priority: P3
+  type: guide
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [学历提升, 在职培训, 证书考取, 职业规划, 学习资源]
+
+- keyword: 社区工作者职业认同感培养
+  priority: P3
+  type: guide
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [职业价值, 社会认可, 自我认同, 工作意义, 成长故事]
+
+- keyword: 社区工作者薪资调整趋势
+  priority: P2
+  type: info
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [2026年调整, 各地标准, 增长机制, 影响因素, 未来预期]
+
+- keyword: 社区工作者与网格员协作机制
+  priority: P3
+  type: info
+  covered: true
+  note: "2026-05-19 已覆盖"
+  angles: [职责分工, 协作模式, 信息共享, 联动机制, 效率提升]
 ```
 
 ---
