@@ -54,13 +54,19 @@ def gen_article_content(title, keyword, category, tags, angle, images):
     img1 = images[0] if len(images) > 0 else '/images/lib/study/study_001.jpg'
     img2 = images[1] if len(images) > 1 else '/images/lib/exam/exam_001.jpg'
     
+    # 生成YAML格式的tags
+    yaml_tags = 'tags:\n'
+    for tag_item in tags:
+        yaml_tags += f'  - {tag_item}\n'
+    yaml_tags = yaml_tags.rstrip()
+    
     # 根据分类和关键词生成差异化内容
     content = f"""---
 title: "{title}"
 description: "{desc}"
 date: "{TODAY}"
 category: "{category}"
-tags: {tags}
+{yaml_tags}
 author: "公考助手"
 ---
 
