@@ -74,6 +74,22 @@ class SEOIndexingChecker:
         self.website_url = website_url
         self.results = []
 
+    def _find_available_dates(self) -> List[str]:
+        """查找所有有文章的发布日期（最近30天内）"""
+        from datetime import datetime
+        dates = set()
+        cutoff = (date.today() - timedelta(days=30)).strftime("%Y-%m-%d")
+
+        for category_dir in CONTENT_DIR.iterdir():
+            if not category_dir.is_dir():
+                continue
+            for md_file in category_dir.glob("*.md"):
+                name = md_file.stem
+                if name[:10] >= cutoff and name[:10].replace('-', '').isdigit():
+                    dates.add(name[:10])
+
+        return sorted(dates, reverse=True)
+
     def extract_articles_from_content(
         self,
         date_str: Optional[str] = None,
@@ -379,9 +395,28 @@ class SEOIndexingChecker:
         )
 
         if not articles:
-            msg = f"❌ 未找到 {target_date} 发布的文章，检查结束。"
-            print(msg)
-            return msg
+            # 自动回退：查找最近的可用日期
+            print(f"⚠️  未找到 {target_date} 发布的文章，尝试自动回退...")
+            available_dates = self._find_available_dates()
+            if not available_dates:
+                msg = f"❌ 未找到任何文章，检查结束。"
+                print(msg)
+                return msg
+
+            # 找到最接近目标日期且有文章的日期
+            from datetime import datetime
+            target_dt = datetime.strptime(target_date, "%Y-%m-%d").date()
+            fallback_date = min(available_dates, key=lambda d: abs((datetime.strptime(d, "%Y-%m-%d").date() - target_dt).days))
+            fallback_days = (date.today() - datetime.strptime(fallback_date, "%Y-%m-%d").date()).days
+
+            print(f"📅 回退到最近可用日期：{fallback_date}（{fallback_days}天前）")
+            articles = self.extract_articles_from_content(date_str=fallback_date, check_all=False)
+            if not articles:
+                msg = f"❌ 回退后仍未找到文章，检查结束。"
+                print(msg)
+                return msg
+            target_date = fallback_date
+            days_ago = fallback_days
 
         print(f"📄 找到 {len(articles)} 篇文章，开始检查...\n")
 
