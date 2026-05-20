@@ -141,7 +141,7 @@ author: "公考助手"
 - 留守儿童的教育帮扶
 - 新就业形态劳动者的社区服务
 
-![](/images/lib/people/people_v1_080.jpg)
+![](/images/lib/people/people_v18_008.jpg)
 
 ## 五、备考建议
 

@@ -76,7 +76,7 @@ author: "公考助手"
 - 对策之间要有逻辑递进关系，避免简单并列
 - 结合材料中的具体案例和数据增强说服力
 
-![](/images/lib/writing/writing_v1_090.jpg)
+![](/images/lib/writing/writing_v20_030.jpg)
 
 ### 框架三：评论文框架（分析导向）
 
