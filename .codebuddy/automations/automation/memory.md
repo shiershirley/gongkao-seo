@@ -717,6 +717,59 @@
 
 *记录时间：2026-05-18 10:20*
 
+---
+
+## 2026-05-20 执行记录
+
+### 执行概况
+- **执行时间**：2026-05-20 06:00（定时触发）
+- **生成文章数**：4篇
+- **关键词覆盖**：社区工作者招聘（P0）、社区工作者考试（P0）、社区工作者待遇（P0）、上海社区工作者招聘（P0）
+
+### 生成文章列表
+
+#### 社区工作者招聘类（1篇）
+1. `content/baokao-gonggao/2026-05-20-shegong-zhaopin-gedixiangqing.md` - 社区工作者招聘全面汇总（P0）
+
+#### 上海社工考试类（2篇）
+1. `content/shanghai-shegong/2026-05-20-shanghai-shegong-zhaopin-geqv.md` - 上海社区工作者招聘全面汇总（P0）
+2. `content/shanghai-shegong/2026-05-20-shegong-kaoshi-2026-anpai.md` - 社区工作者考试安排全解析（P0）
+
+#### 政策解读类（1篇）
+1. `content/zhengce-jiedu/2026-05-20-shegong-daiyu-quanguo-duibi.md` - 社区工作者待遇全国对比（P0）
+
+### 配图情况
+- ✅ 所有文章均已插入2张配图
+- ✅ 图片路径格式正确：`/images/lib/[theme]/xxx.jpg`
+- ✅ 图片位置：首段后 + 正文中部关键章节前
+
+### 校验结果
+- **frontmatter_validator.py**：✅ 所有文件校验通过
+- **YAML格式**：✅ 无错误
+- **关键词覆盖率**：⚠️ 部分建议（建议性，非阻断）
+
+### Git操作
+- **提交**：`content: auto publish articles 2026-05-20 06:00`（commit: c8496d1）
+- **推送状态**：⚠️ GitHub连接被重置，待稍后手动推送
+- **Vercel部署**：⏳ 待推送后触发
+
+### 执行状态
+- ✅ 文章生成
+- ✅ frontmatter校验
+- ✅ 配图插入
+- ✅ Git commit（本地）
+- ⏳  Git push（待网络恢复）
+- ⏳  Vercel部署（待推送后触发）
+
+### 注意事项
+- GitHub推送因网络问题失败，需稍后重试
+- 所有文章均已生成并提交到本地仓库
+- 推送成功后Vercel将自动部署
+
+---
+
+*记录时间：2026-05-20 06:30*
+
 
 
 

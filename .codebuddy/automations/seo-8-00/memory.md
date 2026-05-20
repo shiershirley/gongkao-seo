@@ -2,6 +2,35 @@
 
 ## 最近执行记录
 
+### 2026-05-20 08:43 执行
+
+**执行状态**: ✅ 成功
+
+**生成文章（8篇）**:
+1. `content/baokao-gonggao/2026-shegong-zhaopin-renshu-tongji.md` - 2026年社区工作者招聘人数统计
+2. `content/zhengce-jiedu/2026-shegong-kaoshi-nandu-paiming.md` - 各省社工考试难度排名
+3. `content/zhengce-jiedu/2026-shegong-zhangxin-zhengce-jiedu.md` - 2026年社工涨薪政策解读
+4. `content/baokao-gonggao/2026-shanghai-shegong-waidi-baokaogonglue.md` - 外地人报考上海社工全攻略
+5. `content/beikao-zhinan/2026-shegong-mianshi-xintixing-yuce.md` - 社工面试新题型预测
+6. `content/beikao-zhinan/2026-shegong-zaizhi-30tian-sucheng.md` - 在职人员30天备考方案
+7. `content/zhengce-jiedu/2026-shegong-baoming-tiaojian-fangkuan.md` - 各地报名条件放宽政策汇总
+8. `content/gangwei-fenxi/2026-shegong-zhiye-jinsheng-lujing.md` - 社工职业晋升路径详解
+
+**关键词策略**: 角度轮换（所有关键词已covered，采用不同写作角度生成差异化内容）
+
+**图片配图**: 每篇文章均已通过 `image_picker.py` 选取2张图片并插入正文
+
+**Frontmatter 校验**: ✅ 通过（0个ERROR，仅有建议性关键词覆盖率提示）
+
+**Git 提交推送**: ✅ 成功
+- Commit: `content: auto publish articles 2026-05-20 seo-8-00`
+- Commit ID: `a13bb26`
+- 9 files changed, 1467 insertions(+)
+
+**Vercel 部署**: ⏳ 自动触发中
+
+---
+
 ### 2026-05-19 12:10 执行
 
 **执行状态**: ✅ 成功

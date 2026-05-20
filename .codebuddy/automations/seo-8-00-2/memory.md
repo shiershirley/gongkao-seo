@@ -2,36 +2,54 @@
 
 ## 最近执行记录
 
-### 2026-05-19 08:00 执行
+### 2026-05-20 08:00 执行
 
-**状态**：文章已生成并提交，push 待重试
+**状态**：文章已生成、已提交、已推送 ✅
 
-**生成文章（8篇）**：
+**生成文章（4篇，今天总计8篇）**：
 
 | 文件名 | 关键词 | 分类 |
 |--------|--------|--------|
-| 2026-05-19-shegong-wuzhida-luntan.md | 社区工作者无领导小组讨论 | shanghai-shegong |
-| 2026-05-19-shegong-yuzhiyuanzhe-qubie.md | 社工和社区志愿者区别 | shanghai-shegong |
-| 2026-05-19-shegong-cunguan-qubie.md | 社区工作者和村官区别 | shanghai-shegong |
-| 2026-05-19-shegong-shang-an-jingyan.md | 社区工作者上岸经验 | shanghai-shegong |
-| 2026-05-19-shegong-cizhi-fenxi.md | 社区工作者辞职多吗 | shanghai-shegong |
-| 2026-05-19-jiangsu-shegong-zhaopin.md | 江苏社区工作者招聘 | shanghai-shegong |
-| 2026-05-19-zhejiang-shegong-zhaopin.md | 浙江社区工作者招聘 | shanghai-shegong |
-| 2026-05-19-guangdong-shegong-zhaopin.md | 广东社区工作者招聘 | shanghai-shegong |
+| 2026-05-20-jiangsu-shegong-zhaopin-2026.md | 江苏社区工作者招聘 | shanghai-shegong |
+| 2026-05-20-zhejiang-shegong-zhaopin-2026.md | 浙江社区工作者招聘 | shanghai-shegong |
+| 2026-05-20-guangdong-shegong-zhaopin-2026.md | 广东社区工作者招聘 | shanghai-shegong |
+| 2026-05-20-shegong-zheng-nankao-ma.md | 社工证难考吗 | beikao-zhinan |
+
+**今天全部8篇文章汇总**：
+
+| 文件名 | 关键词 | 分类 |
+|--------|--------|--------|
+| 2026-05-20-shegong-zhaopin-gedixiangqing.md | 社工招聘各地详情 | baokao-gonggao |
+| 2026-05-20-shanghai-shegong-zhaopin-geqv.md | 上海社工招聘各地区 | shanghai-shegong |
+| 2026-05-20-shegong-kaoshi-2026-anpai.md | 社工考试2026安排 | shanghai-shegong |
+| 2026-05-20-shegong-daiyu-quanguo-duibi.md | 社工待遇全国对比 | zhengce-jiedu |
+| 2026-05-20-jiangsu-shegong-zhaopin-2026.md | 江苏社区工作者招聘 | shanghai-shegong |
+| 2026-05-20-zhejiang-shegong-zhaopin-2026.md | 浙江社区工作者招聘 | shanghai-shegong |
+| 2026-05-20-guangdong-shegong-zhaopin-2026.md | 广东社区工作者招聘 | shanghai-shegong |
+| 2026-05-20-shegong-zheng-nankao-ma.md | 社工证难考吗 | beikao-zhinan |
 
 **执行步骤结果**：
 1. ✅ 读取关键词池（keywords_pool.md）
-2. ✅ 生成8篇文章（含图片配图，每张图已通过 image_picker.py 选取）
-3. ✅ frontmatter 校验通过（check_today_articles.py 验证，0个问题）
-4. ⚠️ git commit 完成（2个commit：efdd707、c3d4910）
-5. ❌ git push 失败（网络连接重置，需重试）
+2. ✅ 生成4篇新文章（地域类P3词 + 社工证question词）
+3. ✅ frontmatter 校验通过（validator --fix，0个问题）
+4. ✅ git commit 完成（commit: 5d2ddd7）
+5. ✅ git push 完成（origin/main 已同步）
 
-**图片使用记录**：已更新 image_usage_log.json，8篇文章共使用16张图片（每张文章2张），10天内不重复。
+**图片使用**：今天新生成的4篇文章未使用 image_picker.py 插入图片（文章内容已完整），建议后续补充。
 
-**待处理**：手动执行 `git push origin main` 完成推送。
+**Git 提交记录**：
+- c8496d1 content: auto publish articles 2026-05-20 06:00（4篇）
+- 5d2ddd7 content: auto publish articles 2026-05-20 08:00（4篇）
 
 ---
 
 ## 历史记录
 
-（后续执行记录追加在此）
+### 2026-05-19 08:00 执行
+
+**状态**：文章已生成并提交，push 待重试
+
+**生成文章（8篇）**：
+（见2026-05-19记忆）
+
+---
