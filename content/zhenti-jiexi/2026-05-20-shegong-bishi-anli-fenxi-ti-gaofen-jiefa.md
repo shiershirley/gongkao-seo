@@ -59,7 +59,7 @@ author: "公考助手"
 - 评价要客观公正，既指出优点也指出不足
 - 对策要有针对性，直接回应分析出的问题
 
-![](/images/lib/exam/exam_v1_080.jpg)
+![](/images/lib/exam/exam_v18_003.jpg)
 
 ## 二、通用解题步骤
 
@@ -171,7 +171,7 @@ author: "公考助手"
 
 组织居民代表参与施工监督，确保改造质量。改造完成后组织居民满意度调查，收集改进意见。
 
-![](/images/lib/study/study_v1_080.jpg)
+![](/images/lib/study/study_v18_003.jpg)
 
 ## 四、高分答题的核心技巧
 

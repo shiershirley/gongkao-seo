@@ -156,7 +156,7 @@ author: "公考助手"
 - **数据论证**：用具体数据增强说服力
 - **因果论证**：分析问题的原因和结果
 
-![](/images/lib/books/books_v1_090.jpg)
+![](/images/lib/books/books_v18_005.jpg)
 
 ## 四、常见扣分项警示
 
