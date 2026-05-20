@@ -4,7 +4,7 @@
     "key": "相对路径（从项目根目录）",
     "value": "最近使用日期 YYYY-MM-DD"
   },
-  "last_updated": "2026-05-20",
+  "last_updated": "2026-05-21",
   "usage": {
     "/images/lib/office/office_v18_014.jpg": "2026-05-19",
     "/images/lib/people/office_people_px.jpg": "2026-05-19",
@@ -309,6 +309,12 @@
     "/images/lib/office/o3_2.jpg": "2026-05-20",
     "/images/lib/gov/city_road.jpg": "2026-05-20",
     "/images/lib/study/study_v21_151.jpg": "2026-05-20",
-    "/images/lib/study/sp3_1.jpg": "2026-05-20"
+    "/images/lib/study/sp3_1.jpg": "2026-05-20",
+    "/images/lib/exam/exam_v18_001.jpg": "2026-05-21",
+    "/images/lib/exam/exam_px_1.jpg": "2026-05-21",
+    "/images/lib/office/o7_1.jpg": "2026-05-21",
+    "/images/lib/exam/exam_v22_092.jpg": "2026-05-21",
+    "/images/lib/gov/gov_v23_090.jpg": "2026-05-21",
+    "/images/lib/study/laptop_study_3.jpg": "2026-05-21"
   }
 }
