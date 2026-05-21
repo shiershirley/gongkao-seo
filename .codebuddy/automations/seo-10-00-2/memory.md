@@ -1,5 +1,38 @@
 # seo-10-00-2 自动化执行记录
 
+## 2026-05-21 10:00（第二次执行）
+
+**执行状态**：✅ 成功
+**Commit**：378cb29（"content: auto publish articles 2026-05-21 10:00 (8 articles)"）
+**推送状态**：⚠️ GitHub网络不稳定，commit已创建，push可能需稍后手动执行
+
+### 关键词策略
+- 关键词池P0/P1/P2/P3已全部覆盖
+- 本轮执行内容比例调整：社工2篇(25%)、国考2篇(25%)、省考2篇(25%)、事业单位1篇、通用1篇
+- 扩展到国考/省考/事业单位内容，填补内容空白
+
+### 已生成8篇文章
+
+| 文章路径 | 关键词/主题 |
+|---------|-----------|
+| shanghai-shegong/2026-05-21-shanghai-shegong-baoming-shijian-beiwanglu.md | 上海社工报名时间节点备忘录 |
+| shanghai-shegong/2026-05-21-shegong-mianshi-jingyan-fenxiang.md | 社区工作者面试技巧经验 |
+| guokao/2026-05-21-guokao-xingce-beikao-quwei.md | 国考行测备考从零开始 |
+| guokao/2026-05-21-guokao-shenlun-beikao-redian.md | 国考申论热点预测与写作 |
+| shengkao/2026-05-21-zhejiang-shengkao-shijian-jihua.md | 浙江省考时间安排与备考 |
+| shengkao/2026-05-21-guangdong-shengkao-xingce-gaofen.md | 广东省考行测高分攻略 |
+| gangwei-fenxi/2026-05-21-shiyedanwei-gongwuyuan-qubie.md | 事业单位与公务员区别 |
+| baokao-gonggao/2026-05-21-gongkao-shang-an-gangqian-peixun.md | 公考上岸岗前培训指南 |
+
+### YAML校验
+- Frontmatter格式正确，使用日文引号「」
+- 图片配图已通过image_picker.py选取
+
+### 注意事项
+- GitHub网络不稳定，多次push尝试后commit已创建
+- 如需推送，请手动执行：`git push origin main`
+- 内容比例已按MEMORY.md要求调整（社工25%、国考25%、省考25%、事业单位12.5%、通用12.5%）
+
 ## 2026-05-19 10:00（第一次执行）
 
 **执行状态**：✅ 成功
