@@ -2,6 +2,51 @@
 
 ## 最近执行记录
 
+### 2026-05-21 08:00 执行
+
+**执行状态**: 部分成功（文章生成✅，Git推送❌）
+
+**生成文章（8篇）**:
+1. `content/guokao/2026-05-21-国考笔试成绩查询时间及入口.md` - 2026年国考笔试成绩查询时间及入口
+2. `content/guokao/2026-05-21-国考面试礼仪全攻略：考官第一印象加分项.md` - 国考面试礼仪全攻略
+3. `content/shengkao/2026-05-21-省考联考省份及考试时间汇总.md` - 2026年省考联考省份及考试时间汇总
+4. `content/shengkao/2026-05-21-省考申论大作文万能框架及高分技巧.md` - 省考申论大作文万能框架及高分技巧
+5. `content/shanghai-shegong/2026-05-21-上海社区工作者各区招聘计划解读.md` - 2026年上海社区工作者各区招聘计划解读
+6. `content/shanghai-shegong/2026-05-21-上海社工考试行测模块备考策略及真题分析.md` - 上海社工考试行测模块备考策略及真题分析
+7. `content/gangwei-fenxi/2026-05-21-事业单位联考《职业能力倾向测验》考情分析.md` - 事业单位联考《职业能力倾向测验》考情分析
+8. `content/beikao-zhinan/2026-05-21-零基础跨专业考生3个月公考上岸复习计划.md` - 零基础跨专业考生3个月公考上岸复习计划
+
+**内容比例**: ✅ 符合（国考2篇、省考2篇、上海社工2篇、事业单位1篇、通用备考1篇）
+
+**关键词策略**: 角度轮换（所有关键词已covered，采用不同写作角度生成差异化内容）
+
+**图片配图**: ✅ 每篇文章均已通过 `quick_insert_images.py` 选取2张图片并插入正文
+
+**图片详情**:
+- 国考笔试成绩：/images/lib/exam/exam_cert_px_1.jpg, /images/lib/office/o8_3.jpg
+- 国考面试礼仪：/images/lib/study/s6_3.jpg, /images/lib/study/study_v19_136.jpg
+- 省考联考省份：/images/lib/study/student_online_px.jpg, /images/lib/exam/e6_3.jpg
+- 省考申论：/images/lib/study/s4_3.jpg, /images/lib/books/books_v19_092.jpg
+- 上海社工招聘：/images/lib/gov/gov_1.jpg, /images/lib/office/office_laptop_px.jpg
+- 上海社工行测：/images/lib/office/office_v24_158.jpg, /images/lib/office/team_work_px.jpg
+- 事业单位职测：/images/lib/tech/tp7_1.jpg, /images/lib/city/city_v22_045.jpg
+- 零基础备考：/images/lib/exam/exam_v20_082.jpg, /images/lib/writing/writing_v18_014.jpg
+
+**Frontmatter 校验**: ✅ 通过（0个ERROR，仅有建议性关键词覆盖率提示）
+
+**Git 提交**: ✅ 成功
+- Commit: `content: auto publish articles 2026-05-21 08:00`
+- Commit ID: `2b3a45a`
+- 9 files changed, 813 insertions(+), 1 deletion(-)
+
+**Git 推送**: ❌ 失败（网络连接问题，GitHub连接被重置）
+- 错误: `fatal: unable to access 'https://github.com/shiershirley/gongkao-seo.git/': Recv failure: Connection was reset`
+- **需要手动推送**: `cd d:\AI\task\gongkao-seo && git push origin main`
+
+**Vercel 部署**: ⏳ 待推送完成后自动触发
+
+---
+
 ### 2026-05-20 08:43 执行
 
 **执行状态**: ✅ 成功
@@ -30,6 +75,8 @@
 **Vercel 部署**: ⏳ 自动触发中
 
 ---
+
+## 历史记录
 
 ### 2026-05-19 12:10 执行
 
@@ -87,15 +134,16 @@
 
 **Vercel 部署**: ⏳ 待推送完成后自动触发
 
-## 历史记录
-
-### 2026-05-18（估计，基于 keywords_pool.md 中的 note 日期）
-- 生成了多篇文章（keywords_pool.md 中多个关键词标记 `2026-05-18 已覆盖`）
-- 包含对比类、薪资类、工作体验类等文章
+---
 
 ## 注意事项
 
 1. **网络连接问题**: 如果出现 GitHub 连接失败，需要检查网络或手动推送
 2. **关键词覆盖**: keywords_pool.md 中大多数关键词已标记 `covered: true`，但可以通过 `angles` 字段生成不同角度的文章
 3. **图片去重**: image_picker.py 会自动避免10天内重复使用同一张图片
-4. **生成脚本**: 如有需要，可复用 `scripts/auto_gen_articles_v2.py` 作为模板
+4. **生成脚本**: 如有需要，可复用以下脚本：
+   - `scripts/auto_gen_articles_v3.py` - 文章生成
+   - `scripts/quick_insert_images.py` - 图片插入
+   - `scripts/image_picker.py` - 图片选取
+   - `scripts/frontmatter_validator.py` - Frontmatter校验
+5. **PowerShell编码问题**: PowerShell控制台使用GBK编码，脚本中避免使用emoji和特殊UTF-8字符
