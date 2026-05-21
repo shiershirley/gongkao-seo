@@ -1,5 +1,22 @@
 # SEO 12:00 自动化执行记录
 
+## 2026-05-21 12:00 执行
+- **状态**：✅ 全部成功（文章生成+校验+git push）
+- **生成文章**：8篇
+  1. shanghai-shegong/2026-05-21-shanghai-shegong-mianshi-mingdan-tijian-zhengshen.md（上海社工面试名单体检政审全流程）
+  2. shanghai-shegong/2026-05-21-shanghai-shegong-shuzi-zhili-zhuanxing-jineng.md（上海社工数字治理转型技能）
+  3. guokao/2026-05-21-guokao-zhiweibiao-yuce-zhaolu-qushi.md（2027国考职位表预测招录趋势）
+  4. guokao/2026-05-21-guokao-xingce-shuliang-guanxi-sujie-jiqiao.md（国考行测数量关系速解技巧）
+  5. shengkao/2026-05-21-shengkao-mianshi-xingshi-duibi-beikao.md（各省省考面试形式对比）
+  6. shengkao/2026-05-21-shengkao-shenlun-dazuowen-gaofen-kuangjia.md（省考申论大作文高分框架）
+  7. beikao-zhinan/2026-05-21-shiyedanwei-kaoshi-quanliucheng-beikao.md（事业单位考试全流程解析）
+  8. beikao-zhinan/2026-05-21-zaizhi-beikao-shijian-guanli-gaoxiao-fuxi.md（在职考公时间管理高效复习）
+- **内容比例**：社工2篇(25%) | 国考2篇(25%) | 省考2篇(25%) | 事业单位1篇(12.5%) | 通用备考1篇(12.5%)
+- **图片配图**：每篇2张，共16张图片，通过image_picker.py选取并插入
+- **Frontmatter校验**：全部通过（仅有建议性关键词提示，无阻塞问题）
+- **Git**：commit a4a4b4f → push成功（b8b56f6..a4a4b4f main -> main）
+- **注意**：本次push成功，无网络超时问题
+
 ## 2026-05-20 12:00 执行
 - **状态**：✅ 文章生成+校验成功，⚠️ git push失败（GitHub 443端口连接超时）
 - **生成文章**：7篇
