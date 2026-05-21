@@ -33,13 +33,22 @@
 - 每次文章生成后、git commit前必须运行
 - 支持自动修复模式 `--fix`
 - 校验项：必填字段、内嵌引号、日期格式、分类白名单、标签格式、关键词覆盖率
+- **新增校验（2026-05-21）**：date字段未加引号检测（YAML会将无引号日期解析为Date对象）
+
+### date字段引号规范（2026-05-21新增）
+
+**问题**：`date: 2026-05-19`（无引号）→ YAML解析为Date对象 → `String()` 输出时间戳格式
+**正确写法**：`date: "2026-05-19"`（带引号）→ 字符串
+
+**代码防御**：`src/lib/content.ts` 中的 `formatDate()` 函数统一格式化日期
+**修复脚本**：`scripts/fix_date_quotes.py` 批量给date加引号
 
 ### 本地Build验证
 ```bash
-cd C:\Users\HYY\WorkBuddy\gongkao-seo
-npm run build
+cd d:\AI\task\gongkao-seo
+npx next build
 ```
-成功标志：146个页面生成完成，无错误
+成功标志：792个页面生成完成，无错误
 
 ## Git操作规范
 
@@ -57,6 +66,11 @@ npm run build
   - content/gangwei-fenxi/2026-04-29-guokao-tiaoji-bulou-jihui.md
   - content/zhenti-jiexi/2026-04-29-xingce-shuliao-suyong.md
 - **修复**：替换内嵌双引号为「」
+
+### 2026-05-21 日期显示为时间戳
+- **原因**：24篇文章的 `date` 字段未加引号，YAML解析为Date对象，前端显示为 `Thu May 21 2026 00:00:00 GMT+0000`
+- **修复**：1) `content.ts` 添加 `formatDate()` 函数统一格式化 2) 24个文件date加引号
+- **预防**：frontmatter_validator.py 新增date未加引号检测
 - **预防**：frontmatter_validator.py
 
 ## 自动化配置
