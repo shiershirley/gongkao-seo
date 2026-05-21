@@ -6,6 +6,24 @@ import type { ArticleMeta, ArticleData, CategoryInfo } from "./types";
 
 const contentDir = path.join(process.cwd(), "content");
 
+// 统一日期格式化：无论 date 是字符串还是 Date 对象，都输出 YYYY-MM-DD
+function formatDate(date: unknown): string {
+  if (!date) return "";
+  if (typeof date === "string") {
+    // 已经是字符串，检查是否为 ISO 时间戳格式，如果是则提取日期部分
+    const match = date.match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (match) return `${match[1]}-${match[2]}-${match[3]}`;
+    return date;
+  }
+  if (date instanceof Date) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, "0");
+    const d = String(date.getDate()).padStart(2, "0");
+    return `${y}-${m}-${d}`;
+  }
+  return String(date);
+}
+
 // 频道分类配置
 export const categories: CategoryInfo[] = [
   {
@@ -89,7 +107,7 @@ export function getAllArticles(): ArticleMeta[] {
           articles.push({
             title: data.title || "",
             description: data.description || "",
-            date: data.date ? String(data.date) : "",
+            date: formatDate(data.date),
             category: data.category || category || "",
             tags: data.tags || [],
             slug: file.replace(/\.(mdx|md)$/, ""),
@@ -136,7 +154,7 @@ export function getArticleBySlug(
         return {
           title: data.title || "",
           description: data.description || "",
-          date: data.date ? String(data.date) : "",
+          date: formatDate(data.date),
           category: data.category || category || "",
           tags: data.tags || [],
           slug,

@@ -238,7 +238,10 @@ def validate_frontmatter(content: str, filepath: str) -> list[str]:
 
     # 3. date 合法性
     if 'date' in fm:
-        issues.extend(check_date_validity(fm['date']))
+        # 检查 date 值是否为 Date 对象（YAML未加引号导致），说明原文件 date 未加引号
+        if not isinstance(fm['date'], str):
+            issues.append("date 字段值未用引号包裹，YAML会将其解析为Date对象，导致前端显示为时间戳，请改为 date: \"YYYY-MM-DD\"")
+        issues.extend(check_date_validity(str(fm['date'])))
 
     # 4. category 合法性
     if 'category' in fm and fm['category'] not in ALLOWED_CATEGORIES:
