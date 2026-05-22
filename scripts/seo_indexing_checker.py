@@ -404,7 +404,6 @@ class SEOIndexingChecker:
                 return msg
 
             # 找到最接近目标日期且有文章的日期
-            from datetime import datetime
             target_dt = datetime.strptime(target_date, "%Y-%m-%d").date()
             fallback_date = min(available_dates, key=lambda d: abs((datetime.strptime(d, "%Y-%m-%d").date() - target_dt).days))
             fallback_days = (date.today() - datetime.strptime(fallback_date, "%Y-%m-%d").date()).days
