@@ -233,6 +233,17 @@ python scripts/seo_indexing_checker.py --date 2026-05-14  # 检查指定日期
 3. 图片路径格式：`/images/lib/[主题]/xxx.jpg`
 4. 10天内不重复选同一张图
 
+## 事业单位内容分类规范（2026-05-22新增）
+
+**问题**：网站仅支持9个分类，`shiyedanwei`不在允许分类列表中，会导致404错误。
+
+**允许的分类列表**（`frontmatter_validator.py` 中 `ALLOWED_CATEGORIES`）：
+- guokao, shengkao, shanghai-shegong, baokao-gonggao
+- zhengce-jiedu, beikao-zhinan, zhenti-jiexi
+- gangwei-fenxi, shang-an-jingyan
+
+**规范**：事业单位相关内容统一使用 `gangwei-fenxi`（岗位分析）分类，不要创建 `shiyedanwei` 作为新分类。
+
 ## 后续行动计划
 
 | 优先级 | 任务 | 状态 |
@@ -241,3 +252,4 @@ python scripts/seo_indexing_checker.py --date 2026-05-14  # 检查指定日期
 | P1 | 更新自动化任务配置（内容比例+图片） | 待执行 |
 | P2 | 为高风险文章添加免责声明模板 | 待执行 |
 | P3 | 扩充国考/省考/事业单位关键词池 | 待执行 |
+| P4 | GitHub网络连接稳定性问题 | 持续关注 |
