@@ -30,3 +30,38 @@
 ### 图片配图
 - image_picker.py 已运行，选取了2张配图（office/o4_5.jpg, gov/gov_v22_079.jpg）
 - 图片已插入文章合适位置
+
+---
+
+## 2026-05-22 08:30 执行记录
+
+### 执行结果：✅ 成功
+
+### 生成的文章（8篇）
+
+| # | 文件名 | 分类 | 关键词 |
+|---|--------|------|--------|
+| 1 | 2026-05-22-guokao-panduan-tuili-jiqiao.md | guokao | 国考行测判断推理解题技巧 |
+| 2 | 2026-05-22-guokao-zhiwei-zhuanYe-xianzhi.md | guokao | 国考职位专业限制与岗位选择 |
+| 3 | 2026-05-22-shengkao-shenlun-dazuowen-kuangjia.md | shengkao | 省考申论大作文写作框架 |
+| 4 | 2026-05-22-shengkao-gongan-tice-zhinan.md | shengkao | 省考公安岗位体能测试 |
+| 5 | 2026-05-22-shanghai-shegong-wanggehua-guanli.md | shanghai-shegong | 上海社工网格化管理实务 |
+| 6 | 2026-05-22-shegong-zhiye-zhengshu-jiazhi.md | shanghai-shegong | 社区工作者职业证书含金量 |
+| 7 | 2026-05-22-shiyedanwei-gonggongjichu-gaopinkaodian.md | shiyedanwei | 事业单位公基高频考点 |
+| 8 | 2026-05-22-gongkao-jiaolv-bodong-xintai.md | beikao-zhinan | 公考备考焦虑破解 |
+
+### 内容比例
+- 社工2篇(25%) + 国考2篇(25%) + 省考2篇(25%) + 事业单位1篇(12.5%) + 通用1篇(12.5%) ✅ 符合规范
+- 与08:00批次内容无重复
+
+### 校验结果
+- frontmatter_validator.py --fix 运行成功，无阻断性错误
+
+### Git推送
+- commit: d1a5f3a `content: auto publish articles 2026-05-22 08:30`
+- push: 757b197..d1a5f3a main -> main
+- 状态：✅ 推送成功
+
+### 图片配图
+- image_picker.py 为8篇文章各选取2张配图（exam/study/gov/motivation/office/people/writing/city主题）
+- 图片已全部嵌入文章合适位置
