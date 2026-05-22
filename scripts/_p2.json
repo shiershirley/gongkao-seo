@@ -1,0 +1,38 @@
+{
+  "g2": [
+    {
+      "path": "/images/lib/gov/gov_v24_097.jpg",
+      "theme": "gov",
+      "alt": "政府政务"
+    },
+    {
+      "path": "/images/lib/gov/g_1.jpg",
+      "theme": "gov",
+      "alt": "政府政务"
+    }
+  ],
+  "s2": [
+    {
+      "path": "/images/lib/books/books_v21_103.jpg",
+      "theme": "books",
+      "alt": "备考资料"
+    },
+    {
+      "path": "/images/lib/books/old_books.jpg",
+      "theme": "books",
+      "alt": "备考资料"
+    }
+  ],
+  "sh2": [
+    {
+      "path": "/images/lib/city/city_v20_036.jpg",
+      "theme": "city",
+      "alt": "城市景观"
+    },
+    {
+      "path": "/images/lib/office/o_4.jpg",
+      "theme": "office",
+      "alt": "职场工作"
+    }
+  ]
+}
