@@ -352,7 +352,11 @@ def main():
                     total_errors += len(errors)
 
                 if suggestions:
-                    print(f"  [建议] {filepath.relative_to(Path.cwd())} (含关键词建议)")
+                    try:
+                        rel_path = filepath.relative_to(Path.cwd())
+                    except ValueError:
+                        rel_path = filepath
+                    print(f"  [建议] {rel_path} (含关键词建议)")
                     for suggestion in suggestions:
                         print(f"       {suggestion}")
 
