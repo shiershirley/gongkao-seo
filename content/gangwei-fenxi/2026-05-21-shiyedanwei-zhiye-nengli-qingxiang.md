@@ -2,7 +2,7 @@
 title: "2026年事业单位联考职业能力倾向测验备考指南与题型分析"
 description: "本文系统梳理2026年事业单位联考职业能力倾向测验（A类）的备考策略，涵盖常识判断、言语理解、数量关系、判断推理、资料分析五大模块的核心考点与解题技巧。事业单位考试是上岸的重要途径，掌握科学的备考方法至关重要。"
 date: "2026-05-21"
-category: "shiye-danwei"
+category: "gangwei-fenxi"
 tags: ["事业单位", "职业能力倾向测验", "备考指南", "联考", "题型分析"]
 author: "公考助手"
 images: ["/images/lib/study/study_v23_167.jpg", "/images/lib/exam/exam_v22_091.jpg"]

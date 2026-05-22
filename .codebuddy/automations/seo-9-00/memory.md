@@ -25,3 +25,32 @@
 ### 备注
 - 本次push同时包含了08:00任务和之前未推送的内容
 - 图片使用image_picker.py成功选取，所有图片路径已正确插入文章
+
+---
+
+## 2026-05-22 09:00 执行记录
+
+### 执行结果
+- 生成8篇文章，符合内容比例规范（上海社工1+通用备考2+国考2+省考2+事业单位1）
+- image_picker.py 正常工作（chcp 65001 + 输出到文件解决编码问题）
+- frontmatter校验通过：0个错误，843个文件全部通过
+- git commit: 5ec5a3c
+- git push: 成功（7dc7289..07f8da6）
+- Vercel部署已触发
+
+### 生成文章清单
+| 文件名 | 关键词 | 分类 |
+|--------|--------|------|
+| 2026-05-22-shanghai-shegong-gangwei-zhize-xiangjie.md | 上海社工岗位职责 | shanghai-shegong |
+| 2026-05-22-shegong-shenlun-huati-fanwen.md | 社区工作者申论写作 | beikao-zhinan |
+| 2026-05-22-guokao-xingce-changshi-beikao.md | 国考行测常识判断 | guokao |
+| 2026-05-22-guokao-zhiwei-remen-lengmen.md | 国考职位表热门冷门 | guokao |
+| 2026-05-22-shengkao-xingce-tuxing-tuili.md | 省考图形推理技巧 | shengkao |
+| 2026-05-22-shengkao-mianshi-yingji-yingbian.md | 省考面试应急应变 | shengkao |
+| 2026-05-22-shiyedanwei-zhiye-nengli-beikao.md | 事业单位职测备考 | shiye-danwei |
+| 2026-05-22-gongkao-xintai-tiaozheng-yali.md | 公考备考心态调整 | beikao-zhinan |
+
+### 备注
+- 关键词池中大部分已marked covered，本次使用角度轮换策略（不同切角）生成新文章
+- 图片获取需使用 chcp 65001 后将输出重定向到文件，再读取文件内容
+- 8篇文章各有2张配图，图片路径均已正确插入正文
