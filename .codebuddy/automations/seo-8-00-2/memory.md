@@ -2,6 +2,52 @@
 
 ## 最近执行记录
 
+### 2026-05-22 08:00 执行
+
+**状态**：文章已生成、已提交、已推送 ✅
+
+**生成文章（8篇）**：
+
+| 文件名 | 关键词 | 分类 |
+|--------|--------|--------|
+| 2026-05-22-shanghai-shegong-kaoshi-preparedness-guide.md | 上海社工考试备考指南 | shanghai-shegong |
+| 2026-05-22-shanghai-shegong-salary-benefits-analysis.md | 上海社工薪资待遇分析 | shanghai-shegong |
+| 2026-05-22-guokao-baoming-liucheng-zhinan.md | 国考报名流程指南 | guokao |
+| 2026-05-22-guokao-beikao-quanguan-gonglue.md | 国考备考全攻略 | guokao |
+| 2026-05-22-shengkao-baoming-tiaojian-2026.md | 省考报名条件2026 | shengkao |
+| 2026-05-22-shengkao-tiaojie-liucheng.md | 省考调剂流程 | shengkao |
+| 2026-05-22-shiyedanwei-zonghe-yingyong-nengli.md | 事业单位综合应用能力 | gangwei-fenxi |
+| 2026-05-22-shegong-beikao-quangonglüe.md | 社工备考全攻略 | beikao-zhinan |
+
+**内容比例**：社工2篇(25%) + 国考2篇(25%) + 省考2篇(25%) + 事业单位1篇(12.5%) + 通用1篇(12.5%) ✅ 符合规范
+
+**执行步骤结果**：
+1. ✅ 读取关键词池（keywords_pool.md）- 大部分关键词已覆盖，按内容比例规范生成新文章
+2. ✅ 生成8篇新文章（按内容比例规范）
+3. ✅ 图片配图：文章已含图片路径（按分类映射插入）
+   - 社工文章：`/images/lib/gov/` 和 `/images/lib/office/`
+   - 国考文章：`/images/lib/study/` 和 `/images/lib/exam/`
+   - 省考文章：`/images/lib/study/` 和 `/images/lib/exam/`
+   - 事业单位文章：`/images/lib/study/` 和 `/images/lib/office/`
+   - 通用文章：`/images/lib/study/` 和 `/images/lib/books/`
+4. ✅ frontmatter 校验通过（手动检查，date有引号，description使用「」引号）
+5. ✅ git add + commit 完成（commit: 6d4dbd7，`content: auto publish articles 2026-05-22 08:00`）
+6. ✅ git push 完成（origin/main 已同步）
+
+**图片使用**：
+- 文章1（上海社工备考）：`/images/lib/gov/shanghai-shegong-01.jpg`
+- 文章2（上海社工薪资）：`/images/lib/office/shanghai-shegong-02.jpg`
+- 文章3（国考报名流程）：`/images/lib/study/guokao-baoming-01.jpg`
+- 文章4（国考备考全攻略）：`/images/lib/exam/guokao-beikao-01.jpg`
+- 文章5（省考报名条件）：`/images/lib/study/shengkao-baoming-01.jpg`
+- 文章6（省考调剂流程）：`/images/lib/exam/shengkao-tiaojie-01.jpg`
+- 文章7（事业单位综应）：`/images/lib/study/shiyedanwei-zonghe-01.jpg`
+- 文章8（社工备考全攻略）：`/images/lib/books/shegong-beikao-01.jpg`
+
+---
+
+## 历史记录
+
 ### 2026-05-21 08:00 执行
 
 **状态**：文章已生成、已提交、git push 失败（网络问题）⚠️
@@ -33,19 +79,7 @@
 - [ ] 网络恢复后执行 `cd d:\AI\task\gongkao-seo; git push origin main`
 - [ ] 验证 Vercel 是否自动部署成功
 
-**图片使用**：
-- 文章1（面试礼仪）：`/images/lib/office/shegong-mianshi-liyi-01.jpg`
-- 文章2（辞职流程）：`/images/lib/office/shegong-cizhi-liucheng-01.jpg`
-- 文章3（应届生身份）：`/images/lib/study/guokao-yingjiesheng-01.jpg`
-- 文章4（申论大作文）：`/images/lib/study/guokao-shenlun-dajianghua-01.jpg`
-- 文章5（省考调剂）：`/images/lib/study/shengkao-tiaojie-01.jpg`
-- 文章6（省考面试礼仪）：`/images/lib/office/shengkao-mianshi-liyi-01.jpg`
-- 文章7（事业单位综应）：`/images/lib/study/shiyedanwei-zonghe-01.jpg`
-- 文章8（档案转移）：`/images/lib/gov/gongkao-dangan-01.jpg`
-
 ---
-
-## 历史记录
 
 ### 2026-05-20 08:00 执行
 
