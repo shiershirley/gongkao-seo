@@ -12,7 +12,10 @@ SEO收录检查脚本 - 用于检查文章在各搜索引擎的收录情况
 
 说明:
     - 新文章通常需要 3-14 天被收录，因此默认检查 10 天前的文章
-    - 收录检查通过 Bing IndexNow API + 模拟 site: 查询实现
+    - 检查维度：Sitemap + 百度 + Bing + Google（四维度逐篇检查）
+    - ⚠️ 百度反爬极强，HTTP 检查大概率被拦截，报告显示 ⚠️ 而非 ❌ 以免误导
+    - ⚠️ Google 国内网络受限，超时返回 ⚠️，不代表未收录
+    - ✅ Bing 和 Sitemap 检查可靠性高，可作为收录进度的主要参考
     - 报告保存在 reports/ 目录下，文件名带时间戳
 """
 
@@ -173,7 +176,13 @@ class SEOIndexingChecker:
         return result
 
     def _do_search_check(self, search_url: str, engine_name: str) -> Dict:
-        """通用搜索引擎 site: 查询（内部方法）"""
+        """通用搜索引擎 site: 查询（内部方法）
+        
+        返回值含义:
+        - indexed=True: 确认已收录
+        - indexed=False: 确认未收录（搜索结果明确无匹配）
+        - indexed=None: 无法判断（反爬拦截/网络限制/超时）
+        """
         headers = {
             "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -187,7 +196,21 @@ class SEOIndexingChecker:
             req = urllib.request.Request(search_url, headers=headers)
             with urllib.request.urlopen(req, timeout=15) as resp:
                 html = resp.read().decode("utf-8", errors="ignore")
+                final_url = resp.geturl()  # 最终URL（含重定向）
 
+            # ⚠️ 检测反爬/验证码页面（百度专属）
+            captcha_hints = [
+                "wappass.baidu.com",      # 百度安全验证重定向
+                "百度安全验证",
+                "请输入验证码",
+                "captcha",
+                "access denied",
+                "请点击下方图形",
+            ]
+            if any(h in final_url.lower() or h in html for h in captcha_hints):
+                return {"indexed": None, "note": f"{engine_name}: 反爬拦截需手动确认"}
+
+            # ⚠️ 检测明确的"无结果"提示
             no_result_hints = [
                 "no results", "没有与此相关的结果",
                 "未找到结果", "没有找到结果",
@@ -286,11 +309,12 @@ class SEOIndexingChecker:
             }
 
             # 进度输出
+            def p_icon(val):
+                if val is True: return "✅"
+                if val is False: return "❌"
+                return "⚠️"
             sitemap_icon = "✅" if in_sitemap else "❌"
-            bing_icon = "✅" if bing_result.get("indexed") else ("❌" if bing_result.get("indexed") is False else "—")
-            baidu_icon = "✅" if baidu_result.get("indexed") else ("❌" if baidu_result.get("indexed") is False else "—")
-            google_icon = "✅" if google_result.get("indexed") else ("❌" if google_result.get("indexed") is False else "—")
-            print(f"         Sitemap:{sitemap_icon} Bing:{bing_icon} 百度:{baidu_icon} Google:{google_icon}")
+            print(f"         Sitemap:{sitemap_icon} Bing:{p_icon(bing_result.get('indexed'))} 百度:{p_icon(baidu_result.get('indexed'))} Google:{p_icon(google_result.get('indexed'))}")
 
         return results
 
@@ -330,7 +354,7 @@ class SEOIndexingChecker:
             elif val is False:
                 return "❌"
             else:
-                return "—"
+                return "⚠️"
 
         for article in articles:
             url = article["url"]
@@ -377,14 +401,24 @@ class SEOIndexingChecker:
         def pct(n):
             return f"{round(n / total * 100)}%" if total else "0%"
 
+        # 统计各引擎的 已收录 / 确认未收录 / 无法判断 数量
+        bing_false = sum(1 for a in articles if check_results.get(a["url"], {}).get("bing", {}).get("indexed") is False)
+        baidu_false = sum(1 for a in articles if check_results.get(a["url"], {}).get("baidu", {}).get("indexed") is False)
+        google_false = sum(1 for a in articles if check_results.get(a["url"], {}).get("google", {}).get("indexed") is False)
+        bing_unknown = sum(1 for a in articles if check_results.get(a["url"], {}).get("bing", {}).get("indexed") is None)
+        baidu_unknown = sum(1 for a in articles if check_results.get(a["url"], {}).get("baidu", {}).get("indexed") is None)
+        google_unknown = sum(1 for a in articles if check_results.get(a["url"], {}).get("google", {}).get("indexed") is None)
+
         lines.append("## 📊 收录统计汇总")
         lines.append("")
-        lines.append("| 搜索引擎 | 已收录 | 未收录/未知 | 收录率 |")
-        lines.append("|---------|--------|------------|--------|")
-        lines.append(f"| Sitemap | {sitemap_indexed} 篇 | {total - sitemap_indexed} 篇 | {pct(sitemap_indexed)} |")
-        lines.append(f"| Bing    | {bing_indexed} 篇 | {total - bing_indexed} 篇 | {pct(bing_indexed)} |")
-        lines.append(f"| 百度    | {baidu_indexed} 篇 | {total - baidu_indexed} 篇 | {pct(baidu_indexed)} |")
-        lines.append(f"| Google  | {google_indexed} 篇 | {total - google_indexed} 篇 | {pct(google_indexed)} |")
+        lines.append("| 搜索引擎 | 已收录 ✅ | 未收录 ❌ | 无法判断 ⚠️ | 收录率 |")
+        lines.append("|---------|----------|----------|------------|--------|")
+        lines.append(f"| Sitemap | {sitemap_indexed} 篇 | {total - sitemap_indexed} 篇 | 0 篇 | {pct(sitemap_indexed)} |")
+        lines.append(f"| Bing    | {bing_indexed} 篇 | {bing_false} 篇 | {bing_unknown} 篇 | {pct(bing_indexed)} |")
+        lines.append(f"| 百度    | {baidu_indexed} 篇 | {baidu_false} 篇 | {baidu_unknown} 篇 | {pct(baidu_indexed)} |")
+        lines.append(f"| Google  | {google_indexed} 篇 | {google_false} 篇 | {google_unknown} 篇 | {pct(google_indexed)} |")
+        lines.append("")
+        lines.append("> **图例说明**：✅ 确认已收录 | ❌ 确认未收录 | ⚠️ 反爬拦截/网络限制，无法判断，需手动确认")
         lines.append("")
 
         # ---- 优化建议 ----
@@ -398,10 +432,10 @@ class SEOIndexingChecker:
             lines.append(f"{suggest_no}. **Bing 收录率 {pct(bing_indexed)}**：可登录 Bing Webmaster Tools 手动提交 sitemap，或使用 IndexNow 协议加速收录。")
             suggest_no += 1
         if baidu_indexed < total:
-            lines.append(f"{suggest_no}. **百度收录率 {pct(baidu_indexed)}**：百度对新站收录较慢（通常7-30天），建议开通百度搜索资源平台并主动推送 URL。注意：百度反爬较强，❌ 不代表一定未收录，建议手动在百度搜索 `site:gk.edu-sjtu.cn` 二次确认。")
+            lines.append(f"{suggest_no}. **百度收录率 {pct(baidu_indexed)}**：百度对新站收录较慢（通常7-30天），建议开通百度搜索资源平台并主动推送 URL。注意：百度反爬较强，⚠️ 不代表一定未收录，建议手动在百度搜索 `site:gk.edu-sjtu.cn` 二次确认。")
             suggest_no += 1
         if google_indexed < total:
-            lines.append(f"{suggest_no}. **Google 收录率 {pct(google_indexed)}**：登录 Google Search Console 提交 sitemap，可使用 URL 检查工具请求收录。注意：Google 在国内访问受限，❌ 可能为网络原因导致，非真实未收录。")
+            lines.append(f"{suggest_no}. **Google 收录率 {pct(google_indexed)}**：登录 Google Search Console 提交 sitemap，可使用 URL 检查工具请求收录。注意：Google 在国内访问受限，⚠️ 可能为网络原因导致，非真实未收录。")
             suggest_no += 1
         lines.append(f"{suggest_no}. **持续监测**：建议在发布后 7、14、30 天各做一次收录检查，追踪趋势。")
         lines.append("")
@@ -489,7 +523,7 @@ class SEOIndexingChecker:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="SEO收录检查工具 — 检查文章在 Bing/sitemap 的收录状态"
+        description="SEO收录检查工具 — 检查文章在百度/Bing/Google/Sitemap 的收录状态"
     )
     parser.add_argument(
         "--days-ago", type=int, default=DEFAULT_DAYS_AGO,
