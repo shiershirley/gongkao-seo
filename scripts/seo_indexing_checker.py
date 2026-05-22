@@ -172,40 +172,57 @@ class SEOIndexingChecker:
 
         return result
 
-    def check_indexing_bing(self, article_url: str) -> Dict:
-        """通过 Bing site: 查询判断收录（返回 indexed=True/False）"""
-        query = f"site:{article_url}"
-        search_url = f"https://www.bing.com/search?q={urllib.parse.quote(query)}"
+    def _do_search_check(self, search_url: str, engine_name: str) -> Dict:
+        """通用搜索引擎 site: 查询（内部方法）"""
         headers = {
             "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
                 "Chrome/124.0.0.0 Safari/537.36"
             ),
-            "Accept-Language": "zh-CN,zh;q=0.9",
+            "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
         }
+        domain = "gk.edu-sjtu.cn"
         try:
             req = urllib.request.Request(search_url, headers=headers)
-            with urllib.request.urlopen(req, timeout=12) as resp:
+            with urllib.request.urlopen(req, timeout=15) as resp:
                 html = resp.read().decode("utf-8", errors="ignore")
 
-            # Bing 没有收录时会返回 "没有与此相关的结果" 等提示
             no_result_hints = [
                 "no results", "没有与此相关的结果",
                 "未找到结果", "没有找到结果",
+                "did not match any documents",
+                "没有找到和查询", "您的搜索",
             ]
             if any(h in html.lower() for h in no_result_hints):
-                return {"indexed": False, "note": "Bing: 明确无结果"}
+                return {"indexed": False, "note": f"{engine_name}: 明确无结果"}
 
-            # 检查页面中是否出现目标域名
-            domain = "gk.edu-sjtu.cn"
             if domain in html:
-                return {"indexed": True, "note": "Bing: 域名出现在结果页"}
+                return {"indexed": True, "note": f"{engine_name}: 域名出现在结果页"}
             else:
-                return {"indexed": False, "note": "Bing: 域名未出现在结果页（可能未收录或反爬）"}
+                return {"indexed": False, "note": f"{engine_name}: 未出现（可能未收录或反爬）"}
 
         except Exception as e:
-            return {"indexed": False, "note": f"Bing 查询失败: {e}"}
+            err = str(e)[:60]
+            return {"indexed": None, "note": f"{engine_name}: 查询失败({err})"}
+
+    def check_indexing_bing(self, article_url: str) -> Dict:
+        """通过 Bing site: 查询判断收录"""
+        query = f"site:{article_url}"
+        search_url = f"https://www.bing.com/search?q={urllib.parse.quote(query)}"
+        return self._do_search_check(search_url, "Bing")
+
+    def check_indexing_baidu(self, article_url: str) -> Dict:
+        """通过百度 site: 查询判断收录"""
+        query = f"site:{article_url}"
+        search_url = f"https://www.baidu.com/s?wd={urllib.parse.quote(query)}"
+        return self._do_search_check(search_url, "百度")
+
+    def check_indexing_google(self, article_url: str) -> Dict:
+        """通过 Google site: 查询判断收录"""
+        query = f"site:{article_url}"
+        search_url = f"https://www.google.com/search?q={urllib.parse.quote(query)}"
+        return self._do_search_check(search_url, "Google")
 
     def check_sitemap(self, article_url: str) -> bool:
         """检查文章 URL 是否出现在 sitemap.xml 中"""
@@ -224,7 +241,7 @@ class SEOIndexingChecker:
             return False
 
     def batch_check(self, articles: List[Dict]) -> Dict[str, Dict]:
-        """批量检查文章收录状态"""
+        """批量检查文章收录状态（百度 + Bing + Google + Sitemap）"""
         results = {}
         total = len(articles)
 
@@ -238,7 +255,6 @@ class SEOIndexingChecker:
             )
             with urllib.request.urlopen(req, timeout=15) as resp:
                 sitemap_content = resp.read().decode("utf-8", errors="ignore")
-            # 提取所有 <loc>...</loc>
             sitemap_urls = set(re.findall(r"<loc>(.*?)</loc>", sitemap_content))
             print(f"   sitemap 包含 {len(sitemap_urls)} 条 URL")
         except Exception as e:
@@ -246,22 +262,35 @@ class SEOIndexingChecker:
 
         for i, article in enumerate(articles, 1):
             url = article["url"]
-            print(f"  [{i}/{total}] 检查: {article['title'][:35]}...")
+            title_short = article['title'][:30]
+            print(f"  [{i}/{total}] 检查: {title_short}...")
 
-            # sitemap 收录（精确匹配）
+            # 1. Sitemap 收录（精确匹配，无需限额）
             in_sitemap = url in sitemap_urls
 
-            # Bing 搜索引擎收录（采样检查，避免被封）
-            if i <= 20:  # 只对前20篇做实时搜索检查，避免IP被限
-                bing_result = self.check_indexing_bing(url)
-                time.sleep(1.5)  # 避免频繁请求
-            else:
-                bing_result = {"indexed": None, "note": "超出实时检查限额（仅 sitemap 检查）"}
+            # 2. 搜索引擎实时检查（逐篇检查，间隔避免被封）
+            bing_result = self.check_indexing_bing(url)
+            time.sleep(2)
+
+            baidu_result = self.check_indexing_baidu(url)
+            time.sleep(2)
+
+            google_result = self.check_indexing_google(url)
+            time.sleep(2)
 
             results[url] = {
                 "in_sitemap": in_sitemap,
                 "bing": bing_result,
+                "baidu": baidu_result,
+                "google": google_result,
             }
+
+            # 进度输出
+            sitemap_icon = "✅" if in_sitemap else "❌"
+            bing_icon = "✅" if bing_result.get("indexed") else ("❌" if bing_result.get("indexed") is False else "—")
+            baidu_icon = "✅" if baidu_result.get("indexed") else ("❌" if baidu_result.get("indexed") is False else "—")
+            google_icon = "✅" if google_result.get("indexed") else ("❌" if google_result.get("indexed") is False else "—")
+            print(f"         Sitemap:{sitemap_icon} Bing:{bing_icon} 百度:{baidu_icon} Google:{google_icon}")
 
         return results
 
@@ -272,7 +301,7 @@ class SEOIndexingChecker:
         target_date: str,
         days_ago: int,
     ) -> str:
-        """生成 Markdown 格式收录检查报告"""
+        """生成 Markdown 格式收录检查报告（百度 + Bing + Google + Sitemap）"""
         now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
         lines = []
         lines.append(f"# SEO收录检查报告 — {target_date}")
@@ -286,39 +315,48 @@ class SEOIndexingChecker:
         # ---- 详细列表 ----
         lines.append("## 详细检查结果")
         lines.append("")
-        lines.append("| 标题 | 分类 | Sitemap | Bing | 备注 |")
-        lines.append("|------|------|---------|------|------|")
+        lines.append("| 标题 | 分类 | Sitemap | Bing | 百度 | Google |")
+        lines.append("|------|------|---------|------|------|--------|")
 
         sitemap_indexed = 0
         bing_indexed = 0
+        baidu_indexed = 0
+        google_indexed = 0
         not_in_sitemap = []
+
+        def icon(val):
+            if val is True:
+                return "✅"
+            elif val is False:
+                return "❌"
+            else:
+                return "—"
 
         for article in articles:
             url = article["url"]
             result = check_results.get(url, {})
 
             in_sitemap = result.get("in_sitemap", False)
-            bing = result.get("bing", {})
-            bing_status = bing.get("indexed")
-
-            sitemap_icon = "✅" if in_sitemap else "❌"
-            if bing_status is True:
-                bing_icon = "✅"
-                bing_indexed += 1
-            elif bing_status is False:
-                bing_icon = "❌"
-            else:
-                bing_icon = "—"
+            bing_status = result.get("bing", {}).get("indexed")
+            baidu_status = result.get("baidu", {}).get("indexed")
+            google_status = result.get("google", {}).get("indexed")
 
             if in_sitemap:
                 sitemap_indexed += 1
             else:
                 not_in_sitemap.append(article)
+            if bing_status is True:
+                bing_indexed += 1
+            if baidu_status is True:
+                baidu_indexed += 1
+            if google_status is True:
+                google_indexed += 1
 
-            note = bing.get("note", "")
-            title_link = f"[{article['title'][:28]}]({url})"
+            title_link = f"[{article['title'][:28]}...]({url})" if len(article['title']) > 28 else f"[{article['title']}]({url})"
             lines.append(
-                f"| {title_link} | {article['category']} | {sitemap_icon} | {bing_icon} | {note[:30]} |"
+                f"| {title_link} | {article['category']} "
+                f"| {icon(in_sitemap)} | {icon(bing_status)} "
+                f"| {icon(baidu_status)} | {icon(google_status)} |"
             )
 
         lines.append("")
@@ -335,28 +373,37 @@ class SEOIndexingChecker:
 
         # ---- 统计汇总 ----
         total = len(articles)
-        sitemap_rate = f"{sitemap_indexed}/{total}" if total else "0/0"
-        bing_rate = f"{bing_indexed}/min({total},20)" if total else "0/0"
+
+        def pct(n):
+            return f"{round(n / total * 100)}%" if total else "0%"
 
         lines.append("## 📊 收录统计汇总")
         lines.append("")
-        lines.append(f"| 指标 | 数值 |")
-        lines.append(f"|------|------|")
-        lines.append(f"| 检查文章总数 | {total} 篇 |")
-        lines.append(f"| Sitemap 已收录 | {sitemap_indexed} 篇（{round(sitemap_indexed/total*100) if total else 0}%）|")
-        lines.append(f"| Sitemap 未收录 | {len(not_in_sitemap)} 篇 |")
-        lines.append(f"| Bing 实时检查（前20篇）| {bing_indexed} 篇已收录 |")
+        lines.append("| 搜索引擎 | 已收录 | 未收录/未知 | 收录率 |")
+        lines.append("|---------|--------|------------|--------|")
+        lines.append(f"| Sitemap | {sitemap_indexed} 篇 | {total - sitemap_indexed} 篇 | {pct(sitemap_indexed)} |")
+        lines.append(f"| Bing    | {bing_indexed} 篇 | {total - bing_indexed} 篇 | {pct(bing_indexed)} |")
+        lines.append(f"| 百度    | {baidu_indexed} 篇 | {total - baidu_indexed} 篇 | {pct(baidu_indexed)} |")
+        lines.append(f"| Google  | {google_indexed} 篇 | {total - google_indexed} 篇 | {pct(google_indexed)} |")
         lines.append("")
 
         # ---- 优化建议 ----
         lines.append("## 💡 优化建议")
         lines.append("")
+        suggest_no = 1
         if len(not_in_sitemap) > 0:
-            lines.append(f"1. **{len(not_in_sitemap)} 篇未出现在 Sitemap**：检查 Vercel 部署日志，确认对应页面已成功生成。")
-        if bing_indexed < min(total, 10):
-            lines.append("2. **Bing 收录率偏低**：可登录 Bing Webmaster Tools 手动提交 sitemap，或使用 IndexNow 协议加速收录。")
-        lines.append("3. **百度收录延迟**：百度对新站收录较慢（通常7-30天），建议开通百度搜索资源平台并主动推送 URL。")
-        lines.append("4. **持续监测**：建议在发布后 7、14、30 天各做一次收录检查。")
+            lines.append(f"{suggest_no}. **{len(not_in_sitemap)} 篇未出现在 Sitemap**：检查 Vercel 部署日志，确认对应页面已成功生成。")
+            suggest_no += 1
+        if bing_indexed < total:
+            lines.append(f"{suggest_no}. **Bing 收录率 {pct(bing_indexed)}**：可登录 Bing Webmaster Tools 手动提交 sitemap，或使用 IndexNow 协议加速收录。")
+            suggest_no += 1
+        if baidu_indexed < total:
+            lines.append(f"{suggest_no}. **百度收录率 {pct(baidu_indexed)}**：百度对新站收录较慢（通常7-30天），建议开通百度搜索资源平台并主动推送 URL。注意：百度反爬较强，❌ 不代表一定未收录，建议手动在百度搜索 `site:gk.edu-sjtu.cn` 二次确认。")
+            suggest_no += 1
+        if google_indexed < total:
+            lines.append(f"{suggest_no}. **Google 收录率 {pct(google_indexed)}**：登录 Google Search Console 提交 sitemap，可使用 URL 检查工具请求收录。注意：Google 在国内访问受限，❌ 可能为网络原因导致，非真实未收录。")
+            suggest_no += 1
+        lines.append(f"{suggest_no}. **持续监测**：建议在发布后 7、14、30 天各做一次收录检查，追踪趋势。")
         lines.append("")
 
         return "\n".join(lines)
