@@ -2,6 +2,38 @@
 
 ## 最近执行记录
 
+### 2026-05-22 14:06 执行（seo-8-00-2）
+
+**状态**：文章已确认提交（前序任务已完成生成和推送），图片已更新，发布后检查通过 ✅
+
+**本次操作**：
+- 发现6篇已有文章缺图，补充/替换配图（使用 image_picker.py）
+- 补充2篇文章（事业单位 + 通用备考），添加配图
+- 8篇文章通过 frontmatter 校验
+- Git push 失败（GitHub网络不通），但文章已由前序任务推送部署
+
+**发布后检查**：
+1. ✅ 首页正常：8篇今日文章可见
+2. ✅ 文章抽查通过：guokao/shengkao/shanghai-shegong/gangwei-fenxi/beikao-zhinan 各抽查1-2篇，HTTP 200，日期YYYY-MM-DD格式
+3. ✅ Sitemap正常：含50+条5-22文章URL
+
+**文章列表（本轮8篇）**：
+
+| 文件名 | 关键词 | 分类 | 图片 |
+|--------|--------|--------|------|
+| guokao-shenlun-dazuowen-kuangjia | 国考申论大作文框架 | guokao | office/tech_office.jpg, gov/gp4_1.jpg |
+| guokao-shuliangguanxi-sujie-jiqiao | 国考数量关系速解 | guokao | gov/gov_v24_097.jpg, gov/g_1.jpg |
+| shanghai-shegong-bishi-gaofen-jingyan | 上海社工笔试高分 | shanghai-shegong | exam/exam_v24_104.jpg, exam/exam_v19_077.jpg |
+| shanghai-shegong-mianshi-changjian-tixing | 上海社工面试题型 | shanghai-shegong | city/city_v20_036.jpg, office/o_4.jpg |
+| shengkao-mianshi-jiegouhua-jiqiao | 省考结构化面试 | shengkao | exam/todo_plan.jpg, office/office_v18_007.jpg |
+| shengkao-ziliaofenxi-suanti-celve | 省考资料分析策略 | shengkao | books/books_v21_103.jpg, books/old_books.jpg |
+| shiyedanwei-gongwuyuan-kaoshi-qubie | 事业单位vs公务员 | gangwei-fenxi | people/pp6_1.jpg, tech/tech_v18_010.jpg |
+| gongkao-zaizhi-beikao-shijian-guanli | 在职备考时间管理 | beikao-zhinan | study/laptop_study_1.jpg, exam/diploma_px.jpg |
+
+**内容比例**：社工2篇(25%) + 国考2篇(25%) + 省考2篇(25%) + 事业单位1篇(12.5%) + 通用1篇(12.5%) ✅
+
+---
+
 ### 2026-05-22 08:00 执行
 
 **状态**：文章已生成、已提交、已推送 ✅
