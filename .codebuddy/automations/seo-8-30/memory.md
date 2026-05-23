@@ -65,3 +65,44 @@
 ### 图片配图
 - image_picker.py 为8篇文章各选取2张配图（exam/study/gov/motivation/office/people/writing/city主题）
 - 图片已全部嵌入文章合适位置
+
+---
+
+## 2026-05-23 08:30 执行记录
+
+### 执行结果：⚠️ 文章生成成功，Git push 失败
+
+### 生成的文章（8篇）
+
+| # | 文件名 | 分类 | 关键词 |
+|---|--------|------|--------|
+| 1 | 2026-05-23-shegong-baoming-tongzhi-zhinan.md | baokao-gonggao | 报名通知 |
+| 2 | 2026-05-23-shanghai-shegong-mianshi-chengji-jisuan.md | shanghai-shegong | 上海社工面试成绩占比 |
+| 3 | 2026-05-23-guokao-ziliao-fenxi-kaodian.md | guokao | 国考行测资料分析考点 |
+| 4 | 2026-05-23-guokao-baoming-liucheng.md | guokao | 国考报名流程 |
+| 5 | 2026-05-23-shengkao-mianshi-yingbian.md | shengkao | 省考面试应变能力题 |
+| 6 | 2026-05-23-shengkao-xingce-beifen.md | shengkao | 省考行测数量关系 |
+| 7 | 2026-05-23-shiyedanwei-rencai-yinjin.md | gangwei-fenxi | 事业单位人才引进 |
+| 8 | 2026-05-23-gongkao-beikao-xinli-tiaoshi.md | beikao-zhinan | 公考备考心理调适 |
+
+### 内容比例
+- 社工2篇(25%) + 国考2篇(25%) + 省考2篇(25%) + 事业单位1篇(12.5%) + 通用1篇(12.5%)
+- 含1篇报考公告类（动态词触发）
+
+### 校验结果
+- frontmatter_validator.py --fix 运行成功，无阻断性错误
+
+### Git状态
+- ✅ Commit: `30685ba` - `content: auto publish articles 2026-05-23 08:30`
+- ❌ Push 失败：GitHub 443端口连接失败（网络问题），SSH也超时
+- **待处理**：网络恢复后执行 `git push origin main` 触发Vercel部署
+
+### 发布后检查
+- ⏳ 跳过：需待Git push成功、Vercel部署完成后执行
+
+### 图片配图
+- image_picker.py 为8篇文章各选取2张配图（exam/study/gov/motivation/office/people/writing/city/tech主题）
+- 图片已全部嵌入文章合适位置
+
+### 脚本修复
+- 修复 `keyword_driven_generator.py` 的Windows GBK编码问题（添加 safe_print 函数，移除emoji打印）

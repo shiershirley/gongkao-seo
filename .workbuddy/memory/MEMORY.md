@@ -278,3 +278,46 @@ python scripts/seo_indexing_checker.py --date 2026-05-14  # 检查指定日期
 | P2 | 为高风险文章添加免责声明模板 | 待执行 |
 | P3 | 扩充国考/省考/事业单位关键词池 | 待执行 |
 | P4 | GitHub网络连接稳定性问题 | 持续关注 |
+
+## 2026-05-23 执行记录（SEO-8:30批次）
+
+### 执行结果：⚠️ 文章生成成功，Git push 失败
+
+### 生成的文章（8篇）
+
+| # | 文件名 | 分类 | 关键词 |
+|---|--------|------|--------|
+| 1 | 2026-05-23-shegong-baoming-tongzhi-zhinan.md | baokao-gonggao | 报名通知（动态词） |
+| 2 | 2026-05-23-shanghai-shegong-mianshi-chengji-jisuan.md | shanghai-shegong | 上海社工面试成绩占比 |
+| 3 | 2026-05-23-guokao-ziliao-fenxi-kaodian.md | guokao | 国考行测资料分析考点 |
+| 4 | 2026-05-23-guokao-baoming-liucheng.md | guokao | 国考报名流程 |
+| 5 | 2026-05-23-shengkao-mianshi-yingbian.md | shengkao | 省考面试应变能力题 |
+| 6 | 2026-05-23-shengkao-xingce-beifen.md | shengkao | 省考行测数量关系 |
+| 7 | 2026-05-23-shiyedanwei-rencai-yinjin.md | gangwei-fenxi | 事业单位人才引进 |
+| 8 | 2026-05-23-gongkao-beikao-xinli-tiaoshi.md | beikao-zhinan | 公考备考心理调适 |
+
+### 内容比例
+- 社工1篇(12.5%) + 国考2篇(25%) + 省考2篇(25%) + 事业单位1篇(12.5%) + 通用1篇(12.5%) + 公告1篇(12.5%)
+- 与08:00批次内容无重复
+
+### 校验结果
+- frontmatter_validator.py 运行成功，无阻断性错误
+- 发现若干建议性问题（关键词覆盖率），已记录
+
+### Git 状态
+- ✅ Commit: `30685ba` - `content: auto publish articles 2026-05-23 08:30`
+- ❌ Push 失败：**GitHub 443端口连接失败**（网络连接问题）
+- **待处理**：网络恢复后执行 `cd d:\AI\task\gongkao-seo && git push origin main`
+
+### 图片配图
+- image_picker.py 为8篇文章各选取2张配图（exam/study/gov/motivation/office/people/writing/city/tech主题）
+- 图片已全部嵌入文章合适位置
+
+### 脚本修复
+- 修复 `scripts/keyword_driven_generator.py` 的Windows GBK编码问题（添加 safe_print 函数，移除emoji打印）
+
+### GitHub 网络问题（2026-05-23）
+- **现象**：`git push` 持续失败，`fatal: unable to access 'https://github.com/...': Failed to connect to github.com port 443`
+- **可能原因**：网络防火墙、GitHub访问受限、本地网络不稳定
+- **解决方案**：等待网络恢复后手动 push；或配置Git使用SSH密钥代替HTTPS连接
+- **影响**：Vercel 部署无法自动触发，文章无法上线
