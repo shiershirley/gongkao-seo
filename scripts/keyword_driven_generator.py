@@ -217,6 +217,15 @@ def list_uncovered_keywords(keywords_pool, covered_keywords, limit=20):
     return uncovered[:limit]
 
 
+def safe_print(msg):
+    """安全打印，避免Windows GBK终端编码问题"""
+    try:
+        print(msg)
+    except UnicodeEncodeError:
+        import sys
+        print(msg.encode('utf-8', errors='ignore').decode('ascii', errors='ignore'))
+
+
 def main():
     parser = argparse.ArgumentParser(description='关键词驱动的文章生成器')
     parser.add_argument('--list', action='store_true', help='列出未覆盖的关键词')
@@ -226,71 +235,71 @@ def main():
     
     args = parser.parse_args()
     
-    print("🔍 正在扫描已覆盖的关键词...")
+    safe_print("[扫描] 正在扫描已覆盖的关键词...")
     covered = get_existing_keywords()
-    print(f"   已覆盖：{len(covered)} 个词/短语")
+    safe_print(f"   已覆盖：{len(covered)} 个词/短语")
     
-    print("\n📦 加载关键词池...")
+    safe_print("\n[加载] 加载关键词池...")
     pool = load_keyword_pool()
     
     total = sum(len(v) for v in pool.values())
-    print(f"   关键词池总数：{total} 个")
-    print(f"   - P0核心词：{len(pool['P0'])} 个")
-    print(f"   - P1高价值：{len(pool['P1'])} 个")
-    print(f"   - P2中价值：{len(pool['P2'])} 个")
-    print(f"   - P3长尾词：{len(pool['P3'])} 个")
-    print(f"   - 动态词：{len(pool['dynamic'])} 个")
+    safe_print(f"   关键词池总数：{total} 个")
+    safe_print(f"   - P0核心词：{len(pool['P0'])} 个")
+    safe_print(f"   - P1高价值：{len(pool['P1'])} 个")
+    safe_print(f"   - P2中价值：{len(pool['P2'])} 个")
+    safe_print(f"   - P3长尾词：{len(pool['P3'])} 个")
+    safe_print(f"   - 动态词：{len(pool['dynamic'])} 个")
     
     if args.list:
-        print("\n" + "="*60)
-        print("📋 未覆盖的关键词列表（按优先级排序）")
-        print("="*60)
+        safe_print("\n" + "="*60)
+        safe_print("未覆盖的关键词列表（按优先级排序）")
+        safe_print("="*60)
         
         uncovered = list_uncovered_keywords(pool, covered, args.limit)
         
         if not uncovered:
-            print("✅ 所有关键词都已覆盖！")
+            safe_print("所有关键词都已覆盖！")
         else:
             current_priority = None
             for i, kw_info in enumerate(uncovered, 1):
                 priority = kw_info["priority"]
                 if priority != current_priority:
-                    print(f"\n【{priority}】")
+                    safe_print(f"\n[{priority}]")
                     current_priority = priority
                 
                 kw_type = kw_info.get("type", "general")
                 category = kw_info.get("category", "")
-                print(f"  {i}. {kw_info['keyword']} | {kw_type} | {category}")
+                safe_print(f"  {i}. {kw_info['keyword']} | {kw_type} | {category}")
     
     elif args.next or args.prompt:
-        print("\n🎯 选择下一个关键词...")
+        safe_print("\n[选择] 选择下一个关键词...")
         next_kw = select_next_keyword(pool, covered)
         
         if next_kw:
-            print(f"\n✅ 建议生成：{next_kw['keyword']}")
-            print(f"   优先级：{next_kw.get('priority', 'P1')}")
-            print(f"   类型：{next_kw.get('type', 'general')}")
-            print(f"   推荐分类：{next_kw.get('category', 'beikao-zhinan')}")
+            safe_print(f"\n建议生成：{next_kw['keyword']}")
+            safe_print(f"   优先级：{next_kw.get('priority', 'P1')}")
+            safe_print(f"   类型：{next_kw.get('type', 'general')}")
+            safe_print(f"   推荐分类：{next_kw.get('category', 'beikao-zhinan')}")
             
             if args.prompt:
                 prompt = generate_article_prompt(next_kw)
-                print("\n" + "="*60)
-                print("📝 文章生成指令")
-                print("="*60)
-                print(prompt)
+                safe_print("\n" + "="*60)
+                safe_print("文章生成指令")
+                safe_print("="*60)
+                safe_print(prompt)
         else:
-            print("\n✅ 所有关键词都已覆盖！无需生成新文章。")
+            safe_print("\n所有关键词都已覆盖！无需生成新文章。")
     
     else:
         # 默认：显示摘要
         uncovered = list_uncovered_keywords(pool, covered, 5)
-        print(f"\n📊 摘要")
-        print(f"   未覆盖关键词：{len(uncovered)} 个")
+        safe_print(f"\n[摘要]")
+        safe_print(f"   未覆盖关键词：{len(uncovered)} 个")
         
         if uncovered:
-            print("\n🔥 高优先级未覆盖词：")
+            safe_print("\n高优先级未覆盖词：")
             for kw in uncovered[:5]:
-                print(f"   - {kw['keyword']} [{kw['priority']}]")
+                safe_print(f"   - {kw['keyword']} [{kw['priority']}]")
 
 
 if __name__ == "__main__":
