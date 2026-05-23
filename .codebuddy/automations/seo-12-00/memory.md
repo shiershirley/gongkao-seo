@@ -1,7 +1,29 @@
 # SEO 12:00 自动化执行记录
 
+## 2026-05-23 12:00 执行
+- **状态**：全部成功（文章生成+校验+git push+发布后检查）
+- **生成文章**：8篇
+  1. shanghai-shegong/2026-05-23-shanghai-shegong-gongzuo-neirong-shijian-anpai.md（上海社工日常工作内容）
+  2. shanghai-shegong/2026-05-23-shanghai-shegong-zonghe-zhishi-gaopin-kaodian.md（上海社工综合知识高频考点）
+  3. guokao/2026-05-23-guokao-gangwei-xuanze-jiqiao-yu-celue.md（国考岗位选择技巧）
+  4. guokao/2026-05-23-guokao-xingce-shuliang-guanxi-bikao-tixing.md（国考行测数量关系必考题型）
+  5. shengkao/2026-05-23-shengkao-mianshi-jihua-zuzhi-tixing-gaofen-kuangjia.md（省考面试计划组织题型）
+  6. shengkao/2026-05-23-shengkao-shenlun-zonghe-fenxi-jieti-silu.md（省考申论综合分析题）
+  7. gangwei-fenxi/2026-05-23-shiyedanwei-kemu-beikao-shunxu-shijian-fenpei.md（事业单位考试科目备考顺序）
+  8. beikao-zhinan/2026-05-23-zaizhi-beikao-shouji-shebei-tuijian-yu-xuexi-fangan.md（在职备考工具推荐）
+- **内容比例**：社工2篇(25%) | 国考2篇(25%) | 省考2篇(25%) | 事业单位1篇(12.5%) | 通用备考1篇(12.5%)
+- **图片配图**：每篇2张，共16张图片，直接插入markdown
+- **图片使用记录**：已更新 image_usage_log.json（16张图片标记为2026-05-23）
+- **Frontmatter校验**：全部通过（仅有建议性关键词提示，无格式错误）
+- **Git**：commit 876acee → push成功（8cbc0c1..876acee main -> main）
+- **发布后检查**：
+  - 首页 https://gk.edu-sjtu.cn 正常加载，显示2026-05-23文章
+  - 8篇文章全部HTTP 200，日期格式YYYY-MM-DD正确，正文完整
+  - Sitemap已更新，包含新文章URL（lastmod=2026-05-23）
+- **注意**：本次push成功，网络和Vercel部署均正常
+
 ## 2026-05-21 12:00 执行
-- **状态**：✅ 全部成功（文章生成+校验+git push）
+- **状态**：全部成功（文章生成+校验+git push）
 - **生成文章**：8篇
   1. shanghai-shegong/2026-05-21-shanghai-shegong-mianshi-mingdan-tijian-zhengshen.md（上海社工面试名单体检政审全流程）
   2. shanghai-shegong/2026-05-21-shanghai-shegong-shuzi-zhili-zhuanxing-jineng.md（上海社工数字治理转型技能）
@@ -18,7 +40,7 @@
 - **注意**：本次push成功，无网络超时问题
 
 ## 2026-05-20 12:00 执行
-- **状态**：✅ 文章生成+校验成功，⚠️ git push失败（GitHub 443端口连接超时）
+- **状态**：文章生成+校验成功，git push失败（GitHub 443端口连接超时）
 - **生成文章**：7篇
   1. shanghai-shegong/2026-05-20-shanghai-shegong-mianshi-qingjing-moni-tijingjiang.md（上海社工面试情景模拟题精讲）
   2. beikao-zhinan/2026-05-20-fei-quanrizhi-xueli-kaoshegong-quanmian-gonglue.md（非全日制学历考社工全攻略）
@@ -32,7 +54,7 @@
 - **待办**：网络恢复后需手动 git push
 
 ## 2026-05-19 12:00 执行
-- **状态**：✅ 文章生成+校验成功，⚠️ git push失败（GitHub连接超时）
+- **状态**：文章生成+校验成功，git push失败（GitHub连接超时）
 - **生成文章**：8篇
   1. beikao-zhinan/2026-05-19-shegong-mianshi-2026-lexing-yuce-yingdui.md（社工面试题型预测）
   2. baokao-gonggao/2026-05-19-xibu-shengfen-shegong-zhaopin-qushi.md（西部省份社工招聘趋势）
