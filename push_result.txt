@@ -1,7 +1,4 @@
-﻿git : Everything up-to-date
-所在位置 行:1 字符: 222
-+ ... 'utf-8'; cd d:\AI\task\gongkao-seo; git push origin main 2>&1 | Out-F ...
-+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : NotSpecified: (Everything up-to-date:String) [], RemoteException
-    + FullyQualifiedErrorId : NativeCommandError
- 
+﻿Push failed at 2026-05-23 11:14 - GitHub connection reset (5 attempts)
+Commit: 8cbc0c1 - content: auto publish articles 2026-05-23 11:00 (8 articles)
+Error: fatal: unable to access 'https://github.com/shiershirley/gongkao-seo.git/': Connection was reset / Could not connect to server port 443
+Action needed: Manual push when network recovers
