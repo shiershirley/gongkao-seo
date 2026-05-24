@@ -2,6 +2,43 @@
 
 ## 最近执行记录
 
+### 2026-05-23 14:06 执行（seo-8-00-2）
+
+**状态**：文章已生成、已提交，GitHub push 失败（网络问题）⚠️
+
+**生成文章（8篇）**：
+
+| 文件名 | 关键词 | 分类 | 图片 |
+|--------|--------|------|------|
+| shanghai-shegong-luyong-ruzhi-liucheng | 上海社工录用入职流程 | shanghai-shegong | city_v20_040.jpg, office_more_1.jpg |
+| shanghai-shegong-gequ-nandu-jingzheng-fenxi | 上海社工各区难度竞争 | shanghai-shegong | people_v18_010.jpg, city_v20_039.jpg |
+| guokao-mianshi-jiegouhua-xiaozu-taolun | 国考结构化小组讨论 | guokao | exam_v23_099.jpg, m_1.jpg |
+| guokao-tijian-biaozhun-taotai-xiangmu | 国考体检标准淘汰项 | guokao | g_2.jpg, office_v22_147.jpg |
+| shengkao-gongan-tineng-ceshi-zhinan | 省考公安体能测试 | shengkao | office_px_5.jpg, b6_3.jpg |
+| shengkao-mianshi-yirong-yibiao-zhinan | 省考面试着装礼仪 | shengkao | student_writing.jpg, gov_building_2.jpg |
+| shiyedanwei-zhuanyejishu-zhicheng-jinsheng | 事业单位职称晋升路径 | gangwei-fenxi | city_v23_048.jpg, gov_v19_055.jpg |
+| gongkao-bishi-mianshi-jianxi-beikao | 笔试面试间隔期备考 | beikao-zhinan | books_v21_101.jpg, w2_3.jpg |
+
+**内容比例**：社工2篇(25%) + 国考2篇(25%) + 省考2篇(25%) + 事业单位1篇(12.5%) + 通用1篇(12.5%) ✅
+
+**执行步骤结果**：
+1. ✅ 读取关键词池（keywords_pool.md）- 全部关键词已覆盖，采用角度轮换策略
+2. ✅ 生成8篇新文章（按内容比例规范）
+3. ✅ 图片配图：image_picker.py 为每篇文章选取2张图片（共16张），使用记录已更新
+4. ✅ frontmatter 校验通过（8/8 OK）
+5. ✅ git add + commit 完成（commit: cd9e991）
+6. ❌ git push 失败：无法连接 GitHub（已试3次）
+
+**发布后检查**（已部署站点）：
+1. ✅ 首页正常：公考资讯站正常加载
+2. ⏳ 新文章：因 push 失败尚未部署，网络恢复后需重新验证
+3. ✅ Sitemap正常：含大量2026-05-23文章URL
+
+**待处理**：
+- [ ] 网络恢复后执行 `cd d:\AI\task\gongkao-seo; git push origin main`
+
+---
+
 ### 2026-05-22 14:06 执行（seo-8-00-2）
 
 **状态**：文章已确认提交（前序任务已完成生成和推送），图片已更新，发布后检查通过 ✅
