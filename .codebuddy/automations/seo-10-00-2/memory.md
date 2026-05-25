@@ -1,5 +1,41 @@
 # seo-10-00-2 自动化执行记录
 
+## 2026-05-25 10:00（第五次执行）
+
+**执行状态**：⚠️ 文章生成成功，Git push 失败（GitHub网络连接重置）
+**Commit**：2800135（"content: auto publish articles 2026-05-25 10:00 (8 articles)"）
+**推送状态**：❌ Connection was reset，需手动推送
+
+### 关键词策略
+- 关键词池P0-P3全部已覆盖，采用「角度轮换策略」
+- 今日新角度：入职适应、岗位调剂、常识考点、对策题模板、报名照片、公安体测、技术vs管理岗、碎片化时间管理
+- 内容比例：社工2篇(25%)、国考2篇(25%)、省考2篇(25%)、事业单位1篇(12.5%)、通用1篇(12.5%) ✅
+
+### 已生成8篇文章
+
+| 文章路径 | 关键词/主题 |
+|---------|-----------|
+| shanghai-shegong/2026-05-25-shanghai-shegong-ruzhishiying-zhinan.md | 上海社工入职后工作适应指南 |
+| shanghai-shegong/2026-05-25-shanghai-shegong-gangwei-diaoji-xuanze.md | 上海社工岗位调剂与岗位选择策略 |
+| guokao/2026-05-25-guokao-xingce-changshi-gaopin-kaodian.md | 国考行测常识判断高频考点梳理 |
+| guokao/2026-05-25-guokao-shenlun-duice-tigao-moban.md | 国考申论提出对策题高分模板 |
+| shengkao/2026-05-25-shengkao-baoming-zhaopian-yaoqiu.md | 省考报名照片要求及上传指南 |
+| shengkao/2026-05-25-shengkao-gongan-tineng-beikao.md | 省考公安岗位体能测试备考指南 |
+| gangwei-fenxi/2026-05-25-shiyedanwei-jishu-vs-guanli-gangwei.md | 事业单位专业技术岗vs管理岗选择对比 |
+| beikao-zhinan/2026-05-25-gongkao-suipianhua-shijian-guanli.md | 公考备考碎片化时间高效利用方法 |
+
+### 图片配图
+- image_picker.py 每篇2张配图，16张图片全部获取成功
+
+### YAML校验
+- ✅ 通过，仅有8条关键词覆盖建议（非阻断性）
+
+### 发布后检查
+- ❌ 由于git push失败，暂无法检查线上新文章，待推送后手动检查
+- ✅ 首页 https://gk.edu-sjtu.cn 正常加载
+
+---
+
 ## 2026-05-23 10:00（第四次执行）
 
 **执行状态**：⚠️ 文章生成成功，Git push 失败（GitHub网络问题，已知问题）
