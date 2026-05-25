@@ -5,7 +5,6 @@
 """
 import os
 import sys
-import subprocess
 import json
 import re
 from datetime import datetime
@@ -13,34 +12,20 @@ from datetime import datetime
 ROOT = 'd:/AI/task/gongkao-seo'
 CONTENT = os.path.join(ROOT, 'content')
 SCRIPTS = os.path.join(ROOT, 'scripts')
-TODAY = '2026-05-19'
+TODAY = '2026-05-25'
 TIMESTAMP = '13-00'
+
+# 导入image_picker模块
+sys.path.insert(0, SCRIPTS)
+from image_picker import pick_images
 
 def run_image_picker(category, count=2):
     """调用image_picker.py选取图片，返回图片路径列表"""
-    cmd = [
-        'python', os.path.join(SCRIPTS, 'image_picker.py'),
-        '--category', category,
-        '--count', str(count),
-        '--update',
-        '--json'
-    ]
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30, cwd=ROOT)
-        stdout = result.stdout.strip()
-        # 提取JSON部分（可能有日志前缀）
-        # 查找 [ 开头的部分
-        json_start = stdout.find('[')
-        if json_start >= 0:
-            json_str = stdout[json_start:]
-            data = json.loads(json_str)
-            return [img['path'] for img in data if 'path' in img]
-        # 尝试直接解析
-        data = json.loads(stdout)
-        return [img['path'] for img in data if 'path' in img]
+        images = pick_images(category, count, update=True)
+        return [img['path'] for img in images if 'path' in img]
     except Exception as e:
         print(f'  [警告] 图片选取失败: {e}')
-        print(f'  stdout: {stdout[:200] if "stdout" in dir() else ""}')
         return []
 
 def gen_article_content(title, keyword, category, tags, angle, images):
