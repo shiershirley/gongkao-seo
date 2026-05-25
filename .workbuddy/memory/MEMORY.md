@@ -71,6 +71,7 @@
 
 - commit格式：`content: auto publish articles YYYY-MM-DD HH:MM (N articles)`
 - **已知问题**：GitHub网络不稳定，push常失败。commit成功后需多次重试push，或网络恢复后手动推送
+- **当前状态（2026-05-25）**：约10个commits未推送，GitHub端口443完全无法连接（timeout 21s）; 图片选取改用Python subprocess + JSON文件方式（避免PowerShell编码问题）
 
 ## 自动化任务列表
 

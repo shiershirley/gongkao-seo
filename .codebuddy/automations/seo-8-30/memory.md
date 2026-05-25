@@ -106,3 +106,41 @@
 
 ### 脚本修复
 - 修复 `keyword_driven_generator.py` 的Windows GBK编码问题（添加 safe_print 函数，移除emoji打印）
+
+---
+
+## 2026-05-25 08:30 执行记录
+
+### 执行结果：⚠️ 文章生成成功，Git push 失败（网络超时）
+
+### 生成的文章（8篇）
+
+| # | 文件名 | 分类 | 关键词 |
+|---|--------|------|--------|
+| 1 | 2026-05-25-shanghai-shegong-mianshi-changjian-wenti.md | shanghai-shegong | 上海社区工作者面试常见问题 |
+| 2 | 2026-05-25-shanghai-shegong-gangwei-leixing-jiedu.md | shanghai-shegong | 上海社区工作者岗位类型 |
+| 3 | 2026-05-25-guokao-shenlun-tichuduice-gaofen.md | guokao | 国考申论提出对策题 |
+| 4 | 2026-05-25-guokao-baoming-xinxitianxie-zhinan.md | guokao | 国考报名信息填写 |
+| 5 | 2026-05-25-shengkao-xingce-dingyi-panduan-jiqiao.md | shengkao | 省考行测定义判断三步法 |
+| 6 | 2026-05-25-shengkao-mianshi-renji-guanxi-moban.md | shengkao | 省考面试人际关系题模板 |
+| 7 | 2026-05-25-shiyedanwei-guanli-jishu-duibi.md | gangwei-fenxi | 事业单位管理岗技术岗对比 |
+| 8 | 2026-05-25-gongkao-beikao-shida-wuqu.md | beikao-zhinan | 公考备考十大常见误区 |
+
+### 内容比例
+- 社工2篇(25%) + 国考2篇(25%) + 省考2篇(25%) + 事业单位1篇(12.5%) + 通用1篇(12.5%) ✅ 符合规范
+
+### 校验结果
+- frontmatter_validator.py --fix 运行成功，所有新文章通过校验（仅有建议性提示）
+- date字段有引号，无内嵌双引号问题
+
+### 图片配图
+- image_picker.py 为8篇文章各选取2张配图（city/people/gov/study/exam/motivation/books/tech主题）
+- 图片已全部嵌入文章合适位置
+
+### Git状态
+- ✅ Commit: `d55f54d` - `content: auto publish articles 2026-05-25 08:30 (8 articles)`
+- ❌ Push 失败：网络超时（GitHub网络不稳定，已知问题）
+- **待处理**：网络恢复后执行 `git push origin main` 触发Vercel部署
+
+### 发布后检查
+- ⏳ 跳过：需待Git push成功、Vercel部署完成后执行
