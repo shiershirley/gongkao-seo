@@ -1,0 +1,269 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "🏛️ 公考资讯站" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🏛️
+        - generic [ref=e7]: 公考资讯站
+      - navigation [ref=e8]:
+        - link "国考" [ref=e9] [cursor=pointer]:
+          - /url: /guokao
+        - link "省考" [ref=e10] [cursor=pointer]:
+          - /url: /shengkao
+        - link "上海社工" [ref=e11] [cursor=pointer]:
+          - /url: /shanghai-shegong
+        - link "公告" [ref=e12] [cursor=pointer]:
+          - /url: /baokao-gonggao
+        - link "备考" [ref=e13] [cursor=pointer]:
+          - /url: /beikao-zhinan
+        - link "真题" [ref=e14] [cursor=pointer]:
+          - /url: /zhenti-jiexi
+        - link "经验" [ref=e15] [cursor=pointer]:
+          - /url: /shang-an-jingyan
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - navigation "面包屑" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "首页" [ref=e21] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e22]:
+            - generic [ref=e23]: /
+            - link "岗位分析" [ref=e24] [cursor=pointer]:
+              - /url: /gangwei-fenxi
+          - listitem [ref=e25]:
+            - generic [ref=e26]: /
+            - generic [ref=e27]: 事业单位公开招聘笔试备考规划与科目解析
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 岗位分析
+            - time [ref=e32]: 2026-05-26
+            - generic [ref=e33]: 9 min read
+          - heading "事业单位公开招聘笔试备考规划与科目解析" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 事业单位招聘笔试考什么？怎么备考？本文详细解析事业单位笔试的常见科目（职业能力倾向测验、综合应用能力、公共基础知识），提供分阶段备考规划和各科目的重点复习方向，帮助考生系统准备事业单位考试。
+          - generic [ref=e36]:
+            - generic [ref=e37]: "#事业单位"
+            - generic [ref=e38]: "#笔试备考"
+            - generic [ref=e39]: "#职业能力倾向测验"
+            - generic [ref=e40]: "#综合应用能力"
+        - generic [ref=e41]:
+          - heading "事业单位公开招聘笔试科目解析与备考规划" [level=2] [ref=e42]
+          - paragraph [ref=e43]: 事业单位公开招聘考试（简称「事考」）是进入事业单位的主要途径之一。与公务员考试相比，事业单位考试的组织形式更加多样，不同地区、不同层级的事业单位考试科目存在一定差异。但总体来看，事业单位笔试主要围绕职业能力倾向测验、综合应用能力和公共基础知识三个方向展开。本文将系统解析各科目的内容和备考方法。
+          - paragraph [ref=e44]:
+            - img "科技数字" [ref=e45]
+          - heading "一、事业单位笔试常见科目" [level=3] [ref=e46]
+          - paragraph [ref=e47]:
+            - strong [ref=e48]: 科目一：职业能力倾向测验（简称「职测」）
+          - paragraph [ref=e49]: 职测与公务员考试的行测类似，主要考察考生的基本能力素质。常见题型包括：
+          - table [ref=e50]:
+            - rowgroup [ref=e51]:
+              - row "题型 考察能力 题量 建议" [ref=e52]:
+                - columnheader "题型" [ref=e53]
+                - columnheader "考察能力" [ref=e54]
+                - columnheader "题量" [ref=e55]
+                - columnheader "建议" [ref=e56]
+            - rowgroup [ref=e57]:
+              - row "言语理解 语言表达与理解能力 20-25题 注重语境分析" [ref=e58]:
+                - cell "言语理解" [ref=e59]
+                - cell "语言表达与理解能力" [ref=e60]
+                - cell "20-25题" [ref=e61]
+                - cell "注重语境分析" [ref=e62]
+              - row "数量关系 数学运算与推理 10-15题 掌握基础题型" [ref=e63]:
+                - cell "数量关系" [ref=e64]
+                - cell "数学运算与推理" [ref=e65]
+                - cell "10-15题" [ref=e66]
+                - cell "掌握基础题型" [ref=e67]
+              - row "判断推理 逻辑思维与分析 20-25题 重点拿分模块" [ref=e68]:
+                - cell "判断推理" [ref=e69]
+                - cell "逻辑思维与分析" [ref=e70]
+                - cell "20-25题" [ref=e71]
+                - cell "重点拿分模块" [ref=e72]
+              - row "资料分析 数据处理与分析 15-20题 高性价比模块" [ref=e73]:
+                - cell "资料分析" [ref=e74]
+                - cell "数据处理与分析" [ref=e75]
+                - cell "15-20题" [ref=e76]
+                - cell "高性价比模块" [ref=e77]
+              - row "常识判断 知识面广度 15-20题 日常积累为主" [ref=e78]:
+                - cell "常识判断" [ref=e79]
+                - cell "知识面广度" [ref=e80]
+                - cell "15-20题" [ref=e81]
+                - cell "日常积累为主" [ref=e82]
+          - paragraph [ref=e83]: 与国考行测相比，事业单位的职测整体难度偏低，但部分地区的题量较大，对做题速度有较高要求。
+          - paragraph [ref=e84]:
+            - strong [ref=e85]: 科目二：综合应用能力（简称「综应」）
+          - paragraph [ref=e86]: 综应是事业单位笔试中区别于公务员考试的特色科目，主要考察考生在实际工作中的综合应用能力。根据岗位类别的不同，综应分为以下几个方向：
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - strong [ref=e89]: 综合管理类（A类）
+              - text: ：类似于申论，主要考察公文写作、案例分析、问题解决能力
+            - listitem [ref=e90]:
+              - strong [ref=e91]: 社会科学专技类（B类）
+              - text: ：侧重概念分析、校阅改错、材料分析
+            - listitem [ref=e92]:
+              - strong [ref=e93]: 自然科学专技类（C类）
+              - text: ：侧重科技文献阅读、论证评价、科技实务
+            - listitem [ref=e94]:
+              - strong [ref=e95]: 中小学教师类（D类）
+              - text: ：侧重教育场景中的问题分析和教学设计
+            - listitem [ref=e96]:
+              - strong [ref=e97]: 医疗卫生类（E类）
+              - text: ：侧重医疗卫生相关专业知识的应用
+          - paragraph [ref=e98]: 对于大多数报考综合管理岗位的考生来说，A类的备考方向与申论备考有较多重叠，但更注重实际工作中的问题解决能力。
+          - paragraph [ref=e99]:
+            - img "科技数字" [ref=e100]
+          - paragraph [ref=e101]:
+            - strong [ref=e102]: 科目三：公共基础知识（简称「公基」）
+          - paragraph [ref=e103]: 公基是很多地区事业单位考试的必考科目，考察内容包括：
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - strong [ref=e106]: 政治理论
+              - text: ：马克思主义基本原理、毛泽东思想、中国特色社会主义理论体系、时事政治
+            - listitem [ref=e107]:
+              - strong [ref=e108]: 法律知识
+              - text: ：宪法、民法、刑法、行政法、劳动法等基本法律知识
+            - listitem [ref=e109]:
+              - strong [ref=e110]: 经济知识
+              - text: ：社会主义市场经济理论、宏观经济政策
+            - listitem [ref=e111]:
+              - strong [ref=e112]: 管理知识
+              - text: ：公共管理、行政管理基本知识
+            - listitem [ref=e113]:
+              - strong [ref=e114]: 公文写作
+              - text: ：公文的种类、格式、写作规范
+            - listitem [ref=e115]:
+              - strong [ref=e116]: 历史文化
+              - text: ：中国历史、世界历史、传统文化知识
+            - listitem [ref=e117]:
+              - strong [ref=e118]: 科技地理
+              - text: ：基本科技常识和中国地理知识
+          - paragraph [ref=e119]: 公基的特点是「范围广、深度浅」，需要考生有较广的知识面，但不需要对每个知识点都有深入的理解。
+          - heading "二、分阶段备考规划" [level=3] [ref=e120]
+          - paragraph [ref=e121]:
+            - strong [ref=e122]: 第一阶段：基础学习（4-6周）
+          - paragraph [ref=e123]: 这个阶段的目标是全面了解考试内容和基本知识点。
+          - list [ref=e124]:
+            - listitem [ref=e125]: 职测：系统学习每个模块的基本方法和常考题型，每天学习一个模块
+            - listitem [ref=e126]: 综应：了解常考的公文种类和写作格式，练习基本的材料分析能力
+            - listitem [ref=e127]: 公基：按照知识板块逐个梳理，重点记忆政治理论和法律知识
+            - listitem [ref=e128]: 建议每天学习时间3-4小时，周末可适当增加
+          - paragraph [ref=e129]:
+            - strong [ref=e130]: 第二阶段：专项提升（3-4周）
+          - paragraph [ref=e131]: 这个阶段的目标是针对自己的薄弱环节进行重点突破。
+          - list [ref=e132]:
+            - listitem [ref=e133]: 分析基础阶段的学习成果，找出自己的薄弱模块
+            - listitem [ref=e134]: 职测薄弱模块进行专项训练，每个模块至少完成200道练习题
+            - listitem [ref=e135]: 综应开始练习完整写作，每周至少写2篇完整的综应文章
+            - listitem [ref=e136]: 公基通过刷题查漏补缺，重点记忆做错的知识点
+            - listitem [ref=e137]: 建议每天学习时间4-5小时
+          - paragraph [ref=e138]:
+            - strong [ref=e139]: 第三阶段：模考冲刺（2-3周）
+          - paragraph [ref=e140]: 这个阶段的目标是提高做题速度和应试能力。
+          - list [ref=e141]:
+            - listitem [ref=e142]: 每周进行2-3次完整的模拟考试，严格按时间作答
+            - listitem [ref=e143]: 总结模考中出现的问题，针对性改进
+            - listitem [ref=e144]: 复习错题本和知识笔记
+            - listitem [ref=e145]: 调整作息时间，确保考试当天精力充沛
+            - listitem [ref=e146]: 关注最新的时事政治和政策动态
+          - heading "三、各科目备考重点" [level=3] [ref=e147]
+          - paragraph [ref=e148]:
+            - strong [ref=e149]: 职测备考重点：
+          - list [ref=e150]:
+            - listitem [ref=e151]: 判断推理和资料分析是得分主力，要确保这两个模块的正确率在80%以上
+            - listitem [ref=e152]: 言语理解要注重语境分析，不要仅凭语感做题
+            - listitem [ref=e153]: 数量关系不要放弃，掌握基础题型就能拿到大部分分数
+            - listitem [ref=e154]: 控制好每个模块的做题时间，学会合理取舍
+          - paragraph [ref=e155]:
+            - strong [ref=e156]: 综应备考重点：
+          - list [ref=e157]:
+            - listitem [ref=e158]: 熟练掌握常见公文的写作格式（通知、报告、请示、函等）
+            - listitem [ref=e159]: 培养材料分析能力，学会从材料中快速提取关键信息
+            - listitem [ref=e160]: 练习案例分析题的答题思路：发现问题、分析原因、提出对策
+            - listitem [ref=e161]: 注意字迹工整，综应的主观题部分书写也会影响评分
+          - paragraph [ref=e162]:
+            - strong [ref=e163]: 公基备考重点：
+          - list [ref=e164]:
+            - listitem [ref=e165]: 时事政治是近期考试的重点，要关注近半年的重要政策文件和新闻事件
+            - listitem [ref=e166]: 法律知识以理解为主，不要死记硬背法条
+            - listitem [ref=e167]: 公文写作要重点掌握不同公文类型的适用范围和格式要求
+            - listitem [ref=e168]: 利用碎片时间积累历史文化、科技地理等常识
+          - heading "四、备考注意事项" [level=3] [ref=e169]
+          - list [ref=e170]:
+            - listitem [ref=e171]: 提前了解目标地区事业单位的考试科目和题型，做到有的放矢
+            - listitem [ref=e172]: 不要同时备考公务员和事业单位，选择一个重点方向集中精力
+            - listitem [ref=e173]: 关注各地事业单位招聘公告的发布时间，不要错过报名
+            - listitem [ref=e174]: 注意事业单位考试的户籍限制和专业要求，选择合适的岗位报考
+            - listitem [ref=e175]: 保持积极心态，事业单位考试的整体竞争比低于公务员考试，上岸机会更大
+          - paragraph [ref=e176]: 事业单位考试虽然与公务员考试有一定相似性，但两者在考试内容、难度和备考策略上都有区别。了解差异、制定针对性的备考计划、坚持高效复习，你一定能顺利通过事业单位笔试。
+        - generic [ref=e178]:
+          - paragraph [ref=e179]: 作者：公考助手 | 发布：2026-05-26
+          - link "← 返回岗位分析" [ref=e180] [cursor=pointer]:
+            - /url: /gangwei-fenxi
+      - complementary [ref=e181]:
+        - heading "📖 相关推荐" [level=2] [ref=e182]
+        - generic [ref=e183]:
+          - link "事业单位综合应用能力备考策略与高分方法 2026-05-26" [ref=e184] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-26-gangwei-fenxi-zonghe-yingyong
+            - heading "事业单位综合应用能力备考策略与高分方法" [level=3] [ref=e185]
+            - paragraph [ref=e186]: 2026-05-26
+          - link "事业单位考试备考需要多长时间？按人群定制的时间规划方案 2026-05-26" [ref=e187] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-26-shiyedanwei-baokao-zhunbei-shijian
+            - heading "事业单位考试备考需要多长时间？按人群定制的时间规划方案" [level=3] [ref=e188]
+            - paragraph [ref=e189]: 2026-05-26
+          - link "社区工作者与事业单位区别全解析：编制待遇发展对比 2026-05-25" [ref=e190] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-25-shegong-vs-shiye-13-00
+            - heading "社区工作者与事业单位区别全解析：编制待遇发展对比" [level=3] [ref=e191]
+            - paragraph [ref=e192]: 2026-05-25
+          - link "事业单位考试报名流程详解：从注册到缴费全流程指南 2026-05-25" [ref=e193] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-25-shiyedanwei-baoming-liucheng-zhinan
+            - heading "事业单位考试报名流程详解：从注册到缴费全流程指南" [level=3] [ref=e194]
+            - paragraph [ref=e195]: 2026-05-25
+  - contentinfo [ref=e196]:
+    - generic [ref=e197]:
+      - generic [ref=e198]:
+        - generic [ref=e199]:
+          - link "🏛️ 公考资讯站" [ref=e200] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e201]: 🏛️
+            - generic [ref=e202]: 公考资讯站
+          - paragraph [ref=e203]: 专注国考、省考、社区工作者招录考试，提供最新招考公告与备考指南，助你顺利上岸。
+        - generic [ref=e204]:
+          - heading "考试频道" [level=3] [ref=e205]
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - link "国家公务员考试" [ref=e208] [cursor=pointer]:
+                - /url: /guokao
+            - listitem [ref=e209]:
+              - link "各省公务员考试" [ref=e210] [cursor=pointer]:
+                - /url: /shengkao
+            - listitem [ref=e211]:
+              - link "上海社区工作者" [ref=e212] [cursor=pointer]:
+                - /url: /shanghai-shegong
+        - generic [ref=e213]:
+          - heading "备考资源" [level=3] [ref=e214]
+          - list [ref=e215]:
+            - listitem [ref=e216]:
+              - link "报考公告" [ref=e217] [cursor=pointer]:
+                - /url: /baokao-gonggao
+            - listitem [ref=e218]:
+              - link "政策解读" [ref=e219] [cursor=pointer]:
+                - /url: /zhengce-jiedu
+            - listitem [ref=e220]:
+              - link "备考指南" [ref=e221] [cursor=pointer]:
+                - /url: /beikao-zhinan
+            - listitem [ref=e222]:
+              - link "真题解析" [ref=e223] [cursor=pointer]:
+                - /url: /zhenti-jiexi
+        - generic [ref=e224]:
+          - heading "更多" [level=3] [ref=e225]
+          - list [ref=e226]:
+            - listitem [ref=e227]:
+              - link "岗位分析" [ref=e228] [cursor=pointer]:
+                - /url: /gangwei-fenxi
+            - listitem [ref=e229]:
+              - link "上岸经验" [ref=e230] [cursor=pointer]:
+                - /url: /shang-an-jingyan
+      - generic [ref=e231]:
+        - paragraph [ref=e232]: © 2026 公考资讯站. 仅供学习交流，不构成报考建议。
+        - paragraph [ref=e233]: 蜀ICP备2024012345号-1
+  - alert [ref=e234]

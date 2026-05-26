@@ -1,0 +1,219 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "🏛️ 公考资讯站" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🏛️
+        - generic [ref=e7]: 公考资讯站
+      - navigation [ref=e8]:
+        - link "国考" [ref=e9] [cursor=pointer]:
+          - /url: /guokao
+        - link "省考" [ref=e10] [cursor=pointer]:
+          - /url: /shengkao
+        - link "上海社工" [ref=e11] [cursor=pointer]:
+          - /url: /shanghai-shegong
+        - link "公告" [ref=e12] [cursor=pointer]:
+          - /url: /baokao-gonggao
+        - link "备考" [ref=e13] [cursor=pointer]:
+          - /url: /beikao-zhinan
+        - link "真题" [ref=e14] [cursor=pointer]:
+          - /url: /zhenti-jiexi
+        - link "经验" [ref=e15] [cursor=pointer]:
+          - /url: /shang-an-jingyan
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - navigation "面包屑" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "首页" [ref=e21] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e22]:
+            - generic [ref=e23]: /
+            - link "国考" [ref=e24] [cursor=pointer]:
+              - /url: /guokao
+          - listitem [ref=e25]:
+            - generic [ref=e26]: /
+            - generic [ref=e27]: 国考申论大作文高分写作框架与实用技巧
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 国考
+            - time [ref=e32]: 2026-05-26
+            - generic [ref=e33]: 9 min read
+          - heading "国考申论大作文高分写作框架与实用技巧" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 国考申论大作文怎么写才能拿到高分？本文从立意选角、结构框架、论据运用、语言表达四个维度，系统讲解申论大作文的写作方法，提供多种开头结尾模板和论证技巧，帮助考生快速提升申论写作水平。
+          - generic [ref=e36]:
+            - generic [ref=e37]: "#国考"
+            - generic [ref=e38]: "#申论"
+            - generic [ref=e39]: "#大作文"
+            - generic [ref=e40]: "#写作技巧"
+        - generic [ref=e41]:
+          - heading "国考申论大作文写作框架全解" [level=2] [ref=e42]
+          - paragraph [ref=e43]: 申论大作文是国考笔试中分值最高的题型，通常占40-50分，直接决定了笔试的总成绩。很多考生在备考中对大作文感到无从下手，不知道如何组织语言、搭建结构、运用论据。其实，申论大作文有比较成熟的写作框架和技巧，只要掌握方法并持续练习，完全可以在考试中拿到满意的分数。
+          - paragraph [ref=e44]:
+            - img "考试上岸" [ref=e45]
+          - heading "一、立意与选角：写好作文的第一步" [level=3] [ref=e46]
+          - paragraph [ref=e47]: 申论大作文的立意，也就是文章的中心论点，是整篇文章的灵魂。立意准确与否，直接决定了文章的档次。
+          - paragraph [ref=e48]:
+            - strong [ref=e49]: 立意的来源
+          - paragraph [ref=e50]: 申论大作文的立意通常来源于给定材料。你需要通读全部材料后，提炼出材料的核心主题。近年来国考申论的主题多围绕「高质量发展」「基层治理」「数字化转型」「民生保障」等方向，在立意时要紧扣材料的主旨方向。
+          - paragraph [ref=e51]:
+            - strong [ref=e52]: 立意的方法
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - strong [ref=e55]: 抓材料高频词
+              - text: ：通读材料后，标记出现频率最高的关键词，这些往往是文章立意的切入点
+            - listitem [ref=e56]:
+              - strong [ref=e57]: 关注材料首尾段
+              - text: ：材料的开头和结尾通常点明了文章的核心观点
+            - listitem [ref=e58]:
+              - strong [ref=e59]: 结合题目要求
+              - text: ：题目中的关键词和限定条件是立意的重要指引
+            - listitem [ref=e60]:
+              - strong [ref=e61]: 多角度思考
+              - text: ：从政府、社会、个人等多个角度思考问题，选择最贴合材料的立意
+          - paragraph [ref=e62]:
+            - strong [ref=e63]: 立意的评判标准
+          - paragraph [ref=e64]:
+            - text: 一个好的申论立意应该满足三个条件：一是
+            - strong [ref=e65]: 紧扣材料
+            - text: ，不能脱离给定材料自说自话；二是
+            - strong [ref=e66]: 角度新颖
+            - text: ，尽量避免与大多数考生使用相同的角度；三是
+            - strong [ref=e67]: 可论证
+            - text: ，你的论点必须能够用材料中的论据来支撑。
+          - heading "二、文章结构框架" [level=3] [ref=e68]
+          - paragraph [ref=e69]:
+            - strong [ref=e70]: 五段三分式（最常用）
+          - paragraph [ref=e71]: 这是最经典也最稳妥的申论大作文结构：
+          - list [ref=e72]:
+            - listitem [ref=e73]: 第一段：引出话题 + 提出总论点（约150字）
+            - listitem [ref=e74]: 第二段：分论点一 + 论证（约250字）
+            - listitem [ref=e75]: 第三段：分论点二 + 论证（约250字）
+            - listitem [ref=e76]: 第四段：分论点三 + 论证（约250字）
+            - listitem [ref=e77]: 第五段：总结全文 + 升华主题（约150字）
+          - paragraph [ref=e78]: 三个分论点之间可以是并列关系、递进关系或正反对比关系，其中递进关系（由浅入深、由表及里）更容易展现思维的深度。
+          - paragraph [ref=e79]:
+            - img "职场工作" [ref=e80]
+          - heading "三、开头与结尾写作技巧" [level=3] [ref=e81]
+          - paragraph [ref=e82]:
+            - strong [ref=e83]: 开头模板一：背景引入式
+          - blockquote [ref=e84]: 当前，我国正处于经济转型升级的关键时期，（引出背景）……然而，（指出问题）……因此，（提出论点）……只有（做法），才能（目标）。
+          - paragraph [ref=e85]:
+            - strong [ref=e86]: 开头模板二：案例引入式
+          - blockquote [ref=e87]: 近日，（引用材料中的案例）……这一事件引发了社会广泛关注，也给我们带来了深刻启示：（提炼观点）……解决这一问题，需要从以下几个方面着手。
+          - paragraph [ref=e88]:
+            - strong [ref=e89]: 开头模板三：名言引入式
+          - blockquote [ref=e90]: 古人云：「（引用名言）」……这句话在今天依然具有重要的现实意义。面对（当前问题），我们应该（做法）……
+          - paragraph [ref=e91]:
+            - strong [ref=e92]: 结尾模板一：展望式
+          - blockquote [ref=e93]: 千里之行，始于足下。（总结做法）……我们相信，只要（条件），就一定能够（美好愿景），让（主体）焕发新的生机与活力。
+          - paragraph [ref=e94]:
+            - strong [ref=e95]: 结尾模板二：呼吁式
+          - blockquote [ref=e96]: （核心观点）不是一朝一夕之功，需要全社会的共同努力。让我们（呼吁行动），为（目标）贡献自己的力量，共同书写（主题）的新篇章。
+          - heading "四、论证方法与论据运用" [level=3] [ref=e97]
+          - paragraph [ref=e98]:
+            - strong [ref=e99]: 举例论证
+          - paragraph [ref=e100]: 使用具体的案例来支撑你的观点。申论作文中的例子最好来自给定材料，也可以适当引用自己积累的社会热点案例。注意举例时要简洁明了，不要把例子写成故事。
+          - paragraph [ref=e101]:
+            - strong [ref=e102]: 引用论证
+          - paragraph [ref=e103]: 引用领导人讲话、政策文件、名人名言来增强说服力。比如引用相关政策文件中的表述，可以展示你对时政的关注和理解。
+          - paragraph [ref=e104]:
+            - strong [ref=e105]: 对比论证
+          - paragraph [ref=e106]: 通过正反两方面的对比来突出论点。比如对比成功做法和失败教训，或者对比不同地区的政策效果，能够使论证更加有力。
+          - paragraph [ref=e107]:
+            - strong [ref=e108]: 道理论证
+          - paragraph [ref=e109]: 通过逻辑推理和因果分析来论证观点。申论作文中，道理论证常用于分析问题原因和阐述解决思路。
+          - heading "五、语言表达提升技巧" [level=3] [ref=e110]
+          - paragraph [ref=e111]:
+            - strong [ref=e112]: 1. 多用规范表述
+          - paragraph [ref=e113]: 申论作文的语言应该偏向正式、规范，避免口语化表达。比如用「促进」代替「让……更好」，用「亟需」代替「很需要」，用「切实」代替「真的」。
+          - paragraph [ref=e114]:
+            - strong [ref=e115]: 2. 善用排比句式
+          - paragraph [ref=e116]: 排比句能够增强文章的节奏感和气势。比如：「在……方面取得了显著成效，在……方面实现了重大突破，在……方面积累了宝贵经验。」
+          - paragraph [ref=e117]:
+            - strong [ref=e118]: 3. 避免绝对化表达
+          - paragraph [ref=e119]: 不要使用「必须」「绝对」「只有……才」等过于绝对的表述。用「应该」「需要」「可以」等相对温和的词语代替。
+          - paragraph [ref=e120]:
+            - strong [ref=e121]: 4. 控制字数
+          - paragraph [ref=e122]: 国考申论大作文通常要求1000-1200字，要合理分配各部分的字数。开头和结尾各占15%左右，三个主体段落各占23%左右。
+          - heading "六、备考练习建议" [level=3] [ref=e123]
+          - list [ref=e124]:
+            - listitem [ref=e125]: 每周至少写一篇完整的申论大作文，严格控制在规定时间内完成
+            - listitem [ref=e126]: 重点关注人民日报评论版、半月谈等权威媒体的评论文章，学习其写作思路和语言风格
+            - listitem [ref=e127]: 建立自己的素材库，分类整理案例、名言、政策表述等
+            - listitem [ref=e128]: 写完后对照参考答案，分析自己在立意、结构、语言方面的差距
+            - listitem [ref=e129]: 练习在不同主题下快速搭建文章框架的能力，提高应试灵活性
+          - paragraph [ref=e130]: 申论大作文虽然看似难以驾驭，但它是有规律可循的。掌握正确的写作框架，积累丰富的素材，加上持续的练习，你一定能在国考申论中写出令人满意的文章。
+        - generic [ref=e132]:
+          - paragraph [ref=e133]: 作者：公考助手 | 发布：2026-05-26
+          - link "← 返回国考" [ref=e134] [cursor=pointer]:
+            - /url: /guokao
+      - complementary [ref=e135]:
+        - heading "📖 相关推荐" [level=2] [ref=e136]
+        - generic [ref=e137]:
+          - link "国考报名流程图解与注意事项 2026-05-26" [ref=e138] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-baoming-liucheng
+            - heading "国考报名流程图解与注意事项" [level=3] [ref=e139]
+            - paragraph [ref=e140]: 2026-05-26
+          - link "国考行测各模块时间分配与答题策略 2026-05-26" [ref=e141] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-xingce-shijian-fenpei
+            - heading "国考行测各模块时间分配与答题策略" [level=3] [ref=e142]
+            - paragraph [ref=e143]: 2026-05-26
+          - link "国考言语理解逻辑填空高分技巧：从底层逻辑到实战速解 2026-05-26" [ref=e144] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-yanyu-luoji-tiankong
+            - heading "国考言语理解逻辑填空高分技巧：从底层逻辑到实战速解" [level=3] [ref=e145]
+            - paragraph [ref=e146]: 2026-05-26
+          - link "国考职位表筛选全攻略：六步法选到最适合你的岗位 2026-05-26" [ref=e147] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-zhiwei-shuaixuan-jiqiao
+            - heading "国考职位表筛选全攻略：六步法选到最适合你的岗位" [level=3] [ref=e148]
+            - paragraph [ref=e149]: 2026-05-26
+  - contentinfo [ref=e150]:
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - link "🏛️ 公考资讯站" [ref=e154] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e155]: 🏛️
+            - generic [ref=e156]: 公考资讯站
+          - paragraph [ref=e157]: 专注国考、省考、社区工作者招录考试，提供最新招考公告与备考指南，助你顺利上岸。
+        - generic [ref=e158]:
+          - heading "考试频道" [level=3] [ref=e159]
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "国家公务员考试" [ref=e162] [cursor=pointer]:
+                - /url: /guokao
+            - listitem [ref=e163]:
+              - link "各省公务员考试" [ref=e164] [cursor=pointer]:
+                - /url: /shengkao
+            - listitem [ref=e165]:
+              - link "上海社区工作者" [ref=e166] [cursor=pointer]:
+                - /url: /shanghai-shegong
+        - generic [ref=e167]:
+          - heading "备考资源" [level=3] [ref=e168]
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - link "报考公告" [ref=e171] [cursor=pointer]:
+                - /url: /baokao-gonggao
+            - listitem [ref=e172]:
+              - link "政策解读" [ref=e173] [cursor=pointer]:
+                - /url: /zhengce-jiedu
+            - listitem [ref=e174]:
+              - link "备考指南" [ref=e175] [cursor=pointer]:
+                - /url: /beikao-zhinan
+            - listitem [ref=e176]:
+              - link "真题解析" [ref=e177] [cursor=pointer]:
+                - /url: /zhenti-jiexi
+        - generic [ref=e178]:
+          - heading "更多" [level=3] [ref=e179]
+          - list [ref=e180]:
+            - listitem [ref=e181]:
+              - link "岗位分析" [ref=e182] [cursor=pointer]:
+                - /url: /gangwei-fenxi
+            - listitem [ref=e183]:
+              - link "上岸经验" [ref=e184] [cursor=pointer]:
+                - /url: /shang-an-jingyan
+      - generic [ref=e185]:
+        - paragraph [ref=e186]: © 2026 公考资讯站. 仅供学习交流，不构成报考建议。
+        - paragraph [ref=e187]: 蜀ICP备2024012345号-1
+  - alert [ref=e188]

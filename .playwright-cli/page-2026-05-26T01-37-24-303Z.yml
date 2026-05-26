@@ -1,0 +1,219 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "🏛️ 公考资讯站" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🏛️
+        - generic [ref=e7]: 公考资讯站
+      - navigation [ref=e8]:
+        - link "国考" [ref=e9] [cursor=pointer]:
+          - /url: /guokao
+        - link "省考" [ref=e10] [cursor=pointer]:
+          - /url: /shengkao
+        - link "上海社工" [ref=e11] [cursor=pointer]:
+          - /url: /shanghai-shegong
+        - link "公告" [ref=e12] [cursor=pointer]:
+          - /url: /baokao-gonggao
+        - link "备考" [ref=e13] [cursor=pointer]:
+          - /url: /beikao-zhinan
+        - link "真题" [ref=e14] [cursor=pointer]:
+          - /url: /zhenti-jiexi
+        - link "经验" [ref=e15] [cursor=pointer]:
+          - /url: /shang-an-jingyan
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - navigation "面包屑" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "首页" [ref=e21] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e22]:
+            - generic [ref=e23]: /
+            - link "国考" [ref=e24] [cursor=pointer]:
+              - /url: /guokao
+          - listitem [ref=e25]:
+            - generic [ref=e26]: /
+            - generic [ref=e27]: 国考资料分析速算方法与高效备考策略
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 国考
+            - time [ref=e32]: 2026-05-26
+            - generic [ref=e33]: 8 min read
+          - heading "国考资料分析速算方法与高效备考策略" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 国考行测资料分析怎么快速提高？本文系统讲解资料分析的速算技巧，包括截位直除法、特征数字法、同位比较法等核心方法，并提供分阶段备考规划和常见易错点分析，帮助考生在资料分析模块拿到高分。
+          - generic [ref=e36]:
+            - generic [ref=e37]: "#国考"
+            - generic [ref=e38]: "#行测"
+            - generic [ref=e39]: "#资料分析"
+            - generic [ref=e40]: "#速算技巧"
+        - generic [ref=e41]:
+          - heading "国考资料分析速算方法与备考策略详解" [level=2] [ref=e42]
+          - paragraph [ref=e43]: 资料分析是国考行测中性价比最高的模块之一，通常占20道题，分值占比高，且掌握方法后提分空间大。很多考生在这个模块丢分，主要原因是计算速度慢、方法不当、时间分配不合理。本文将从速算方法、备考规划和易错点三个维度，帮助你系统突破资料分析。
+          - paragraph [ref=e44]:
+            - img "备考学习" [ref=e45]
+          - heading "一、资料分析的核心考点" [level=3] [ref=e46]
+          - paragraph [ref=e47]: 国考资料分析通常包含四篇材料，每篇材料配5道题目。材料类型包括文字材料、表格材料、图表材料和综合材料。核心考点主要集中在以下几个方面：
+          - list [ref=e48]:
+            - listitem [ref=e49]:
+              - strong [ref=e50]: 增长率/增长量
+              - text: ：求某个指标的同比增长率、环比增长率或增长量
+            - listitem [ref=e51]:
+              - strong [ref=e52]: 比重
+              - text: ：求某部分占总体的比例，或比较两个时期的比重变化
+            - listitem [ref=e53]:
+              - strong [ref=e54]: 平均数
+              - text: ：求某个指标的平均值，以及平均数的变化
+            - listitem [ref=e55]:
+              - strong [ref=e56]: 倍数/番数
+              - text: ：两个指标之间的倍数关系
+            - listitem [ref=e57]:
+              - strong [ref=e58]: 指数
+              - text: ：以基期为100的相对数比较
+          - heading "二、核心速算方法" [level=3] [ref=e59]
+          - paragraph [ref=e60]:
+            - strong [ref=e61]: 方法一：截位直除法
+          - paragraph [ref=e62]: 这是资料分析中最常用的速算方法，适用于除法运算。具体操作是：将除数保留前两位或前三位有效数字，然后进行估算。
+          - paragraph [ref=e63]: 例如：计算 3856 ÷ 127.3
+          - list [ref=e64]:
+            - listitem [ref=e65]: 截取除数前两位：13
+            - listitem [ref=e66]: 被除数保留三位：386
+            - listitem [ref=e67]: 估算：386 ÷ 13 ≈ 29.7
+          - paragraph [ref=e68]: 使用截位直除法时要注意：选项差距较大时可以多截几位，选项差距较小时要少截几位以保证精度。
+          - paragraph [ref=e69]:
+            - strong [ref=e70]: 方法二：特征数字法
+          - paragraph [ref=e71]: 将百分数转化为分数进行快速计算。常见转化包括：
+          - list [ref=e72]:
+            - listitem [ref=e73]: 12.5% = 1/8，25% = 1/4，33.3% = 1/3
+            - listitem [ref=e74]: 16.7% = 1/6，20% = 1/5，50% = 1/2
+            - listitem [ref=e75]: 66.7% = 2/3，75% = 3/4，11.1% = 1/9
+          - paragraph [ref=e76]: 例如：求 2400 × 16.7%
+          - list [ref=e77]:
+            - listitem [ref=e78]: 16.7% 转化为 1/6
+            - listitem [ref=e79]: 2400 × (1/6) = 400
+          - paragraph [ref=e80]:
+            - img "备考学习" [ref=e81]
+          - paragraph [ref=e82]:
+            - strong [ref=e83]: 方法三：同位比较法
+          - paragraph [ref=e84]: 当需要比较两个分数的大小时，不需要精确计算，而是通过比较分子和分母的关系来判断。
+          - paragraph [ref=e85]: 规则：如果 A/B 和 C/D 中，A > C 且 B < D，则 A/B > C/D。如果 A > C 且 B > D，则需要进一步判断「分子增长率」和「分母增长率」的大小。
+          - paragraph [ref=e86]:
+            - strong [ref=e87]: 方法四：尾数法
+          - paragraph [ref=e88]: 适用于加法或减法的尾数判断。当选项的尾数各不相同时，只需计算最后一位或两位即可确定答案。
+          - paragraph [ref=e89]:
+            - strong [ref=e90]: 方法五：两期比重比较
+          - paragraph [ref=e91]: 这是近年来国考的高频考点。判断两期比重的变化，只需要比较部分增长率和整体增长率的大小关系：
+          - list [ref=e92]:
+            - listitem [ref=e93]: 部分增长率 > 整体增长率 → 比重上升
+            - listitem [ref=e94]: 部分增长率 < 整体增长率 → 比重下降
+            - listitem [ref=e95]: 部分增长率 = 整体增长率 → 比重不变
+          - heading "三、高效备考策略" [level=3] [ref=e96]
+          - paragraph [ref=e97]:
+            - strong [ref=e98]: 第一阶段：夯实基础（建议用时2-3周）
+          - list [ref=e99]:
+            - listitem [ref=e100]: 系统学习资料分析的基础概念和公式
+            - listitem [ref=e101]: 熟练掌握常见统计术语的含义（同比、环比、占比、均值等）
+            - listitem [ref=e102]: 练习快速阅读材料，能在30秒内抓住材料的核心数据结构
+            - listitem [ref=e103]: 每天完成2-3篇资料的练习，重点是准确率而非速度
+          - paragraph [ref=e104]:
+            - strong [ref=e105]: 第二阶段：提速训练（建议用时3-4周）
+          - list [ref=e106]:
+            - listitem [ref=e107]: 重点练习速算方法，每天坚持做30道以上的计算题
+            - listitem [ref=e108]: 将截位直除法和特征数字法练到条件反射的程度
+            - listitem [ref=e109]: 开始卡时间做题，目标是将每篇资料的分析时间控制在6分钟以内
+            - listitem [ref=e110]: 整理错题本，分析每道错题的原因
+          - paragraph [ref=e111]:
+            - strong [ref=e112]: 第三阶段：冲刺模拟（考前2周）
+          - list [ref=e113]:
+            - listitem [ref=e114]: 每天做一套完整的行测模拟题，严格按时间作答
+            - listitem [ref=e115]: 重点训练综合判断题（每篇资料的第5题）的做题速度
+            - listitem [ref=e116]: 复习错题本，确保不再犯同样的错误
+            - listitem [ref=e117]: 调整做题顺序，建议将资料分析放在行测中间时段完成
+          - heading "四、常见易错点分析" [level=3] [ref=e118]
+          - paragraph [ref=e119]:
+            - strong [ref=e120]: 易错点一：时间单位混淆
+          - paragraph [ref=e121]: 材料中可能使用「万元」「亿元」等单位，审题时要注意单位换算。很多考生因为忽略单位导致计算结果差了万倍。
+          - paragraph [ref=e122]:
+            - strong [ref=e123]: 易错点二：基期与现期混淆
+          - paragraph [ref=e124]: 题目问的是「XX年」还是「XX年的XX年」，也就是问的是现期值还是基期值。审题时一定要看清时间词。
+          - paragraph [ref=e125]:
+            - strong [ref=e126]: 易错点三：增长率与增长量混淆
+          - paragraph [ref=e127]: 「增长了百分之几」和「增长了多少」是两个完全不同的概念。前者是增长率（相对量），后者是增长量（绝对量），计算方法完全不同。
+          - paragraph [ref=e128]:
+            - strong [ref=e129]: 易错点四：比重与平均数混淆
+          - paragraph [ref=e130]: 比重的计算是「部分/总体」，平均数的计算是「总量/个数」。虽然公式结构类似，但含义和单位都不同，审题时要仔细区分。
+          - heading "五、考场时间管理" [level=3] [ref=e131]
+          - paragraph [ref=e132]: 资料分析在行测中的理想完成时间是25-30分钟，每篇资料控制在6-7分钟。做题时建议先快速浏览题目，判断哪些题目可以直接秒杀（比如尾数法、两期比重判断），哪些需要详细计算。将需要详细计算的题目留到最后处理，确保简单题不丢分。
+          - paragraph [ref=e133]: 资料分析是国考行测中最容易通过系统训练实现突破的模块。掌握正确的速算方法，制定科学的备考计划，坚持每天练习，你完全可以在考试中拿到这个模块80%以上的正确率。
+        - generic [ref=e135]:
+          - paragraph [ref=e136]: 作者：公考助手 | 发布：2026-05-26
+          - link "← 返回国考" [ref=e137] [cursor=pointer]:
+            - /url: /guokao
+      - complementary [ref=e138]:
+        - heading "📖 相关推荐" [level=2] [ref=e139]
+        - generic [ref=e140]:
+          - link "国考报名流程图解与注意事项 2026-05-26" [ref=e141] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-baoming-liucheng
+            - heading "国考报名流程图解与注意事项" [level=3] [ref=e142]
+            - paragraph [ref=e143]: 2026-05-26
+          - link "国考申论大作文高分写作框架与实用技巧 2026-05-26" [ref=e144] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-shenlun-dazuowen-gaofen
+            - heading "国考申论大作文高分写作框架与实用技巧" [level=3] [ref=e145]
+            - paragraph [ref=e146]: 2026-05-26
+          - link "国考行测各模块时间分配与答题策略 2026-05-26" [ref=e147] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-xingce-shijian-fenpei
+            - heading "国考行测各模块时间分配与答题策略" [level=3] [ref=e148]
+            - paragraph [ref=e149]: 2026-05-26
+          - link "国考言语理解逻辑填空高分技巧：从底层逻辑到实战速解 2026-05-26" [ref=e150] [cursor=pointer]:
+            - /url: /guokao/2026-05-26-guokao-yanyu-luoji-tiankong
+            - heading "国考言语理解逻辑填空高分技巧：从底层逻辑到实战速解" [level=3] [ref=e151]
+            - paragraph [ref=e152]: 2026-05-26
+  - contentinfo [ref=e153]:
+    - generic [ref=e154]:
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - link "🏛️ 公考资讯站" [ref=e157] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e158]: 🏛️
+            - generic [ref=e159]: 公考资讯站
+          - paragraph [ref=e160]: 专注国考、省考、社区工作者招录考试，提供最新招考公告与备考指南，助你顺利上岸。
+        - generic [ref=e161]:
+          - heading "考试频道" [level=3] [ref=e162]
+          - list [ref=e163]:
+            - listitem [ref=e164]:
+              - link "国家公务员考试" [ref=e165] [cursor=pointer]:
+                - /url: /guokao
+            - listitem [ref=e166]:
+              - link "各省公务员考试" [ref=e167] [cursor=pointer]:
+                - /url: /shengkao
+            - listitem [ref=e168]:
+              - link "上海社区工作者" [ref=e169] [cursor=pointer]:
+                - /url: /shanghai-shegong
+        - generic [ref=e170]:
+          - heading "备考资源" [level=3] [ref=e171]
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - link "报考公告" [ref=e174] [cursor=pointer]:
+                - /url: /baokao-gonggao
+            - listitem [ref=e175]:
+              - link "政策解读" [ref=e176] [cursor=pointer]:
+                - /url: /zhengce-jiedu
+            - listitem [ref=e177]:
+              - link "备考指南" [ref=e178] [cursor=pointer]:
+                - /url: /beikao-zhinan
+            - listitem [ref=e179]:
+              - link "真题解析" [ref=e180] [cursor=pointer]:
+                - /url: /zhenti-jiexi
+        - generic [ref=e181]:
+          - heading "更多" [level=3] [ref=e182]
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - link "岗位分析" [ref=e185] [cursor=pointer]:
+                - /url: /gangwei-fenxi
+            - listitem [ref=e186]:
+              - link "上岸经验" [ref=e187] [cursor=pointer]:
+                - /url: /shang-an-jingyan
+      - generic [ref=e188]:
+        - paragraph [ref=e189]: © 2026 公考资讯站. 仅供学习交流，不构成报考建议。
+        - paragraph [ref=e190]: 蜀ICP备2024012345号-1
+  - alert [ref=e191]
