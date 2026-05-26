@@ -1,0 +1,193 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "🏛️ 公考资讯站" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🏛️
+        - generic [ref=e7]: 公考资讯站
+      - navigation [ref=e8]:
+        - link "国考" [ref=e9] [cursor=pointer]:
+          - /url: /guokao
+        - link "省考" [ref=e10] [cursor=pointer]:
+          - /url: /shengkao
+        - link "上海社工" [ref=e11] [cursor=pointer]:
+          - /url: /shanghai-shegong
+        - link "公告" [ref=e12] [cursor=pointer]:
+          - /url: /baokao-gonggao
+        - link "备考" [ref=e13] [cursor=pointer]:
+          - /url: /beikao-zhinan
+        - link "真题" [ref=e14] [cursor=pointer]:
+          - /url: /zhenti-jiexi
+        - link "经验" [ref=e15] [cursor=pointer]:
+          - /url: /shang-an-jingyan
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - navigation "面包屑" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "首页" [ref=e21] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e22]:
+            - generic [ref=e23]: /
+            - link "上海社区工作者" [ref=e24] [cursor=pointer]:
+              - /url: /shanghai-shegong
+          - listitem [ref=e25]:
+            - generic [ref=e26]: /
+            - generic [ref=e27]: 上海社工报名资格审查常见问题全面解答
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 上海社区工作者
+            - time [ref=e32]: 2026-05-26
+            - generic [ref=e33]: 11 min read
+          - heading "上海社工报名资格审查常见问题全面解答" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 上海社区工作者招聘报名中，资格审查是最容易出问题的环节。本文系统梳理学历认证、户籍要求、工作经验认定、政审材料等资格审查中的常见问题，帮助考生提前对照条件、准备材料，避免因审查不通过错失考试机会。
+          - generic [ref=e36]:
+            - generic [ref=e37]: "#上海社工"
+            - generic [ref=e38]: "#资格审查"
+            - generic [ref=e39]: "#报名材料"
+            - generic [ref=e40]: "#报考条件"
+        - generic [ref=e41]:
+          - heading "上海社工报名资格审查常见问题全面解答" [level=1] [ref=e42]
+          - paragraph [ref=e43]: 在上海社区工作者招聘考试中，资格审查是连接「报名」与「笔试」的关键桥梁。每年都有不少考生因为资格审查准备不充分，导致报名被驳回，甚至错过一整年的考试机会。本文围绕考生最关心的资格审查问题，逐一进行详细解答。
+          - paragraph [ref=e44]:
+            - img "考试上岸" [ref=e45]
+          - heading "一、资格审查的基本流程" [level=2] [ref=e46]
+          - paragraph [ref=e47]: 上海社工招聘的资格审查通常分为两个阶段：
+          - paragraph [ref=e48]:
+            - strong [ref=e49]: 第一阶段：网上报名初审。
+            - text: 考生在报名系统填写个人信息后，系统会对填报的学历、年龄、户籍等基本信息进行初步筛查。初审一般在提交后的3-5个工作日内完成。
+          - paragraph [ref=e50]:
+            - strong [ref=e51]: 第二阶段：面试前资格复审。
+            - text: 笔试通过后，进入面试环节的考生需要携带所有证明材料原件到指定地点进行现场审核。这一阶段最为严格，任何材料不齐全或不符合要求都可能导致取消面试资格。
+          - paragraph [ref=e52]: 因此，从报名的第一天起，就应当对照资格审查要求准备材料，而不是等到复审阶段才开始查找。
+          - paragraph [ref=e53]:
+            - img "政府政务" [ref=e54]
+          - heading "二、学历认证相关问题" [level=2] [ref=e55]
+          - heading "1. 非全日制学历能否报考？" [level=3] [ref=e56]
+          - paragraph [ref=e57]: 根据上海市社区工作者招聘的最新规定，非全日制学历（包括成人高考、自学考试、网络教育等）在取得国家承认的毕业证书后，一般均可报考。但需要注意以下几点：
+          - paragraph [ref=e58]: 第一，毕业证书必须在报名截止日期前取得，「在读」状态不能代替「已毕业」。第二，部分岗位可能对全日制学历有特殊要求，需仔细阅读招聘公告中的岗位说明。第三，境外学历需要提供教育部留学服务中心的学历认证报告。
+          - heading "2. 大专学历能否报考？" [level=3] [ref=e59]
+          - paragraph [ref=e60]: 可以。上海社区工作者招聘中，绝大多数岗位的最低学历要求为大专（含高职）。部分专业性较强的岗位可能要求本科及以上学历，但社区工作者的主体岗位对大专学历是开放的。
+          - heading "3. 学历证明需要准备什么材料？" [level=3] [ref=e61]
+          - paragraph [ref=e62]: 需要准备的材料包括：毕业证书原件及复印件、教育部学历证书电子注册备案表（在学信网下载）。备案表需要在有效期内，建议提交前确认有效期是否覆盖资格审查时间段。
+          - heading "三、户籍与居住证问题" [level=2] [ref=e63]
+          - heading "1. 外地户籍能否报考上海社工？" [level=3] [ref=e64]
+          - paragraph [ref=e65]: 上海社工招聘在户籍要求上实行的是「以本市户籍为主、适度放开」的政策。具体来说：
+          - paragraph [ref=e66]: 持有上海市户籍的考生享有最广泛的报考资格。非上海户籍但持有上海市居住证且积分达到标准分值的考生，可报考大部分区发布的岗位。部分郊区或特定岗位可能对户籍要求更为宽松，具体以各区招聘公告为准。
+          - heading "2. 居住证积分不够怎么办？" [level=3] [ref=e67]
+          - paragraph [ref=e68]: 如果居住证积分未达到标准分值，可以关注以下途径：
+          - paragraph [ref=e69]: 关注郊区发布的招聘公告，部分郊区对居住证积分的要求相对较低。留意专项招聘岗位，部分面向特定人群（如退役军人、社区志愿者等）的岗位可能有特殊的户籍放宽政策。如果条件允许，可以通过提升学历、获取职称证书等方式增加居住证积分。
+          - heading "3. 户籍证明材料有哪些？" [level=3] [ref=e70]
+          - paragraph [ref=e71]: 上海户籍考生需提供户口本（户主页及本人页）原件及复印件。非上海户籍考生需提供上海市居住证原件及复印件，以及积分通知单。
+          - heading "四、工作经验认定问题" [level=2] [ref=e72]
+          - heading "1. 需要多少年工作经验？" [level=3] [ref=e73]
+          - paragraph [ref=e74]: 上海社工招聘对工作经验的总体要求相对灵活。大部分岗位不设硬性的工作年限限制，应届毕业生也可以报考。但部分管理层级或专业性较强的岗位可能会要求2年及以上相关工作经验。
+          - heading "2. 如何证明工作经验？" [level=3] [ref=e75]
+          - paragraph [ref=e76]: 工作经验一般通过以下方式证明：社保缴纳记录（最权威的证明材料）、劳动合同、离职证明或工作证明（需加盖单位公章）。建议考生提前登录上海人社APP下载社保缴纳记录备用。
+          - heading "3. 社区志愿服务是否算工作经验？" [level=3] [ref=e77]
+          - paragraph [ref=e78]: 社区志愿服务经历在报名资格审查中不直接等同于「工作经验」，但在综合评估中可能起到加分作用。如果你有参与社区疫情防控、人口普查、垃圾分类宣传等志愿服务经历，建议在个人简历中如实填写，并保留相关证明材料。
+          - heading "五、年龄条件问题" [level=2] [ref=e79]
+          - heading "1. 上海社工的年龄上限是多少？" [level=3] [ref=e80]
+          - paragraph [ref=e81]: 上海社区工作者招聘的一般年龄要求为：18周岁以上、45周岁以下（具体以招聘公告为准）。部分区可能将上限设置在40周岁，少数面向特定群体的岗位可能有放宽政策。
+          - heading "2. 年龄计算方法" [level=3] [ref=e82]
+          - paragraph [ref=e83]: 年龄计算以报名截止日期为准，精确到日。例如，某岗位要求「35周岁以下」，且报名截止日期为2026年5月31日，则1991年5月31日以后出生的考生符合条件。
+          - heading "六、政审材料准备" [level=2] [ref=e84]
+          - paragraph [ref=e85]: 政审是资格审查的最后一道关口，也是最全面的一环。以下材料需要提前准备：
+          - paragraph [ref=e86]:
+            - strong [ref=e87]: 无犯罪记录证明
+            - text: ：需到户籍所在地派出所开具，部分区可通过「随申办」APP在线办理。
+            - strong [ref=e88]: 个人征信报告
+            - text: ：可通过中国人民银行征信中心官网或线下网点获取。
+            - strong [ref=e89]: 家庭成员信息
+            - text: ：包括父母、配偶、子女的基本信息，用于核查是否存在影响录用的情形。
+          - paragraph [ref=e90]: 需要注意的是，政审不仅审查考生本人，还会审查直系亲属的重大违法犯罪记录。如果家庭成员中存在正在服刑或有重大刑事案件记录的情况，可能会影响政审结果。
+          - heading "七、常见问题快速答疑" [level=2] [ref=e91]
+          - paragraph [ref=e92]:
+            - strong [ref=e93]: Q：报名信息填错了可以修改吗？
+            - text: A：网上报名期间，在未提交审核前一般可以自行修改；提交审核后如需修改，需要联系招考单位申请退回。
+          - paragraph [ref=e94]:
+            - strong [ref=e95]: Q：毕业证丢失了怎么办？
+            - text: A：需要到原毕业院校开具学历证明书，并加盖学校公章。建议尽早办理，不要等到资格审查前才匆忙准备。
+          - paragraph [ref=e96]:
+            - strong [ref=e97]: Q：资格复审可以委托他人代办吗？
+            - text: A：一般情况下需要本人到场。如确因特殊原因无法到场，需提前与招考单位沟通，获取书面同意后方可委托他人代办。
+          - paragraph [ref=e98]:
+            - strong [ref=e99]: Q：社保断缴会影响资格审查吗？
+            - text: A：如果岗位不要求连续工作经验，短期的社保断缴通常不构成硬性障碍。但如果岗位明确要求「2年连续工作经验」，断缴可能会被质疑。
+          - heading "八、备考建议" [level=2] [ref=e100]
+          - paragraph [ref=e101]: 资格审查看似是程序性工作，但每年都有考生在这个环节「翻车」。建议做到以下几点：
+          - paragraph [ref=e102]: 第一，报名前仔细阅读招聘公告，逐条对照自身条件。第二，所有证明材料提前一个月开始准备，不要等到复审通知才匆忙查找。第三，毕业证、户口本、居住证、社保证明等核心材料建议拍照存档，电子版和纸质版各备一份。第四，如果对某项条件是否满足存在疑问，尽早通过招聘公告中公布的咨询电话进行确认。
+          - paragraph [ref=e103]: 资格审查是通往社区工作者岗位的第一道门，切莫因准备不足而失之交臂。祝愿每一位认真备考的考生都能顺利通过审查，进入笔试考场。
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: 作者：公考助手 | 发布：2026-05-26
+          - link "← 返回上海社区工作者" [ref=e107] [cursor=pointer]:
+            - /url: /shanghai-shegong
+      - complementary [ref=e108]:
+        - heading "📖 相关推荐" [level=2] [ref=e109]
+        - generic [ref=e110]:
+          - link "2026年上海社区工作者报名材料准备清单与注意事项 2026-05-26" [ref=e111] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-baoming-cailiao-zhunbei
+            - heading "2026年上海社区工作者报名材料准备清单与注意事项" [level=3] [ref=e112]
+            - paragraph [ref=e113]: 2026-05-26
+          - link "社区工作者报名流程详解与常见问题解答 2026-05-26" [ref=e114] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-baoming-liucheng
+            - heading "社区工作者报名流程详解与常见问题解答" [level=3] [ref=e115]
+            - paragraph [ref=e116]: 2026-05-26
+          - link "上海社区工作者备考教材与资料全方位推荐 2026-05-26" [ref=e117] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-beikao-jiaocai-ziliao-tuijian
+            - heading "上海社区工作者备考教材与资料全方位推荐" [level=3] [ref=e118]
+            - paragraph [ref=e119]: 2026-05-26
+          - link "上海社工笔试科目分析与备考重点 2026-05-26" [ref=e120] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-bishi-kemu
+            - heading "上海社工笔试科目分析与备考重点" [level=3] [ref=e121]
+            - paragraph [ref=e122]: 2026-05-26
+  - contentinfo [ref=e123]:
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - link "🏛️ 公考资讯站" [ref=e127] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e128]: 🏛️
+            - generic [ref=e129]: 公考资讯站
+          - paragraph [ref=e130]: 专注国考、省考、社区工作者招录考试，提供最新招考公告与备考指南，助你顺利上岸。
+        - generic [ref=e131]:
+          - heading "考试频道" [level=3] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "国家公务员考试" [ref=e135] [cursor=pointer]:
+                - /url: /guokao
+            - listitem [ref=e136]:
+              - link "各省公务员考试" [ref=e137] [cursor=pointer]:
+                - /url: /shengkao
+            - listitem [ref=e138]:
+              - link "上海社区工作者" [ref=e139] [cursor=pointer]:
+                - /url: /shanghai-shegong
+        - generic [ref=e140]:
+          - heading "备考资源" [level=3] [ref=e141]
+          - list [ref=e142]:
+            - listitem [ref=e143]:
+              - link "报考公告" [ref=e144] [cursor=pointer]:
+                - /url: /baokao-gonggao
+            - listitem [ref=e145]:
+              - link "政策解读" [ref=e146] [cursor=pointer]:
+                - /url: /zhengce-jiedu
+            - listitem [ref=e147]:
+              - link "备考指南" [ref=e148] [cursor=pointer]:
+                - /url: /beikao-zhinan
+            - listitem [ref=e149]:
+              - link "真题解析" [ref=e150] [cursor=pointer]:
+                - /url: /zhenti-jiexi
+        - generic [ref=e151]:
+          - heading "更多" [level=3] [ref=e152]
+          - list [ref=e153]:
+            - listitem [ref=e154]:
+              - link "岗位分析" [ref=e155] [cursor=pointer]:
+                - /url: /gangwei-fenxi
+            - listitem [ref=e156]:
+              - link "上岸经验" [ref=e157] [cursor=pointer]:
+                - /url: /shang-an-jingyan
+      - generic [ref=e158]:
+        - paragraph [ref=e159]: © 2026 公考资讯站. 仅供学习交流，不构成报考建议。
+        - paragraph [ref=e160]: 蜀ICP备2024012345号-1
+  - alert [ref=e161]

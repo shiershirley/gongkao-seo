@@ -1,0 +1,229 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "🏛️ 公考资讯站" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🏛️
+        - generic [ref=e7]: 公考资讯站
+      - navigation [ref=e8]:
+        - link "国考" [ref=e9] [cursor=pointer]:
+          - /url: /guokao
+        - link "省考" [ref=e10] [cursor=pointer]:
+          - /url: /shengkao
+        - link "上海社工" [ref=e11] [cursor=pointer]:
+          - /url: /shanghai-shegong
+        - link "公告" [ref=e12] [cursor=pointer]:
+          - /url: /baokao-gonggao
+        - link "备考" [ref=e13] [cursor=pointer]:
+          - /url: /beikao-zhinan
+        - link "真题" [ref=e14] [cursor=pointer]:
+          - /url: /zhenti-jiexi
+        - link "经验" [ref=e15] [cursor=pointer]:
+          - /url: /shang-an-jingyan
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - navigation "面包屑" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "首页" [ref=e21] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e22]:
+            - generic [ref=e23]: /
+            - link "上海社区工作者" [ref=e24] [cursor=pointer]:
+              - /url: /shanghai-shegong
+          - listitem [ref=e25]:
+            - generic [ref=e26]: /
+            - generic [ref=e27]: 上海社区工作者备考教材与资料全方位推荐
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 上海社区工作者
+            - time [ref=e32]: 2026-05-26
+            - generic [ref=e33]: 11 min read
+          - heading "上海社区工作者备考教材与资料全方位推荐" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 备考上海社区工作者考试，选择对的教材和资料是成功的第一步。本文从笔试科目出发，分别推荐公共基础知识、行测、申论、社区专业知识等各模块的优质教材和辅导资料，帮助考生搭建系统化的备考书单，少走弯路高效备考。
+          - generic [ref=e36]:
+            - generic [ref=e37]: "#上海社工"
+            - generic [ref=e38]: "#备考教材"
+            - generic [ref=e39]: "#资料推荐"
+            - generic [ref=e40]: "#书单"
+        - generic [ref=e41]:
+          - heading "上海社区工作者备考教材与资料全方位推荐" [level=1] [ref=e42]
+          - paragraph [ref=e43]: 备考上海社区工作者考试，「用什么书」是每个考生都会问的第一个问题。面对市面上琳琅满目的公考教材，如何选择最适合上海社工考试的资料？本文将从各科目特点出发，系统推荐从基础教材到专项练习再到考前冲刺的完整备考书单。
+          - paragraph [ref=e44]:
+            - img "政府政务" [ref=e45]
+          - heading "一、上海社工考试的科目构成" [level=2] [ref=e46]
+          - paragraph [ref=e47]: 在推荐教材之前，需要先了解上海社工考试到底考什么。上海社区工作者招聘考试通常包括以下科目：
+          - paragraph [ref=e48]:
+            - strong [ref=e49]: 笔试科目
+            - text: ：公共基础知识（含时事政治）、行政职业能力测验（行测）、申论（部分区考）、社区工作专业知识。
+          - paragraph [ref=e50]:
+            - strong [ref=e51]: 面试形式
+            - text: ：结构化面试为主，部分区可能增加无领导小组讨论。
+          - paragraph [ref=e52]: 不同区、不同批次的考试科目和题型比重可能有所差异。例如，浦东新区的招聘可能偏重行测，而静安区可能更侧重申论写作。因此，建议考生先确定目标区，再针对性选择教材。
+          - heading "二、公共基础知识教材推荐" [level=2] [ref=e53]
+          - paragraph [ref=e54]: 公共基础知识（简称「公基」）是上海社工考试中覆盖面最广、内容最多的一科，涉及政治、法律、经济、管理、科技、历史、地理、公文写作等多个领域。
+          - heading "推荐教材" [level=3] [ref=e55]
+          - paragraph [ref=e56]:
+            - strong [ref=e57]: 《公共基础知识》（中国人事出版社）
+            - text: ：作为公基领域的经典教材，内容全面、体系清晰，每章节配有练习题，适合打基础的考生。建议用2-3周时间通读一遍，建立知识框架。
+          - paragraph [ref=e58]:
+            - strong [ref=e59]: 《上海市公务员考试/事业单位考试专用教材——公共基础知识》
+            - text: ：针对上海考情的专用教材，在时政热点和上海地方政策方面更有针对性。虽然名义上是公务员考试教材，但公基内容与社工考试高度重叠。
+          - heading "辅助资料" [level=3] [ref=e60]
+          - paragraph [ref=e61]:
+            - strong [ref=e62]: 「学习强国」APP
+            - text: ：每天利用碎片时间浏览时政要闻和新思想板块，对提高公基中的时政题得分非常有帮助。
+            - strong [ref=e63]: 「半月谈」杂志/公众号
+            - text: ：申论写作和面试回答中的重要素材来源，关注基层治理、社区建设等话题。
+          - heading "三、行测教材推荐" [level=2] [ref=e64]
+          - paragraph [ref=e65]: 行测是上海社工考试中的「拉分科目」。虽然题目难度整体低于国考和省考，但题型覆盖面广，对于零基础考生来说仍然需要系统学习。
+          - heading "推荐教材" [level=3] [ref=e66]
+          - paragraph [ref=e67]:
+            - strong [ref=e68]: 《行政职业能力测验》（中共党史出版社/华图教育）
+            - text: ：行测教材市场已经非常成熟，华图、中公、粉笔等机构的基础教材质量都不错。建议选择一本主线教材即可，不需要贪多。
+          - paragraph [ref=e69]:
+            - img "职场工作" [ref=e70]
+          - paragraph [ref=e71]:
+            - strong [ref=e72]: 《行测5000题》（粉笔公考）
+            - text: ：学完基础理论后，大量刷题是提升行测成绩的最有效方法。5000题按模块分类，适合针对性训练薄弱环节。
+          - heading "分模块推荐" [level=3] [ref=e73]
+          - paragraph [ref=e74]:
+            - strong [ref=e75]: 言语理解与表达
+            - text: ：推荐《行测言语理解专项题库》。上海社工考试的言语题相对简单，重点训练片段阅读和逻辑填空即可。
+          - paragraph [ref=e76]:
+            - strong [ref=e77]: 数量关系
+            - text: ：对于数学基础较弱的考生，推荐《行测数量关系速解技巧》。社工考试中的数量关系题量少、难度低，不建议花费过多时间。
+          - paragraph [ref=e78]:
+            - strong [ref=e79]: 判断推理
+            - text: ：包括图形推理、定义判断、类比推理、逻辑判断四个子模块。推荐《行测判断推理专项突破》。社工考试中图形推理和类比推理出现频率较高。
+          - paragraph [ref=e80]:
+            - strong [ref=e81]: 资料分析
+            - text: ：推荐《行测资料分析速算技巧》。资料分析是行测中「性价比」最高的模块，方法掌握了就能稳定拿分。
+          - heading "四、申论与写作教材推荐" [level=2] [ref=e82]
+          - paragraph [ref=e83]: 并非所有区的社工考试都考申论，但写作能力在面试环节同样重要。如果你所在的区考申论，建议认真准备。
+          - heading "推荐教材" [level=3] [ref=e84]
+          - paragraph [ref=e85]:
+            - strong [ref=e86]: 《申论万能宝典》（钟君主编）
+            - text: ：申论入门经典教材，对申论的基本题型、答题框架、写作方法有系统讲解。适合零基础考生快速上手。
+          - paragraph [ref=e87]:
+            - strong [ref=e88]: 《申论范文宝典》
+            - text: ：通过学习高质量范文来提升写作水平的有效方法。重点关注基层治理、社区服务、民生保障等话题的范文。
+          - heading "写作训练建议" [level=3] [ref=e89]
+          - paragraph [ref=e90]: 社工考试的申论写作与公务员申论有所不同，通常更贴近基层工作实际。建议平时多关注以下内容：上海市民政局官网发布的工作动态和政策文件、各区政府工作报告中关于社区建设的部分、中国社区报等专业媒体的新闻报道。
+          - heading "五、社区专业知识教材" [level=2] [ref=e91]
+          - paragraph [ref=e92]: 社区工作专业知识是区别于一般公考的独特内容，也是面试中的高频考点。
+          - heading "推荐教材" [level=3] [ref=e93]
+          - paragraph [ref=e94]:
+            - strong [ref=e95]: 《社会工作综合能力（初级）》和《社会工作实务（初级）》（中国社会出版社）
+            - text: ：这两本教材是社会工作者职业水平考试的官方指定教材，对于社工招聘考试同样具有很强的参考价值。重点学习社会工作的基本理论、方法和价值观。
+          - paragraph [ref=e96]:
+            - strong [ref=e97]: 《社区工作》（中国人民大学出版社）
+            - text: ：经典教材，系统介绍了社区工作的理论、方法和实践技巧，对于理解社区工作者的岗位职责和发展方向很有帮助。
+          - heading "补充阅读" [level=3] [ref=e98]
+          - paragraph [ref=e99]:
+            - strong [ref=e100]: 《上海市社区工作者管理办法》
+            - text: 和
+            - strong [ref=e101]: 《上海市街道办事处条例》
+            - text: 等地方性法规文件，是面试答题的重要政策依据。建议下载原文通读，对关键条款进行标注和记忆。
+          - heading "六、真题与模拟题推荐" [level=2] [ref=e102]
+          - paragraph [ref=e103]: 真题是检验备考效果、把握考试方向的最佳工具。
+          - heading "获取途径" [level=3] [ref=e104]
+          - paragraph [ref=e105]: 上海的社工考试真题一般不会公开发布。考生可以通过以下途径获取备考题目：参加培训机构组织的模拟考试（粉笔、华图等APP通常有线上模考功能）、选购上海事业单位考试的真题集作为替代练习（因为考试内容和难度较为接近）、在备考群或社区论坛中与其他考生交流题目资源。
+          - heading "刷题策略" [level=3] [ref=e106]
+          - paragraph [ref=e107]: 建议分三个阶段刷题：第一阶段（基础期）按模块分章节练习，每学完一个知识点做配套练习；第二阶段（强化期）做完整的模拟套卷，训练时间分配和答题节奏；第三阶段（冲刺期）重点攻克错题和薄弱模块。
+          - heading "七、网课与线上资源推荐" [level=2] [ref=e108]
+          - paragraph [ref=e109]: 对于自学能力较弱或在职备考的考生，网课是一个高效的选择。
+          - paragraph [ref=e110]:
+            - strong [ref=e111]: 粉笔APP
+            - text: ：提供行测、公基的系统课程，老师讲解清晰，适合零基础考生。
+          - paragraph [ref=e112]:
+            - strong [ref=e113]: B站公开课
+            - text: ：搜索「公考行测」「公共基础知识」等关键词，可以找到大量免费的优质教学视频。
+          - paragraph [ref=e114]:
+            - strong [ref=e115]: 「上海发布」微信公众号
+            - text: ：获取上海最新政策动态和民生资讯的权威渠道，对时政备考非常有帮助。
+          - heading "八、备考书单使用建议" [level=2] [ref=e116]
+          - paragraph [ref=e117]: 面对上面推荐的众多教材，很多考生可能会感到无所适从。这里给出一个简洁的使用建议：
+          - paragraph [ref=e118]:
+            - strong [ref=e119]: 基础阶段（第1-2个月）
+            - text: ：公共基础知识1本 + 行测主线教材1本 + 申论入门教材1本。重点是通读教材、建立知识框架。
+          - paragraph [ref=e120]:
+            - strong [ref=e121]: 强化阶段（第3-4个月）
+            - text: ：行测分模块题库 + 真题模拟套卷。重点是通过大量练习提升解题速度和准确率。
+          - paragraph [ref=e122]:
+            - strong [ref=e123]: 冲刺阶段（考前1个月）
+            - text: ：错题复习 + 时政热词背诵 + 面试准备。重点是查漏补缺和调整状态。
+          - paragraph [ref=e124]: 最后提醒一点：教材在精不在多。与其买十本书每本翻几页，不如选定两三本核心教材反复研读。备考路上，坚持比聪明更重要，计划比冲动更可靠。祝各位考生备考顺利，早日上岸。
+        - generic [ref=e126]:
+          - paragraph [ref=e127]: 作者：公考助手 | 发布：2026-05-26
+          - link "← 返回上海社区工作者" [ref=e128] [cursor=pointer]:
+            - /url: /shanghai-shegong
+      - complementary [ref=e129]:
+        - heading "📖 相关推荐" [level=2] [ref=e130]
+        - generic [ref=e131]:
+          - link "2026年上海社区工作者报名材料准备清单与注意事项 2026-05-26" [ref=e132] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-baoming-cailiao-zhunbei
+            - heading "2026年上海社区工作者报名材料准备清单与注意事项" [level=3] [ref=e133]
+            - paragraph [ref=e134]: 2026-05-26
+          - link "社区工作者报名流程详解与常见问题解答 2026-05-26" [ref=e135] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-baoming-liucheng
+            - heading "社区工作者报名流程详解与常见问题解答" [level=3] [ref=e136]
+            - paragraph [ref=e137]: 2026-05-26
+          - link "上海社工笔试科目分析与备考重点 2026-05-26" [ref=e138] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-bishi-kemu
+            - heading "上海社工笔试科目分析与备考重点" [level=3] [ref=e139]
+            - paragraph [ref=e140]: 2026-05-26
+          - link "上海各区社区工作者招聘特点对比：选哪个区更适合你？ 2026-05-26" [ref=e141] [cursor=pointer]:
+            - /url: /shanghai-shegong/2026-05-26-shanghai-shegong-gequ-zhaopin-duibi
+            - heading "上海各区社区工作者招聘特点对比：选哪个区更适合你？" [level=3] [ref=e142]
+            - paragraph [ref=e143]: 2026-05-26
+  - contentinfo [ref=e144]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - link "🏛️ 公考资讯站" [ref=e148] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e149]: 🏛️
+            - generic [ref=e150]: 公考资讯站
+          - paragraph [ref=e151]: 专注国考、省考、社区工作者招录考试，提供最新招考公告与备考指南，助你顺利上岸。
+        - generic [ref=e152]:
+          - heading "考试频道" [level=3] [ref=e153]
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - link "国家公务员考试" [ref=e156] [cursor=pointer]:
+                - /url: /guokao
+            - listitem [ref=e157]:
+              - link "各省公务员考试" [ref=e158] [cursor=pointer]:
+                - /url: /shengkao
+            - listitem [ref=e159]:
+              - link "上海社区工作者" [ref=e160] [cursor=pointer]:
+                - /url: /shanghai-shegong
+        - generic [ref=e161]:
+          - heading "备考资源" [level=3] [ref=e162]
+          - list [ref=e163]:
+            - listitem [ref=e164]:
+              - link "报考公告" [ref=e165] [cursor=pointer]:
+                - /url: /baokao-gonggao
+            - listitem [ref=e166]:
+              - link "政策解读" [ref=e167] [cursor=pointer]:
+                - /url: /zhengce-jiedu
+            - listitem [ref=e168]:
+              - link "备考指南" [ref=e169] [cursor=pointer]:
+                - /url: /beikao-zhinan
+            - listitem [ref=e170]:
+              - link "真题解析" [ref=e171] [cursor=pointer]:
+                - /url: /zhenti-jiexi
+        - generic [ref=e172]:
+          - heading "更多" [level=3] [ref=e173]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "岗位分析" [ref=e176] [cursor=pointer]:
+                - /url: /gangwei-fenxi
+            - listitem [ref=e177]:
+              - link "上岸经验" [ref=e178] [cursor=pointer]:
+                - /url: /shang-an-jingyan
+      - generic [ref=e179]:
+        - paragraph [ref=e180]: © 2026 公考资讯站. 仅供学习交流，不构成报考建议。
+        - paragraph [ref=e181]: 蜀ICP备2024012345号-1
+  - alert [ref=e182]

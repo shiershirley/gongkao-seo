@@ -1,0 +1,192 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "🏛️ 公考资讯站" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: 🏛️
+        - generic [ref=e7]: 公考资讯站
+      - navigation [ref=e8]:
+        - link "国考" [ref=e9] [cursor=pointer]:
+          - /url: /guokao
+        - link "省考" [ref=e10] [cursor=pointer]:
+          - /url: /shengkao
+        - link "上海社工" [ref=e11] [cursor=pointer]:
+          - /url: /shanghai-shegong
+        - link "公告" [ref=e12] [cursor=pointer]:
+          - /url: /baokao-gonggao
+        - link "备考" [ref=e13] [cursor=pointer]:
+          - /url: /beikao-zhinan
+        - link "真题" [ref=e14] [cursor=pointer]:
+          - /url: /zhenti-jiexi
+        - link "经验" [ref=e15] [cursor=pointer]:
+          - /url: /shang-an-jingyan
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - navigation "面包屑" [ref=e18]:
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "首页" [ref=e21] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e22]:
+            - generic [ref=e23]: /
+            - link "岗位分析" [ref=e24] [cursor=pointer]:
+              - /url: /gangwei-fenxi
+          - listitem [ref=e25]:
+            - generic [ref=e26]: /
+            - generic [ref=e27]: 事业单位A类综合应用能力备考全攻略：从入门到高分
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: 岗位分析
+            - time [ref=e32]: 2026-05-26
+            - generic [ref=e33]: 10 min read
+          - heading "事业单位A类综合应用能力备考全攻略：从入门到高分" [level=1] [ref=e34]
+          - paragraph [ref=e35]: 事业单位A类（综合管理类）考试中，《综合应用能力》是决定上岸与否的关键科目。本文全面解析A类综应的考试特点、题型分布和高分策略，重点讲解案例分析、公文写作和材料作文三大题型的答题方法，帮助考生系统备考。
+          - generic [ref=e36]:
+            - generic [ref=e37]: "#事业单位"
+            - generic [ref=e38]: "#综合应用能力"
+            - generic [ref=e39]: "#A类"
+            - generic [ref=e40]: "#备考攻略"
+        - generic [ref=e41]:
+          - heading "事业单位A类综合应用能力备考全攻略：从入门到高分" [level=1] [ref=e42]
+          - paragraph [ref=e43]: 事业单位公开招聘分类考试中，综合管理类（A类）是报考人数最多、竞争最激烈的类别。《综合应用能力》作为A类的专业科目，其考查方式和答题思路与《申论》有显著区别。许多考生用申论的思路去答综应，结果分数惨淡。本文为你全面解析A类综应的备考方法，帮助你在正确的方向上高效备考。
+          - paragraph [ref=e44]:
+            - img "科技数字" [ref=e45]
+          - heading "一、A类综应考什么" [level=2] [ref=e46]
+          - paragraph [ref=e47]: 事业单位A类《综合应用能力》主要测查应试人员的管理角色意识、分析判断能力、计划与控制能力、沟通协调能力以及文字表达能力。与申论相比，综应更加侧重「管理实务」，考查的是你在事业单位管理岗位上的实际工作能力。
+          - paragraph [ref=e48]: 考试时限通常为120分钟，满分150分。题型主要包括：案例分析题、公文写作题和材料作文题。题量一般为3-4道大题，部分题目下设若干小问。
+          - heading "二、题型深度解析" [level=2] [ref=e49]
+          - heading "题型一：案例分析题" [level=3] [ref=e50]
+          - paragraph [ref=e51]: 案例分析题是A类综应的核心题型，通常要求考生阅读一段工作场景描述，然后回答问题。常见的问法包括：分析案例中反映的问题和原因、如果你是案例中的管理者，你会如何处理、评价案例中相关人物的做法。
+          - paragraph [ref=e52]:
+            - strong [ref=e53]: 答题方法
+            - text: ：
+          - paragraph [ref=e54]: 第一步，精读案例，标注关键信息。注意案例中的人物关系、矛盾冲突、工作流程和制度规定。
+          - paragraph [ref=e55]: 第二步，以管理者的视角分析问题。综应的案例分析不是让你当「评论员」，而是当「管理者」。你要思考的是：这个事情应该怎么办？而不是这个事情谁对谁错。
+          - paragraph [ref=e56]: 第三步，分条作答，条理清晰。每条要点用一句话概括核心观点，再用2-3句话展开说明。
+          - heading "题型二：公文写作题" [level=3] [ref=e57]
+          - paragraph [ref=e58]: 公文写作题要求考生根据给定的情境，拟写一份机关常用公文。常见文种包括通知、函、报告、请示、纪要等。
+          - paragraph [ref=e59]:
+            - strong [ref=e60]: 答题方法
+            - text: ：
+          - paragraph [ref=e61]: 格式规范是第一位的。每种公文都有固定的格式要求，包括标题、主送机关、正文、落款等要素。格式错误会直接扣分。
+          - paragraph [ref=e62]: 正文写作要遵循「事由-事项-结尾」的基本结构。开篇简要说明发文目的和依据，主体部分清晰陈述事项内容，结尾根据文种特点使用规范用语。
+          - paragraph [ref=e63]: 语言风格要符合机关公文的要求：庄重、准确、简练。切忌口语化表达和主观情绪化表述。
+          - heading "题型三：材料作文题" [level=3] [ref=e64]
+          - paragraph [ref=e65]: 材料作文题通常给出一段或几段材料，要求考生围绕特定主题写一篇议论文。字数要求一般在800-1000字。
+          - paragraph [ref=e66]:
+            - strong [ref=e67]: 答题方法
+            - text: ：
+          - paragraph [ref=e68]: 首先，审题立意的关键是从材料中提炼核心观点。不要脱离材料自由发挥，也不要完全照搬材料。
+          - paragraph [ref=e69]: 其次，文章结构建议采用「引论-本论-结论」的经典框架。引论部分简要引入话题并提出中心论点。本论部分从2-3个角度展开论证，每个角度独立成段。结论部分总结全文、升华主题。
+          - paragraph [ref=e70]: 最后，论证要有理有据。可以运用理论论证（引用政策文件或权威观点）、事实论证（列举典型案例或数据）、类比论证（用相似事物说明道理）等多种论证方法。
+          - paragraph [ref=e71]:
+            - img "科技数字" [ref=e72]
+          - heading "三、综应与申论的核心区别" [level=2] [ref=e73]
+          - paragraph [ref=e74]: 很多考生对综应和申论的区别感到困惑，这里做一下系统对比：
+          - paragraph [ref=e75]:
+            - strong [ref=e76]: 考查目标不同
+            - text: ：申论考查的是作为一名公务员应具备的政策理论水平和文字表达能力。综应考查的是作为一名事业单位管理人员应具备的管理实务能力。
+          - paragraph [ref=e77]:
+            - strong [ref=e78]: 材料性质不同
+            - text: ：申论的材料通常是社会热点和政策文件，范围较广。综应的材料多围绕事业单位管理场景设计，聚焦具体工作问题。
+          - paragraph [ref=e79]:
+            - strong [ref=e80]: 答题视角不同
+            - text: ：申论答题要求站在政府管理者的宏观视角。综应答题更强调在具体管理岗位上的实务操作能力。
+          - paragraph [ref=e81]:
+            - strong [ref=e82]: 写作侧重不同
+            - text: ：申论作文偏重对社会问题的宏观分析和政策建议。综应作文更侧重对管理实践问题的思考和对策。
+          - paragraph [ref=e83]: 简单来说，如果你用「政府思维」答申论，那就要用「管理者思维」答综应。
+          - heading "四、科学备考时间规划" [level=2] [ref=e84]
+          - heading "基础阶段（第1-3周）" [level=3] [ref=e85]
+          - paragraph [ref=e86]: 系统学习案例分析、公文写作、材料作文三种题型的答题方法。建议每天安排：阅读1篇案例分析范例并模仿答题（30分钟）、学习1种公文文种的格式和范文（20分钟）、阅读1篇优秀的综应范文并分析其结构（20分钟）。
+          - heading "强化阶段（第4-8周）" [level=3] [ref=e87]
+          - paragraph [ref=e88]: 进行专题训练，逐个攻克薄弱题型。每周至少完成2-3套完整的综应模拟题，严格按照120分钟时限作答。做完后对照参考答案认真批改，找出自己的不足。
+          - heading "冲刺阶段（考前2周）" [level=3] [ref=e89]
+          - paragraph [ref=e90]: 重点回顾前期的错题和笔记。每周保持1-2套模拟题的练习量，保持手感。同时调整好作息和心态，以最佳状态迎接考试。
+          - heading "五、高分备考建议" [level=2] [ref=e91]
+          - paragraph [ref=e92]:
+            - strong [ref=e93]: 建议一：积累「管理案例库」
+          - paragraph [ref=e94]: 综应答题中经常需要结合案例进行分析。建议平时有意识地收集和记忆一些典型的公共管理案例，如公共服务创新、突发事件处置、基层矛盾化解等。这些案例在考场上可以作为有力的论据。
+          - paragraph [ref=e95]:
+            - strong [ref=e96]: 建议二：熟悉事业单位的政策法规
+          - paragraph [ref=e97]: 《事业单位人事管理条例》《事业单位领导人员管理规定》等文件中的关键条款，在综应答题中可以作为政策依据引用，展现你的专业素养。
+          - paragraph [ref=e98]:
+            - strong [ref=e99]: 建议三：练习机关公文的规范表述
+          - paragraph [ref=e100]: 公文写作考查的是规范性而非创造性。建议背诵每种常用文种的格式模板和规范用语，确保在考场上能够快速准确地完成写作。
+          - paragraph [ref=e101]:
+            - strong [ref=e102]: 建议四：关注事业单位改革动态
+          - paragraph [ref=e103]: 近几年事业单位分类改革稳步推进，相关政策和举措是综应考试的潜在命题方向。建议关注人力资源和社会保障部及本省人社厅发布的事业单位改革相关信息。
+          - paragraph [ref=e104]: 事业单位A类考试虽然竞争激烈，但只要掌握了正确的备考方向和方法，就完全有希望脱颖而出。祝愿每一位认真备考的考生都能在综应考试中取得理想成绩。
+        - generic [ref=e106]:
+          - paragraph [ref=e107]: 作者：公考助手 | 发布：2026-05-26
+          - link "← 返回岗位分析" [ref=e108] [cursor=pointer]:
+            - /url: /gangwei-fenxi
+      - complementary [ref=e109]:
+        - heading "📖 相关推荐" [level=2] [ref=e110]
+        - generic [ref=e111]:
+          - link "事业单位综合应用能力备考策略与高分方法 2026-05-26" [ref=e112] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-26-gangwei-fenxi-zonghe-yingyong
+            - heading "事业单位综合应用能力备考策略与高分方法" [level=3] [ref=e113]
+            - paragraph [ref=e114]: 2026-05-26
+          - link "事业单位考试备考需要多长时间？按人群定制的时间规划方案 2026-05-26" [ref=e115] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-26-shiyedanwei-baokao-zhunbei-shijian
+            - heading "事业单位考试备考需要多长时间？按人群定制的时间规划方案" [level=3] [ref=e116]
+            - paragraph [ref=e117]: 2026-05-26
+          - link "事业单位公开招聘笔试备考规划与科目解析 2026-05-26" [ref=e118] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-26-shiyedanwei-bishi-kaoshi-fenlei
+            - heading "事业单位公开招聘笔试备考规划与科目解析" [level=3] [ref=e119]
+            - paragraph [ref=e120]: 2026-05-26
+          - link "事业单位综合应用能力A类备考全指南 2026-05-26" [ref=e121] [cursor=pointer]:
+            - /url: /gangwei-fenxi/2026-05-26-shiyedanwei-zonghe-yingyong-baogao-a
+            - heading "事业单位综合应用能力A类备考全指南" [level=3] [ref=e122]
+            - paragraph [ref=e123]: 2026-05-26
+  - contentinfo [ref=e124]:
+    - generic [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - link "🏛️ 公考资讯站" [ref=e128] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e129]: 🏛️
+            - generic [ref=e130]: 公考资讯站
+          - paragraph [ref=e131]: 专注国考、省考、社区工作者招录考试，提供最新招考公告与备考指南，助你顺利上岸。
+        - generic [ref=e132]:
+          - heading "考试频道" [level=3] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "国家公务员考试" [ref=e136] [cursor=pointer]:
+                - /url: /guokao
+            - listitem [ref=e137]:
+              - link "各省公务员考试" [ref=e138] [cursor=pointer]:
+                - /url: /shengkao
+            - listitem [ref=e139]:
+              - link "上海社区工作者" [ref=e140] [cursor=pointer]:
+                - /url: /shanghai-shegong
+        - generic [ref=e141]:
+          - heading "备考资源" [level=3] [ref=e142]
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - link "报考公告" [ref=e145] [cursor=pointer]:
+                - /url: /baokao-gonggao
+            - listitem [ref=e146]:
+              - link "政策解读" [ref=e147] [cursor=pointer]:
+                - /url: /zhengce-jiedu
+            - listitem [ref=e148]:
+              - link "备考指南" [ref=e149] [cursor=pointer]:
+                - /url: /beikao-zhinan
+            - listitem [ref=e150]:
+              - link "真题解析" [ref=e151] [cursor=pointer]:
+                - /url: /zhenti-jiexi
+        - generic [ref=e152]:
+          - heading "更多" [level=3] [ref=e153]
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - link "岗位分析" [ref=e156] [cursor=pointer]:
+                - /url: /gangwei-fenxi
+            - listitem [ref=e157]:
+              - link "上岸经验" [ref=e158] [cursor=pointer]:
+                - /url: /shang-an-jingyan
+      - generic [ref=e159]:
+        - paragraph [ref=e160]: © 2026 公考资讯站. 仅供学习交流，不构成报考建议。
+        - paragraph [ref=e161]: 蜀ICP备2024012345号-1
+  - alert [ref=e162]
