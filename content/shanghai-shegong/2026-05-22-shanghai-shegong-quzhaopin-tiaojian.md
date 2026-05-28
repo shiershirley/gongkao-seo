@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "202616"
+title: 2026
+description: 202616
 date: "2026-05-22"
 category: "shanghai-shegong"
-tags: ["", "", "", "2026", ""]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-05-22"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/gov/gov_v19_056.jpg)

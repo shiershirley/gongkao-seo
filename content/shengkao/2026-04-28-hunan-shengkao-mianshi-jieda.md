@@ -1,13 +1,13 @@
 ---
 title: "2026425-28"
-description: "2026425428"
+description: 2026425428
 date: "2026-04-28"
-category: "shengkao"
-tags: ["", "", "", "2026"]
-author: ""
+category: shengkao
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shengkao/"
 source_date: "2026-04-28"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026425-28 

@@ -1,13 +1,13 @@
 ---
-title: "省考真题解析2026：近年真题回顾与2026备考重点"
+title: 省考真题解析2026：近年真题回顾与2026备考重点
+description: 2026年省考真题全面解析，近年真题分类整理、题型变化趋势分析、高频考点汇总及2026年省考备考重点预测。
 date: "2026-05-28"
-category: "shengkao"
+category: shengkao
 tags: ["省考真题", "历年真题", "备考重点", "2026省考"]
-author: "公考助手"
-description: "2026年省考真题全面解析，近年真题分类整理、题型变化趋势分析、高频考点汇总及2026年省考备考重点预测。"
-source_url: ""
-source_date: ""
-content_type: "article"
+author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: article
 ---
 
 # 省考真题解析2026：近年真题回顾与2026备考重点

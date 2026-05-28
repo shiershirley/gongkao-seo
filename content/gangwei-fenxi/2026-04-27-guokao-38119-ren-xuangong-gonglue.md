@@ -1,13 +1,13 @@
 ---
-title: "202638119"
-description: "202638119"
+title: 202638119
+description: 202638119
 date: "2026-04-27"
 category: "gangwei-fenxi"
-tags: ["", "", "2026", ""]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/gangwei-fenxi/"
 source_date: "2026-04-27"
-content_type: ""
+content_type: 原创
 ---
 
 # 202638119 

@@ -1,13 +1,13 @@
 ---
-title: "30"
-description: "30"
+title: 30
+description: 30
 date: "2026-05-20"
 category: "beikao-zhinan"
-tags: ["", "", "", "", "30"]
-author: ""
+tags: ["30"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-05-20"
-content_type: ""
+content_type: 原创
 ---
 
 # 30 

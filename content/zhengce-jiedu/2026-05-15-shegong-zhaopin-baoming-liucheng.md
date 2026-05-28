@@ -1,13 +1,13 @@
 ---
-title: ""
-description: ""
+title: 
+description: 
 date: "2026-05-15"
 category: "zhengce-jiedu"
-tags: ["", "", "", ""]
-author: "SEO"
+tags: ["备考指南"]
+author: SEO
 source_url: "https://gk.edu-sjtu.cn/zhengce-jiedu/"
 source_date: "2026-05-15"
-content_type: ""
+content_type: 原创
 ---
 
 #  

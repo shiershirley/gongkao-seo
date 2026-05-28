@@ -1,13 +1,13 @@
 ---
-title: "3"
-description: "3"
+title: 3
+description: 3
 date: "2026-05-22"
 category: "beikao-zhinan"
-tags: ["", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-05-22"
-content_type: ""
+content_type: 原创
 ---
 
 # 3 

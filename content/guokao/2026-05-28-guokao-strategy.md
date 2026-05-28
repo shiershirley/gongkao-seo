@@ -1,13 +1,13 @@
 ---
-title: "国考零基础备考攻略2026：从入门到上岸的180天系统规划"
+title: 国考零基础备考攻略2026：从入门到上岸的180天系统规划
+description: 2026年国家公务员考试零基础备考全攻略，系统规划180天复习时间表，涵盖行测、申论各模块学习重点与备考策略。
 date: "2026-05-28"
-category: "guokao"
+category: guokao
 tags: ["国考零基础", "180天备考", "系统规划", "2026国考"]
-author: "公考助手"
-description: "2026年国家公务员考试零基础备考全攻略，系统规划180天复习时间表，涵盖行测、申论各模块学习重点与备考策略。"
-source_url: ""
-source_date: ""
-content_type: "article"
+author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: article
 ---
 
 # 国考零基础备考攻略2026：从入门到上岸的180天系统规划

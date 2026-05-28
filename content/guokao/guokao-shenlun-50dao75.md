@@ -1,13 +1,13 @@
 ---
-title: "5075"
-description: "5075"
+title: 5075
+description: 5075
 date: "2026-04-15"
-category: "guokao"
-tags: ["", "", "", "", ""]
-author: ""
+category: guokao
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-04-15"
-content_type: ""
+content_type: 原创
 ---
 
 # 5075 

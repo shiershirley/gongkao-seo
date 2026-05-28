@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "2026"
+title: 2026
+description: 2026
 date: "2026-05-27"
 category: "gangwei-fenxi"
-tags: ["", "", "", "2026", ""]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/gangwei-fenxi/"
 source_date: "2026-05-27"
-content_type: ""
+content_type: 原创
 ---
 
 ##  

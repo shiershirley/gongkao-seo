@@ -3,11 +3,11 @@ title: "2026192:1"
 description: "20265061192:1"
 date: "2026-04-27"
 category: "shanghai-shegong"
-tags: ["", "", "", "2026"]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-04-27"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026192:1 

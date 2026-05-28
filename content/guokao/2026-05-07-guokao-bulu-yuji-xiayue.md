@@ -1,13 +1,13 @@
 ---
-title: "5"
+title: 5
 description: "202652000-4000"
 date: "2026-05-07"
-category: "guokao"
-tags: ["", "", "", "2026"]
-author: ""
+category: guokao
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-05-07"
-content_type: ""
+content_type: 原创
 ---
 
 20264——

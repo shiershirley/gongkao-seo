@@ -1,13 +1,13 @@
 ---
-title: "20"
-description: ""
+title: 20
+description: 
 date: "2026-05-25"
-category: "guokao"
-tags: ["", "", "", "", ""]
-author: ""
+category: guokao
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-05-25"
-content_type: ""
+content_type: 原创
 ---
 
 # 20 

@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "2026KPI"
+title: 2026
+description: 2026KPI
 date: "2026-05-20"
 category: "zhengce-jiedu"
-tags: ["", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/zhengce-jiedu/"
 source_date: "2026-05-20"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026 

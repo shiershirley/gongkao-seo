@@ -1,13 +1,13 @@
 ---
-title: "20"
-description: "51020"
+title: 20
+description: 51020
 date: "2026-05-07"
 category: "shanghai-shegong"
-tags: ["", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-05-07"
-content_type: ""
+content_type: 原创
 ---
 
 ——

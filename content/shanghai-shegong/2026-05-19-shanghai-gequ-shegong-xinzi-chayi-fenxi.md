@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "202616"
+title: 2026
+description: 202616
 date: "2026-05-19"
 category: "shanghai-shegong"
-tags: ""
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-05-19"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026 

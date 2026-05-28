@@ -1,13 +1,13 @@
 ---
-title: "6"
+title: 6
 description: "63-4"
 date: "2026-04-22"
 category: "beikao-zhinan"
-tags: ["", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-04-22"
-content_type: ""
+content_type: 原创
 ---
 
 # 6 

@@ -1,13 +1,13 @@
 ---
-title: "20263.81 10"
-description: "20263.81"
+title: 20263.81 10
+description: 20263.81
 date: "2026-05-07"
 category: "baokao-gonggao"
-tags: ["", "", "2026", ""]
-author: "SEO"
+tags: ["2026"]
+author: SEO
 source_url: "https://gk.edu-sjtu.cn/baokao-gonggao/"
 source_date: "2026-05-07"
-content_type: ""
+content_type: 原创
 ---
 
 # 20263.81 10 

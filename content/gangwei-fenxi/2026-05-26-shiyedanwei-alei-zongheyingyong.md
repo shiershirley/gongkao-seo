@@ -1,13 +1,13 @@
 ---
-title: "A"
-description: "AA"
+title: A
+description: AA
 date: "2026-05-26"
 category: "gangwei-fenxi"
-tags: ""
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/gangwei-fenxi/"
 source_date: "2026-05-26"
-content_type: ""
+content_type: 原创
 ---
 
 # A 

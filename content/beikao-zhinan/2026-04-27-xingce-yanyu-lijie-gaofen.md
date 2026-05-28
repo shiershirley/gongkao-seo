@@ -1,13 +1,13 @@
 ---
-title: ""
+title: 
 description: "80%"
 date: "2026-04-27"
 category: "beikao-zhinan"
-tags: ["", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-04-27"
-content_type: ""
+content_type: 原创
 ---
 
 #  

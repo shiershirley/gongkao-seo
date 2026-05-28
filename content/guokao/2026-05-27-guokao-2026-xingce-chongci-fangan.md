@@ -1,13 +1,13 @@
 ---
-title: "2026306075"
-description: "20266030"
+title: 2026306075
+description: 20266030
 date: "2026-05-27"
-category: "guokao"
-tags: ["", "30", "6075", "", "2026"]
-author: ""
+category: guokao
+tags: ["30", "6075", "2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-05-27"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026306075 

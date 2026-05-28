@@ -1,13 +1,13 @@
 ---
-title: "51012"
-description: "202651012"
+title: 51012
+description: 202651012
 date: "2026-04-29"
 category: "shanghai-shegong"
-tags: ["", "", "", "", "2026"]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-04-29"
-content_type: ""
+content_type: 原创
 ---
 
 2026**510**

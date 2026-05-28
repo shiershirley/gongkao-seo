@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "2026"
+title: 2026
+description: 2026
 date: "2026-05-24"
-category: "guokao"
-tags: ["", "", "", "", "", "2026"]
-author: ""
+category: guokao
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-05-24"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/study/library_reading_room.jpg)

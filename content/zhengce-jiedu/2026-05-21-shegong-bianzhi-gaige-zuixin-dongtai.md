@@ -1,13 +1,13 @@
 ---
-title: ""
-description: ""
+title: 
+description: 
 date: "2026-05-21"
 category: "zhengce-jiedu"
-tags: ["", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/zhengce-jiedu/"
 source_date: "2026-05-21"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/city/city_v18_009.jpg)

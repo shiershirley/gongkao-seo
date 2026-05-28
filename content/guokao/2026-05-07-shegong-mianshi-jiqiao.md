@@ -1,13 +1,13 @@
 ---
-title: ""
-description: ""
+title: 
+description: 
 date: "2026-05-07"
-category: "guokao"
-tags: ["", "", "", ""]
-author: "SEO"
+category: guokao
+tags: ["备考指南"]
+author: SEO
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-05-07"
-content_type: ""
+content_type: 原创
 ---
 
 #  

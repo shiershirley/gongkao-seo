@@ -1,13 +1,13 @@
 ---
-title: "85"
-description: "85"
+title: 85
+description: 85
 date: "2026-05-04"
 category: "shang-an-jingyan"
-tags: ["", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shang-an-jingyan/"
 source_date: "2026-05-04"
-content_type: ""
+content_type: 原创
 ---
 
 202585100

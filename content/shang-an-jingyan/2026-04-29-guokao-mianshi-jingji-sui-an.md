@@ -1,13 +1,13 @@
 ---
-title: ""
-description: ""
+title: 
+description: 
 date: "2026-04-29"
 category: "shang-an-jingyan"
-tags: ["", "", "", "", "2026"]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shang-an-jingyan/"
 source_date: "2026-04-29"
-content_type: ""
+content_type: 原创
 ---
 
 

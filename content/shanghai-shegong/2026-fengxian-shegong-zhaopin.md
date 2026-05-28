@@ -1,13 +1,13 @@
 ---
-title: "2026110417"
-description: "2026110417423"
+title: 2026110417
+description: 2026110417423
 date: "2026-04-16"
 category: "shanghai-shegong"
-tags: ["", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-04-16"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026110417 

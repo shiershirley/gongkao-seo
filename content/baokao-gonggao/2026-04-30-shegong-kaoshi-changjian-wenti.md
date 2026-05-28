@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "10"
+title: 2026
+description: 10
 date: "2026-04-30"
 category: "baokao-gonggao"
-tags: ["", "", "", "", "FAQ"]
-author: ""
+tags: ["FAQ"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/baokao-gonggao/"
 source_date: "2026-04-30"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026 

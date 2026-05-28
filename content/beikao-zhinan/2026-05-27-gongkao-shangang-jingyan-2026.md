@@ -1,13 +1,13 @@
 ---
-title: "2026"
+title: 2026
 description: "2025-2026"
 date: "2026-05-27"
 category: "beikao-zhinan"
-tags: ["", "", "", "2026", ""]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-05-27"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026 

@@ -1,13 +1,13 @@
 ---
-title: "16"
-description: "1616"
+title: 16
+description: 1616
 date: "2026-04-27"
 category: "gangwei-fenxi"
-tags: ["", "", "", "16"]
-author: ""
+tags: ["16"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/gangwei-fenxi/"
 source_date: "2026-04-27"
-content_type: ""
+content_type: 原创
 ---
 
 # 16 

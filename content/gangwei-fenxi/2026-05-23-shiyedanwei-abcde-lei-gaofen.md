@@ -1,13 +1,13 @@
 ---
-title: "ABCDE"
-description: "ABCDE(A)(B)(C)(D)(E)"
+title: ABCDE
+description: ABCDE(A)(B)(C)(D)(E)
 date: "2026-05-23"
 category: "gangwei-fenxi"
-tags: ["", "ABCDE", "", ""]
-author: ""
+tags: ["ABCDE"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/gangwei-fenxi/"
 source_date: "2026-05-23"
-content_type: ""
+content_type: 原创
 ---
 
 ![]( /images/lib/tech/t6_2.jpg)

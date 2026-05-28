@@ -1,13 +1,13 @@
 ---
-title: ""
-description: ""
+title: 
+description: 
 date: "2026-05-24"
-category: "shengkao"
-tags: ["", "", "", "", "", ""]
-author: ""
+category: shengkao
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shengkao/"
 source_date: "2026-05-24"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/exam/exam_v20_084.jpg)

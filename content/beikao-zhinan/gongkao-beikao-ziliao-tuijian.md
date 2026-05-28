@@ -1,13 +1,13 @@
 ---
-title: ""
-description: "APP"
+title: 
+description: APP
 date: "2026-04-20"
 category: "beikao-zhinan"
-tags: ["", "", "APP", "", ""]
-author: ""
+tags: ["APP"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-04-20"
-content_type: ""
+content_type: 原创
 ---
 
 #  

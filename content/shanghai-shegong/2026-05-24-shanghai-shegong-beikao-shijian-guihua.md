@@ -1,13 +1,13 @@
 ---
-title: ""
-description: "321"
+title: 
+description: 321
 date: "2026-05-24"
 category: "shanghai-shegong"
-tags: ["", "", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-05-24"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/people/people_v18_008.jpg)

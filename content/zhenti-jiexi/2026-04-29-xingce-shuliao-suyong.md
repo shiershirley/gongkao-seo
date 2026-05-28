@@ -1,13 +1,13 @@
 ---
-title: ""
+title: 
 description: "10-15--"
 date: "2026-04-29"
 category: "zhenti-jiexi"
-tags: ["", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/zhenti-jiexi/"
 source_date: "2026-04-29"
-content_type: ""
+content_type: 原创
 ---
 
 

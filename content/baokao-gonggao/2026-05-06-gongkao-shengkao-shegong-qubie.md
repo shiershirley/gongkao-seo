@@ -1,13 +1,13 @@
 ---
-title: ""
-description: ""
+title: 
+description: 
 date: "2026-05-06"
 category: "baokao-gonggao"
-tags: ["", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/baokao-gonggao/"
 source_date: "2026-05-06"
-content_type: ""
+content_type: 原创
 ---
 
 #  

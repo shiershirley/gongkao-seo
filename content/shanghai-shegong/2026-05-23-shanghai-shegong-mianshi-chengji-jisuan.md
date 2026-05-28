@@ -1,13 +1,13 @@
 ---
-title: ""
+title: 
 description: "40%-60%"
 date: "2026-05-23"
 category: "shanghai-shegong"
-tags: ["", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-05-23"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/study/s49_0.jpg)

@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "2026"
+title: 2026
+description: 2026
 date: "2026-04-26"
 category: "zhenti-jiexi"
-tags: ["", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/zhenti-jiexi/"
 source_date: "2026-04-26"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026 

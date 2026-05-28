@@ -1,13 +1,13 @@
 ---
-title: "20265"
-description: "20265"
+title: 20265
+description: 20265
 date: "2026-04-18"
 category: "baokao-gonggao"
-tags: ["", "", "", "", ""]
-author: ""
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/baokao-gonggao/"
 source_date: "2026-04-18"
-content_type: ""
+content_type: 原创
 ---
 
 # 20265 

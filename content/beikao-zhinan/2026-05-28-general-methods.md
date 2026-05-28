@@ -1,13 +1,13 @@
 ---
-title: "公考面试礼仪全指南2026：着装、言行、细节决定成败"
+title: 公考面试礼仪全指南2026：着装、言行、细节决定成败
+description: 2026年公考面试礼仪全面指南，从着装选择、言行举止到细节把控，全方位提升面试形象，增加上岸成功率。
 date: "2026-05-28"
 category: "beikao-zhinan"
 tags: ["公考面试", "面试礼仪", "着装要求", "言行规范"]
-author: "公考助手"
-description: "2026年公考面试礼仪全面指南，从着装选择、言行举止到细节把控，全方位提升面试形象，增加上岸成功率。"
-source_url: ""
-source_date: ""
-content_type: "article"
+author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: article
 ---
 
 # 公考面试礼仪全指南2026：着装、言行、细节决定成败

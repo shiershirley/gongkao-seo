@@ -1,13 +1,13 @@
 ---
-title: "ABCDE2026"
-description: "ABCDEABCDE"
+title: ABCDE2026
+description: ABCDEABCDE
 date: "2026-05-23"
 category: "gangwei-fenxi"
-tags: ["", "ABCDE", "", ""]
-author: ""
+tags: ["ABCDE"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/gangwei-fenxi/"
 source_date: "2026-05-23"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/study/s49_0.jpg)

@@ -1,13 +1,13 @@
 ---
-title: ""
-description: ""
+title: 
+description: 
 date: "2026-05-19"
 category: "beikao-zhinan"
-tags: ["", "", "", "", ""]
+tags: ["备考指南"]
 author: "AI-Auto"
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-05-19"
-content_type: ""
+content_type: 原创
 ---
 
 <h2 id="h1"></h2>

@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "2026381192027"
+title: 2026
+description: 2026381192027
 date: "2026-04-27"
 category: "zhengce-jiedu"
-tags: ["", "", "2026", ""]
-author: ""
+tags: ["2026"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/zhengce-jiedu/"
 source_date: "2026-04-27"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026 

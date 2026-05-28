@@ -1,13 +1,13 @@
 ---
-title: "国考行测高频考点2026：近5年真题数据分析与命题趋势"
+title: 国考行测高频考点2026：近5年真题数据分析与命题趋势
+description: 2026年国考行测高频考点深度解析，基于近5年真题数据分析，总结命题规律、高频考点分布及2026年备考重点。
 date: "2026-05-28"
-category: "guokao"
+category: guokao
 tags: ["国考行测", "高频考点", "真题分析", "命题趋势"]
-author: "公考助手"
-description: "2026年国考行测高频考点深度解析，基于近5年真题数据分析，总结命题规律、高频考点分布及2026年备考重点。"
-source_url: ""
-source_date: ""
-content_type: "article"
+author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: article
 ---
 
 # 国考行测高频考点2026：近5年真题数据分析与命题趋势

@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "2026"
+title: 2026
+description: 2026
 date: "2026-05-19"
-category: "guokao"
-tags: ""
-author: ""
+category: guokao
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-05-19"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/exam/exam-hall-students.jpg)

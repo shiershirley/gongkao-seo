@@ -1,13 +1,13 @@
 ---
-title: "2026506"
-description: "2026506"
+title: 2026506
+description: 2026506
 date: "2026-05-07"
 category: "shanghai-shegong"
-tags: ["", "", "", ""]
-author: "SEO"
+tags: ["备考指南"]
+author: SEO
 source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
 source_date: "2026-05-07"
-content_type: ""
+content_type: 原创
 ---
 
 # 2026506 

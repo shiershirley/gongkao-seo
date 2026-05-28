@@ -1,13 +1,13 @@
 ---
-title: "2026"
-description: "2026"
+title: 2026
+description: 2026
 date: "2026-05-19"
 category: "baokao-gonggao"
-tags: ["", "", "", "", "2026"]
+tags: ["2026"]
 author: "AI-Auto"
 source_url: "https://gk.edu-sjtu.cn/baokao-gonggao/"
 source_date: "2026-05-19"
-content_type: ""
+content_type: 原创
 ---
 
 <h2 id="h1"></h2>

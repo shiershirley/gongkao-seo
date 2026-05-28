@@ -1,13 +1,13 @@
 ---
-title: "5"
-description: "5"
+title: 5
+description: 5
 date: "2026-05-20"
-category: "shengkao"
-tags: ""
-author: ""
+category: shengkao
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shengkao/"
 source_date: "2026-05-20"
-content_type: ""
+content_type: 原创
 ---
 
 # 5 

@@ -1,13 +1,13 @@
 ---
-title: "20263"
-description: "20263"
+title: 20263
+description: 20263
 date: "2026-05-08"
 category: "beikao-zhinan"
-tags: ["", "", "", "3", ""]
-author: "SEO"
+tags: ["3"]
+author: SEO
 source_url: "https://gk.edu-sjtu.cn/beikao-zhinan/"
 source_date: "2026-05-08"
-content_type: ""
+content_type: 原创
 ---
 
 # 20263 

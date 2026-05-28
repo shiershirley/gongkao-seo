@@ -1,13 +1,13 @@
 ---
-title: "30"
-description: "30"
+title: 30
+description: 30
 date: "2026-04-21"
 category: "shang-an-jingyan"
-tags: ["", "", "", "", "30"]
-author: ""
+tags: ["30"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/shang-an-jingyan/"
 source_date: "2026-04-21"
-content_type: ""
+content_type: 原创
 ---
 
 # 30 

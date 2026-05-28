@@ -1,13 +1,13 @@
 ---
-title: "省考申论写作技巧2026：高分作文结构与论点提炼方法"
+title: 省考申论写作技巧2026：高分作文结构与论点提炼方法
+description: 2026年省考申论写作全面指导，高分作文结构解析、论点提炼方法、经典案例运用技巧，助力考生突破申论瓶颈。
 date: "2026-05-28"
-category: "shengkao"
+category: shengkao
 tags: ["省考申论", "写作技巧", "高分作文", "论点提炼"]
-author: "公考助手"
-description: "2026年省考申论写作全面指导，高分作文结构解析、论点提炼方法、经典案例运用技巧，助力考生突破申论瓶颈。"
-source_url: ""
-source_date: ""
-content_type: "article"
+author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: article
 ---
 
 # 省考申论写作技巧2026：高分作文结构与论点提炼方法

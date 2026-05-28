@@ -1,13 +1,13 @@
 ---
-title: ""
+title: 
 description: "85%"
 date: "2026-05-24"
-category: "guokao"
-tags: ["", "", "", "", "", ""]
-author: ""
+category: guokao
+tags: ["备考指南"]
+author: 公考助手
 source_url: "https://gk.edu-sjtu.cn/guokao/"
 source_date: "2026-05-24"
-content_type: ""
+content_type: 原创
 ---
 
 ![](/images/lib/exam/ep9_1.jpg)
