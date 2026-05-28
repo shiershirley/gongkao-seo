@@ -7,7 +7,7 @@ tags: ["省考面试", "结构化小组", "无领导讨论", "高分策略", "20
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 省考面试高分技巧2026：结构化小组与无领导讨论的制胜策略

@@ -7,7 +7,7 @@ tags: ["事业单位岗位", "综合管理岗", "专业技术岗", "工勤技能
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 事业单位岗位分析2026：综合管理岗、专业技术岗与工勤技能岗对比

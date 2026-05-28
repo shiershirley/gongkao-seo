@@ -7,7 +7,7 @@ tags: ["省考图形推理", "判断推理技巧", "规律总结", "秒杀技巧
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 ## 引言

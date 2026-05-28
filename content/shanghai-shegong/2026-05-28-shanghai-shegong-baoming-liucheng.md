@@ -7,7 +7,7 @@ tags: ["社区工作者", "报名流程", "常见问题", "报名指南", "资�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 社区工作者报名流程详解与常见问题解答

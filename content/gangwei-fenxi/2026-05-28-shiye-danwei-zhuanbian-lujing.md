@@ -7,7 +7,7 @@ tags: ["事业单位转编", "聘用制改革", "实制转换", "2026新规", "�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 事业单位转编路径2026：从聘用制到实名制的转换机制详解

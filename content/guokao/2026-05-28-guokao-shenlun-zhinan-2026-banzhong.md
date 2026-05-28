@@ -7,7 +7,7 @@ tags: ["国考申论指南", "写作框架", "基层治理主题", "2026申论�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 国考申论指南2026：基层治理主题的三种高分写作框架

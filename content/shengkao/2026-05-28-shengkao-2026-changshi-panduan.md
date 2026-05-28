@@ -7,7 +7,7 @@ tags: ["省考常识判断", "时政热点", "法律常识", "2026省考技巧",
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年省考常识判断技巧：时政热点与法律常识高效记忆法

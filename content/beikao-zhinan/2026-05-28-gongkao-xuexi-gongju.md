@@ -7,7 +7,7 @@ tags: ["公考工具", "备考APP", "题库网站", "学习社群", "2026推荐"
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 公考学习工具推荐2026：备考APP、题库网站与学习社群全收录

@@ -7,7 +7,7 @@ tags: ["上海社工", "笔试科目", "备考重点", "行测", "社区专业�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 上海社工笔试科目分析与备考重点

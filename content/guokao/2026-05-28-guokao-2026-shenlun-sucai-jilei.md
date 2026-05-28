@@ -7,7 +7,7 @@ tags: ["国考申论素材", "基层治理主题", "权威论述积累", "2026�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 国考申论素材积累2026：基层治理主题的权威论述与案例

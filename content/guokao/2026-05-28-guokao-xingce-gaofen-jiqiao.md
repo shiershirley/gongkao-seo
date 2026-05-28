@@ -7,7 +7,7 @@ tags: ["国考行测", "高分技巧", "言语理解", "正确率85%", "2026攻�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 国考行测高分技巧2026：言语理解正确率提升至85%的实战方法

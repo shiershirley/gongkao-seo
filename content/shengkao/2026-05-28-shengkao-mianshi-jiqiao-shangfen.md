@@ -7,7 +7,7 @@ tags: ["省考面试技巧", "结构化面试", "高分要点", "2026省考面�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 省考面试高分技巧2026：结构化面试的五大核心得分要点

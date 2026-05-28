@@ -7,7 +7,7 @@ tags: ["事业单位考试科目", "A类备考指南", "2026考试科目", "综�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 事业单位考试科目详解2026：综合管理类（A类）备考指南

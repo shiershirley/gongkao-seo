@@ -7,7 +7,7 @@ tags: ["国考申论范文", "申论写作技巧", "基层治理主题", "2026�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 国考申论写作高分范文2026：基层治理现代化主题解析

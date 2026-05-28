@@ -7,7 +7,7 @@ tags: ["国考面试", "热点话题", "答题思路", "面试备考", "国家�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 国考面试热点话题梳理与答题思路

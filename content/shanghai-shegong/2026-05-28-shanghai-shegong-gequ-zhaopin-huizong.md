@@ -7,7 +7,7 @@ tags: ["上海社工各区招聘", "2026招录人数", "岗位要求详解", "�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年上海各区社区工作者招聘汇总：招录人数与岗位要求详解

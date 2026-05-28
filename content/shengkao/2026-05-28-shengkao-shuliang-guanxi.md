@@ -7,7 +7,7 @@ tags: ["省考", "数量关系", "速解技巧", "行测", "公务员考试"]
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 省考数量关系速解技巧与常考题型

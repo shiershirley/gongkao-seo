@@ -7,7 +7,7 @@ tags: ["国考申论写作", "文章结构框架", "论证技巧", "2026申论�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年国考申论写作掌握：高分文章的结构框架与论证技巧

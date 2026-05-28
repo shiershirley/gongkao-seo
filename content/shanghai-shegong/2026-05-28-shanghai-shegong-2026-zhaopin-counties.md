@@ -7,7 +7,7 @@ tags: ["上海社工招聘", "2026公告", "16区招录", "岗位分析", "社�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年上海社区工作者招聘公告：16区招录计划与岗位分析

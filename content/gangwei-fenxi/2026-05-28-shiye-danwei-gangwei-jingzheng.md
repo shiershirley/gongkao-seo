@@ -7,7 +7,7 @@ tags: ["事业单位竞争分析", "报录比", "上岸难度", "2026岗位评�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 事业单位岗位竞争分析2026：各地区各部门报录比与上岸难度评估

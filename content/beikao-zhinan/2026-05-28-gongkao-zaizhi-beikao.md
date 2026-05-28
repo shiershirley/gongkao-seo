@@ -7,7 +7,7 @@ tags: ["公考在职备考", "时间管理", "3小时复习", "2026在职攻略"
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 公考在职备考攻略2026：每天3小时高效复习的时间管理与任务分配

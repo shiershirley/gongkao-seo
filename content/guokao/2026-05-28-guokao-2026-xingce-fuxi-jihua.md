@@ -7,7 +7,7 @@ tags: ["国考行测复习", "90天备考计划", "零基础备考", "行测75�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年国考行测复习计划：零基础到75分的90天系统备考方案

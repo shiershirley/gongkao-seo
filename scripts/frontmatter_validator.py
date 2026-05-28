@@ -373,29 +373,48 @@ def fix_frontmatter(content: str) -> tuple[str, int]:
     fm_text, body = extract_frontmatter(content)
     if fm_text is None:
         return content, 0
-
+    
     try:
         fm = parse_frontmatter_yaml(fm_text)
     except:
         return content, 0
-
+    
     # 修复 description 内嵌引号
     if 'description' in fm:
         desc = str(fm['description'])
         if '"' in desc:
             fm['description'] = desc.replace('"', '「').replace('"', '」')
             fixed_count += 1
-
+    
     # 修复空字符串字段
-    for field in ['source_url', 'source_date']:
-        if field in fm and (fm[field] is None or str(fm[field]).strip() == ''):
+    for field in ['source_url', 'source_date', 'author', 'content_type']:
+        if field not in fm or fm[field] is None or str(fm[field]).strip() == '' or str(fm[field]).strip() == '""':
             if field == 'source_url':
                 fm[field] = 'https://gk.edu-sjtu.cn'
                 fixed_count += 1
             elif field == 'source_date' and 'date' in fm:
                 fm[field] = fm['date']
                 fixed_count += 1
-
+            elif field == 'author':
+                fm[field] = '公考助手'
+                fixed_count += 1
+            elif field == 'content_type':
+                fm[field] = '原创'
+                fixed_count += 1
+    
+    # 修复空标签
+    if 'tags' in fm:
+        tags = fm['tags']
+        if isinstance(tags, list):
+            # 移除空标签
+            fm['tags'] = [t for t in tags if t and str(t).strip()]
+            if len(fm['tags']) == 0:
+                fm['tags'] = ['备考指南']
+                fixed_count += 1
+        elif isinstance(tags, str) and (not tags.strip() or tags.strip() == '""'):
+            fm['tags'] = ['备考指南']
+            fixed_count += 1
+    
     # 重新构建 frontmatter（使用yaml.dump确保格式正确）
     new_fm_lines = ['---']
     for key in ['title', 'description', 'date', 'category', 'tags', 'author', 'source_url', 'source_date', 'content_type']:
@@ -420,7 +439,7 @@ def fix_frontmatter(content: str) -> tuple[str, int]:
                 new_fm_lines.append(f'{key}: {str_val}')
     
     new_fm_lines.append('---')
-
+    
     return '\n'.join(new_fm_lines) + '\n' + body, fixed_count
 
 # ========== 主程序 ==========
@@ -443,13 +462,22 @@ def main():
     else:
         target_args = [str(ROOT / 'content')]
 
+    import glob as glob_module
+    
     all_files = []
     for target in target_args:
-        p = Path(target)
-        if p.is_file() and p.suffix == '.md':
-            all_files.append(p)
-        elif p.is_dir():
-            all_files.extend(p.rglob('*.md'))
+        # 使用 glob 展开通配符模式
+        expanded = glob_module.glob(target, recursive=True)
+        if not expanded:
+            # 如果没有展开到任何文件，尝试作为普通路径处理
+            expanded = [target]
+        
+        for path_str in expanded:
+            p = Path(path_str)
+            if p.is_file() and p.suffix == '.md':
+                all_files.append(p)
+            elif p.is_dir():
+                all_files.extend(p.rglob('*.md'))
 
     total_errors = 0
     total_fixed = 0

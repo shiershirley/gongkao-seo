@@ -7,7 +7,7 @@ tags: ["省考面试应对", "情绪管理技巧", "表达优化策略", "2026�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 省考面试应对策略2026：结构化面试中的情绪管理与表达优化

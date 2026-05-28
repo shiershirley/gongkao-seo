@@ -7,7 +7,7 @@ tags: ["国考感情倾向题", "价值观表达", "立场把握", "面试破解
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 ## 引言

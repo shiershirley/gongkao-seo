@@ -7,7 +7,7 @@ tags: ["上海社工薪资", "工资构成", "福利待遇", "2026待遇标准",
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年上海社区工作者薪资待遇详解：工资构成与福利政策全解析

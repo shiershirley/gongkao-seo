@@ -7,7 +7,7 @@ tags: ["上海社工招聘时间", "2026时间表", "各区公告发布", "报�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年上海社工招聘时间表公布：各区发布公告时间预测

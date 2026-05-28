@@ -7,7 +7,7 @@ tags: ["省考联考", "多省差异对比", "2026省考", "江苏浙江广东",
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年多省联考备考指南：江苏、浙江、广东等省份差异对比

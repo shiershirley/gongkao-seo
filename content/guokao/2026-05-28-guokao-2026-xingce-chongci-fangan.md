@@ -7,7 +7,7 @@ tags: ["国考行测冲刺", "30天备考计划", "60到75分攻略", "行测逆
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年国考行测冲刺方案：最后30天从60分到75分的逆袭攻略

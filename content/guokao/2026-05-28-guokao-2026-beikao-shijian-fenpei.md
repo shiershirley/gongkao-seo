@@ -7,7 +7,7 @@ tags: ["国考备考时间", "时间分配方案", "各模块复习计划", "202
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年国考备考时间分配秘籍：各模块复习时长精准规划

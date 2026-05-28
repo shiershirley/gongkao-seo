@@ -7,7 +7,7 @@ tags: ["事业单位改革", "人事制度", "聘用制", "岗位设置", "职�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 事业单位人事制度改革2026：聘用制、岗位设置与职业发展路径

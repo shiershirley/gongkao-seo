@@ -7,7 +7,7 @@ tags: ["国考资料分析", "速解技巧", "统计术语", "图表破题", "20
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 ## 引言

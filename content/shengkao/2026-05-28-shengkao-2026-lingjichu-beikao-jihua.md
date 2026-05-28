@@ -7,7 +7,7 @@ tags: ["省考零基础备考", "6个月计划", "入门到上岸", "2026省考�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 零基础省考备考计划2026：6个月从入门到上岸的系统路径

@@ -7,7 +7,7 @@ tags: ["公考备考", "心态建设", "压力管理", "心理调节", "备考�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 公考备考心态建设与压力管理全攻略

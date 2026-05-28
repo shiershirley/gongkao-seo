@@ -7,7 +7,7 @@ tags: ["公考上岸经验", "成功者分享", "备考心法", "2026公考", "�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 公考上岸经验2026：从落榜到录用，五位成功者的备考心法

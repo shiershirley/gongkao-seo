@@ -7,7 +7,7 @@ tags: ["省考面试逆袭", "15分逆转", "结构化面试技巧", "2026省考
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 省考面试逆袭技巧2026：结构化面试中如何实现15分大逆转

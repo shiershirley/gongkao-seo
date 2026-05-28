@@ -7,7 +7,7 @@ tags: ["事业单位改革", "分类统考", "自主招聘", "2026新政策", "�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 ## 引言

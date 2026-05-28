@@ -7,7 +7,7 @@ tags: ["事业单位", "教育类岗位", "报考条件", "备考指南", "教�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 事业单位教育类岗位报考条件与备考指南

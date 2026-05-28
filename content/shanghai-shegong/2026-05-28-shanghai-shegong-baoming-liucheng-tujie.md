@@ -7,7 +7,7 @@ tags: ["上海社工报名流程", "报名流程图解", "2026报名指南", "�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 上海社区工作者报名流程图解：从注册到确认的完整指南

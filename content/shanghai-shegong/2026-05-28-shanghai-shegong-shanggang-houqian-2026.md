@@ -7,7 +7,7 @@ tags: ["上海社工上岗培训", "职业发展路径", "晋升规划", "三年
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 ## 引言

@@ -7,7 +7,7 @@ tags: ["省考面试礼仪", "着装要求", "举止规范", "沟通技巧", "20
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年省考面试礼仪细节：着装、举止与沟通技巧全攻略

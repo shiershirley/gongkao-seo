@@ -7,7 +7,7 @@ tags: ["省考差异对比", "江苏浙江广东", "2026考情", "各地政策",
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年省考各地差异对比：江苏、浙江、广东、山东考情全景分析

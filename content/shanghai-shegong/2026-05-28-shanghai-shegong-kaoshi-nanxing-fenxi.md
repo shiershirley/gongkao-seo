@@ -7,7 +7,7 @@ tags: ["上海社工考试难度", "通过率分析", "竞争比例", "2026备�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 上海社工考试难度分析2026：通过率、竞争比与备考策略

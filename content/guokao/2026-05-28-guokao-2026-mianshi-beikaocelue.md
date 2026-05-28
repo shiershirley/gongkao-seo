@@ -7,7 +7,7 @@ tags: ["国考面试备考", "结构化面试", "评分标准", "2026面试策�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 2026年国考面试备考策略：结构化面试的评分标准与应对方法

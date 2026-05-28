@@ -7,7 +7,7 @@ tags: ["国考", "报名流程", "注意事项", "网上报名", "国家公务�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 国考报名流程图解与注意事项

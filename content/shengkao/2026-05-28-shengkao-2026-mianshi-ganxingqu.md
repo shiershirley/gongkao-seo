@@ -7,7 +7,7 @@ tags: ["省考感情题", "真情实感表达", "考官共鸣", "面试应对", 
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 ## 引言

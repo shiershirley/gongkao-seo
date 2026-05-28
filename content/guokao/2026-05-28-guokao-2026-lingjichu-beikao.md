@@ -7,7 +7,7 @@ tags: ["国考零基础", "180天备考", "系统规划", "2026国考", "上岸�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 国考零基础备考攻略2026：从入门到上岸的180天系统规划

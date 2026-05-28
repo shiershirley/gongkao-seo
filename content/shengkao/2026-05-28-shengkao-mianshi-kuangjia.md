@@ -7,7 +7,7 @@ tags: ["省考面试", "结构化面试", "答题框架", "面试技巧", "公�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 省考面试结构化答题框架与实战技巧

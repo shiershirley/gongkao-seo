@@ -7,7 +7,7 @@ tags: ["上海社工招聘条件", "2026新规定", "学历要求变化", "户�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 上海社工招聘条件变化2026：学历、年龄、户籍新要求解读

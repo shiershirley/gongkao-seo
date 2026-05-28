@@ -7,7 +7,7 @@ tags: ["上海社工报名", "竞争比例", "报名人数", "2026趋势", "各�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 # 上海社工报名人数统计2026：各区竞争比与招录趋势分析

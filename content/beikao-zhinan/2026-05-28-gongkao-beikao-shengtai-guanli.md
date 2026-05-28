@@ -7,7 +7,7 @@ tags: ["备考生态管理", "学习环境营造", "干扰排除", "2026备考�
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 
+content_type: 原创
 ---
 
 ## 引言
