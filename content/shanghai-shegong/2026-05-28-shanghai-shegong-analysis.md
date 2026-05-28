@@ -1,13 +1,13 @@
 ---
-title: 上海社工报名人数统计2026：各区竞争比与招录趋势分析
-description: 2026年上海社区工作者报名人数统计与竞争比分析，对比16个市辖区的招录热度、报名趋势及上岸难度。
+title: "上海社工报名人数统计2026：各区竞争比与招录趋势分析"
 date: "2026-05-28"
 category: "shanghai-shegong"
 tags: ["上海社工报名", "竞争比例", "报名人数", "2026趋势"]
-author: 公考助手
-source_url: "https://gk.edu-sjtu.cn"
-source_date: "2026-05-28"
-content_type: article
+author: "公考助手"
+description: "2026年上海社区工作者报名人数统计与竞争比分析，对比16个市辖区的招录热度、报名趋势及上岸难度。"
+source_url: ""
+source_date: ""
+content_type: "article"
 ---
 
 # 上海社工报名人数统计2026：各区竞争比与招录趋势分析

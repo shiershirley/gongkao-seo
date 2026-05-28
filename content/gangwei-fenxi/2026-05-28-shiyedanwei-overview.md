@@ -1,13 +1,13 @@
 ---
-title: 事业单位综合管理岗2026：岗位职责与能力要求全面解读
-description: 2026年事业单位综合管理岗位全面解读，岗位职责详细说明、核心能力要求分析、备考策略及面试常见问题汇总。
+title: "事业单位综合管理岗2026：岗位职责与能力要求全面解读"
 date: "2026-05-28"
 category: "gangwei-fenxi"
 tags: ["事业单位", "综合管理岗", "岗位职责", "能力要求"]
-author: 公考助手
-source_url: "https://gk.edu-sjtu.cn"
-source_date: "2026-05-28"
-content_type: article
+author: "公考助手"
+description: "2026年事业单位综合管理岗位全面解读，岗位职责详细说明、核心能力要求分析、备考策略及面试常见问题汇总。"
+source_url: ""
+source_date: ""
+content_type: "article"
 ---
 
 # 事业单位综合管理岗2026：岗位职责与能力要求全面解读

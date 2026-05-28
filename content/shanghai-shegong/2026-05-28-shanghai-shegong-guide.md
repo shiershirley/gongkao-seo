@@ -1,13 +1,13 @@
 ---
-title: 2026年上海社区工作者招聘公告：16区招录计划与岗位分析
-description: 2026年上海社区工作者招聘公告全面解析，覆盖浦东、徐汇、静安等16个市辖区的招录计划、岗位类型、报名条件及薪资待遇等核心信息。
+title: "2026年上海社区工作者招聘公告：16区招录计划与岗位分析"
 date: "2026-05-28"
 category: "shanghai-shegong"
 tags: ["上海社工招聘", "2026公告", "16区招录", "岗位分析"]
-author: 公考助手
-source_url: "https://gk.edu-sjtu.cn"
-source_date: "2026-05-28"
-content_type: article
+author: "公考助手"
+description: "2026年上海社区工作者招聘公告全面解析，覆盖浦东、徐汇、静安等16个市辖区的招录计划、岗位类型、报名条件及薪资待遇等核心信息。"
+source_url: ""
+source_date: ""
+content_type: "article"
 ---
 
 # 2026年上海社区工作者招聘公告：16区招录计划与岗位分析
