@@ -1557,13 +1557,15 @@ def get_articles_for_batch(hour, minute):
     """根据时间获取对应批次的文章定义"""
     date_str = datetime.now().strftime("%Y-%m-%d")
     date_compact = datetime.now().strftime("%Y%m%d")
+    batch_id = f"{hour:02d}{minute:02d}"
     
     # 定义不同批次的文章角度（避免重复）
     # 每个批次都是：社工2篇、国考2篇、省考2篇、事业单位1篇、通用1篇
+    # 同一天多批次运行时，文件名加入batch_id避免覆盖
     articles = [
         # 社工类（上海社工资讯）2篇
         {
-            "filename": f"shanghai-shegong/{date_str}-shanghai-shegong-guide.md",
+            "filename": f"shanghai-shegong/{date_str}-shanghai-shegong-guide-{batch_id}.md",
             "title": "2026年上海社区工作者招聘公告：16区招录计划与岗位分析",
             "keyword": "上海社区工作者招聘",
             "category": "shanghai-shegong",
@@ -1572,7 +1574,7 @@ def get_articles_for_batch(hour, minute):
             "content_angle": "公告分析"
         },
         {
-            "filename": f"shanghai-shegong/{date_str}-shanghai-shegong-analysis.md",
+            "filename": f"shanghai-shegong/{date_str}-shanghai-shegong-analysis-{batch_id}.md",
             "title": "上海社工报名人数统计2026：各区竞争比与招录趋势分析",
             "keyword": "上海社区工作者报名",
             "category": "shanghai-shegong",
@@ -1582,7 +1584,7 @@ def get_articles_for_batch(hour, minute):
         },
         # 国考 2篇
         {
-            "filename": f"guokao/{date_str}-guokao-strategy.md",
+            "filename": f"guokao/{date_str}-guokao-strategy-{batch_id}.md",
             "title": "国考零基础备考攻略2026：从入门到上岸的180天系统规划",
             "keyword": "国考备考攻略",
             "category": "guokao",
@@ -1591,7 +1593,7 @@ def get_articles_for_batch(hour, minute):
             "content_angle": "零基础备考"
         },
         {
-            "filename": f"guokao/{date_str}-guokao-tips.md",
+            "filename": f"guokao/{date_str}-guokao-tips-{batch_id}.md",
             "title": "国考行测高频考点2026：近5年真题数据分析与命题趋势",
             "keyword": "国考行测",
             "category": "guokao",
@@ -1601,7 +1603,7 @@ def get_articles_for_batch(hour, minute):
         },
         # 省考 2篇
         {
-            "filename": f"shengkao/{date_str}-shengkao-preparation.md",
+            "filename": f"shengkao/{date_str}-shengkao-preparation-{batch_id}.md",
             "title": "省考面试高分技巧2026：结构化面试与无领导小组讨论制胜策略",
             "keyword": "省考面试",
             "category": "shengkao",
@@ -1610,7 +1612,7 @@ def get_articles_for_batch(hour, minute):
             "content_angle": "面试高分"
         },
         {
-            "filename": f"shengkao/{date_str}-shengkao-review.md",
+            "filename": f"shengkao/{date_str}-shengkao-review-{batch_id}.md",
             "title": "省考多省联考差异分析2026：各省考情对比与选岗策略",
             "keyword": "省考联考",
             "category": "shengkao",
@@ -1620,7 +1622,7 @@ def get_articles_for_batch(hour, minute):
         },
         # 事业单位 1篇
         {
-            "filename": f"gangwei-fenxi/{date_str}-shiyedanwei-overview.md",
+            "filename": f"gangwei-fenxi/{date_str}-shiyedanwei-overview-{batch_id}.md",
             "title": "事业单位综合管理岗2026：岗位职责与能力要求全面解读",
             "keyword": "事业单位招聘",
             "category": "gangwei-fenxi",
@@ -1630,7 +1632,7 @@ def get_articles_for_batch(hour, minute):
         },
         # 通用备考 1篇
         {
-            "filename": f"beikao-zhinan/{date_str}-general-methods.md",
+            "filename": f"beikao-zhinan/{date_str}-general-methods-{batch_id}.md",
             "title": "公考面试礼仪全指南2026：着装、言行、细节决定成败",
             "keyword": "公考面试",
             "category": "beikao-zhinan",

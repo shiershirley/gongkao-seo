@@ -37,7 +37,12 @@
 - ❌ 错误：`date: 2026-05-19` → YAML解析为Date对象 → 前端显示时间戳
 - ✅ 正确：`date: "2026-05-19"`
 
-**3. 校验工具**：`python scripts/frontmatter_validator.py`（`--fix`自动修复）
+**3. title字段禁止纯数字（会致Vercel构建失败！）**
+- ❌ 错误：`title: 2026` → YAML解析为Number → Next.js预渲染报错：`TypeError: Cannot use 'in' operator to search for 'template' in 2026`
+- ✅ 正确：`title: "2026"`
+- **批量修复命令**：`cd d:/AI/task/gongkao-seo && python -c "import os,re; [(__import__('re').sub(r'^(title:\s*)([\+\-]?\d+[\s]*)$', r'\1\"\2\"', open(p:=os.path.join(r,f),'r',encoding='utf-8').read(), flags=re.M) != open(p,'r',encoding='utf-8').read() and open(p,'w',encoding='utf-8').write(__import__('re').sub(r'^(title:\s*)([\+\-]?\d+[\s]*)$', r'\1\"\2\"', open(p,'r',encoding='utf-8').read(), flags=re.M))) for r,d,files in os.walk('content') for f in files if f.endswith('.md')]"`
+
+**4. 校验工具**：`python scripts/frontmatter_validator.py`（`--fix`自动修复）
 
 ## 图片配图规范
 
@@ -71,7 +76,7 @@
 
 - commit格式：`content: auto publish articles YYYY-MM-DD HH:MM (N articles)`
 - **已知问题**：GitHub网络不稳定，push常失败。commit成功后需多次重试push，或网络恢复后手动推送
-- **当前状态（2026-05-25）**：约10个commits未推送，GitHub端口443完全无法连接（timeout 21s）; 图片选取改用Python subprocess + JSON文件方式（避免PowerShell编码问题）
+- **当前状态（2026-05-28）**：GitHub推送正常。此前积累的未推送commits已随构建修复一起推送成功。图片选取改用Python subprocess + JSON文件方式（避免PowerShell编码问题）
 
 ## 自动化任务列表
 
