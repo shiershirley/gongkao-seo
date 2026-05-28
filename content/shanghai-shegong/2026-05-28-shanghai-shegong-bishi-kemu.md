@@ -1,10 +1,13 @@
 ---
-title: "上海社工笔试科目分析与备考重点"
-description: "全面解析上海社区工作者笔试科目，包括行测、社区专业知识等，提供各科目的备考重点和复习建议。"
+title: 上海社工笔试科目分析与备考重点
+description: 全面解析上海社区工作者笔试科目，包括行测、社区专业知识等，提供各科目的备考重点和复习建议。
 date: "2026-05-28"
-category: shanghai-shegong
+category: "shanghai-shegong"
 tags: ["上海社工", "笔试科目", "备考重点", "行测", "社区专业知识"]
 author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 
 ---
 
 # 上海社工笔试科目分析与备考重点

@@ -1,90 +1,185 @@
 ---
-title: "省考行测图形推理真题解析：规律识别技巧"
-description: "图形推理怎么做？位置、样式、属性、数量规律怎么找？常见规律汇总。"
+title: ""
+description: ""
 date: "2026-04-25"
 category: "zhenti-jiexi"
-tags: ["省考行测", "图形推理", "规律识别", "解题技巧", "真题解析"]
-author: "公考资讯站"
+tags: ["", "", "", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/zhenti-jiexi/"
+source_date: "2026-04-25"
+content_type: ""
 ---
 
-# 省考行测图形推理真题解析：规律识别技巧
+#  
 
-图形推理看起来很玄乎，其实有规律可循。拿到一道图形推理题，首先要看元素组不组成相同或者相似，然后再去找规律。
 
-## 一、四种主要规律
 
-### 1. 位置规律
+## 
 
-**什么时候用：** 图形看起来差不多，只是位置不一样。
+### 1. 
 
-**常见变化：**
+**** 
 
-| 规律 | 说明 |
+****
+
+|  |  |
 |------|------|
-| 平移 | 黑块/白块往某个方向移动 |
-| 旋转 | 图形绕着某个点转圈 |
-| 翻转 | 沿某个轴对称变化 |
+|  | / |
+|  |  |
+|  |  |
 
-**怎么做：** 看清移动了几格，往哪个方向，有时候还要注意是顺时针还是逆时针。
+**** 
 
-> **【2024年省考真题】** 黑色方块每次向右移动一格，问下一个图形长什么样？
+> **2024** 
 
-### 2. 样式规律
+### 2. 
 
-**什么时候用：** 图形长得差不多，但颜色或者图案有点不一样。
+**** 
 
-**常见变化：**
+****
 
-| 规律 | 说明 |
+|  |  |
 |------|------|
-| 遍历 | 每行/每列都要出现一遍，缺什么补什么 |
-| 加减同异 | 把图形叠加或者相减 |
-| 颜色遍历 | 同一个位置换颜色 |
+|  | / |
+|  |  |
+|  |  |
 
-**怎么做：** 比较相邻图形之间的差异，找出变化规则。
+**** 
 
-### 3. 属性规律
+### 3. 
 
-**什么时候用：** 图形组成不一样，没法比位置和样式。
+**** 
 
-**看这几个方面：**
+****
 
-| 规律 | 例子 |
+|  |  |
 |------|------|
-| 对称性 | 等腰三角形是轴对称，字母S是中心对称 |
-| 曲直性 | 圆是曲线，正方形是直线 |
-| 封闭性 | 圆是封闭的，C是开放的 |
+|  | S |
+|  |  |
+|  | C |
 
-**怎么做：** 一组图形要么全是对称的，要么全是曲线的，或者全是封闭的。
+**** 
 
-### 4. 数量规律
+### 4. 
 
-**什么时候用：** 其他规律都找不到的时候。
+**** 
 
-**数这些东西：**
+****
 
-| 要数什么 | 具体数什么 |
+|  |  |
 |----------|------------|
-| 点 | 交点、端点 |
-| 线 | 直线、曲线、一笔画 |
-| 角 | 直角、锐角、钝角 |
-| 面 | 封闭区域 |
-| 素 | 元素种类和数量 |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
-## 二、空间重构题
+## 
 
-这类题给你一个正方体的展开图，问还原后某两个面的关系。
 
-**技巧：**
-- 找相对面：它们在展开图里隔着“一”字或者“Z”字
-- 定相邻面：看公共边在哪里
-- 用时针法：从一个面出发，沿着边走向另一个面，在立体图形中也是同样的顺序
 
-## 三、秒杀口诀
+****
+- “”“Z”
+- 
+- 
 
-1. **长得一样看位置**——元素相同考虑平移、旋转、翻转
-2. **长得像看样式**——元素相似考虑遍历、加减同异
-3. **长得不一样看属性**——组成不同看对称、曲直、封闭
-4. **乱得没规律数数量**——无规律时数点、线、角、面、素
+## 
 
-图形推理多做题就有感觉了，看到图形大脑会自动反应可能是什么规律！
+1. ****——
+2. ****——
+3. ****——
+4. ****——
+
+
+
+## 
+
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-pandui-tuili-luoji-panduan-jieti/)
+- [5](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-yanyu-zhuti-gainakuai-jieti/)
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/shengkao-xingce-changshi-panduan-falv-gaopin-kaodian/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 1. 
+
+1. 
+
+### 3. > **2024** 
+
+> **2024** 
+
+### 4. 2. 
+
+2. 
+
+### 5. 3. 
+
+3. 
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "1. ",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "1. "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "> **2024** ",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "> **2024** "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "2. ",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2. "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "3. ",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "3. "
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'>[] [5 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

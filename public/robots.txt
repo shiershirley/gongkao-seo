@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# 站点地图
+Sitemap: https://gk.edu-sjtu.cn/sitemap.xml
+Sitemap: https://gk.edu-sjtu.cn/image-sitemap.xml
+
+# 禁止抓取后台和私有目录
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /.next/

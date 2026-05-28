@@ -1,13 +1,13 @@
 ---
-title: "省考异地岗位报考利弊分析与适应策略"
-description: "全面分析省考异地岗位的优劣势，提供报考决策方法和异地工作适应策略，帮助考生做出理性选择。"
+title: 省考异地岗位报考利弊分析与适应策略
+description: 全面分析省考异地岗位的优劣势，提供报考决策方法和异地工作适应策略，帮助考生做出理性选择。
 date: "2026-05-28"
 category: shengkao
 tags: ["省考", "异地岗位", "报考指南", "利弊分析", "适应策略"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 省考异地岗位报考利弊分析与适应策略

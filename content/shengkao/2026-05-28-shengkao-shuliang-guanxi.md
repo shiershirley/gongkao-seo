@@ -1,10 +1,13 @@
 ---
-title: "省考数量关系速解技巧与常考题型"
-description: "系统整理省考行测数量关系模块的常考题型和速解方法，帮助考生在有限时间内高效作答。"
+title: 省考数量关系速解技巧与常考题型
+description: 系统整理省考行测数量关系模块的常考题型和速解方法，帮助考生在有限时间内高效作答。
 date: "2026-05-28"
 category: shengkao
 tags: ["省考", "数量关系", "速解技巧", "行测", "公务员考试"]
 author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 
 ---
 
 # 省考数量关系速解技巧与常考题型

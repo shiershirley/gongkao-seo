@@ -86,9 +86,15 @@ def is_recently_used(img_path: str, usage: dict, days: int = 10) -> bool:
     return last_used > cutoff
 
 
-def pick_images(category: str, count: int = 2, update: bool = False) -> list[dict]:
+def pick_images(category: str, count: int = 2, update: bool = False, article_info: dict = None) -> list[dict]:
     """
     为指定分类文章选取图片
+
+    Args:
+        category: 文章分类
+        count: 选取图片数量
+        update: 是否更新使用记录
+        article_info: 文章信息字典（包含title, tags等），用于优化alt文本
 
     Returns:
         list of {"path": "/images/lib/...", "theme": "exam", "alt": "..."}
@@ -142,22 +148,26 @@ def pick_images(category: str, count: int = 2, update: bool = False) -> list[dic
     count = min(count, len(available))
     selected = random.sample(available, count)
 
-    # 添加alt文字
-    theme_alt_map = {
-        "study": "备考学习",
-        "exam": "考试上岸",
-        "books": "备考资料",
-        "motivation": "励志备考",
-        "office": "职场工作",
-        "gov": "政府政务",
-        "people": "职业人物",
-        "city": "城市景观",
-        "tech": "科技数字",
-        "nature": "自然风景",
-        "writing": "笔记文档",
-    }
-    for item in selected:
-        item["alt"] = theme_alt_map.get(item["theme"], "公考备考")
+    # 添加alt文字（根据文章信息优化SEO关键词）
+    if article_info:
+        for item in selected:
+            item["alt"] = generate_contextual_alt(item, article_info)
+    else:
+        theme_alt_map = {
+            "study": "备考学习",
+            "exam": "考试上岸",
+            "books": "备考资料",
+            "motivation": "励志备考",
+            "office": "职场工作",
+            "gov": "政府政务",
+            "people": "职业人物",
+            "city": "城市景观",
+            "tech": "科技数字",
+            "nature": "自然风景",
+            "writing": "笔记文档",
+        }
+        for item in selected:
+            item["alt"] = theme_alt_map.get(item["theme"], "公考备考")
 
     # 更新使用记录
     if update:
@@ -181,9 +191,77 @@ def mark_used(img_paths: list[str]):
     save_usage_log(log)
 
 
-def generate_markdown_img(item: dict, caption: str = "") -> str:
-    """生成Markdown图片语法"""
+def generate_contextual_alt(item: dict, article_info: dict = None) -> str:
+    """
+    根据文章信息生成包含关键词的alt文本（利于SEO）
+    
+    Args:
+        item: 图片信息字典 {"path": "...", "theme": "exam", "alt": "..."}
+        article_info: 文章信息字典，包含 title, tags, category 等
+    
+    Returns:
+        优化后的alt文本
+    """
+    base_alt = item.get("alt", "公考备考")
+    
+    if not article_info:
+        return base_alt
+    
+    # 提取文章关键词
+    title = article_info.get("title", "")
+    tags = article_info.get("tags", [])
+    
+    # 从标题中提取核心词（去掉年份等）
+    core_title = title.replace("2026年", "").replace("2026", "").strip()
+    
+    # 构造包含关键词的alt文本
+    # 格式：主题词 + 文章核心词 + 标签词
+    keywords = []
+    
+    # 添加主题词
+    theme_keyword_map = {
+        "study": "备考学习",
+        "exam": "考试",
+        "books": "学习资料",
+        "motivation": "励志备考",
+        "office": "职场",
+        "gov": "政务",
+        "people": "人物",
+        "city": "城市",
+        "tech": "科技",
+        "writing": "笔记"
+    }
+    if item.get("theme") in theme_keyword_map:
+        keywords.append(theme_keyword_map[item["theme"]])
+    
+    # 添加文章核心词（限制长度）
+    if core_title:
+        keywords.append(core_title[:10])
+    
+    # 添加第一个标签（如果有）
+    if tags and isinstance(tags, list) and len(tags) > 0:
+        keywords.append(tags[0])
+    
+    # 合并去重
+    seen = set()
+    unique_keywords = []
+    for kw in keywords:
+        if kw not in seen:
+            seen.add(kw)
+            unique_keywords.append(kw)
+    
+    # 生成最终alt文本
+    if len(unique_keywords) >= 2:
+        return "".join(unique_keywords[:3])  # 最多取前3个关键词
+    else:
+        return base_alt
+
+
+def generate_markdown_img(item: dict, caption: str = "", article_info: dict = None) -> str:
+    """生成Markdown图片语法，支持根据文章信息优化alt"""
     alt = item["alt"]
+    if article_info:
+        alt = generate_contextual_alt(item, article_info)
     if caption:
         alt = caption
     return f'![{alt}]({item["path"]})'

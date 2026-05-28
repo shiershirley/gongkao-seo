@@ -1,10 +1,13 @@
 ---
-title: "事业单位教育类岗位报考条件与备考指南"
-description: "详细解析事业单位教育类岗位的报考条件、考试内容和备考策略，帮助考生做好充分准备。"
+title: 事业单位教育类岗位报考条件与备考指南
+description: 详细解析事业单位教育类岗位的报考条件、考试内容和备考策略，帮助考生做好充分准备。
 date: "2026-05-28"
-category: gangwei-fenxi
+category: "gangwei-fenxi"
 tags: ["事业单位", "教育类岗位", "报考条件", "备考指南", "教师招聘"]
 author: 公考助手
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 
 ---
 
 # 事业单位教育类岗位报考条件与备考指南

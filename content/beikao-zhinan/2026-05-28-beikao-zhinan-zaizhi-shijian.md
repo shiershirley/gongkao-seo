@@ -1,13 +1,13 @@
 ---
-title: "在职人员公考备考时间管理策略与高效学习法"
-description: "针对在职人员特点，提供科学的时间管理方法和高效学习策略，帮助在职考生平衡工作与备考，实现双丰收。"
+title: 在职人员公考备考时间管理策略与高效学习法
+description: 针对在职人员特点，提供科学的时间管理方法和高效学习策略，帮助在职考生平衡工作与备考，实现双丰收。
 date: "2026-05-28"
-category: beikao-zhinan
+category: "beikao-zhinan"
 tags: ["在职备考", "时间管理", "高效学习", "工作平衡", "备考策略"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 在职人员公考备考时间管理策略与高效学习法

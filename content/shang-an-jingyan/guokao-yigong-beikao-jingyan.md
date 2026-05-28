@@ -1,53 +1,148 @@
 ---
-title: "在职备考3个月国考上岸经验分享：行测78分、申论72分"
-description: "一位在职考生分享3个月备考国考的经历，包括学习计划、各模块备考方法、时间管理和考场心态调整技巧。"
+title: "37872"
+description: "3"
 date: "2026-04-11"
 category: "shang-an-jingyan"
-tags: ["上岸经验", "备考心得", "在职备考", "国考"]
-author: "公考资讯站"
+tags: ["", "", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/shang-an-jingyan/"
+source_date: "2026-04-11"
+content_type: ""
 ---
 
-# 在职备考3个月国考上岸经验分享
+# 3 
 
-## 个人背景
+## 
 
-大家好，我是一名在职备考考生，本科毕业3年，工作在一家普通企业。2025年下半年决定考公，利用下班后的时间备考3个月，最终行测78分、申论72分，总分150分，成功上岸某部委直属单位。
+3202537872150
 
-## 备考时间安排
+## 
 
-工作日每天学习时间约3小时：
+3
 
-| 时间段 | 内容 |
+|  |  |
 |--------|------|
-| 7:00-7:30 | 常识积累（看新闻、刷题） |
-| 19:30-21:00 | 模块学习/刷题 |
-| 21:00-22:00 | 错题复盘 |
+| 7:00-7:30 |  |
+| 19:30-21:00 | / |
+| 21:00-22:00 |  |
 
-周末全天学习，约8小时。
+8
 
-## 行测经验
+## 
 
-### 资料分析
-这是提分最块的模块。我每天练3篇资料分析，掌握了速算技巧后正确率稳定在90%以上。
+### 
+390%
 
-### 判断推理
-图形推理要多看多练，建立"考点直觉"。类比推理注意词语间的逻辑关系。
+### 
+""
 
-### 数量关系
-不建议花太多时间。我考试时只做了5道有把握的，其余全蒙B。
+### 
+5B
 
-## 申论经验
+## 
 
-- **小题**：学会从材料中提炼要点，不要自己发挥
-- **大作文**：观点明确、结构清晰、语言规范
-- **素材**：每天积累金句和案例
+- ****
+- ****
+- ****
 
-## 心态调整
+## 
 
-在职备考最大的困难是时间不够和容易焦虑。我的建议是：
 
-1. 接受自己可能不够完美，坚持就是胜利
-2. 找一个备考搭子互相监督
-3. 考前一周适当放松，保持好的状态
 
-**祝所有考生都能上岸！**
+1. 
+2. 
+3. 
+
+****
+
+## 
+
+- [675](https://gk.edu-sjtu.cn/shang-an-jingyan/zaizhi-beikao-6yue-xingce-75/)
+- [3146](https://gk.edu-sjtu.cn/shang-an-jingyan/ling-jichu-3yue-guokao-shang-an/)
+- [](https://gk.edu-sjtu.cn/shang-an-jingyan/sanzhan-shanghai-shuiwuju/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 
+
+
+
+### 3. 
+
+
+
+### 4. 
+
+
+
+### 5. 
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'> [100+ →](https://gk.edu-sjtu.cn/shang-an-jingyan/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/shang-an-jingyan/)</li>
+    <li style='margin: 10px 0;'>[] [3 →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

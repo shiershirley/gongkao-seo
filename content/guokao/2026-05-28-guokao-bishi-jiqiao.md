@@ -1,13 +1,13 @@
 ---
-title: "国考笔试高分答题技巧与临场发挥策略"
-description: "从实战角度系统梳理行测和申论的答题技巧，提供各模块时间分配方案和临场发挥策略，帮助考生最大化提升笔试成绩。"
+title: 国考笔试高分答题技巧与临场发挥策略
+description: 从实战角度系统梳理行测和申论的答题技巧，提供各模块时间分配方案和临场发挥策略，帮助考生最大化提升笔试成绩。
 date: "2026-05-28"
 category: guokao
 tags: ["国考", "笔试技巧", "答题策略", "行测", "申论", "高分攻略"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 国考笔试高分答题技巧与临场发挥策略

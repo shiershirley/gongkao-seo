@@ -1,13 +1,13 @@
 ---
-title: "上海社工政策解读与职业发展趋势分析"
-description: "系统梳理上海社区工作者相关政策文件，分析基层治理政策趋势和岗位发展前景，为考生提供前瞻性报考指导。"
+title: 上海社工政策解读与职业发展趋势分析
+description: 系统梳理上海社区工作者相关政策文件，分析基层治理政策趋势和岗位发展前景，为考生提供前瞻性报考指导。
 date: "2026-05-28"
-category: shanghai-shegong
+category: "shanghai-shegong"
 tags: ["上海社工", "政策解读", "发展趋势", "基层治理", "职业规划"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 上海社工政策解读与职业发展趋势分析

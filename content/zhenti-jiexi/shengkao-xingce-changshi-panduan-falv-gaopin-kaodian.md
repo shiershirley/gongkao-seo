@@ -1,92 +1,187 @@
 ---
-title: "省考行测常识判断真题解析：法律类高频考点"
-description: "省考常识判断法律部分考什么？宪法、行政法、民法高频考点汇总，考前必看。"
+title: ""
+description: ""
 date: "2026-04-24"
 category: "zhenti-jiexi"
-tags: ["省考行测", "常识判断", "法律考点", "高频考点", "真题解析"]
-author: "公考资讯站"
+tags: ["", "", "", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/zhenti-jiexi/"
+source_date: "2026-04-24"
+content_type: ""
 ---
 
-# 省考行测常识判断真题解析：法律类高频考点
+#  
 
-常识判断里法律部分的分值不低，而且法律知识比较系统，复习起来有章可循。今天把最常考的几个知识点梳理一下。
 
-## 一、宪法高频考点
 
-### 国家机构
+## 
 
-| 机构 | 主要职权 |
+### 
+
+|  |  |
 |------|----------|
-| 全国人大 | 立法权、任免权、决定权 |
-| 全国人大常委会 | 立法权、解释权、监督权 |
-| 国务院 | 行政法规制定权 |
-| 地方人大 | 在本行政区域内制定地方性法规 |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
-### 公民权利
+### 
 
-这些权利经常考：
-- 选举权和被选举权
-- 言论、出版、集会、结社、游行、示威的自由
-- 人身自由不受侵犯
-- 监督权（包括批评、建议、申诉、控告、检举）
-- 取得赔偿权
 
-### 重要时间节点
+- 
+- 
+- 
+- 
+- 
 
-- 宪法颁布：1982年12月4日
-- 宪法修正案：已修改5次（1988、1993、1999、2004、2018）
+### 
 
-## 二、行政法高频考点
+- 1982124
+- 519881993199920042018
 
-### 行政许可
+## 
 
-- 设定许可的事项要记牢
-- 许可的撤销、撤回、注销有什么区别
-- 许可期限：20工作日，特殊情况可延长10日
+### 
 
-### 行政处罚
+- 
+- 
+- 2010
 
-| 类型 | 举例 |
+### 
+
+|  |  |
 |------|------|
-| 警告 | 口头批评教育 |
-| 罚款 | 罚钱 |
-| 没收违法所得 | 收缴非法所得 |
-| 责令停产停业 | 企业停业整顿 |
-| 行政拘留 | 限制人身自由 |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
-### 行政复议
+### 
 
-- 复议机关要搞清楚（同级政府或上一级主管部门）
-- 复议期限：60日内提出
-- 对复议决定不服可诉讼
+- 
+- 60
+- 
 
-## 三、民法高频考点
+## 
 
-### 民事行为能力
+### 
 
-| 类型 | 年龄/条件 |
+|  | / |
 |------|----------|
-| 完全民事行为能力人 | 18周岁以上，或16-18周岁以自己劳动收入为主要生活来源 |
-| 限制民事行为能力人 | 8-18周岁，或不能完全辨认自己行为的成年人 |
-| 无民事行为能力人 | 不满8周岁，或不能辨认自己行为的成年人 |
+|  | 1816-18 |
+|  | 8-18 |
+|  | 8 |
 
-### 物权
+### 
 
-- 物权法定原则
-- 动产物权以交付为生效要件
-- 不动产物权以登记为生效要件
+- 
+- 
+- 
 
-### 合同
+### 
 
-- 合同成立时间：承诺生效时
-- 合同形式：书面、口头或其他
-- 违约责任：继续履行、采取补救措施、赔偿损失
+- 
+- 
+- 
 
-## 四、备考建议
+## 
 
-1. 先搭建知识框架，再往里填细节
-2. 用对比记忆法区别相似概念
-3. 关注新法修改内容
-4. 多做真题，从题目中把握考试重点
+1. 
+2. 
+3. 
+4. 
 
-法律部分复习到位了，常识判断能拿到不少分！
+
+
+## 
+
+- [2026](https://gk.edu-sjtu.cn/zhenti-jiexi/2026-04-30-xingce-changshi-gaopin-kaoadian/)
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/shengkao-xingce-tuxiang-tuili-guilu-shibie-jiqiao/)
+- [2026](https://gk.edu-sjtu.cn/zhenti-jiexi/2026-04-28-wuliao-zuxiaozu-taolun-zhenti-jieda/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 
+
+
+
+### 3. 
+
+
+
+### 4. 
+
+
+
+### 5. 
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'>[] [5 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

@@ -1,45 +1,140 @@
 ---
-title: "2026年国考时间节点全知道：报名、笔试、面试一览表"
-description: "2026年国家公务员考试时间安排汇总，包括公告发布、报名、缴费、笔试、面试等各阶段关键时间节点，帮助考生合理规划备考。"
+title: "2026"
+description: "2026"
 date: "2026-04-15"
 category: "guokao"
-tags: ["国考", "国考时间", "国考公告", "2026国考"]
-author: "公考资讯站"
+tags: ["", "", "", "2026"]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/guokao/"
+source_date: "2026-04-15"
+content_type: ""
 ---
 
-# 2026年国考时间节点全知道
+# 2026 
 
-## 国考全年时间轴
+## 
 
-根据往年规律，2026年国考（招录2027届）预计时间安排如下：
+20262027
 
-### 公告发布：2026年10月中旬
-国家公务员局将发布招考公告和职位表，考生可登录中央机关及其直属机构考试录用公务员专题网站查询。
+### 202610
 
-### 网上报名：2026年10月中下旬
-报名时间一般持续10天左右，建议考生提前注册并完善个人信息。
 
-### 资格审查：报名后2-3天
-招录机关将在规定时间内对考生报考资格进行审核。
+### 202610
+10
 
-### 缴费确认：2026年11月初
-通过审核的考生需在规定时间内完成网上缴费，逾期视为自动放弃。
+### 2-3
 
-### 打印准考证：2026年11月底
-笔试前一周左右开放准考证打印。
 
-### 笔试时间：2026年11月底或12月初
-- 公共科目：行测（上午9:00-11:00）、申论（下午14:00-17:00）
-- 专业科目：部分岗位加试
+### 202611
 
-### 成绩查询：2027年1月
-笔试成绩和最低合格分数线同期公布。
 
-### 面试：2027年2-3月
-各招录机关自行组织面试，通常采用结构化面试或无领导小组讨论。
+### 202611
 
-## 备考建议
 
-1. **行测**：分模块刷题，重点突破数量关系和资料分析
-2. **申论**：多读人民日报评论，练习归纳概括和公文写作
-3. **时间管理**：建议提前4-6个月开始系统备考
+### 20261112
+- 9:00-11:0014:00-17:00
+- 
+
+### 20271
+
+
+### 20272-3
+
+
+## 
+
+1. ****
+2. ****
+3. ****4-6
+
+## 
+
+- [2026](https://gk.edu-sjtu.cn/guokao/2026-04-28-guokao-tiaoji-bulu-qudao/)
+- [2026](https://gk.edu-sjtu.cn/guokao/2026-guokao-shijian-quancheng/)
+- [2026](https://gk.edu-sjtu.cn/guokao/2026-05-22-guokao-panduan-tuili-jiqiao/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 202610
+
+202610
+
+### 3. 202610
+
+202610
+
+### 4. 2-3
+
+2-3
+
+### 5. 202611
+
+202611
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "202610",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "202610"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "202610",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "202610"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "2-3",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2-3"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "202611",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "202611"
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;">[] </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'>[] [2026 →](https://gk.edu-sjtu.cn/guokao/)</li>
+    <li style='margin: 10px 0;'>[] [100 →](https://gk.edu-sjtu.cn/guokao/)</li>
+    <li style='margin: 10px 0;'>[] [11 →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

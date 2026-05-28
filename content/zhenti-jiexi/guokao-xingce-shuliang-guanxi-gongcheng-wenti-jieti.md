@@ -1,91 +1,186 @@
 ---
-title: "国考行测数量关系真题解析：工程问题解题套路"
-description: "行测工程问题怎么解？三种题型三种方法，配合真题手把手讲解，看完就会做。"
+title: ""
+description: ""
 date: "2026-04-19"
 category: "zhenti-jiexi"
-tags: ["国考行测", "数量关系", "工程问题", "解题公式", "真题解析"]
-author: "公考资讯站"
+tags: ["", "", "", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/zhenti-jiexi/"
+source_date: "2026-04-19"
+content_type: ""
 ---
 
-# 国考行测数量关系真题解析：工程问题解题套路
+#  
 
-工程问题在行测数量关系里属于“常客”，几乎每年都会考。这类题套路比较固定，公式也不复杂，只要掌握方法，做起来其实挺快的。
+“”
 
-## 一、核心公式只有一个
+## 
 
-**工作量 = 效率 × 时间**
+** =  × **
 
-考试时，工作量通常设为“1”，或者用几个时间的最小公倍数。效率就是单位时间能干多少活。
+“1”
 
-## 二、三种题型怎么应对
+## 
 
-### 第一种：两个人（或几个）一起干活
+### 
 
-**什么时候用：** 题目告诉你甲单独干要几天，乙单独干要几天，问一起干要几天。
+**** 
 
-**怎么做：**
-1. 把工作总量设成时间的最小公倍数
-2. 分别算出每个人的效率
-3. 效率相加，得到合作效率
-4. 用总量除以合作效率就是答案
+****
+1. 
+2. 
+3. 
+4. 
 
-**来一道：**
+****
 
-> **【2024年国考真题】** 甲单独完成需要12天，乙单独完成需要18天。甲乙合作需要多少天？
+> **2024** 1218
 
-**解法：**
-- 总量设为36（12和18的最小公倍数）
-- 甲效率 = 36÷12 = 3
-- 乙效率 = 36÷18 = 2
-- 合作效率 = 3+2 = 5
-- 时间 = 36÷5 = 7.2天
+****
+- 361218
+-  = 36÷12 = 3
+-  = 36÷18 = 2
+-  = 3+2 = 5
+-  = 36÷5 = 7.2
 
-**答案：7.2天**
+**7.2**
 
-### 第二种：轮流干
+### 
 
-**什么时候用：** 几个人按顺序轮流干活，每人干一段时间换下一个。
+**** 
 
-**怎么做：**
-1. 先算一个完整循环能干多少活
-2. 看看需要几个完整循环
-3. 剩下的零头单独算
+****
+1. 
+2. 
+3. 
 
-### 第三种：告诉比例
+### 
 
-**什么时候用：** 题目给你效率比或者时间比，让你求某个值。
+**** 
 
-**记住这个关系：** 工作总量不变时，效率和时间成反比。比如甲乙时间比是3:2，那效率比就是2:3。
+**** 3:22:3
 
-## 三、常用技巧
+## 
 
-| 题型 | 技巧 |
+|  |  |
 |------|------|
-| 两个时间 | 设总量为最小公倍数 |
-| 给效率比 | 直接用比例算 |
-| 给时间比 | 先转成效率比 |
-| 轮流干 | 先算周期，再处理余量 |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 
-## 四、再来一道
+## 
 
-> **【2022年国考真题】** 某工程，甲单独需要20天，乙单独需要30天。甲先干了5天后，乙加入，两人继续合作，还需要多少天完成？
+> **2022** 20305
 
-**解法：**
-- 总量设为60
-- 甲效率 = 60÷20 = 3
-- 乙效率 = 60÷30 = 2
-- 甲先干5天：3×5 = 15
-- 剩余：60-15 = 45
-- 合作效率：3+2 = 5
-- 剩余时间：45÷5 = 9天
+****
+- 60
+-  = 60÷20 = 3
+-  = 60÷30 = 2
+- 53×5 = 15
+- 60-15 = 45
+- 3+2 = 5
+- 45÷5 = 9
 
-**答案：9天**
+**9**
 
-## 五、备考提醒
+## 
 
-1. 公式要记牢，考试时能直接写出来
-2. 多做题，做到看到类似条件就知道用什么方法
-3. 注意时间单位要统一
-4. 算完检查一下，答案合不合理
+1. 
+2. 
+3. 
+4. 
 
-工程问题属于“送分题”类型，练熟了就能拿稳！
+“”
+
+## 
+
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-pandui-tuili-luoji-panduan-jieti/)
+- [5](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-yanyu-zhuti-gainakuai-jieti/)
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-ziliao-fenxi-zengzhanglu-jisuan-jqiao/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 
+
+
+
+### 3. 
+
+
+
+### 4. > **2024** 1218
+
+> **2024** 1218
+
+### 5. 
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "> **2024** 1218",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "> **2024** 1218"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'>[] [5 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

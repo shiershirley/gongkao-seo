@@ -1,0 +1,79 @@
+{
+  "batch": "14:06",
+  "date": "2026-05-28",
+  "count": 8,
+  "articles": [
+    {
+      "file": "content\\shanghai-shegong\\2026-05-28-shanghai-shegong-shanggang-houqian-2026.md",
+      "title": "上海社区工作者上岗后前三年职业发展路径规划全解析",
+      "category": "shanghai-shegong",
+      "images": [
+        "/images/lib/gov/g3_1.jpg",
+        "/images/lib/exam/todo_plan.jpg"
+      ]
+    },
+    {
+      "file": "content\\shanghai-shegong\\2026-05-28-shanghai-shegong-yinzhang-yaolu.md",
+      "title": "上海社工引进展与压力疏导：心理健康与职业倦怠预防指南",
+      "category": "shanghai-shegong",
+      "images": [
+        "/images/lib/gov/gov_v21_078.jpg",
+        "/images/lib/people/people_v23_043.jpg"
+      ]
+    },
+    {
+      "file": "content\\guokao\\2026-05-28-guokao-2026-xingce-jisujiqiao.md",
+      "title": "2026年国考行测资料分析速解技巧：统计术语与图表破题法",
+      "category": "guokao",
+      "images": [
+        "/images/lib/exam/exam_v19_079.jpg",
+        "/images/lib/study/study_more_1.jpg"
+      ]
+    },
+    {
+      "file": "content\\guokao\\2026-05-28-guokao-2026-mianshi-ganxinqiance.md",
+      "title": "2026年国考面试感情倾向题破解：价值观表达与立场把握技巧",
+      "category": "guokao",
+      "images": [
+        "/images/lib/study/students_2.jpg",
+        "/images/lib/study/study_v24_169.jpg"
+      ]
+    },
+    {
+      "file": "content\\shengkao\\2026-05-28-shengkao-2026-panduan-tuili.md",
+      "title": "2026年省考判断推理技巧：图形推理规律总结与秒杀技巧",
+      "category": "shengkao",
+      "images": [
+        "/images/lib/study/s3_4.jpg",
+        "/images/lib/office/gov_building_2.jpg"
+      ]
+    },
+    {
+      "file": "content\\shengkao\\2026-05-28-shengkao-2026-mianshi-ganxingqu.md",
+      "title": "2026年省考面试感情题应对：真情实感表达与考官共鸣技巧",
+      "category": "shengkao",
+      "images": [
+        "/images/lib/office/teamwork_px.jpg",
+        "/images/lib/motivation/motiv_3.jpg"
+      ]
+    },
+    {
+      "file": "content\\gangwei-fenxi\\2026-05-28-shiye-danwei-kaoshi-zhidu-gaige.md",
+      "title": "事业单位考试制度改革2026：分类统考与自主招聘的新变化",
+      "category": "gangwei-fenxi",
+      "images": [
+        "/images/lib/office/office_v21_138.jpg",
+        "/images/lib/tech/tech_v23_083.jpg"
+      ]
+    },
+    {
+      "file": "content\\beikao-zhinan\\2026-05-28-gongkao-beikao-shengtai-guanli.md",
+      "title": "公考备考生态管理2026：学习环境营造与干扰因素排除法",
+      "category": "beikao-zhinan",
+      "images": [
+        "/images/lib/motivation/mp_2.jpg",
+        "/images/lib/study/writing_notes.jpg"
+      ]
+    }
+  ]
+}

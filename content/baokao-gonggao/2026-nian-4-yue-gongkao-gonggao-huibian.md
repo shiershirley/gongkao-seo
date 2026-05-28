@@ -1,46 +1,141 @@
 ---
-title: "2026年4月全国各地公职考试公告汇总"
-description: "2026年4月最新公职考试招录公告汇总，涵盖国考补录、省考、事业单位、社区工作者等各类招考信息。"
+title: "20264"
+description: "20264"
 date: "2026-04-10"
 category: "baokao-gonggao"
-tags: ["招考公告", "4月公告", "考试汇总", "报名提醒"]
-author: "公考资讯站"
+tags: ["", "4", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/baokao-gonggao/"
+source_date: "2026-04-10"
+content_type: ""
 ---
 
-# 2026年4月全国各地公职考试公告汇总
+# 20264 
 
-## 正在报名
+## 
 
-### 上海奉贤区社区工作者
-- **招聘人数**：110人
-- **报名时间**：4月17日-4月23日
-- **报名方式**：奉贤区人民政府官网
-- **笔试时间**：待定
+### 
+- ****110
+- ****417-423
+- ****
+- ****
 
-### 浙江省事业单位统考
-- **招聘人数**：约2000人
-- **报名时间**：4月10日-4月16日
-- **笔试时间**：5月中旬
-- **报名方式**：浙江省人事考试网
+### 
+- ****2000
+- ****410-416
+- ****5
+- ****
 
-## 即将发布
+## 
 
-### 2026年国考补录
-- 预计5月发布公告
-- 仅限已参加国考笔试且达到合格线的考生
-- 关注国家公务员局官网
+### 2026
+- 5
+- 
+- 
 
-### 多省市事业单位联考
-- 预计4-5月陆续发布
-- 涉及多个省份
+### 
+- 4-5
+- 
 
-### 山东、江苏等独立省考
-- 部分省份省考安排在下半年
-- 建议6月开始关注
+### 
+- 
+- 6
 
-## 报名提醒
+## 
 
-1. 注意查看户籍限制和学历要求
-2. 报名前准备好电子照片和相关证书
-3. 不要等到最后一天报名，避免系统拥堵
-4. 保存好报名序号和缴费凭证
+1. 
+2. 
+3. 
+4. 
+
+## 
+
+- [2026128++](https://gk.edu-sjtu.cn/baokao-gonggao/2026-04-26-shanghai-shiyedanwei-128ren-gonggao/)
+- [2026](https://gk.edu-sjtu.cn/baokao-gonggao/2026-04-26-shengkao-liankao-shijian-huizong/)
+- [2026](https://gk.edu-sjtu.cn/baokao-gonggao/2026-04-27-shengkao-baokao-tiaojian-liucheng/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 
+
+
+
+### 3. 
+
+
+
+### 4. 
+
+
+
+### 5. 2026
+
+2026
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "2026",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2026"
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'> [2026 →](https://gk.edu-sjtu.cn/baokao-gonggao/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/baokao-gonggao/)</li>
+    <li style='margin: 10px 0;'>[] [ →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

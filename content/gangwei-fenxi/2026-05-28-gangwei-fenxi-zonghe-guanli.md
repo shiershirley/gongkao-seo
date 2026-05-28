@@ -1,13 +1,13 @@
 ---
-title: "事业单位综合管理岗位深度解析与备考指南"
-description: "深度解析事业单位综合管理岗位的岗位职责、能力要求、考试内容和职业发展路径，为考生提供全面的报考指导。"
+title: 事业单位综合管理岗位深度解析与备考指南
+description: 深度解析事业单位综合管理岗位的岗位职责、能力要求、考试内容和职业发展路径，为考生提供全面的报考指导。
 date: "2026-05-28"
-category: gangwei-fenxi
+category: "gangwei-fenxi"
 tags: ["事业单位", "综合管理岗", "岗位职责", "备考指南", "职业发展"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 事业单位综合管理岗位深度解析与备考指南

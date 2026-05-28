@@ -1,48 +1,131 @@
 ---
-title: "上海16区社工薪资对比：同样的活，到手能差多少钱？"
-description: "上海各区社区工作者薪资待遇差异明显，浦东、徐汇、长宁等区年收入可达12-15万，远郊区域在8-10万左右。本文用已入职员工的真实数据，横向对比各区收入构成，帮你选岗时多一个参考维度。"
+title: "16"
+description: "12-158-10"
 date: "2026-05-04"
 category: "shanghai-shegong"
-tags: ["上海社工待遇", "社区工作者薪资", "上海各区社工对比", "社工工资"]
-author: "公考资讯站"
+tags: ["", "", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/shanghai-shegong/"
+source_date: "2026-05-04"
+content_type: ""
 ---
 
-「入职以后才发现，隔壁区的同学比我多拿两万」——类似的吐槽在社工入职群里有不少人说过。
+——
 
-上海16个区的社工薪资确实不统一，甚至同一个区不同街道之间都有差距。这篇文章把能找到的真实数据整理出来，给你们选岗时参考。
+16
 
-## 薪资构成先搞清楚
+##  
 
-社工的工资不是单一数字，由几部分组成：基本工资、绩效奖金、岗位津贴、年终考核奖。各区叫法可能不一样，但构成大同小异。
 
-基本工资和当地社平工资挂钩，所以中心城区普遍高于远郊。绩效奖金看个人考核结果和街道财政状况，这一块的浮动最大。
 
-有些区还有「持证津贴」——也就是拿到社工师职业资格证书之后的每月补贴，初级、中级、高级分别对应不同标准。这笔钱不多，但胜在稳定，攒下来也不少。
 
-## 各区真实收入水平
 
-以下数据来自已入职员工在各类平台上的自发分享，仅供参考，具体以各单位实际发放为准：
+——
 
-**第一档（年收入12-15万）**：浦东、徐汇、长宁、静安。这几个区财政充裕，绩效奖金发放比较稳定。浦东的张江、陆家嘴等街道因为工作强度大，有些额外补贴。
+## 
 
-**第二档（年收入10-13万）**：黄浦、普陀、虹口、杨浦、宝山。整体收入不差，但绩效部分受街道考核结果影响，年度之间有波动。
 
-**第三档（年收入8-11万）**：闵行、嘉定、松江、青浦。这几个区正在快速城市化，工作量不小，但薪资调整有滞后性。
 
-**第四档（年收入7-10万）**：奉贤、金山、崇明。收入相对低，但生活成本也低，而且这几个区对社工的需求在上升，竞争相对小一些。
+**12-15**
 
-## 除了到手工资，还要看什么
+**10-13**
 
-有些区薪资数字不高，但隐性福利不错。比如住房补贴、食堂伙食、通勤补贴，这些不会写在招聘公告里，但每个月实际到手会有差别。
+**8-11**
 
-另一个角度是发展空间。浦东、徐汇这些区的社工，有机会参与市级试点项目，简历上多这一段经历，以后想考公务员或事业单位时是有帮助的。远郊区域相对机会少一些，但工作稳定性一样，适合追求平稳的人。
+**7-10**
 
-## 选岗时怎么权衡
+## 
 
-如果纯粹看收入，优先选中心城区的大街道。但也要考虑通勤成本和工作强度——有些热门街道的社工，加班频率不比互联网公司低。
 
-如果是应届生，建议选能学到东西的岗位，薪资放在第二位。社工这碗饭，前两年积累的经验和方法比每个月多拿一千块更重要。
 
-已经有工作经验的，可以直接对标各区的收入档位，结合通勤距离做决定。
 
-薪资不是选岗的唯一标准，但确实是最实在的标准。先把这笔账算清楚，再去谈理想和服务热情，这样入职以后不容易心理落差。
+
+## 
+
+——
+
+
+
+
+
+
+
+## 
+
+- [202616](https://gk.edu-sjtu.cn/shanghai-shegong/2026-04-27-shanghai-shegong-xinzi-daibi/)
+- [](https://gk.edu-sjtu.cn/shanghai-shegong/2026-05-21-shanghai-shegong-xinti-daiyu-zhiye-fazhan/)
+- [2026](https://gk.edu-sjtu.cn/shanghai-shegong/2026-05-22-shanghai-shegong-salary-benefits-analysis/)
+
+
+
+## FAQ
+
+### 1.  
+
+ 
+
+### 2. 
+
+
+
+### 3. 
+
+
+
+### 4. 
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": " ",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": " "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/shanghai-shegong/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/shanghai-shegong/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/shanghai-shegong/)</li>
+  </ul>
+</div>

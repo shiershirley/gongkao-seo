@@ -1,44 +1,139 @@
 ---
-title: "2026年多省联考时间及省份一览"
-description: "2026年上半年多省联考预计将于3月下旬举行，本文汇总参与联考的省份名单、考试科目及备考策略。"
+title: "2026"
+description: "20263"
 date: "2026-04-14"
 category: "shengkao"
-tags: ["省考", "多省联考", "省考时间", "2026省考"]
-author: "公考资讯站"
+tags: ["", "", "", "2026"]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/shengkao/"
+source_date: "2026-04-14"
+content_type: ""
 ---
 
-# 2026年多省联考时间及省份一览
+# 2026 
 
-## 什么是多省联考？
+## 
 
-多省联考是指多个省份在同一天使用同一套或相似试卷进行公务员笔试的考试形式，通常在每年3月下旬或4月上旬举行。
+34
 
-## 2026年联考预测
+## 2026
 
-根据往年规律，2026年上半年联考预计在3月22日举行。以下省份大概率参与：
+2026322
 
-### 参与省份（预测）
-- **华北**：山西、内蒙古、河北
-- **东北**：黑龙江、吉林、辽宁
-- **华东**：安徽、福建、江西、山东
-- **华中**：河南、湖北、湖南
-- **西南**：四川、贵州、云南、重庆
-- **西北**：陕西、甘肃、青海、宁夏、新疆
-- **华南**：广西、海南
+### 
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
+- ****
 
-> 注：具体 participating 省份以各省市发布公告为准。
+>  participating 
 
-## 联考与独立省考的区别
+## 
 
-| 对比项 | 多省联考 | 独立省考 |
+|  |  |  |
 |--------|---------|---------|
-| 时间 | 多省同一天 | 各省自行安排 |
-| 题目 | 多省共用或相似 | 独立命题 |
-| 难度 | 中等偏上 | 各省差异大 |
-| 优势 | 一次备考多省机会 | 更贴合本省特点 |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
-## 备考策略
+## 
 
-1. 关注本省公告，确认是否参加联考
-2. 以联考难度为基准准备，有余力再针对本省特点补强
-3. 注意各省报名时间的差异，避免错过
+1. 
+2. 
+3. 
+
+## 
+
+- [2026425-28](https://gk.edu-sjtu.cn/shengkao/2026-04-28-hunan-shengkao-mianshi-jieda/)
+- [2026](https://gk.edu-sjtu.cn/shengkao/2026-sheng-liankao-shijian-jiedian/)
+- [2026](https://gk.edu-sjtu.cn/shengkao/2026-05-22-shengkao-baoming-tiaojian-2026/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 2026
+
+2026
+
+### 3. 
+
+
+
+### 4. 
+
+
+
+### 5. 
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "2026",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2026"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'> [2026 →](https://gk.edu-sjtu.cn/shengkao/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/shengkao/)</li>
+    <li style='margin: 10px 0;'>[] [ →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+  </ul>
+</div>

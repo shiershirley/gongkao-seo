@@ -3,6 +3,7 @@
 """
 公考SEO文章自动生成脚本 v3
 - 按内容比例生成文章（社工2、国考2、省考2、事业单位1、通用1）
+- 集成内链网络：自动为每篇文章添加2-3个相关阅读链接
 """
 
 import os
@@ -10,9 +11,282 @@ import sys
 import json
 from pathlib import Path
 from datetime import datetime
+import re
+import random
 
 ROOT = Path(__file__).parent.parent
 CONTENT_DIR = ROOT / "content"
+
+# 导入内链模块
+sys.path.insert(0, str(Path(__file__).parent))
+try:
+    from internal_linker import build_article_index, find_related_articles, generate_related_links_section
+    INTERNAL_LINK_ENABLED = True
+except ImportError:
+    print("警告：无法导入 internal_linker 模块，内链功能将禁用")
+    INTERNAL_LINK_ENABLED = False
+
+# ========== CTR标题生成函数 ==========
+def generate_ctr_title(article_info):
+    """
+    生成高点击率标题，使用4种公式：
+    1. 数字+痛点："2026国考分数线：这3个省分数暴涨"
+    2. 疑问+解决方案："国考面试怎么准备？这份7天冲刺计划帮你"
+    3. 对比+数据："省考vs国考：同样努力，为什么省考上岸率高30%？"
+    4. 时效性+紧迫感："紧急通知：2026上海社工报名明天截止"
+    """
+    title = article_info.get("title", "")
+    category = article_info.get("category", "")
+    tags = article_info.get("tags", [])
+    article_type = article_info.get("type", "info")
+    
+    # 提取核心关键词
+    keywords = tags + [category.replace("-", "")]
+    main_keyword = keywords[0] if keywords else "公考"
+    
+    # 数字池
+    numbers = ["3", "5", "7", "10", "30%", "50%", "100+", "2倍"]
+    # 情绪词池
+    emotion_words = ["暴涨", "暴跌", "秘诀", "揭秘", "必看", "紧急", "重磅", "直呼没想到", 
+                     "完蛋了", "稳了", "太简单了", "原来如此", "震惊"]
+    # 疑问词池
+    question_words = ["怎么", "为什么", "如何", "哪些", "什么时候", "哪里", "多少", "真的吗"]
+    
+    # 随机选择标题公式
+    formula = random.choice([1, 2, 3, 4])
+    
+    if formula == 1:  # 数字+痛点
+        num = random.choice(numbers)
+        emotion = random.choice(emotion_words)
+        return f"{title}：这{num}个{main_keyword}要点{emotion}"
+    
+    elif formula == 2:  # 疑问+解决方案
+        q_word = random.choice(question_words)
+        solutions = ["这份攻略", "这个秘诀", "这篇指南", "这个方法", "这份计划"]
+        solution = random.choice(solutions)
+        return f"{main_keyword}{q_word}{title.split('怎么')[-1] if '怎么' in title else '备考'}？{solution}帮你上岸"
+    
+    elif formula == 3:  # 对比+数据
+        comparisons = {
+            "guokao": ("省考", "竞争小3倍"),
+            "shengkao": ("国考", "上岸率高30%"),
+            "shanghai-shegong": ("国考", "压力小5倍"),
+            "gangwei-fenxi": ("公务员", "待遇更稳定"),
+            "beikao-zhinan": ("裸考", "通过率高2倍"),
+        }
+        if category in comparisons:
+            comp, data = comparisons[category]
+            return f"{main_keyword} vs {comp}：同样努力，为什么{main_keyword}{data}？"
+        return f"{title}：为什么有人轻松上岸，有人却失败？"
+    
+    else:  # 时效性+紧迫感
+        urgency_words = ["紧急通知", "最后3天", "明天截止", "马上开始", "最新消息", "刚刚发布"]
+        urgency = random.choice(urgency_words)
+        return f"{urgency}：{title}，考生必看！"
+    
+    return title  # 默认返回原标题
+
+
+# ========== FAQ生成函数 ==========
+def extract_faq_from_content(content, max_faq=5):
+    """
+    从文章正文中提取FAQ（常见问题）
+    根据标题、小标题、关键词生成FAQ
+    """
+    faq_list = []
+    lines = content.split('\n')
+    
+    # 从文章中提取可能的问题（包含问号、是/否、如何等关键词的句子）
+    question_indicators = ['？', '吗', '如何', '怎么', '为什么', '哪些', '什么', '多少']
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        
+        # 检测是否为标题（## 或 ### 开头）
+        if line.startswith('##') or line.startswith('###'):
+            # 将标题转换为问题
+            heading = re.sub(r'^#+\s*', '', line).strip()
+            if heading and 'FAQ' not in heading and '相关阅读' not in heading:
+                question = heading + '？'
+                answer = f"关于{heading}的详细解析，请参考本文正文内容。"
+                faq_list.append({"question": question, "answer": answer})
+        
+        # 检测包含问号的句子
+        elif '？' in line and len(line) < 100:
+            question = line.rstrip('？？')
+            if question and len(faq_list) < max_faq:
+                answer = f"关于「{question}」的详细解答，请参考本文相关章节。"
+                faq_list.append({"question": question + "？", "answer": answer})
+    
+    # 如果提取的FAQ不足，根据关键词生成
+    if len(faq_list) < 3:
+        keywords = []
+        for line in lines[:20]:  # 从前20行提取关键词
+            for indicator in question_indicators[1:]:  # 跳过问号
+                if indicator in line and len(line) < 80:
+                    keywords.append(line.strip())
+        
+        default_questions = [
+            f"{main_keyword if 'main_keyword' in dir() else '公考'}报名条件是什么？",
+            f"{main_keyword if 'main_keyword' in dir() else '公考'}考试科目有哪些？",
+            f"{main_keyword if 'main_keyword' in dir() else '公考'}如何高效备考？",
+            f"{main_keyword if 'main_keyword' in dir() else '公考'}分数线是多少？",
+            f"{main_keyword if 'main_keyword' in dir() else '公考'}什么时候出成绩？",
+        ]
+        
+        for q in default_questions:
+            if len(faq_list) >= max_faq:
+                break
+            if not any(f['question'] == q for f in faq_list):
+                faq_list.append({"question": q, "answer": f"关于{q.rstrip('？')}的详细信息，请参考本文正文。"})
+    
+    return faq_list[:max_faq]
+
+
+def generate_faq_section(faq_list, article_url=""):
+    """生成FAQ章节的Markdown和JSON-LD结构化数据"""
+    if not faq_list:
+        return ""
+    
+    # Markdown部分
+    md_section = "\n## 常见问题（FAQ）\n\n"
+    for i, faq in enumerate(faq_list, 1):
+        md_section += f"### {i}. {faq['question']}\n\n{faq['answer']}\n\n"
+    
+    # JSON-LD结构化数据
+    json_ld = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": []
+    }
+    
+    for faq in faq_list:
+        json_ld["mainEntity"].append({
+            "@type": "Question",
+            "name": faq['question'],
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": faq['answer']
+            }
+        })
+    
+    json_ld_str = json.dumps(json_ld, ensure_ascii=False, indent=2)
+    
+    # 将JSON-LD嵌入到script标签中
+    script_tag = f"""
+<script type="application/ld+json">
+{json_ld_str}
+</script>
+"""
+    
+    return md_section + "\n" + script_tag + "\n"
+
+
+# ========== CTA生成函数 ==========
+def generate_cta_section(category, content_type="原创"):
+    """
+    根据文章分类生成对应的CTA（行动号召）区块
+    """
+    cta_templates = {
+        "guokao": {
+            "title": "🎯 国考备考资料领取",
+            "items": [
+                "📄 [2026国考职位表完整版下载 →](https://gk.edu-sjtu.cn/guokao/)",
+                "📚 [申论高分范文100篇免费领 →](https://gk.edu-sjtu.cn/guokao/)",
+                "🎥 [国考面试1对1辅导预约 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ]
+        },
+        "shengkao": {
+            "title": "📌 省考备考资源",
+            "items": [
+                "📋 [2026省考职位表汇总下载 →](https://gk.edu-sjtu.cn/shengkao/)",
+                "📝 [省考申论万能框架模板 →](https://gk.edu-sjtu.cn/shengkao/)",
+                "💡 [省考历年真题及解析 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+            ]
+        },
+        "shanghai-shegong": {
+            "title": "🏙️ 上海社工专属福利",
+            "items": [
+                "📬 [加入上海社工备考群 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
+                "📖 [上海社工考试大纲解读 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
+                "💼 [上海各区社工待遇对比表 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
+            ]
+        },
+        "gangwei-fenxi": {
+            "title": "🏢 事业单位考试助手",
+            "items": [
+                "📊 [事业单位职测考情分析 →](https://gk.edu-sjtu.cn/gangwei-fenxi/)",
+                "📚 [事业单位历年真题下载 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "🎯 [事业单位面试技巧大全 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ]
+        },
+        "beikao-zhinan": {
+            "title": "📚 备考指南精选",
+            "items": [
+                "⏰ [3个月高效备考计划表 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+                "📖 [零基础备考全攻略 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+                "💪 [公考高分学员经验分享 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+            ]
+        },
+        "zhengce-jiedu": {
+            "title": "📜 最新政策解读",
+            "items": [
+                "📰 [2026公考最新政策汇总 →](https://gk.edu-sjtu.cn/zhengce-jiedu/)",
+                "🔍 [政策变化对备考的影响 →](https://gk.edu-sjtu.cn/zhengce-jiedu/)",
+                "💡 [如何根据政策调整备考策略 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ]
+        },
+        "baokao-gonggao": {
+            "title": "📢 报考公告速递",
+            "items": [
+                "📋 [2026最新报考公告汇总 →](https://gk.edu-sjtu.cn/baokao-gonggao/)",
+                "🔔 [报名入口及流程详解 →](https://gk.edu-sjtu.cn/baokao-gonggao/)",
+                "✅ [报考条件自测工具 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ]
+        },
+        "zhenti-jiexi": {
+            "title": "📝 真题解析专区",
+            "items": [
+                "📚 [近5年公考真题汇总 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "🔍 [真题解析及答题技巧 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "💯 [高频考点及命题规律 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ]
+        },
+        "shang-an-jingyan": {
+            "title": "🏆 上岸经验分享",
+            "items": [
+                "📖 [100+学员上岸经验合集 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+                "💬 [面试逆袭成功经验 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+                "🎯 [零基础3个月上岸计划 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ]
+        },
+    }
+    
+    # 默认CTA（如果没有匹配的分类）
+    default_cta = {
+        "title": "🎓 公考备考资料",
+        "items": [
+            "📚 [公考备考全攻略 →](https://gk.edu-sjtu.cn/)",
+            "📝 [历年真题及解析 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+            "💪 [高分学员经验分享 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+        ]
+    }
+    
+    cta = cta_templates.get(category, default_cta)
+    
+    cta_html = f"""
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;">{cta['title']}</h3>
+  <ul style="list-style: none; padding-left: 0;">
+"""
+    for item in cta['items']:
+        cta_html += f"    <li style='margin: 10px 0;'>{item}</li>\n"
+    
+    cta_html += "  </ul>\n</div>\n"
+    
+    return cta_html
 
 # 文章主题库
 ARTICLES = [
@@ -22,14 +296,20 @@ ARTICLES = [
         "category": "guokao",
         "type": "info",
         "tags": ["国考", "笔试成绩", "成绩查询"],
-        "desc": "2026年国考笔试结束后，考生最关心的就是成绩查询。本文详解2026年国考笔试成绩查询时间、查询入口、成绩计算方法、合格分数线预测。"
+        "desc": "2026年国考笔试结束后，考生最关心的就是成绩查询。本文详解2026年国考笔试成绩查询时间、查询入口、成绩计算方法、合格分数线预测。",
+        "source_url": "https://gk.edu-sjtu.cn/guokao/",  # 原创文章填网站栏目页
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
     {
         "title": "国考面试礼仪全攻略：考官第一印象加分项",
         "category": "guokao", 
         "type": "guide",
         "tags": ["国考", "面试礼仪", "面试技巧"],
-        "desc": "国考面试中，礼仪细节往往决定第一印象。本文从着装、举止、语言表达等多方面，全面解析国考面试礼仪要点，帮助考生在面试中脱颖而出。"
+        "desc": "国考面试中，礼仪细节往往决定第一印象。本文从着装、举止、语言表达等多方面，全面解析国考面试礼仪要点，帮助考生在面试中脱颖而出。",
+        "source_url": "https://gk.edu-sjtu.cn/guokao/",
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
     # 省考2篇
     {
@@ -37,14 +317,20 @@ ARTICLES = [
         "category": "shengkao",
         "type": "info",
         "tags": ["省考", "联考", "考试时间"],
-        "desc": "2026年省考联考有哪些省份参加？考试时间如何安排？本文汇总2026年参加联考的各省份考试时间、报名入口、笔试科目安排。"
+        "desc": "2026年省考联考有哪些省份参加？考试时间如何安排？本文汇总2026年参加联考的各省份考试时间、报名入口、笔试科目安排。",
+        "source_url": "https://gk.edu-sjtu.cn/shengkao/",
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
     {
         "title": "省考申论大作文万能框架及高分技巧",
         "category": "shengkao",
         "type": "guide", 
         "tags": ["省考", "申论", "作文技巧"],
-        "desc": "省考申论大作文是拉开分差的关键。本文分享省考申论大作文的万能框架结构、高分写作技巧、常见话题预测及范文参考。"
+        "desc": "省考申论大作文是拉开分差的关键。本文分享省考申论大作文的万能框架结构、高分写作技巧、常见话题预测及范文参考。",
+        "source_url": "https://gk.edu-sjtu.cn/shengkao/",
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
     # 上海社工2篇
     {
@@ -52,14 +338,20 @@ ARTICLES = [
         "category": "shanghai-shegong",
         "type": "info",
         "tags": ["上海社工", "招聘计划", "各区招聘"],
-        "desc": "2026年上海各区社区工作者招聘计划陆续发布。本文解读浦东、徐汇、静安、杨浦等区的招聘人数、报名条件、考试时间安排。"
+        "desc": "2026年上海各区社区工作者招聘计划陆续发布。本文解读浦东、徐汇、静安、杨浦等区的招聘人数、报名条件、考试时间安排。",
+        "source_url": "https://gk.edu-sjtu.cn/shanghai-shegong/",
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
     {
         "title": "上海社工考试行测模块备考策略及真题分析",
         "category": "shanghai-shegong",
         "type": "study",
         "tags": ["上海社工", "行测", "备考策略"],
-        "desc": "上海社工考试行测模块是重点考察内容。本文分析上海社工行测考试的题型分布、重点知识点、历年真题规律及高效备考策略。"
+        "desc": "上海社工考试行测模块是重点考察内容。本文分析上海社工行测考试的题型分布、重点知识点、历年真题规律及高效备考策略。",
+        "source_url": "https://gk.edu-sjtu.cn/shanghai-shegong/",
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
     # 事业单位1篇
     {
@@ -67,7 +359,10 @@ ARTICLES = [
         "category": "gangwei-fenxi",
         "type": "info",
         "tags": ["事业单位", "职测", "考情分析"],
-        "desc": "事业单位联考《职业能力倾向测验》与公务员考试《行测》有何区别？本文详细分析事业单位职测的考试题型、难度特点、备考要点。"
+        "desc": "事业单位联考《职业能力倾向测验》与公务员考试《行测》有何区别？本文详细分析事业单位职测的考试题型、难度特点、备考要点。",
+        "source_url": "https://gk.edu-sjtu.cn/gangwei-fenxi/",
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
     # 通用备考1篇  
     {
@@ -75,21 +370,32 @@ ARTICLES = [
         "category": "beikao-zhinan",
         "type": "guide",
         "tags": ["零基础", "跨专业", "复习计划"],
-        "desc": "零基础、跨专业考生如何在3个月内高效备考公考并成功上岸？本文提供详细的每日复习计划、资料选择建议、刷题策略及心态调整方法。"
+        "desc": "零基础、跨专业考生如何在3个月内高效备考公考并成功上岸？本文提供详细的每日复习计划、资料选择建议、刷题策略及心态调整方法。",
+        "source_url": "https://gk.edu-sjtu.cn/beikao-zhinan/",
+        "source_date": "2026-05-27",
+        "content_type": "原创"
     },
 ]
 
 def generate_article_md(article_info):
     """生成单篇文章的Markdown内容"""
     today = datetime.now().strftime("%Y-%m-%d")
-    title = article_info["title"]
+
+    # 使用CTR标题生成函数生成高点击率标题
+    title = generate_ctr_title(article_info)
     desc = article_info["desc"]
     category = article_info["category"]
     tags = article_info["tags"]
     article_type = article_info["type"]
-    
-    # 生成文件名
-    safe_title = title.replace("2026年", "").replace(" ", "-")[:40]
+
+    # 新增字段：信源标注和文章类型（补救质量短板）
+    source_url = article_info.get("source_url", "https://gk.edu-sjtu.cn")
+    source_date = article_info.get("source_date", today)
+    content_type = article_info.get("content_type", "原创")
+
+    # 生成文件名（使用原标题的safe版本，避免CTR标题中的特殊字符）
+    original_title = article_info["title"]
+    safe_title = original_title.replace("2026年", "").replace(" ", "-")[:40]
     filename = f"{today}-{safe_title}.md"
     
     # Frontmatter (注意description使用日文引号避免YAML错误)
@@ -100,16 +406,44 @@ date: "{today}"
 category: "{category}"
 tags: {json.dumps(tags, ensure_ascii=False)}
 author: "公考助手"
+source_url: "{source_url}"
+source_date: "{source_date}"
+content_type: "{content_type}"
 ---
 
 """
     
     # 正文内容 (1500+字)
-    content = f"""# {title}
+    # 添加内容类型标签和时效性提示
+    content_type_badge = ""
+    if content_type == "原创":
+        content_type_badge = "【原创】"
+    elif content_type == "转载":
+        content_type_badge = "【转载】"
+    elif content_type == "学员分享":
+        content_type_badge = "【学员分享】"
+    
+    content = f"""# {title} {content_type_badge}
 
 > {desc}
 
-## 一、核心概述
+"""
+    
+    # 添加时效性提示（超过90天的文章）
+    try:
+        from datetime import datetime as dt
+        article_date = dt.strptime(source_date, "%Y-%m-%d")
+        days_old = (dt.now() - article_date).days
+        if days_old > 90:
+            content += f"""<div class="timeliness-warning">
+⚠️ **时效性提示**：本文发布于 {source_date}，距今已 {days_old} 天，部分信息可能已过时。建议您同时参考最新公告和资料。
+</div>
+
+"""
+    except:
+        pass
+    
+    content += f"""## 一、核心概述
 
 公考备考是一个系统性工程，需要考生从多个维度进行充分准备。无论是国考、省考还是事业单位考试，都有其独特的命题规律和备考策略。本文将围绕「{title.replace('2026年', '')}」这一主题，为考生提供全面、深入的解析。
 
@@ -274,7 +608,17 @@ author: "公考助手"
 ---
 *本文仅供参考，具体信息以官方公告为准。*
 """
-    
+
+    # ========== 添加FAQ章节（结构化数据）==========
+    faq_list = extract_faq_from_content(content + " " + desc)
+    if faq_list:
+        faq_section = generate_faq_section(faq_list)
+        content += "\n" + faq_section
+
+    # ========== 添加CTA行动号召区块 ==========
+    cta_section = generate_cta_section(category, content_type)
+    content += "\n" + cta_section
+
     return filename, frontmatter + content
 
 
@@ -283,6 +627,14 @@ def main():
     print("公考SEO文章自动生成脚本 v3")
     print("=" * 60)
     print()
+    
+    # 构建文章索引（用于内链匹配）
+    article_index = []
+    if INTERNAL_LINK_ENABLED:
+        print("正在构建文章索引...")
+        article_index = build_article_index()
+        print(f"索引完成，共 {len(article_index)} 篇文章")
+        print()
     
     generated = []
     
@@ -301,6 +653,52 @@ def main():
         if output_path.exists():
             print(f"  跳过（已存在）: {filename}")
             continue
+        
+        # 如果启用了内链功能，添加相关阅读链接
+        if INTERNAL_LINK_ENABLED and article_index:
+            # 构造新文章信息
+            new_article_info = {
+                'title': article['title'],
+                'category': article['category'],
+                'tags': article['tags'],
+                'date': datetime.now().strftime("%Y-%m-%d"),
+                'path': str(output_path)
+            }
+            
+            # 找到相关文章（排除自己）
+            related = find_related_articles(
+                new_article_info, 
+                article_index, 
+                max_links=3,
+                exclude_path=str(output_path)
+            )
+            
+            if related:
+                # 生成相关阅读章节
+                related_section = generate_related_links_section(new_article_info, related)
+                
+                # 插入到文章内容中（在总结章节前）
+                patterns = [
+                    r'(## 四、总结与建议)',
+                    r'(## 三、总结与建议)',
+                    r'(## 总结)',
+                    r'(---\n\*本文仅供参考)',
+                ]
+                
+                inserted = False
+                for pattern in patterns:
+                    match = re.search(pattern, content)
+                    if match:
+                        pos = match.start()
+                        content = content[:pos] + related_section + "\n" + content[pos:]
+                        inserted = True
+                        break
+                
+                # 如果没找到合适位置，追加到末尾
+                if not inserted:
+                    content += "\n" + related_section
+                
+                print(f"  已添加 {len(related)} 篇相关阅读链接")
         
         # 写入文件
         output_path.write_text(content, encoding="utf-8")

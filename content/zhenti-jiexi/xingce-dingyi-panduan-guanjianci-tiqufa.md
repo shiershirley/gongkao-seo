@@ -1,90 +1,185 @@
 ---
-title: "行测定义判断真题解析：关键词提取法"
-description: "定义判断怎么做？先找关键词再比对选项，这个方法简单实用。"
+title: ""
+description: ""
 date: "2026-04-27"
 category: "zhenti-jiexi"
-tags: ["行测定义判断", "关键词提取", "解题技巧", "真题解析"]
-author: "公考资讯站"
+tags: ["", "", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/zhenti-jiexi/"
+source_date: "2026-04-27"
+content_type: ""
 ---
 
-# 行测定义判断真题解析：关键词提取法
+#  
 
-定义判断题目通常比较长，但别被长度吓到。这类题有个窍门：先从定义里把关键词揪出来，然后拿这些关键词去比对选项，符合的就是正确答案。
 
-## 一、怎么找关键词
 
-定义里通常包含几类关键词：
+## 
 
-| 关键词类型 | 例子 |
+
+
+|  |  |
 |------------|------|
-| 谁来做（主客体） | 行政机关、企业、个人 |
-| 怎么做（方式） | 通过...手段、采用...方法 |
-| 为了什么（目的） | 为了...、以...为目的 |
-| 在什么情况下（条件） | 在...情况下、只要...就 |
-| 结果是什么 | 导致了...、造成了... |
+|  |  |
+|  | ...... |
+|  | ...... |
+|  | ...... |
+|  | ...... |
 
-## 二、解题步骤
+## 
 
-1. **读定义，把关键词标出来**
-2. **拿每个关键词去对照选项**
-3. **完全符合的才是正确答案**
-4. **缺任何一个关键词都不行**
+1. ****
+2. ****
+3. ****
+4. ****
 
-## 三、真题演示
+## 
 
-> **【2024年国考真题】** 行政强制执行：公民、法人或其他组织不履行行政决定确定的义务时，行政机关依法采取强制措施，迫使其履行义务或达到与履行义务相同状态的行为。
+> **2024** 
 
-**找关键词：**
-- 主体：行政机关
-- 对象：不履行义务的公民、法人或其他组织
-- 前提：不履行行政决定确定的义务
-- 手段：采取强制措施
-- 目的：迫使履行义务
+****
+- 
+- 
+- 
+- 
+- 
 
-> 某公司逾期不缴纳罚款，环保局依法查封其设备。属于行政强制执行吗？
+> 
 
-**分析：**
-- 查封设备是强制措施 ✓
-- 目的是迫使其履行义务 ✓
-- 由行政机关（环保局）实施 ✓
+****
+-  
+-  
+-  
 
-**答案：属于**
+****
 
-## 四、常见陷阱
+## 
 
-### 陷阱1：主体不对
+### 1
 
-> 定义：消费者是为生活消费需要而购买、使用商品的人。
-> 选项：某企业购买办公电脑自用
+> 
+> 
 
-企业不是消费者，主体不符。
 
-### 陷阱2：条件不符
 
-> 定义：累犯是指被判处有期徒刑以上，执行完毕后五年内又犯罪。
-> 选项：甲被判处2年，执行完毕后第6年又犯罪
+### 2
 
-第6年，不满足“五年内”这个条件。
+> 
+> 26
 
-### 陷阱3：关系搞反
+6“”
 
-> 定义：故意杀人是故意非法剥夺他人生命的行为。
-> 选项：医生在病人同意下结束其生命
+### 3
 
-“非法”这个关键词不满足。
+> 
+> 
 
-## 五、秒杀技巧
+“”
 
-1. **先看主客体**——主体不对直接排除
-2. **注意限定词**——时间、地点、程度等限定词很重要
-3. **理解但不选**——符合常识但不符合定义的不选
-4. **选最优**——几个都部分符合时，选最完整的
+## 
 
-## 六、备考建议
+1. ****——
+2. ****——
+3. ****——
+4. ****——
 
-1. 熟悉常见的法律、管理概念
-2. 练习提取关键词，养成习惯
-3. 注意定义里的每个词
-4. 一道题控制在40秒以内
+## 
 
-定义判断只要方法对了，准确率可以很高！
+1. 
+2. 
+3. 
+4. 40
+
+
+
+## 
+
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-pandui-tuili-luoji-panduan-jieti/)
+- [5](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-yanyu-zhuti-gainakuai-jieti/)
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/shengkao-xingce-tuxiang-tuili-guilu-shibie-jiqiao/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 
+
+
+
+### 3. 
+
+
+
+### 4. > 
+
+> 
+
+### 5. 
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "> ",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "> "
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'>[] [5 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

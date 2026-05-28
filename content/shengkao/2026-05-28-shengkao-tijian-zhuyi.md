@@ -1,13 +1,13 @@
 ---
-title: "省考体检注意事项与常见问题解答"
-description: "系统梳理省考体检标准、流程和注意事项，解答考生最关心的体检问题，帮助考生顺利通过这最后一道关卡。"
+title: 省考体检注意事项与常见问题解答
+description: 系统梳理省考体检标准、流程和注意事项，解答考生最关心的体检问题，帮助考生顺利通过这最后一道关卡。
 date: "2026-05-28"
 category: shengkao
 tags: ["省考", "体检标准", "注意事项", "常见问题", "体检攻略"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 省考体检注意事项与常见问题解答

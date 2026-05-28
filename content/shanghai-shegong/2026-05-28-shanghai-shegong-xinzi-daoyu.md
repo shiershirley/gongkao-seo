@@ -1,13 +1,13 @@
 ---
-title: "上海社工薪资待遇详解与福利政策全解析"
-description: "全面解析上海社区工作者的薪资构成、福利待遇及各区差异，帮助考生了解岗位实际情况，做出理性报考决策。"
+title: 上海社工薪资待遇详解与福利政策全解析
+description: 全面解析上海社区工作者的薪资构成、福利待遇及各区差异，帮助考生了解岗位实际情况，做出理性报考决策。
 date: "2026-05-28"
-category: shanghai-shegong
+category: "shanghai-shegong"
 tags: ["上海社工", "薪资待遇", "福利政策", "各区差异", "职业选择"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 上海社工薪资待遇详解与福利政策全解析

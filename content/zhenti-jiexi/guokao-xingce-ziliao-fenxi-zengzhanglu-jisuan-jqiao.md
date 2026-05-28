@@ -1,71 +1,74 @@
 ---
-title: "国考行测资料分析真题解析：增长率计算技巧"
-description: "资料分析增长率怎么算？同比环比怎么分？这篇文章用真题手把手教你。"
+title: ""
+description: ""
 date: "2026-04-21"
 category: "zhenti-jiexi"
-tags: ["国考行测", "资料分析", "增长率", "计算技巧", "真题解析"]
-author: "公考资讯站"
+tags: ["", "", "", "", ""]
+author: ""
+source_url: "https://gk.edu-sjtu.cn/zhenti-jiexi/"
+source_date: "2026-04-21"
+content_type: ""
 ---
 
-# 国考行测资料分析真题解析：增长率计算技巧
+#  
 
-资料分析是行测里相对好拿分的模块，但前提是你得会算。增长率几乎是必考的，今天就来把这个知识点讲透。
 
-## 一、基本公式
 
-**增长率 = (现期量 - 基期量) ÷ 基期量 × 100%**
+## 
 
-简单记就是：增长了多少，除以原来的基数。
+** = ( - ) ÷  × 100%**
 
-考试时常用变形：
-- 现期量 = 基期量 × (1 + 增长率)
-- 基期量 = 现期量 ÷ (1 + 增长率)
 
-## 二、同比和环比要分清
 
-| 类型 | 什么意思 | 对比基准 |
+
+-  =  × (1 + )
+-  =  ÷ (1 + )
+
+## 
+
+|  |  |  |
 |------|----------|----------|
-| 同比 | 和去年同一时期比 | 去年这个时候 |
-| 环比 | 和上一个周期比 | 上个月/上个季度 |
+|  |  |  |
+|  |  | / |
 
-> **【2024年国考真题】** 2023年一季度营收27.2亿元，二季度营收29.1亿元。二季度环比增长多少？
+> **2024** 202327.229.1
 
-环比增长率 = (29.1-27.2)÷27.2 ≈ 7%
+ = (29.1-27.2)÷27.2 ≈ 7%
 
-## 三、复合增长率（年均增长率）
+## 
 
-有时候题目会问“年均增长多少”，这时候要用复合增长率的公式：
+“”
 
-**末期值 = 初期值 × (1+r)ⁿ**
+** =  × (1+r)ⁿ**
 
-其中r是年均增长率，n是年份数。
+rn
 
-> **【2023年国考真题】** 某公司2019年产值100万，2023年144万。求年均增长率。
+> **2023** 20191002023144
 
-解法：
+
 - 144 = 100 × (1+r)⁴
 - (1+r)⁴ = 1.44
 - r ≈ 9.5%
 
-**技巧：** 记住这些常见数：
-- 1.1² = 1.21（10%两年）
-- 1.2² = 1.44（20%两年）
+**** 
+- 1.1² = 1.2110%
+- 1.2² = 1.4420%
 
-## 四、速算方法
+## 
 
-### 直除法
+### 
 
-分子分母同时除以分母，保留两位小数就行。
 
-### 放缩法
 
-把数字放大缩小到好算的数值，再比较大小。
+### 
 
-### 特殊分数法
 
-有些增长率可以用分数来记：
 
-| 增长率 | 相当于1/n |
+### 
+
+
+
+|  | 1/n |
 |--------|-----------|
 | 50% | 1/2 |
 | 33.3% | 1/3 |
@@ -73,11 +76,103 @@ author: "公考资讯站"
 | 20% | 1/5 |
 | 10% | 1/10 |
 
-## 五、做题提醒
+## 
 
-1. 先看清是同比还是环比，别搞混
-2. 单位要统一
-3. 增长率有正有负，下降就是负增长
-4. 估算题先排除明显不对的选项
+1. 
+2. 
+3. 
+4. 
 
-资料分析多练练速算，速度和准确率都能提上来！
+
+
+## 
+
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-pandui-tuili-luoji-panduan-jieti/)
+- [](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-shuliang-guanxi-gongcheng-wenti-jieti/)
+- [5](https://gk.edu-sjtu.cn/zhenti-jiexi/guokao-xingce-yanyu-zhuti-gainakuai-jieti/)
+
+
+
+## FAQ
+
+### 1. 
+
+
+
+### 2. 
+
+
+
+### 3. > **2024** 202327.229.1
+
+> **2024** 202327.229.1
+
+### 4. 
+
+
+
+### 5. 
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "> **2024** 202327.229.1",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "> **2024** 202327.229.1"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": ""
+      }
+    }
+  ]
+}
+</script>
+
+
+
+<div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
+  <h3 style="margin-top: 0; color: #1890ff;"> </h3>
+  <ul style="list-style: none; padding-left: 0;">
+    <li style='margin: 10px 0;'>[] [5 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
+    <li style='margin: 10px 0;'> [ →](https://gk.edu-sjtu.cn/beikao-zhinan/)</li>
+  </ul>
+</div>

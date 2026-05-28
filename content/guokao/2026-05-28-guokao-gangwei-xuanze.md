@@ -1,13 +1,13 @@
 ---
-title: "国考岗位选择策略与报考技巧全攻略"
-description: "系统讲解国考职位表解读方法、岗位选择黄金法则和避坑指南，帮助考生选出最适合自己的岗位，提高录取概率。"
+title: 国考岗位选择策略与报考技巧全攻略
+description: 系统讲解国考职位表解读方法、岗位选择黄金法则和避坑指南，帮助考生选出最适合自己的岗位，提高录取概率。
 date: "2026-05-28"
 category: guokao
 tags: ["国考", "岗位选择", "报考技巧", "职位表", "竞争分析"]
 author: 公考助手
-source_url: ""
-source_date: ""
-content_type: "原创"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "2026-05-28"
+content_type: 原创
 ---
 
 # 国考岗位选择策略与报考技巧全攻略
