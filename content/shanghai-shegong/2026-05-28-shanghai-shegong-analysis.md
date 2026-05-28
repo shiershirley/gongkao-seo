@@ -7,13 +7,10 @@ tags: ["上海社工报名", "竞争比例", "报名人数", "2026趋势"]
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 原创
+content_type: article
 ---
 
 # 上海社工报名人数统计2026：各区竞争比与招录趋势分析
-
-![](/images/lib/gov/gov_v20_069.jpg)
-![](/images/lib/people/people_v22_033.jpg)
 
 上海社区工作者报名是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 

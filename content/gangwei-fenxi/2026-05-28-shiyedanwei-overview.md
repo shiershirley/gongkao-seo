@@ -7,13 +7,10 @@ tags: ["事业单位", "综合管理岗", "岗位职责", "能力要求"]
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 原创
+content_type: article
 ---
 
 # 事业单位综合管理岗2026：岗位职责与能力要求全面解读
-
-![](/images/lib/office/office_v23_152.jpg)
-![](/images/lib/people/office_people_px.jpg)
 
 事业单位招聘是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 

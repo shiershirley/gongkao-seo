@@ -1,20 +1,18 @@
 ---
-title: 公考备考工具全指南2026：数字化工具助力高效上岸
-description: 2026年公考备考数字化工具全面评测，在线题库、学习APP、备考工具对比分析，助力考生高效备考、科学上岸。
+title: 公考面试礼仪全指南2026：着装、言行、细节决定成败
+description: 2026年公考面试礼仪全面指南，从着装选择、言行举止到细节把控，全方位提升面试形象，增加上岸成功率。
 date: "2026-05-28"
 category: "beikao-zhinan"
-tags: ["公考备考", "备考工具", "在线题库", "学习APP"]
+tags: ["公考面试", "面试礼仪", "着装要求", "言行规范"]
 author: 公考助手
 source_url: "https://gk.edu-sjtu.cn"
 source_date: "2026-05-28"
-content_type: 原创
+content_type: article
 ---
 
-# 公考备考工具全指南2026：数字化工具助力高效上岸
+# 公考面试礼仪全指南2026：着装、言行、细节决定成败
 
-
-![](/images/lib/study/laptop_px_2.jpg)
-![](/images/lib/books/books_v20_120.jpg)
+公考面试是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
 
 
