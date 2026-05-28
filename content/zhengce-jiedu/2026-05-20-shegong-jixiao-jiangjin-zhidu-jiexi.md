@@ -1,5 +1,5 @@
 ---
-title: 2026
+title: "2026"
 description: 2026KPI
 date: "2026-05-20"
 category: "zhengce-jiedu"

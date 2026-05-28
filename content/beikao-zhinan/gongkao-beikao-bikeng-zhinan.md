@@ -1,6 +1,6 @@
 ---
 title: "90%10"
-description: 10
+description: "10"
 date: "2026-04-18"
 category: "beikao-zhinan"
 tags: ["备考指南"]

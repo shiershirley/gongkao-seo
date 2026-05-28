@@ -1,5 +1,5 @@
 ---
-title: 2026
+title: "2026"
 description: "85%"
 date: "2026-05-21"
 category: "shanghai-shegong"

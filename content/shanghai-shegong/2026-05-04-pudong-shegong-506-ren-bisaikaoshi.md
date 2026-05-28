@@ -1,5 +1,5 @@
 ---
-title: 506
+title: "506"
 description: "2026506192:15"
 date: "2026-05-04"
 category: "shanghai-shegong"

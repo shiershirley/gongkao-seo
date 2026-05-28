@@ -1,6 +1,6 @@
 ---
-title: 50
-description: 50
+title: "50"
+description: "50"
 date: "2026-05-20"
 category: "zhenti-jiexi"
 tags: ["备考指南"]

@@ -1,6 +1,6 @@
 ---
-title: 2026
-description: 20262026
+title: "2026"
+description: "20262026"
 date: "2026-05-22"
 category: shengkao
 tags: ["2026"]

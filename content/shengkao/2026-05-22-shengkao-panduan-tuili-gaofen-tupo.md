@@ -1,6 +1,6 @@
 ---
 title: 
-description: 30
+description: "30"
 date: "2026-05-22"
 category: shengkao
 tags: ["备考指南"]

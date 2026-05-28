@@ -1,6 +1,6 @@
 ---
 title: 10+
-description: 10
+description: "10"
 date: "2026-05-27"
 category: guokao
 tags: ["备考指南"]

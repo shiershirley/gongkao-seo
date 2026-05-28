@@ -1,6 +1,6 @@
 ---
 title: ≠
-description: 2026
+description: "2026"
 date: "2026-05-05"
 category: shengkao
 tags: ["2026"]

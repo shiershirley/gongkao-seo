@@ -1,6 +1,6 @@
 ---
-title: 2026
-description: 40452026
+title: "2026"
+description: "40452026"
 date: "2026-05-08"
 category: "zhengce-jiedu"
 tags: ["40"]

@@ -1,5 +1,5 @@
 ---
-title: 10
+title: "10"
 description: 
 date: "2026-05-26"
 category: shengkao

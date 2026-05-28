@@ -1,5 +1,5 @@
 ---
-title: 6000
+title: "6000"
 description: "6000-800040"
 date: "2026-05-04"
 category: "zhenti-jiexi"

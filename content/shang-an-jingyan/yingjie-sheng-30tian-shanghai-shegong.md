@@ -1,6 +1,6 @@
 ---
-title: 30
-description: 30
+title: "30"
+description: "30"
 date: "2026-04-21"
 category: "shang-an-jingyan"
 tags: ["30"]

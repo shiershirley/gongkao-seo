@@ -1,6 +1,6 @@
 ---
 title: "2026425-28"
-description: 2026425428
+description: "2026425428"
 date: "2026-04-28"
 category: shengkao
 tags: ["2026"]

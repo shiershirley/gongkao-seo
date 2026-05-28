@@ -1,5 +1,5 @@
 ---
-title: 2026
+title: "2026"
 description: "20269-112026"
 date: "2026-05-19"
 category: "beikao-zhinan"

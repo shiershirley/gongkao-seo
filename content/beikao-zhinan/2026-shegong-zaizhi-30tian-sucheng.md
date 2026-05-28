@@ -1,6 +1,6 @@
 ---
-title: 30
-description: 30
+title: "30"
+description: "30"
 date: "2026-05-20"
 category: "beikao-zhinan"
 tags: ["30"]

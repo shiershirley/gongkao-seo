@@ -1,5 +1,5 @@
 ---
-title: 6
+title: "6"
 description: "63-4"
 date: "2026-04-22"
 category: "beikao-zhinan"

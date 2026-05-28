@@ -1,5 +1,5 @@
 ---
-title: 2026
+title: "2026"
 description: 2026A
 date: "2026-05-21"
 category: "gangwei-fenxi"

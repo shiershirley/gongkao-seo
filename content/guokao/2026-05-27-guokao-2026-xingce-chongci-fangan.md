@@ -1,6 +1,6 @@
 ---
-title: 2026306075
-description: 20266030
+title: "2026306075"
+description: "20266030"
 date: "2026-05-27"
 category: guokao
 tags: ["30", "6075", "2026"]

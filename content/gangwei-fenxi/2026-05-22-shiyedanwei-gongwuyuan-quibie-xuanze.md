@@ -1,6 +1,6 @@
 ---
-title: 2026
-description: 2026
+title: "2026"
+description: "2026"
 date: "2026-05-22"
 category: "gangwei-fenxi"
 tags: ["2026", "vs"]

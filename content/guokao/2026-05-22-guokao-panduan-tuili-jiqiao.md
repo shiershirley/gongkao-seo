@@ -1,5 +1,5 @@
 ---
-title: 2026
+title: "2026"
 description: 4035+75
 date: "2026-05-22"
 category: guokao
