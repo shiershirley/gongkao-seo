@@ -14,6 +14,8 @@ content_type: article
 
 公考面试是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
+![](/images/lib/motivation/m3_1.jpg)
+![](/images/lib/study/classroom_1.jpg)
 
 
 ## 一、2026年公考备考数字化工具全景
