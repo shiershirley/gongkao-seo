@@ -76,7 +76,7 @@
 
 - commit格式：`content: auto publish articles YYYY-MM-DD HH:MM (N articles)`
 - **已知问题**：GitHub网络不稳定，push常失败。commit成功后需多次重试push，或网络恢复后手动推送
-- **当前状态（2026-05-28）**：GitHub推送正常。此前积累的未推送commits已随构建修复一起推送成功。图片选取改用Python subprocess + JSON文件方式（避免PowerShell编码问题）
+- **当前状态（2026-05-28 14:06）**：GitHub推送再次失败，错误为`fatal: could not read Username for 'https://github.com': terminal prompts disabled`。此前13:21批次推送正常，但14:06批次（seo-8-00-2）推送失败。建议改用SSH密钥认证替代HTTPS。
 
 ## 自动化任务列表
 
