@@ -47,37 +47,43 @@ def save_usage_log(log):
         json.dump(log, f, ensure_ascii=False, indent=2)
 
 def get_available_images(category, count=2, days=10):
-    """选取指定分类的未最近使用的图片"""
+    """选取指定分类的未最近使用的图片，不足时自动放宽限制"""
     log = load_usage_log()
     usage = log.get("usage", {})
     from datetime import timedelta
-    cutoff = datetime.now() - timedelta(days=days)
     
     themes = CATEGORY_IMAGE_MAP.get(category, ["study", "exam"])
-    available = []
     
-    for theme in themes:
-        theme_dir = IMAGE_LIB / theme
-        if not theme_dir.exists():
-            continue
-        for f in theme_dir.iterdir():
-            if f.suffix.lower() not in (".jpg", ".jpeg", ".png", ".webp"):
+    # 尝试不同天数限制：10天 -> 5天 -> 1天 -> 0天
+    for try_days in [days, 5, 1, 0]:
+        cutoff = datetime.now() - timedelta(days=try_days)
+        available = []
+        
+        for theme in themes:
+            theme_dir = IMAGE_LIB / theme
+            if not theme_dir.exists():
                 continue
-            rel = f"/images/lib/{theme}/{f.name}"
-            recently = False
-            if rel in usage:
-                try:
-                    last = datetime.strptime(usage[rel], "%Y-%m-%d")
-                    if last > cutoff:
-                        recently = True
-                except:
-                    pass
-            if not recently:
-                available.append(rel)
+            for f in theme_dir.iterdir():
+                if f.suffix.lower() not in (".jpg", ".jpeg", ".png", ".webp"):
+                    continue
+                rel = f"/images/lib/{theme}/{f.name}"
+                recently = False
+                if rel in usage:
+                    try:
+                        last = datetime.strptime(usage[rel], "%Y-%m-%d")
+                        if last > cutoff:
+                            recently = True
+                    except:
+                        pass
+                if not recently:
+                    available.append(rel)
+        
+        if len(available) >= count:
+            return random.sample(available, count)
+        elif available:
+            return available[:count]
     
-    if len(available) >= count:
-        return random.sample(available, count)
-    return available[:count] if available else []
+    return []
 
 def generate_body_by_category(category, angle, keyword, title, tags):
     """根据分类和角度生成正文内容 - 统一接口"""

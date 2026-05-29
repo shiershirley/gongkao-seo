@@ -14,6 +14,9 @@ content_type: "原创"
 
 公考备考工具是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
+![](/images/lib/study/contract_signing.jpg)
+![](/images/lib/study/laptop_study_2.jpg)
+
 
 
 ## 一、2026年公考备考数字化工具全景
