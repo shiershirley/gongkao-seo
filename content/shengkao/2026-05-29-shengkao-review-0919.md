@@ -14,6 +14,8 @@ content_type: article
 
 省考联考是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
+![](/images/lib/books/b8_2.jpg)
+![](/images/lib/exam/conference_hall.jpg)
 
 
 ## 一、2026年多省联考整体格局
