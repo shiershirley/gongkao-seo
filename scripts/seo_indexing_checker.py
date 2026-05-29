@@ -293,13 +293,13 @@ class SEOIndexingChecker:
 
             # 2. 搜索引擎实时检查（逐篇检查，间隔避免被封）
             bing_result = self.check_indexing_bing(url)
-            time.sleep(2)
+            time.sleep(0.5)
 
             baidu_result = self.check_indexing_baidu(url)
-            time.sleep(2)
+            time.sleep(0.5)
 
             google_result = self.check_indexing_google(url)
-            time.sleep(2)
+            time.sleep(0.5)
 
             results[url] = {
                 "in_sitemap": in_sitemap,
