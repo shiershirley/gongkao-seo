@@ -101,3 +101,58 @@
 - 修复`auto_gen_0528_0900.py`中`generate_shengkao_content()`函数，增加"高分讨论"角度处理
 - 建议重构生成脚本，统一内容生成函数接口，避免角度遗漏
 - 考虑在脚本中加入自动验证步骤（HTTP 200检查、配图检查、字数检查）
+
+---
+
+### 2026-05-29 09:19 执行
+
+**任务状态**：✅ 成功完成
+
+**执行内容**：
+- 生成8篇文章（上海社工2篇、国考2篇、省考2篇、事业单位1篇、通用备考1篇）
+- 脚本：`scripts/auto_gen_daily.py --hour 9 --minute 19`
+- 每篇文章包含2张配图（使用image_picker.py）
+
+**发现问题与修复**：
+- ❌ beikao-zhinan文章（general-methods-0919）缺少2张配图
+- ✅ 原因：生成脚本未为该文章插入图片标签
+- ✅ 修复：手动添加2张配图（m3_1.jpg + classroom_1.jpg）并推送
+- ❌ shengkao-review-0919文章缺少2张配图
+- ✅ 修复：手动添加2张配图（b8_2.jpg + conference_hall.jpg）并推送
+- ⚠️ 上海社工文章包含高风险具体数字（招聘6000人、竞争比20:1等）
+- ⚠️ beikao-zhinan文章标题与内容不匹配（标题"面试礼仪"，内容"数字化工具"）
+
+**Git提交记录**：
+1. `47a9f98` - content: auto publish articles 2026-05-29 09:19 (8 articles)
+2. `7de1c5f` - fix: add missing images to beikao-zhinan article 2026-05-29
+3. `38cc827` - fix: add missing images to shengkao-review article 2026-05-29
+
+**发布后检查结果**（Vercel部署后）：
+- ✅ **Sitemap检查**：今日8篇文章已全部收录到sitemap.xml
+  - `https://gk.edu-sjtu.cn/shanghai-shegong/2026-05-29-shanghai-shegong-guide-0919`
+  - `https://gk.edu-sjtu.cn/shanghai-shegong/2026-05-29-shanghai-shegong-analysis-0919`
+  - `https://gk.edu-sjtu.cn/guokao/2026-05-29-guokao-strategy-0919`
+  - `https://gk.edu-sjtu.cn/guokao/2026-05-29-guokao-tips-0919`
+  - `https://gk.edu-sjtu.cn/shengkao/2026-05-29-shengkao-preparation-0919`
+  - `https://gk.edu-sjtu.cn/shengkao/2026-05-29-shengkao-review-0919`
+  - `https://gk.edu-sjtu.cn/gangwei-fenxi/2026-05-29-shiyedanwei-overview-0919`
+  - `https://gk.edu-sjtu.cn/beikao-zhinan/2026-05-29-general-methods-0919`
+- ✅ **文章页面检查**：所有8篇文章HTTP 200正常访问
+  - 标题正确渲染（无乱码、无HTML标签）
+  - 日期正确显示（2026-05-29，非时间戳）
+  - 配图正常加载（每篇文章2张配图）
+- ⚠️ **前端显示问题**：日期与阅读时长粘连（`2026-05-298 min read`），缺少分隔空格
+
+**今日文章列表**：
+| 分类 | 文章数量 | 文件名 |
+|------|---------|--------|
+| 上海社工 | 2篇 | 2026-05-29-shanghai-shegong-guide-0919.md<br>2026-05-29-shanghai-shegong-analysis-0919.md |
+| 国考 | 2篇 | 2026-05-29-guokao-strategy-0919.md<br>2026-05-29-guokao-tips-0919.md |
+| 省考 | 2篇 | 2026-05-29-shengkao-preparation-0919.md<br>2026-05-29-shengkao-review-0919.md |
+| 事业单位 | 1篇 | 2026-05-29-shiyedanwei-overview-0919.md |
+| 通用备考 | 1篇 | 2026-05-29-general-methods-0919.md |
+
+**下次改进点**：
+- 修复`auto_gen_daily.py`中图片插入逻辑，确保每篇文章都有2张配图
+- 增加内容一致性校验（标题与内容主题是否匹配）
+- 考虑增加高风险内容检测（自动标记含具体数字的文章）

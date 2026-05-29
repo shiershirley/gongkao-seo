@@ -1594,11 +1594,11 @@ def get_articles_for_batch(hour, minute):
         },
         {
             "filename": f"guokao/{date_str}-guokao-tips-{batch_id}.md",
-            "title": "国考行测高频考点2026：近5年真题数据分析与命题趋势",
-            "keyword": "国考行测",
+            "title": "国考行测言语理解模块2026：正确率85%实战方法与训练计划",
+            "keyword": "国考行测言语理解",
             "category": "guokao",
-            "tags": ["国考行测", "高频考点", "真题分析", "命题趋势"],
-            "description": "2026年国考行测高频考点深度解析，基于近5年真题数据分析，总结命题规律、高频考点分布及2026年备考重点。",
+            "tags": ["国考行测", "言语理解", "高分技巧", "实战方法"],
+            "description": "2026年国考行测言语理解模块深度解析，片段阅读、逻辑填空、语句表达三大题型实战方法与85%正确率训练计划。",
             "content_angle": "高分行测"
         },
         # 省考 2篇
@@ -1633,12 +1633,12 @@ def get_articles_for_batch(hour, minute):
         # 通用备考 1篇
         {
             "filename": f"beikao-zhinan/{date_str}-general-methods-{batch_id}.md",
-            "title": "公考面试礼仪全指南2026：着装、言行、细节决定成败",
-            "keyword": "公考面试",
+            "title": "公考备考数字化工具全指南2026：从题库到APP的高效备考方案",
+            "keyword": "公考备考工具",
             "category": "beikao-zhinan",
-            "tags": ["公考面试", "面试礼仪", "着装要求", "言行规范"],
-            "description": "2026年公考面试礼仪全面指南，从着装选择、言行举止到细节把控，全方位提升面试形象，增加上岸成功率。",
-            "content_angle": "面试指南"
+            "tags": ["公考备考", "数字化工具", "题库推荐", "学习APP"],
+            "description": "2026年公考备考数字化工具全面指南，涵盖在线题库、学习APP、题库网站、思维导图等高效备考工具评测与使用攻略。",
+            "content_angle": "备考工具"
         }
     ]
     
