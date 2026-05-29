@@ -14,6 +14,9 @@ content_type: "原创"
 
 国考备考攻略是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
+![](/images/lib/exam/exam_v22_093.jpg)
+![](/images/lib/study/study_v21_147.jpg)
+
 
 
 ## 一、国考零基础备考的认知准备

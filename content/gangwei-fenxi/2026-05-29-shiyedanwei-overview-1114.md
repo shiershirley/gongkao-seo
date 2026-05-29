@@ -14,6 +14,9 @@ content_type: "原创"
 
 事业单位招聘是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
+![](/images/lib/tech/tech_v21_073.jpg)
+![](/images/lib/gov/gov_v20_067.jpg)
+
 
 
 ## 一、事业单位岗位分类全景解析

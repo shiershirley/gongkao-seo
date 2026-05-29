@@ -14,6 +14,9 @@ content_type: "原创"
 
 省考面试是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
+![](/images/lib/exam/exam_v18_003.jpg)
+![](/images/lib/office/office_v21_136.jpg)
+
 
 
 ## 一、省考面试形式全景解析
