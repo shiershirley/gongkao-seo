@@ -1539,9 +1539,9 @@ category: "{article_def["category"]}"
 tags: [{tags_str}]
 author: "公考助手"
 description: "{article_def["description"]}"
-source_url: ""
-source_date: ""
-content_type: "article"
+source_url: "https://gk.edu-sjtu.cn"
+source_date: "{date_str}"
+content_type: "原创"
 ---
 
 """
