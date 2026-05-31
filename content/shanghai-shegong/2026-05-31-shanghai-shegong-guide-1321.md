@@ -14,8 +14,8 @@ content_type: "原创"
 
 上海社区工作者招聘是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
-![](/images/lib/exam/exam_v19_072.jpg)
-![](/images/lib/gov/gov_v18_014.jpg)
+![](/images/lib/exam/exam_v20_082.jpg)
+![](/images/lib/office/desk_notebook.jpg)
 
 
 ## 一、2026年上海社区工作者招聘整体概况

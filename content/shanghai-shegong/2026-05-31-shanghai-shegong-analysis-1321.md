@@ -14,8 +14,8 @@ content_type: "原创"
 
 上海社区工作者报名是公考备考中的重要内容，本文将为您详细解析相关知识点和备考策略。
 
-![](/images/lib/office/office_v21_132.jpg)
-![](/images/lib/office/team_work_px.jpg)
+![](/images/lib/people/meeting_people.jpg)
+![](/images/lib/exam/exam_v22_090.jpg)
 
 
 ## 一、2026年上海社工报名人数总体态势
