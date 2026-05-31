@@ -77,3 +77,29 @@
   - ✅ 日期格式正确（frontmatter中date带引号）
   - ✅ 正文内容完整（本地文件检查通过）
 - **生成脚本**：`scripts/auto_gen_daily.py --hour 10 --minute 0`
+
+## 2026-05-30 10:00 执行摘要
+
+- **状态**：生成成功，Git推送失败（网络问题）
+- **文章数**：8篇
+- **分类分布**：shanghai-shegong×2, guokao×2, shengkao×2, gangwei-fenxi×1, beikao-zhinan×1
+- **内容策略**：角度轮换
+  - 上海社工：「2026年上海社区工作者招聘公告：16区招录计划与岗位分析」+「上海社工考试2026：笔试面试内容与合格分数线详解」
+  - 国考：「国考零基础备考攻略2026：从入门到上岸的180天系统规划」+「国考冲刺30天计划2026：行测申论最后阶段提分策略」
+  - 省考：「省考零基础备考180天计划2026：从入门到上岸全程攻略」+「省考面试高分技巧2026：结构化面试与无领导小组讨论制胜策略」
+  - 事业单位（gangwei-fenxi）：「事业单位综合管理岗2026：岗位职责与能力要求全面解读」
+  - 通用备考（beikao-zhinan）：「公考备考数字化工具全指南2026：从题库到APP的高效备考方案」
+- **图片配图**：每篇2张，使用image_picker.py选取，10天内不重复
+- **Frontmatter校验**：新文章无格式错误（validator报告大量历史遗留问题，不影响本次发布；新文章仅有关键词建议，无错误）
+- **Git状态**：
+  - commit成功：`d453c1d`（8篇文章）
+  - 推送失败：`Failed to connect to github.com port 443: Could not connect to server`
+  - **解决方案**：需要用户在本地网络恢复后手动执行 `git push origin main`
+- **线上状态**：
+  - ✅ 首页正常加载（显示之前批次2026-05-30文章）
+  - ✅ Sitemap已有1428个URL
+  - ⚠️ 10:00批次文章尚未推送至线上
+- **待处理**：
+  1. 用户在本地执行推送：`cd d:\AI\task\gongkao-seo && git push origin main`
+  2. 等待Vercel自动部署完成后验证文章页面
+- **生成脚本**：`scripts/auto_gen_daily.py --hour 10 --minute 0`
