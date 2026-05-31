@@ -1,5 +1,45 @@
 # seo-9-15 自动化任务执行记录
 
+## 2026-05-31 09:15 执行记录
+
+**状态**: 成功完成
+
+**生成文章（8篇）**:
+
+| # | 分类 | 标题 | 文件 |
+|---|------|------|------|
+| 1 | shanghai-shegong | 2026年上海社区工作者招聘公告：16区招录计划与岗位分析 | content/shanghai-shegong/2026-05-31-shanghai-shegong-guide-0915.md |
+| 2 | shanghai-shegong | 上海社工报名人数统计2026：各区竞争比与招录趋势分析 | content/shanghai-shegong/2026-05-31-shanghai-shegong-analysis-0915.md |
+| 3 | guokao | 国考零基础备考攻略2026：从入门到上岸的180天系统规划 | content/guokao/2026-05-31-guokao-strategy-0915.md |
+| 4 | guokao | 国考行测言语理解模块2026：正确率85%实战方法与训练计划 | content/guokao/2026-05-31-guokao-tips-0915.md |
+| 5 | shengkao | 省考面试高分技巧2026：结构化面试与无领导小组讨论制胜策略 | content/shengkao/2026-05-31-shengkao-preparation-0915.md |
+| 6 | shengkao | 省考多省联考差异分析2026：各省考情对比与选岗策略 | content/shengkao/2026-05-31-shengkao-review-0915.md |
+| 7 | gangwei-fenxi | 事业单位综合管理岗2026：岗位职责与能力要求全面解读 | content/gangwei-fenxi/2026-05-31-shiyedanwei-overview-0915.md |
+| 8 | beikao-zhinan | 公考备考数字化工具全指南2026：从题库到APP的高效备考方案 | content/beikao-zhinan/2026-05-31-general-methods-0915.md |
+
+**内容比例**: 社工2篇(25%) / 国考2篇(25%) / 省考2篇(25%) / 事业单位1篇(12.5%) / 通用1篇(12.5%) ✓
+
+**配图**: 8篇 x 2张 = 16张，image_picker.py选取，无重复 ✓
+
+**Frontmatter校验**: 通过（仅有"建议"级别关键词覆盖提示，无错误）✓
+
+**Git提交**:
+- Commit: `content: auto publish articles 2026-05-31 09:15 (8 articles)`
+- Commit ID: 492e0de
+- 推送成功 ✓
+
+**发布后检查**:
+- 首页 HTTP 200 ✓
+- 8篇文章全部 HTTP 200 ✓
+- 标题显示正确 ✓
+- 日期格式正确（2026-05-31，非时间戳）✓
+- 配图正常加载（每篇2张）✓
+- Sitemap已收录58个05-31 URL ✓
+
+**备注**: 关键词池P0-P3均已覆盖，采用角度轮换策略生成差异化文章。
+
+---
+
 ## 2026-05-30 09:15 执行记录
 
 **状态**: 成功完成
