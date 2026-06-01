@@ -187,95 +187,136 @@ def generate_faq_section(faq_list, article_url=""):
 # ========== CTA生成函数 ==========
 def generate_cta_section(category, content_type="原创"):
     """
-    根据文章分类生成对应的CTA（行动号召）区块
+    根据文章分类生成对应的CTA（行动号召）区块，包含二维码引导
     """
     cta_templates = {
         "guokao": {
-            "title": "🎯 国考备考资料领取",
+            "title": "[专属] 国考备考资料领取",
             "items": [
-                "📄 [2026国考职位表完整版下载 →](https://gk.edu-sjtu.cn/guokao/)",
-                "📚 [申论高分范文100篇免费领 →](https://gk.edu-sjtu.cn/guokao/)",
-                "🎥 [国考面试1对1辅导预约 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-            ]
+                "[资料] [2026国考职位表完整版下载 →](https://gk.edu-sjtu.cn/guokao/)",
+                "[书籍] [申论高分范文100篇免费领 →](https://gk.edu-sjtu.cn/guokao/)",
+                "[视频] [国考面试1对1辅导预约 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-guokao.png",
+            "qr_title": "扫码领取国考资料包"
         },
         "shengkao": {
-            "title": "📌 省考备考资源",
+            "title": "[专属] 省考备考资源",
             "items": [
-                "📋 [2026省考职位表汇总下载 →](https://gk.edu-sjtu.cn/shengkao/)",
-                "📝 [省考申论万能框架模板 →](https://gk.edu-sjtu.cn/shengkao/)",
-                "💡 [省考历年真题及解析 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
-            ]
+                "[资料] [2026省考职位表汇总下载 →](https://gk.edu-sjtu.cn/shengkao/)",
+                "[书籍] [省考申论万能框架模板 →](https://gk.edu-sjtu.cn/shengkao/)",
+                "[视频] [省考历年真题及解析 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-shengkao.png",
+            "qr_title": "扫码领取省考资料包"
         },
         "shanghai-shegong": {
-            "title": "🏙️ 上海社工专属福利",
+            "title": "[专属] 上海社工专属福利",
             "items": [
-                "📬 [加入上海社工备考群 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
-                "📖 [上海社工考试大纲解读 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
-                "💼 [上海各区社工待遇对比表 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
-            ]
+                "[资料] [加入上海社工备考群 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
+                "[书籍] [上海社工考试大纲解读 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
+                "[视频] [上海各区社工待遇对比表 →](https://gk.edu-sjtu.cn/shanghai-shegong/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-shegong.png",
+            "qr_title": "扫码领取社工备考资料"
         },
         "gangwei-fenxi": {
-            "title": "🏢 事业单位考试助手",
+            "title": "[专属] 事业单位考试助手",
             "items": [
-                "📊 [事业单位职测考情分析 →](https://gk.edu-sjtu.cn/gangwei-fenxi/)",
-                "📚 [事业单位历年真题下载 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
-                "🎯 [事业单位面试技巧大全 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-            ]
+                "[资料] [事业单位职测考情分析 →](https://gk.edu-sjtu.cn/gangwei-fenxi/)",
+                "[书籍] [事业单位历年真题下载 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "[视频] [事业单位面试技巧大全 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-shiyedanwei.png",
+            "qr_title": "扫码领取事业编资料包"
+        },
+        "shiye-dan-wei": {
+            "title": "[专属] 事业单位考试助手",
+            "items": [
+                "[资料] [事业单位职测考情分析 →](https://gk.edu-sjtu.cn/gangwei-fenxi/)",
+                "[书籍] [事业单位历年真题下载 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "[视频] [事业单位面试技巧大全 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-shiyedanwei.png",
+            "qr_title": "扫码领取事业编资料包"
+        },
+        "shiyedanwei": {
+            "title": "[专属] 事业单位考试助手",
+            "items": [
+                "[资料] [事业单位职测考情分析 →](https://gk.edu-sjtu.cn/gangwei-fenxi/)",
+                "[书籍] [事业单位历年真题下载 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "[视频] [事业单位面试技巧大全 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-shiyedanwei.png",
+            "qr_title": "扫码领取事业编资料包"
         },
         "beikao-zhinan": {
-            "title": "📚 备考指南精选",
+            "title": "[专属] 备考指南精选",
             "items": [
-                "⏰ [3个月高效备考计划表 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-                "📖 [零基础备考全攻略 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-                "💪 [公考高分学员经验分享 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
-            ]
+                "[资料] [3个月高效备考计划表 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+                "[书籍] [零基础备考全攻略 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+                "[视频] [公考高分学员经验分享 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-general.png",
+            "qr_title": "扫码领取备考资料"
         },
         "zhengce-jiedu": {
-            "title": "📜 最新政策解读",
+            "title": "[专属] 最新政策解读",
             "items": [
-                "📰 [2026公考最新政策汇总 →](https://gk.edu-sjtu.cn/zhengce-jiedu/)",
-                "🔍 [政策变化对备考的影响 →](https://gk.edu-sjtu.cn/zhengce-jiedu/)",
-                "💡 [如何根据政策调整备考策略 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-            ]
+                "[资料] [2026公考最新政策汇总 →](https://gk.edu-sjtu.cn/zhengce-jiedu/)",
+                "[书籍] [政策变化对备考的影响 →](https://gk.edu-sjtu.cn/zhengce-jiedu/)",
+                "[视频] [如何根据政策调整备考策略 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-general.png",
+            "qr_title": "扫码领取政策解读资料"
         },
         "baokao-gonggao": {
-            "title": "📢 报考公告速递",
+            "title": "[专属] 报考公告速递",
             "items": [
-                "📋 [2026最新报考公告汇总 →](https://gk.edu-sjtu.cn/baokao-gonggao/)",
-                "🔔 [报名入口及流程详解 →](https://gk.edu-sjtu.cn/baokao-gonggao/)",
-                "✅ [报考条件自测工具 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-            ]
+                "[资料] [2026最新报考公告汇总 →](https://gk.edu-sjtu.cn/baokao-gonggao/)",
+                "[书籍] [报名入口及流程详解 →](https://gk.edu-sjtu.cn/baokao-gonggao/)",
+                "[视频] [报考条件自测工具 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-general.png",
+            "qr_title": "扫码获取最新公告提醒"
         },
         "zhenti-jiexi": {
-            "title": "📝 真题解析专区",
+            "title": "[专属] 真题解析专区",
             "items": [
-                "📚 [近5年公考真题汇总 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
-                "🔍 [真题解析及答题技巧 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
-                "💯 [高频考点及命题规律 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-            ]
+                "[资料] [近5年公考真题汇总 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "[书籍] [真题解析及答题技巧 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+                "[视频] [高频考点及命题规律 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-general.png",
+            "qr_title": "扫码领取真题资料"
         },
         "shang-an-jingyan": {
-            "title": "🏆 上岸经验分享",
+            "title": "[专属] 上岸经验分享",
             "items": [
-                "📖 [100+学员上岸经验合集 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
-                "💬 [面试逆袭成功经验 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
-                "🎯 [零基础3个月上岸计划 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
-            ]
+                "[资料] [100+学员上岸经验合集 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+                "[书籍] [面试逆袭成功经验 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+                "[视频] [零基础3个月上岸计划 →](https://gk.edu-sjtu.cn/beikao-zhinan/)",
+            ],
+            "qr_code": "/images/qrcode/qrcode-general.png",
+            "qr_title": "扫码加入上岸交流群"
         },
     }
     
     # 默认CTA（如果没有匹配的分类）
     default_cta = {
-        "title": "🎓 公考备考资料",
+        "title": "[专属] 公考备考资料",
         "items": [
-            "📚 [公考备考全攻略 →](https://gk.edu-sjtu.cn/)",
-            "📝 [历年真题及解析 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
-            "💪 [高分学员经验分享 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
-        ]
+            "[资料] [公考备考全攻略 →](https://gk.edu-sjtu.cn/)",
+            "[书籍] [历年真题及解析 →](https://gk.edu-sjtu.cn/zhenti-jiexi/)",
+            "[视频] [高分学员经验分享 →](https://gk.edu-sjtu.cn/shang-an-jingyan/)",
+        ],
+        "qr_code": "/images/qrcode/qrcode-general.png",
+        "qr_title": "扫码领取备考资料"
     }
     
     cta = cta_templates.get(category, default_cta)
     
+    # 原有CTA区块
     cta_html = f"""
 <div class="cta-section" style="background: #f8f9fa; border-left: 4px solid #1890ff; padding: 20px; margin: 30px 0; border-radius: 4px;">
   <h3 style="margin-top: 0; color: #1890ff;">{cta['title']}</h3>
@@ -285,6 +326,19 @@ def generate_cta_section(category, content_type="原创"):
         cta_html += f"    <li style='margin: 10px 0;'>{item}</li>\n"
     
     cta_html += "  </ul>\n</div>\n"
+    
+    # 二维码区块
+    qr_code = cta.get('qr_code', '/images/qrcode/qrcode-general.png')
+    qr_title = cta.get('qr_title', '扫码领取备考资料')
+    
+    cta_html += f"""
+<div class="qr-section" style="background: #fff; border: 2px dashed #1890ff; padding: 24px; margin: 30px 0; border-radius: 8px; text-align: center;">
+  <h3 style="margin-top: 0; color: #1890ff; font-size: 18px;">{qr_title}</h3>
+  <p style="color: #666; font-size: 14px; margin: 10px 0;">手机扫码，免费领取备考资料包</p>
+  <img src="{qr_code}" alt="{qr_title}" style="width: 180px; height: 180px; margin: 15px auto; display: block; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <p style="color: #999; font-size: 12px; margin-top: 10px;">关注后回复"资料"，自动发送下载链接</p>
+</div>
+"""
     
     return cta_html
 

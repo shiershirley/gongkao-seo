@@ -182,3 +182,11 @@ content_type: 原创
     <li style='margin: 10px 0;'>[] [ →](https://gk.edu-sjtu.cn/zhenti-jiexi/)</li>
   </ul>
 </div>
+
+<div class="qr-section" style="background: #fff; border: 2px dashed #1890ff; padding: 24px; margin: 30px 0; border-radius: 8px; text-align: center;">
+  <h3 style="margin-top: 0; color: #1890ff; font-size: 18px;">扫码领取备考资料</h3>
+  <p style="color: #666; font-size: 14px; margin: 10px 0;">手机扫码，免费领取备考资料包</p>
+  <img src="/images/qrcode/qrcode-general.png" alt="扫码领取备考资料" style="width: 180px; height: 180px; margin: 15px auto; display: block; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <p style="color: #999; font-size: 12px; margin-top: 10px;">关注后回复"资料"，自动发送下载链接</p>
+</div>
+

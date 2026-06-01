@@ -216,3 +216,11 @@ content_type: 原创
 ## 总结
 
 2026年省考面试无论是结构化面试、结构化小组还是无领导小组讨论，核心都在于展示考生的综合素质和岗位匹配度。通过系统的方法学习、大量的模拟训练、及时的总结反思，每位考生都能找到适合自己的高分策略。记住，面试不仅考察知识储备，更考察思维能力、沟通技巧和应变能力。祝愿各位考生在2026年省考面试中发挥出色，顺利上岸！
+
+<div class="qr-section" style="background: #fff; border: 2px dashed #1890ff; padding: 24px; margin: 30px 0; border-radius: 8px; text-align: center;">
+  <h3 style="margin-top: 0; color: #1890ff; font-size: 18px;">扫码领取备考资料</h3>
+  <p style="color: #666; font-size: 14px; margin: 10px 0;">手机扫码，免费领取备考资料包</p>
+  <img src="/images/qrcode/qrcode-general.png" alt="扫码领取备考资料" style="width: 180px; height: 180px; margin: 15px auto; display: block; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <p style="color: #999; font-size: 12px; margin-top: 10px;">关注后回复"资料"，自动发送下载链接</p>
+</div>
+
