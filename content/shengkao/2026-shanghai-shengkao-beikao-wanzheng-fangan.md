@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "2026年上海公务员考试（市考）备考完整方案"
+description: "2026年上海公务员考试全面备考方案，涵盖考试时间、科目、题型、备考规划和选岗策略。"
 date: "2026-04-19"
 category: shengkao
 tags: ["AB"]

@@ -1,5 +1,5 @@
 ---
-title: "5"
+title: "省考进入体检高峰期：5月多省密集组织体检，这些坑千万别踩"
 description: 202651051059——
 date: "2026-05-07"
 category: shengkao

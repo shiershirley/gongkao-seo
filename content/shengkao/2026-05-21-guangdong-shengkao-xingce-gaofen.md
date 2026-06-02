@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026年广东省考行测高分攻略：从备考到临场技巧全解析"
 description: 
 date: "2026-05-21"
 category: shengkao

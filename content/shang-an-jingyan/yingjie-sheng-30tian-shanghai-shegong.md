@@ -1,6 +1,6 @@
 ---
-title: "30"
-description: "30"
+title: "应届生一次上岸社区工作者：零基础备考30天经验"
+description: "应届生零基础备考30天，笔试面试双第一上岸上海社区工作者的完整备考经验和方法总结。"
 date: "2026-04-21"
 category: "shang-an-jingyan"
 tags: ["30"]

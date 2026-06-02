@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "2026年上海社工招聘时间表公布：各区发布公告时间预测"
+description: "汇总预测2026年上海各区社区工作者招聘公告发布时间，帮助考生提前做好准备，制定科学的备考计划。"
 date: "2026-05-27"
 category: "shanghai-shegong"
 tags: ["2026"]

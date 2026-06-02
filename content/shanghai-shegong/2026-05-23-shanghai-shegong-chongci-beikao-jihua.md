@@ -1,6 +1,6 @@
 ---
-title: "30"
-description: "30"
+title: "上海社区工作者考前30天冲刺备考计划详解"
+description: "针对上海社区工作者考试，提供考前30天详细冲刺备考计划，包括每日学习安排、各科目冲刺要点及考前心态调整技巧，助力考生高效备考。"
 date: "2026-05-23"
 category: "shanghai-shegong"
 tags: ["备考指南"]

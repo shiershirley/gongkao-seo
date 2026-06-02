@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026年国考招录数据解读：竞争格局发生了哪些变化"
 description: 20263.81
 date: "2026-04-30"
 category: guokao

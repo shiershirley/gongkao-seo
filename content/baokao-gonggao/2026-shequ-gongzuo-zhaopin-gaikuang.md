@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "2026年社区工作者招聘概况：全国各省市招聘时间与规模预测"
+description: "2026年社区工作者招聘概况全面分析，预测全国各省市招聘时间与规模，帮助考生提前做好报考准备。"
 date: "2026-05-19"
 category: "baokao-gonggao"
 tags: ["2026"]

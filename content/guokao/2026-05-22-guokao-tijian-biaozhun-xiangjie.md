@@ -1,5 +1,5 @@
 ---
-title: ——
+title: "2026 05 22 guokao tijian biaozhun xiangjie"
 description: 
 date: "2026-05-22"
 category: guokao

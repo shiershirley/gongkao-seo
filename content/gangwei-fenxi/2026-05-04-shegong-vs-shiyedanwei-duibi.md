@@ -1,5 +1,5 @@
 ---
-title: vs
+title: "2026 05 04 shegong vs shiyedanwei duibi"
 description: 
 date: "2026-05-04"
 category: "gangwei-fenxi"

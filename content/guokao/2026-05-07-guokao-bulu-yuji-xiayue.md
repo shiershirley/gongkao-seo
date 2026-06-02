@@ -1,5 +1,5 @@
 ---
-title: "5"
+title: "国考补录公告预计5月发布：今年还有多少机会，哪些人能报"
 description: "202652000-4000"
 date: "2026-05-07"
 category: guokao

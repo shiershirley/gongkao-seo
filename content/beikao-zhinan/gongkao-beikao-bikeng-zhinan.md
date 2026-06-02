@@ -1,6 +1,6 @@
 ---
-title: "90%10"
-description: "10"
+title: "公考备考避坑指南：90%考生踩过的10个大坑"
+description: "总结公考备考过程中最常见的10个误区和陷阱，帮助考生少走弯路，高效备考。"
 date: "2026-04-18"
 category: "beikao-zhinan"
 tags: ["备考指南"]

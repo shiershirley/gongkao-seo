@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "上海社区工作者贷款、福利及税费待遇详解"
+description: "全面解读上海社区工作者的住房公积金贷款政策、福利待遇及个人所得税缴纳情况，帮助考生了解真实的工作待遇。"
 date: "2026-05-20"
 category: "shanghai-shegong"
 tags: ["备考指南"]

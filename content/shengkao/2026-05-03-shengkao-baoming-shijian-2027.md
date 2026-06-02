@@ -1,5 +1,5 @@
 ---
-title: "2027"
+title: "2027年省考什么时候报名？基于往年数据的预测"
 description: "202620272027"
 date: "2026-05-03"
 category: shengkao

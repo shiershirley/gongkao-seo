@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "省考申论综合分析题高分技巧（2026年）"
 description: 
 date: "2026-05-23"
 category: shengkao

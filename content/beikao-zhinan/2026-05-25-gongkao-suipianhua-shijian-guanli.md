@@ -1,5 +1,5 @@
 ---
-title: "2"
+title: "公考备考碎片化时间高效利用方法：在职考生每天多挤出2小时"
 description: 
 date: "2026-05-25"
 category: "beikao-zhinan"

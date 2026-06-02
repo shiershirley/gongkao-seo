@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026年省考社区工作者岗位选择指南：如何挑选最适合你的职位"
 description: 
 date: "2026-05-19"
 category: shengkao

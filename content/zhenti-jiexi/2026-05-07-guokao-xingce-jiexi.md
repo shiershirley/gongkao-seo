@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "2026年国考行测真题分析与备考建议"
+description: "2026年国考行测真题有哪些特点？本文分析行测各模块出题规律，提供针对性备考建议，助考生高效冲刺。"
 date: "2026-05-07"
 category: "zhenti-jiexi"
 tags: ["备考指南"]

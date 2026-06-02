@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "2026年公务员考试报名条件全解读"
+description: "2026年公务员考试报名条件详解，涵盖学历要求、年龄限制、户籍规定、专业要求等，帮你判断是否符合报考资格。"
 date: "2026-04-20"
 category: "baokao-gonggao"
 tags: ["备考指南"]

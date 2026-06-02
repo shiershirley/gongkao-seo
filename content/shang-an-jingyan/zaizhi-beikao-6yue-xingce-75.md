@@ -1,6 +1,6 @@
 ---
-title: "675"
-description: "3675"
+title: "在职备考6个月，行测75分上岸市直机关经验分享"
+description: "一位在职考生备考公务员的真实经历：每天3小时、6个月从零基础到行测75分上岸市直机关的完整经验。"
 date: "2026-04-23"
 category: "shang-an-jingyan"
 tags: ["备考指南"]

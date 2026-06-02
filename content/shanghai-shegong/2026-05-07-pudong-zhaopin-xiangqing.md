@@ -1,6 +1,6 @@
 ---
-title: "2026506"
-description: "2026506"
+title: "上海浦东新区2026年社区工作者招聘506人职位详情"
+description: "上海浦东新区2026年招聘社区工作者506人，本文详细介绍招聘职位、各区名额分布及报名注意事项。"
 date: "2026-05-07"
 category: "shanghai-shegong"
 tags: ["备考指南"]

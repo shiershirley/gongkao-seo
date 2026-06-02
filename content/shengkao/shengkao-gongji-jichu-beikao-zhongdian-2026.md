@@ -1,5 +1,5 @@
 ---
-title: +
+title: "shengkao gongji jichu beikao zhongdian 2026"
 description: 
 date: "2026-05-27"
 category: shengkao

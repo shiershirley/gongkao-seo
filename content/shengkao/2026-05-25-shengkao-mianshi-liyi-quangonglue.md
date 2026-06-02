@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026省考面试礼仪全攻略：细节决定成败"
 description: 
 date: "2026-05-25"
 category: shengkao

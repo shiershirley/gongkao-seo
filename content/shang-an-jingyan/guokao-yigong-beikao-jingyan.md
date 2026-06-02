@@ -1,6 +1,6 @@
 ---
-title: "37872"
-description: "3"
+title: "在职备考3个月国考上岸经验分享：行测78分、申论72分"
+description: "一位在职考生分享3个月备考国考的经历，包括学习计划、各模块备考方法、时间管理和考场心态调整技巧。"
 date: "2026-04-11"
 category: "shang-an-jingyan"
 tags: ["备考指南"]

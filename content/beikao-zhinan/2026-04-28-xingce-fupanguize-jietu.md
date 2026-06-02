@@ -1,5 +1,5 @@
 ---
-title: "80"
+title: "行测80分以上选手都在用的复盘方法：做完题之后到底该怎么总结？"
 description: 
 date: "2026-04-28"
 category: "beikao-zhinan"

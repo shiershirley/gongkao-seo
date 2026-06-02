@@ -1,5 +1,5 @@
 ---
-title: ++
+title: "2026 05 22 shengkao xingce shuliang guanxi"
 description: "10—1550%"
 date: "2026-05-22"
 category: shengkao

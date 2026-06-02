@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026国考行测判断推理解题技巧：图形推理与逻辑判断速成指南"
 description: 4035+75
 date: "2026-05-22"
 category: guokao

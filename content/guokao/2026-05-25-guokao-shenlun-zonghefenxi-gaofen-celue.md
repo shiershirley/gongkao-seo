@@ -1,5 +1,5 @@
 ---
-title: "20"
+title: "国考申论综合分析题高分策略：拿下20分的关键方法"
 description: 
 date: "2026-05-25"
 category: guokao

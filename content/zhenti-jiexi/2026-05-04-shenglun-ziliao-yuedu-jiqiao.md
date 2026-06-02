@@ -1,5 +1,5 @@
 ---
-title: "6000"
+title: "申论材料阅读技巧：怎么从6000字里快速找到得分点"
 description: "6000-800040"
 date: "2026-05-04"
 category: "zhenti-jiexi"

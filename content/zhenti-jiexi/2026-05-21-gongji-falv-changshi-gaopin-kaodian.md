@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "公基法律常识高频考点汇总：2026最新版"
 description: 
 date: "2026-05-21"
 category: "zhenti-jiexi"

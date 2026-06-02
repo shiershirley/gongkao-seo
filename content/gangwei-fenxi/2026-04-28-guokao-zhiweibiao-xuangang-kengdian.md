@@ -1,5 +1,5 @@
 ---
-title: "38119"
+title: "国考38119人职位表选岗复盘：哪些坑是今年考生最容易踩的？"
 description: 202638119——
 date: "2026-04-28"
 category: "gangwei-fenxi"

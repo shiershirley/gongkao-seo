@@ -1,5 +1,5 @@
 ---
-title: ——
+title: "2026 05 22 shengkao xuandiaosheng baokao tiaojian"
 description: 
 date: "2026-05-22"
 category: shengkao

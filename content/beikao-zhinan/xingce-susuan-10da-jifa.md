@@ -1,6 +1,6 @@
 ---
-title: "10"
-description: "10"
+title: "公考行测速算技巧大全：资料分析必学10大方法"
+description: "公考行测资料分析常用的10大速算技巧，包括截位直除法、特殊分数法、尾数法等，帮助考生快速提分。"
 date: "2026-04-21"
 category: "beikao-zhinan"
 tags: ["备考指南"]

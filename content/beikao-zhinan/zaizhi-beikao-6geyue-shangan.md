@@ -1,6 +1,6 @@
 ---
-title: "6"
-description: "63-4"
+title: "公考备考时间规划：在职备考6个月上岸全方案"
+description: "适合在职人员的公务员考试6个月备考计划，每天3-4小时高效利用，从零基础到上岸的完整路线图。"
 date: "2026-04-22"
 category: "beikao-zhinan"
 tags: ["备考指南"]

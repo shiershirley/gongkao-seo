@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026公考职位选择：如何判断岗位的长期发展潜力"
 description: 
 date: "2026-04-30"
 category: "gangwei-fenxi"

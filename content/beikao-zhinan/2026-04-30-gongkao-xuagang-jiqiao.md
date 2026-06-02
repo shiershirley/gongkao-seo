@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026公考选岗指南：如何找到竞争最小的岗位"
 description: 
 date: "2026-04-30"
 category: "beikao-zhinan"

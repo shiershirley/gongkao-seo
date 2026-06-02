@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "10"
+title: "2026年社区工作者考试常见问题解答"
+description: "社区工作者考试和公务员有什么区别？需要备考多久？报名条件有哪些？本文汇总考生最常问的10个问题，帮你快速扫清认知盲区。"
 date: "2026-04-30"
 category: "baokao-gonggao"
 tags: ["FAQ"]

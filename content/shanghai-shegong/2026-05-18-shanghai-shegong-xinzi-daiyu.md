@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026年上海社区工作者薪资待遇是多少？各区工资对比详解"
 description: "8000-10000122026"
 date: "2026-05-18"
 category: "shanghai-shegong"

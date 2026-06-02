@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "2026年上海社区工作者岗位向应届生全面开放"
+description: "重磅消息！2026年起上海社区工作者岗位全部向应届生开放，无岗位类型限制。本文解读政策变化及对考生的影响。"
 date: "2026-05-07"
 category: "shanghai-shegong"
 tags: ["备考指南"]

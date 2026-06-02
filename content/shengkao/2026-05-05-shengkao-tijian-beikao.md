@@ -1,5 +1,5 @@
 ---
-title: ≠
+title: "2026 05 05 shengkao tijian beikao"
 description: "2026"
 date: "2026-05-05"
 category: shengkao

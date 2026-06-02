@@ -1,5 +1,5 @@
 ---
-title: ——
+title: "2026 05 22 shanghai shegong laodonghetong"
 description: 
 date: "2026-05-22"
 category: "shanghai-shegong"

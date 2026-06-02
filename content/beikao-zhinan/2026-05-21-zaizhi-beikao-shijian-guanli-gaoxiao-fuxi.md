@@ -1,5 +1,5 @@
 ---
-title: "26"
+title: "在职考公时间管理秘籍：每天2小时，6个月上岸的高效复习方案"
 description: 
 date: "2026-05-21"
 category: "beikao-zhinan"

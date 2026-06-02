@@ -1,5 +1,5 @@
 ---
-title: ——
+title: "2026 05 22 shengkao mianshi zonghe fenxi"
 description: 
 date: "2026-05-22"
 category: shengkao

@@ -1,5 +1,5 @@
 ---
-title: ——
+title: "2026 05 22 shengkao shuliang guanxi gao fen"
 description: 
 date: "2026-05-22"
 category: shengkao

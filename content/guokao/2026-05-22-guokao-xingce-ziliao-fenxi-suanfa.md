@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "国考行测资料分析速算技巧：2026年高频考点与实战算法总结"
 description: →→2026
 date: "2026-05-22"
 category: guokao

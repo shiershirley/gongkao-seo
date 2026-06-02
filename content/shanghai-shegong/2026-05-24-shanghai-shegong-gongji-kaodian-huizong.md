@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "上海社区工作者笔试公共基础知识高频考点汇总（2026版）"
 description: 
 date: "2026-05-24"
 category: "shanghai-shegong"

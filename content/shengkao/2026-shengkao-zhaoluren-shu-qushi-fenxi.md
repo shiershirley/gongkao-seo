@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "2026"
+title: "2026年省考招录人数及趋势分析"
+description: "2026年各省公务员考试招录人数汇总，深度分析招录趋势变化，帮助考生了解竞争态势，科学规划备考策略。"
 date: "2026-04-18"
 category: shengkao
 tags: ["备考指南"]

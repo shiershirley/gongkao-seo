@@ -1,6 +1,6 @@
 ---
-title: "20264"
-description: "20264"
+title: "2026年4月全国各地公职考试公告汇总"
+description: "2026年4月最新公职考试招录公告汇总，涵盖国考补录、省考、事业单位、社区工作者等各类招考信息。"
 date: "2026-04-10"
 category: "baokao-gonggao"
 tags: ["4"]

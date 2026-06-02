@@ -1,5 +1,5 @@
 ---
-title: "506"
+title: "浦东社工招聘506人：笔试倒计时，这些备考细节决定你能不能进面"
 description: "2026506192:15"
 date: "2026-05-04"
 category: "shanghai-shegong"

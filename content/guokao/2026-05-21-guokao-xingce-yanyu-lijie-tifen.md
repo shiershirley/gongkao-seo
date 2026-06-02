@@ -1,5 +1,5 @@
 ---
-title: "6580"
+title: "国考行测言语理解提分技巧：从65分到80分的突破方法"
 description: 
 date: "2026-05-21"
 category: guokao

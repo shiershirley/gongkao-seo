@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026国考扩招政策深度解读：招录规模、岗位变化与应届生利好"
 description: "2026381192027"
 date: "2026-04-27"
 category: "zhengce-jiedu"

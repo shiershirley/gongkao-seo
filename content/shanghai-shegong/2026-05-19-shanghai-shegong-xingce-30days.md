@@ -1,6 +1,6 @@
 ---
-title: "30"
-description: "3030"
+title: "上海社区工作者行测30天速成备考方案"
+description: "针对上海社区工作者招聘考试行测科目，制定30天速成备考方案，涵盖言语理解、数量关系、判断推理等模块的高效复习策略。"
 date: "2026-05-19"
 category: "shanghai-shegong"
 tags: ["备考指南"]

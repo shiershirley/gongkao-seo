@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "社区工作者工资多少？2026年全国各地薪资水平详细对比"
 description: "6000-90003000-50002026++"
 date: "2026-05-15"
 category: "zhengce-jiedu"

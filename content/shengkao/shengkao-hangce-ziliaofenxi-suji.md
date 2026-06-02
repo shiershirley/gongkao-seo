@@ -1,5 +1,5 @@
 ---
-title: "10"
+title: "省考行测资料分析速算技巧：10种方法帮你提分提速"
 description: 
 date: "2026-05-26"
 category: shengkao

@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026年省考申论大作文万能模板与开头结尾技巧"
 description: 
 date: "2026-05-20"
 category: shengkao

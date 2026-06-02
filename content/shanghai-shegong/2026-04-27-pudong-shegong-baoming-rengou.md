@@ -1,5 +1,5 @@
 ---
-title: "2026192:1"
+title: "2026上海浦东社工招聘报名人数破万！最高竞争比192:1，捡漏机会还有吗？"
 description: "20265061192:1"
 date: "2026-04-27"
 category: "shanghai-shegong"

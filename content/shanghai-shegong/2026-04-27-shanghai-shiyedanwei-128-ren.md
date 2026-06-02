@@ -1,5 +1,5 @@
 ---
-title: "2026128"
+title: "2026上海事业单位招聘128人公告解读：报考条件、岗位分析与备考指南"
 description: "2026128128"
 date: "2026-04-27"
 category: "baokao-gonggao"

@@ -1,5 +1,5 @@
 ---
-title: vs
+title: "2026 04 29 shegong gangwei zonghe bijiao"
 description: 
 date: "2026-04-29"
 category: "gangwei-fenxi"

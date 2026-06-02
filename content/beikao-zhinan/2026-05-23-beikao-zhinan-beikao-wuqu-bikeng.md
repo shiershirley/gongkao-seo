@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "公考备考常见误区及科学避坑指南（2026年版）"
 description: 
 date: "2026-05-23"
 category: "beikao-zhinan"

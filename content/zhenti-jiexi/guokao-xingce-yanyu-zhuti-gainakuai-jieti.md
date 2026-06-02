@@ -1,6 +1,6 @@
 ---
-title: "5"
-description: "5"
+title: "国考行测言语理解真题解析：主旨概括题5种解题思路"
+description: "国考行测言语理解主旨概括题怎么答？这5种方法很实用，结合真题手把手教你快速找到正确答案。"
 date: "2026-04-18"
 category: "zhenti-jiexi"
 tags: ["备考指南"]

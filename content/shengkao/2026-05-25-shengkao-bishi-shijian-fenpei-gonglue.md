@@ -1,5 +1,5 @@
 ---
-title: "90"
+title: "省考笔试时间分配攻略：90分钟考出最高分的策略"
 description: 
 date: "2026-05-25"
 category: shengkao

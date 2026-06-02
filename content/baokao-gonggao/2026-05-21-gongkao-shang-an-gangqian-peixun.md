@@ -1,5 +1,5 @@
 ---
-title: /
+title: "2026 05 21 gongkao shang an gangqian peixun"
 description: 
 date: "2026-05-21"
 category: "beikao-zhinan"

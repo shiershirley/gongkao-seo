@@ -1,6 +1,6 @@
 ---
-title: "2026"
-description: "20263"
+title: "2026年多省联考时间及省份一览"
+description: "2026年上半年多省联考预计将于3月下旬举行，本文汇总参与联考的省份名单、考试科目及备考策略。"
 date: "2026-04-14"
 category: shengkao
 tags: ["2026"]

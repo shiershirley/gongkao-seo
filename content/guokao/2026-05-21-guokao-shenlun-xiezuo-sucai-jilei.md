@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026年国考申论素材积累与写作框架：从入门到精通"
 description: 
 date: "2026-05-21"
 category: guokao

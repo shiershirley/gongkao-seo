@@ -1,5 +1,5 @@
 ---
-title: "2026"
+title: "2026年公务员考试报考条件大全：学历、年龄、专业一文讲清"
 description: 2026+
 date: "2026-04-20"
 category: "zhengce-jiedu"

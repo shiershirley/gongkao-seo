@@ -1,5 +1,5 @@
 ---
-title: ——
+title: "2026 05 22 shengkao jiceng gongzuo jingli"
 description: "2"
 date: "2026-05-22"
 category: shengkao

@@ -1,5 +1,5 @@
 ---
-title: "70%"
+title: "行测言语理解：正确率卡在70%上不去？可能是方法出了问题"
 description: "65%-75%80%"
 date: "2026-04-29"
 category: "beikao-zhinan"
