@@ -252,10 +252,10 @@ def check_keyword_density(body: str, fm: dict, min_density: float = 0.02, max_de
     return issues
 
 def check_internal_links(body: str, base_url: str = "https://gk.edu-sjtu.cn") -> list[str]:
-    """检查内部链接是否有效（格式检查）"""
+    """检查内部链接是否有效（格式检查），排除 Markdown 图片语法"""
     issues = []
-    # 查找所有链接
-    links = re.findall(r'\[([^\]]*?)\]\((.*?)\)', body)
+    # 查找所有链接，排除图片语法 ![alt](url)
+    links = re.findall(r'(?<!!)\[([^\]]*?)\]\((.*?)\)', body)
     for text, url in links:
         if url.startswith('http'):
             if base_url in url or 'gk.edu-sjtu.cn' in url:
