@@ -33,6 +33,20 @@ CATEGORY_IMAGE_MAP = {
     "zhenti-jiexi": ["exam", "study", "books", "writing", "office"],
 }
 
+# 图片主题对应 alt 描述
+IMAGE_THEME_ALT = {
+    "exam": "公务员考试考场",
+    "study": "公考备考学习",
+    "gov": "政府办公场景",
+    "motivation": "公考励志激励",
+    "office": "办公环境",
+    "books": "备考书籍资料",
+    "people": "社区服务人群",
+    "city": "城市社区景观",
+    "tech": "数字化政务",
+    "writing": "申论写作资料",
+}
+
 def load_usage_log():
     """加载图片使用日志"""
     if not USAGE_LOG.exists():
@@ -76,7 +90,7 @@ def get_available_images(category, count=2, days=10):
                     except:
                         pass
                 if not recently:
-                    available.append(rel)
+                    available.append((rel, theme))
         
         if len(available) >= count:
             return random.sample(available, count)
@@ -1504,7 +1518,7 @@ def create_article(article_def, date_str, date_compact):
     # 确保目录存在
     filepath.parent.mkdir(parents=True, exist_ok=True)
     
-    # 生成图片
+    # 生成图片（返回 [(path, theme), ...]）
     images = get_available_images(article_def["category"], count=2)
     
     # 更新图片使用记录
@@ -1512,7 +1526,7 @@ def create_article(article_def, date_str, date_compact):
     if "usage" not in log:
         log["usage"] = {}
     today = datetime.now().strftime("%Y-%m-%d")
-    for img in images:
+    for img, theme in images:
         log["usage"][img] = today
     save_usage_log(log)
     
@@ -1524,10 +1538,11 @@ def create_article(article_def, date_str, date_compact):
         article_def.get("content_angle", "")
     )
     
-    # 添加图片到内容
+    # 添加图片到内容（带 alt 描述）
     img_md = ""
-    for img in images:
-        img_md += f"![]({img})\n"
+    for img, theme in images:
+        alt = f"{article_def['title']}配图 - {IMAGE_THEME_ALT.get(theme, '公考备考')}"
+        img_md += f"![{alt}]({img})\n"
     
     # 插入图片到合适位置（第二段后）
     content_parts = content.split("\n\n", 2)
