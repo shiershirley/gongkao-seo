@@ -49,6 +49,7 @@
 - 每篇文章2张配图，调用`auto_gen_xxxx.py`内置逻辑（基于image_usage_log.json去重）
 - 图片路径格式：`/images/lib/[主题]/xxx.jpg`
 - 10天内不重复选同一张图
+- **图片必须带alt描述**：`![描述文字](/images/lib/.../xxx.jpg)`，否则frontmatter_validator.py `--content-check`会报错。`auto_gen_daily.py`已自动生成alt描述（2026-07-06更新）
 
 ### 图片主题映射
 | 分类 | 可用主题 |
