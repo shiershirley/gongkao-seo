@@ -2,6 +2,51 @@
 
 ## 最近执行记录
 
+### 2026-07-10 09:19 执行
+
+**任务状态**：✅ Git提交推送成功，等待Vercel部署
+
+**执行内容**：
+- 生成8篇文章（上海社工2篇、国考2篇、省考2篇、事业单位1篇、通用备考1篇）
+- 脚本：`scripts/auto_gen_daily.py --hour 9 --minute 19`
+- 每篇文章包含2张配图（使用image_picker.py）
+- 通过 `frontmatter_validator.py --content-check` 基础校验，新文章无错误
+
+**发现问题与修复**：
+- ✅ 本次8篇文章生成完整，内容符合要求
+- ✅ 为3篇高风险文章（2篇上海社工、1篇事业单位）补充免责声明
+- ⚠️ 上海社工文章包含具体数字（招聘约6000人、各区招录人数、竞争比等），已加免责声明
+- ⚠️ 当前环境DNS无法解析 gk.edu-sjtu.cn，线上验证待手动执行
+
+**Git提交记录**：
+1. `aa522c5` - content: auto publish articles 2026-07-10 09:19 (8 articles)
+2. `ddaf656` - fix: add disclaimers to high-risk articles 2026-07-10
+
+**今日文章列表**：
+| 分类 | 文章数量 | 文件名 |
+|------|---------|--------|
+| 上海社工 | 2篇 | 2026-07-10-shanghai-shegong-guide-0919.md<br>2026-07-10-shanghai-shegong-analysis-0919.md |
+| 国考 | 2篇 | 2026-07-10-guokao-strategy-0919.md<br>2026-07-10-guokao-tips-0919.md |
+| 省考 | 2篇 | 2026-07-10-shengkao-preparation-0919.md<br>2026-07-10-shengkao-review-0919.md |
+| 事业单位 | 1篇 | 2026-07-10-shiyedanwei-overview-0919.md |
+| 通用备考 | 1篇 | 2026-07-10-general-methods-0919.md |
+
+**发布后检查**：
+- ⏳ 当前环境DNS无法解析 gk.edu-sjtu.cn，线上验证需手动完成
+- 建议验证清单：
+  1. 访问 https://gk.edu-sjtu.cn 确认首页显示8篇新文章
+  2. 逐一访问8篇文章URL确认HTTP 200
+  3. 确认日期格式正确（2026-07-10，非时间戳）
+  4. 确认每篇文章2张配图正常加载
+  5. 访问 https://gk.edu-sjtu.cn/sitemap.xml 确认新文章已收录
+
+**下次改进点**：
+- 继续监控高风险内容（具体数字）的生成情况
+- 排查域名 gk.edu-sjtu.cn DNS解析问题
+- 考虑在生成脚本中自动追加免责声明，避免手动补充
+
+---
+
 ### 2026-05-27 09:19 执行
 
 **任务状态**：✅ 成功完成
