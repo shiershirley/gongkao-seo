@@ -2,6 +2,35 @@
 
 ## 最近执行记录
 
+### 2026-07-26 09:19 执行
+
+**任务状态**：✅ Git提交推送成功
+
+**执行内容**：
+- 生成8篇文章（上海社工2篇、国考2篇、省考2篇、事业单位1篇、通用备考1篇）
+- 脚本：`scripts/auto_gen_daily.py --hour 9 --minute 19`
+- 8篇新文章通过 `frontmatter_validator.py --content-check` 基础校验（无错误，仅关键词建议）
+- 为4篇高风险文章（2篇上海社工、1篇事业单位、1篇省考）补充免责声明
+
+**Git提交记录**：
+- `23c789d` - content: auto publish articles 2026-07-26 09:19 (8 articles)
+
+**今日文章列表**：
+| 分类 | 文章数量 | 文件名 |
+|------|---------|--------|
+| 上海社工 | 2篇 | 2026-07-26-shanghai-shegong-guide-0919.md<br>2026-07-26-shanghai-shegong-analysis-0919.md |
+| 国考 | 2篇 | 2026-07-26-guokao-strategy-0919.md<br>2026-07-26-guokao-tips-0919.md |
+| 省考 | 2篇 | 2026-07-26-shengkao-preparation-0919.md<br>2026-07-26-shengkao-review-0919.md |
+| 事业单位 | 1篇 | 2026-07-26-shiyedanwei-overview-0919.md |
+| 通用备考 | 1篇 | 2026-07-26-general-methods-0919.md |
+
+**发布后检查**：
+- ⏳ 当前执行环境无法解析 `gk.edu-sjtu.cn`（curl 返回 exit code 6: Could not resolve host），线上验证无法完成
+- 建议手动验证：首页、8篇文章URL、日期格式、配图加载、Sitemap收录
+
+---
+
+
 ### 2026-07-24 09:19 执行
 
 **任务状态**：✅ Git提交推送成功
