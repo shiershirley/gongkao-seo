@@ -2,7 +2,7 @@
 
 ## 最近执行记录
 
-### 2026-07-26 09:19 执行
+### 2026-07-27 09:19 执行
 
 **任务状态**：✅ Git提交推送成功
 
@@ -13,16 +13,17 @@
 - 为4篇高风险文章（2篇上海社工、1篇事业单位、1篇省考）补充免责声明
 
 **Git提交记录**：
-- `23c789d` - content: auto publish articles 2026-07-26 09:19 (8 articles)
+1. `75c12e3` - content: auto publish articles 2026-07-27 09:19 (8 articles)
+2. `12b0720` - fix: add disclaimers to high-risk articles 2026-07-27
 
 **今日文章列表**：
 | 分类 | 文章数量 | 文件名 |
 |------|---------|--------|
-| 上海社工 | 2篇 | 2026-07-26-shanghai-shegong-guide-0919.md<br>2026-07-26-shanghai-shegong-analysis-0919.md |
-| 国考 | 2篇 | 2026-07-26-guokao-strategy-0919.md<br>2026-07-26-guokao-tips-0919.md |
-| 省考 | 2篇 | 2026-07-26-shengkao-preparation-0919.md<br>2026-07-26-shengkao-review-0919.md |
-| 事业单位 | 1篇 | 2026-07-26-shiyedanwei-overview-0919.md |
-| 通用备考 | 1篇 | 2026-07-26-general-methods-0919.md |
+| 上海社工 | 2篇 | 2026-07-27-shanghai-shegong-guide-0919.md<br>2026-07-27-shanghai-shegong-analysis-0919.md |
+| 国考 | 2篇 | 2026-07-27-guokao-strategy-0919.md<br>2026-07-27-guokao-tips-0919.md |
+| 省考 | 2篇 | 2026-07-27-shengkao-preparation-0919.md<br>2026-07-27-shengkao-review-0919.md |
+| 事业单位 | 1篇 | 2026-07-27-shiyedanwei-overview-0919.md |
+| 通用备考 | 1篇 | 2026-07-27-general-methods-0919.md |
 
 **发布后检查**：
 - ⏳ 当前执行环境无法解析 `gk.edu-sjtu.cn`（curl 返回 exit code 6: Could not resolve host），线上验证无法完成
