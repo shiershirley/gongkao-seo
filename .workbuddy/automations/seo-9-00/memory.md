@@ -2,6 +2,40 @@
 
 ## 最近执行记录
 
+### 2026-08-20 09:19 执行
+
+**任务状态**：✅ Git提交推送成功
+
+**执行内容**：
+- 生成8篇文章（上海社工2篇、国考2篇、省考2篇、事业单位1篇、通用备考1篇）
+- 脚本：`scripts/auto_gen_daily.py --hour 9 --minute 19`
+- 8篇新文章通过 `frontmatter_validator.py --content-check` 基础校验（无错误，仅关键词建议）
+- 为5篇高风险文章（2篇上海社工、2篇省考、1篇事业单位）补充免责声明
+
+**Git提交记录**：
+- `a3bd948` - content: auto publish articles 2026-08-20 09:19 (8 articles)
+
+**今日文章列表**：
+| 分类 | 文章数量 | 文件名 |
+|------|---------|--------|
+| 上海社工 | 2篇 | 2026-08-20-shanghai-shegong-guide-0919.md<br>2026-08-20-shanghai-shegong-analysis-0919.md |
+| 国考 | 2篇 | 2026-08-20-guokao-strategy-0919.md<br>2026-08-20-guokao-tips-0919.md |
+| 省考 | 2篇 | 2026-08-20-shengkao-preparation-0919.md<br>2026-08-20-shengkao-review-0919.md |
+| 事业单位 | 1篇 | 2026-08-20-shiyedanwei-overview-0919.md |
+| 通用备考 | 1篇 | 2026-08-20-general-methods-0919.md |
+
+**发布后检查**：
+- ⚠️ 当前执行环境无法解析 `gk.edu-sjtu.cn`（DNS 返回 Non-existent domain），`curl` / `WebFetch` 均失败
+- ⚠️ 备用 Vercel 默认域名 `gongkao-seo.vercel.app` 可访问首页/sitemap，但新文章URL返回 404，可能该域名未同步最新部署或并非正式部署域名
+- 建议手动验证：首页、8篇文章URL、日期格式、配图加载、Sitemap收录
+
+**下次改进点**：
+- 排查 `gk.edu-sjtu.cn` 域名解析/到期状态
+- 确认正式 Vercel 部署域名，并更新线上验证方式
+
+---
+
+
 ### 2026-08-19 09:19 执行
 
 **任务状态**：✅ Git提交推送成功
